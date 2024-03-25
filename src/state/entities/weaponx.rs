@@ -183,8 +183,8 @@ impl Entity for WeaponXEntity {
             ],
             weapon_name_index: [
                 data.weaponx_weapon_name_index,
-                data.weaponx_weapon_name_index + 0x20,
-                data.weaponx_weapon_name_index + 0x24,
+                data.weaponx_weapon_name_index + 0x20/*0x14*/,
+                data.weaponx_weapon_name_index + 0x24/*0x18*/,
             ],
             mod_bitfield: [
                 data.weaponx_mod_bitfield + 0,
