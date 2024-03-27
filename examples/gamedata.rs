@@ -194,7 +194,7 @@ fn main() {
         "bcc_last_visible_time",
         "RecvTable.DT_BaseCombatCharacter",
         "m_hudInfo_visibilityTestAlwaysPasses",
-        4,
+        3,
     );
 
     print2(
