@@ -44,8 +44,9 @@ fn entity_list(f: &mut super::Output, bin: PeFile<'_>) {
 	// "Index must be less than %i.\n"
 	//
 	// entity_ptr = *(uintptr_t*)(entity_list + index * 32)
+	// old: 81F9u4 7C% 85C9 79% 4863C1 488D15$'
 	let mut save = [0; 4];
-	if bin.scanner().finds_code(pat!("81F9u4 7C% 85C9 79% 4863C1 488D15$'"), &mut save) {
+	if bin.scanner().finds_code(pat!("81F9u4 7C% 85C9 79% 4863C1 488D0D$'"), &mut save) {
 		let num_ent_entries = save[1];
 		let cl_entitylist = save[2];
 		let _ = writeln!(f.ini, "NUM_ENT_ENTRIES={:#x}", num_ent_entries);
