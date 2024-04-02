@@ -1,9 +1,12 @@
+use nalgebra::Vector3;
+
 use super::*;
 
 #[derive(Default)]
 pub struct BoneArray {
     pub v: Vec<[f32; 12]>,
 }
+
 impl BoneArray {
     pub fn update(
         &mut self,
@@ -34,6 +37,16 @@ impl BoneArray {
             [0.0; 3]
         }
     }
+
+    pub fn get_full_bone(&self, bone_map: [usize; 20]) {}
+
+    pub fn get_vector3(&self, bone: usize) -> Option<Vector3<f32>> {
+        if let Some(matrix) = self.v.get(bone) {
+            Some(Vector3::new(matrix[3], matrix[7], matrix[11]))
+        } else {
+            None
+        }
+    }
 }
 
 pub struct PathHistory {
@@ -41,3 +54,4 @@ pub struct PathHistory {
     pub origin: [f32; 3],
     pub velocity: [f32; 3],
 }
+

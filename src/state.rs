@@ -1,5 +1,10 @@
 use crate::*;
 
+pub use self::buttons::Buttons;
+pub use self::derivative::EstimateDerivative;
+pub use self::script_data::ScriptValue;
+pub use self::studio::StudioModel;
+
 mod buttons;
 mod client_state;
 mod derivative;
@@ -12,12 +17,7 @@ mod modifiers;
 mod name_list;
 mod script_data;
 mod string_tables;
-mod studio;
-
-pub use self::buttons::Buttons;
-pub use self::derivative::EstimateDerivative;
-pub use self::script_data::ScriptValue;
-pub use self::studio::StudioModel;
+pub(crate) mod studio;
 
 #[derive(Default)]
 pub struct GameState {
@@ -50,7 +50,6 @@ impl GameState {
         self.script_data.update(api, ctx);
         self.items.update(api, ctx);
         self.mods.update(api, ctx);
-
         self.highlight.update(api, ctx);
 
         for i in 0..self.entity_list.entities.len() {
@@ -160,6 +159,7 @@ pub struct ValueChanged<T> {
     pub old: T,
     pub new: T,
 }
+
 impl<T> ValueChanged<T> {
     pub const fn new(time: f64, old: T, new: T) -> ValueChanged<T> {
         ValueChanged { time, old, new }
@@ -172,12 +172,13 @@ pub struct UpdateContext<'a> {
     pub process: &'a GameProcess,
     pub data: &'a GameData,
     pub time: f64,
-    pub tickcount: u32,
 
+    pub tickcount: u32,
     // Connection state changed to fully connected
     pub connected: bool,
     // Prioritize updating local player related information
     pub local_entity: sdk::EHandle,
+
     // Update full bones instead of only spine
     pub full_bones: bool,
 }

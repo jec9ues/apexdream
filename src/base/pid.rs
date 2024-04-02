@@ -1,5 +1,6 @@
-use obfstr::obfstr as s;
 use std::fmt;
+
+use obfstr::obfstr as s;
 
 #[derive(Copy, Clone, Debug)]
 pub struct PidConfig {
@@ -12,6 +13,7 @@ pub struct PidConfig {
     /// Damping factor for the integral coefficient.
     pub damp: f32,
 }
+
 impl Default for PidConfig {
     fn default() -> PidConfig {
         PidConfig {
@@ -28,6 +30,7 @@ pub struct PidController {
     p: f32,
     i: f32,
 }
+
 impl PidController {
     #[inline]
     pub fn step(&mut self, err: f32, dt: f32, config: &PidConfig) -> f32 {
@@ -45,6 +48,7 @@ impl PidController {
         self.i = 0.0;
     }
 }
+
 impl fmt::Debug for PidController {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         f.debug_struct(s!("PidController"))

@@ -7,6 +7,7 @@ pub struct NameList {
     pointers2: Box<[sdk::Ptr<[u8]>]>,
     names: Box<[String]>,
 }
+
 impl Default for NameList {
     fn default() -> NameList {
         NameList {
@@ -16,6 +17,7 @@ impl Default for NameList {
         }
     }
 }
+
 impl NameList {
     pub fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         let process = ctx.process;
@@ -43,6 +45,7 @@ impl NameList {
         }
     }
 }
+
 impl GameState {
     pub fn get_player_name(&self, handle: sdk::EHandle) -> Option<&str> {
         let index = handle.index()?.wrapping_sub(1).wrapping_mul(2);

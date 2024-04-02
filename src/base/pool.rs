@@ -4,11 +4,13 @@ use std::{cell::Cell, mem};
 pub struct StringPool {
     strings: Cell<Vec<String>>,
 }
+
 impl Default for StringPool {
     fn default() -> Self {
         StringPool::new()
     }
 }
+
 impl StringPool {
     pub const fn new() -> StringPool {
         StringPool {

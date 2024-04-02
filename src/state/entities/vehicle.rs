@@ -15,6 +15,7 @@ pub struct VehicleEntity {
     pub vehicle_driver: sdk::EHandle,
     pub vehicle_velocity: [f32; 3],
 }
+
 impl VehicleEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -26,6 +27,7 @@ impl VehicleEntity {
         }) as Box<dyn Entity>
     }
 }
+
 impl Entity for VehicleEntity {
     fn as_any(&self) -> &dyn Any {
         self

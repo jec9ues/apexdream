@@ -2,6 +2,9 @@
 Shared codebase.
 !*/
 
+pub use self::pool::StringPool;
+pub use self::timer::Timer;
+
 macro_rules! strpool {
     ($ctx:expr, $needle:expr) => {{
         let range = obfstr::position!($crate::STRING_POOL, $needle);
@@ -28,9 +31,6 @@ mod pool;
 pub mod solver;
 mod timer;
 
-pub use self::pool::StringPool;
-pub use self::timer::Timer;
-
 #[inline(never)]
 pub fn from_utf8_buf(bytes: &[u8]) -> Option<&str> {
     let len = bytes
@@ -42,10 +42,10 @@ pub fn from_utf8_buf(bytes: &[u8]) -> Option<&str> {
 
 pub fn parse_u32(value: &str) -> u32 {
     (if value.starts_with(obfstr::obfstr!("0x")) {
-        let Some(src) = value.get(2..) else { return 0 };
+        let Some(src) = value.get(2..) else { return 0; };
         u32::from_str_radix(src, 16)
     } else {
         u32::from_str_radix(value, 10)
     })
-    .unwrap_or(0)
+        .unwrap_or(0)
 }

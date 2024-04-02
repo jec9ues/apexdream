@@ -1,5 +1,6 @@
-use super::*;
 use std::collections::HashMap;
+
+use super::*;
 
 #[derive(Default)]
 pub struct Modifiers {

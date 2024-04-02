@@ -1,5 +1,6 @@
-use super::*;
 use dataview::Pod;
+
+use super::*;
 
 #[derive(Default, Debug, Pod)]
 #[repr(C)]
@@ -14,6 +15,7 @@ pub struct CNetStringTableItem {
     /*0x38*/ pub unk38: u64,
     /*0x40*/ pub unk40: u64,
 }
+
 const _: [(); 0x48] = [(); std::mem::size_of::<CNetStringTableItem>()];
 
 #[derive(Default, Debug, Pod)]
@@ -83,6 +85,7 @@ pub fn load_string_table(
 pub struct StringTables {
     pub weapon_names: Box<[String]>,
 }
+
 impl StringTables {
     pub fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         // Read stringtable once on connect
@@ -121,9 +124,9 @@ impl GameState {
             .string_tables
             .weapon_names
             .get(weapon_name_index as usize)
-        else {
-            return Default::default();
-        };
+            else {
+                return Default::default();
+            };
         sdk::WeaponName(crate::hash(weapon_name))
     }
     pub fn weapon_is_melee(&self, weapon_name_index: i32) -> bool {
@@ -131,9 +134,9 @@ impl GameState {
             .string_tables
             .weapon_names
             .get(weapon_name_index as usize)
-        else {
-            return Default::default();
-        };
+            else {
+                return Default::default();
+            };
         if sdk::WeaponName(crate::hash(weapon_name)) == sdk::WeaponName::MELEE_SURVIVAL {
             return true;
         }

@@ -2,6 +2,7 @@
 pub struct Timer {
     last_time: f64,
 }
+
 impl Timer {
     pub fn has_elapsed(&mut self, time: f64, interval: f64) -> bool {
         let next_time = self.last_time + interval;

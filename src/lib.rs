@@ -2,7 +2,7 @@
 # The Apex Legends Dream
 
 Enjoy! - Casual_Hacker
-*/
+ */
 
 #![recursion_limit = "1024"]
 
@@ -11,31 +11,31 @@ use fmtools::fmt as f;
 use format_xml::xfmt;
 use obfstr::obfstr as s;
 
+use self::api::*;
+use self::base::hash;
+use self::cheats::*;
+use self::data::GameData;
+pub use self::interface::Interface;
+use self::process::GameProcess;
+use self::state::{GameState, UpdateContext};
+use self::state::entities::*;
+
 #[macro_use]
 mod base;
-use self::base::hash;
-
 mod interface;
-pub use self::interface::Interface;
-
 mod api;
 mod cheats;
 mod data;
 mod process;
 mod sdk;
 mod state;
-
-use self::api::*;
-use self::cheats::*;
-use self::data::GameData;
-use self::process::GameProcess;
-use self::state::entities::*;
-use self::state::{GameState, UpdateContext};
+mod config;
+mod resolver;
 
 const STRING_POOL: &str = concat!(
-	"tickTICKmrvnMRVNProwlerDUMMIEDUMMYBaseNPCLOOT^.^",
-	"MastiffPKEVA8R301SentinelFlatlineWingmanCARKraberScoutVoltBocekRampageHemlokRE45NemesisHemlokC.A.R99Havoc",
-	"OObinBINGASPADTOTEMSEERPYLONAnim");
+"tickTICKmrvnMRVNProwlerDUMMIEDUMMYBaseNPCLOOT^.^",
+"MastiffPKEVA8R301SentinelFlatlineWingmanCARKraberScoutVoltBocekRampageHemlokRE45NemesisHemlokC.A.R99Havoc",
+"OObinBINGASPADTOTEMSEERPYLONAnim");
 
 /// Cheat instance.
 #[derive(Default)]
@@ -78,7 +78,7 @@ impl Instance {
         let time = api.get_time();
 
         // Dump the game binary
-        self.process.read_pages(api, time);
+        // self.process.read_pages(api, time);
 
         // Check if process is valid
         if !self.process.is_valid(api) {
@@ -104,7 +104,7 @@ impl Instance {
                 connected: false,
                 tickcount: self.tickcount,
                 local_entity,
-                full_bones: self.cheats.full_bones,
+                full_bones: true/*self.cheats.full_bones*/,
             };
             self.state.update(api, ctx);
         }

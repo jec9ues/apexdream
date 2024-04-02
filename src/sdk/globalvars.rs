@@ -14,7 +14,9 @@ pub struct CGlobalVars {
     pub curtime2: f32,
     pub curtime3: f32,
     pub interval_per_tick: f32,
-    pub curtime4: f32, // same as curtime?
+    pub curtime4: f32,
+    // same as curtime?
     pub curtime5: f32,
 }
+
 unsafe impl Pod for CGlobalVars {}

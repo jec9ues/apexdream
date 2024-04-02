@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+
 use super::*;
 
 // Discussion on UnknownCheats:
@@ -24,17 +25,21 @@ pub struct NetVarEntry {
     pub unk0x30: u32,
     pub unk0x34: u32,
 }
+
 const _: [(); 0x38] = [(); std::mem::size_of::<NetVarEntry>()];
 
 #[derive(sdk::Pod)]
 #[repr(C)]
 pub struct NetVarData {
-    pub ptr: sdk::Ptr, // Pointer to CScriptNetData instance
-    pub salt: u32, // Check upper 16 bits of script net data reference equals this value, -1 = invalid reference
+    pub ptr: sdk::Ptr,
+    // Pointer to CScriptNetData instance
+    pub salt: u32,
+    // Check upper 16 bits of script net data reference equals this value, -1 = invalid reference
     pub pad1: u32,
     pub pad2: u64,
     pub pad3: u64,
 }
+
 const _: [(); 1 << 5] = [(); std::mem::size_of::<NetVarData>()];
 
 #[derive(Default)]
@@ -53,6 +58,7 @@ pub enum ScriptValue {
     Time(f32),
     Entity(sdk::EHandle),
 }
+
 #[allow(dead_code)]
 impl ScriptValue {
     #[inline]
@@ -98,6 +104,7 @@ impl ScriptValue {
         }
     }
 }
+
 impl Default for ScriptValue {
     #[inline]
     fn default() -> Self {

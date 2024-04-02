@@ -1,5 +1,6 @@
-use super::*;
 use std::{collections::HashMap, mem};
+
+use super::*;
 
 pub struct EntityList {
     pub entities: Box<[Option<Box<dyn Entity>>]>,
@@ -9,6 +10,7 @@ pub struct EntityList {
     next_index: u32,
     gce: GetClientEntity,
 }
+
 impl Default for EntityList {
     fn default() -> EntityList {
         let mut entities = Vec::new();
@@ -98,6 +100,7 @@ struct Config {
     log_uninteresting: bool,
     full_entlist: bool,
 }
+
 impl Default for Config {
     fn default() -> Self {
         Config {
@@ -297,7 +300,7 @@ impl super::GameState {
         Some(&**boxed.as_ref()?)
     }
     /// Returns an Iterator over all valid entities.
-    pub fn entities(&self) -> impl Clone + Iterator<Item = &dyn Entity> {
+    pub fn entities(&self) -> impl Clone + Iterator<Item=&dyn Entity> {
         self.entity_list
             .entities
             .iter()
@@ -311,14 +314,14 @@ impl super::GameState {
         entity.as_any().downcast_ref()
     }
     /// Returns an Iterator over all entities of the given type.
-    pub fn entities_as<T: Entity>(&self) -> impl Clone + Iterator<Item = &T> {
+    pub fn entities_as<T: Entity>(&self) -> impl Clone + Iterator<Item=&T> {
         self.entity_list
             .entities
             .iter()
             .filter_map(|x| x.as_ref().and_then(|e| e.as_any().downcast_ref()))
     }
     /// Returns an Iterator over the player entities.
-    pub fn players(&self) -> impl Clone + Iterator<Item = &PlayerEntity> {
+    pub fn players(&self) -> impl Clone + Iterator<Item=&PlayerEntity> {
         let len = self.entity_list.entities.len().min(sdk::MAX_PLAYERS + 1);
         self.entity_list.entities[..len]
             .iter()

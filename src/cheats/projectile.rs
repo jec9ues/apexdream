@@ -137,7 +137,7 @@ impl Projectile {
 			});
         }
     }
-    fn samples(&self, step: f64, max: f64) -> impl '_ + Iterator<Item = [f32; 2]> {
+    fn samples(&self, step: f64, max: f64) -> impl '_ + Iterator<Item=[f32; 2]> {
         let mut i = 1;
         let mut time = 0.0;
         std::iter::from_fn(move || {

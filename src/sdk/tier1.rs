@@ -17,4 +17,5 @@ pub struct CUtlVector<T> {
 }
 
 unsafe impl<T: 'static> Pod for CUtlMemory<T> {}
+
 unsafe impl<T: 'static> Pod for CUtlVector<T> {}

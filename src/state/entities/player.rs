@@ -1,3 +1,5 @@
+use crate::sdk::HighlightSetting;
+
 use super::*;
 
 #[derive(Default)]
@@ -5,6 +7,11 @@ pub struct PlayerEntity {
     pub entity_ptr: sdk::Ptr,
     pub entity_size: u32,
     pub index: u32,
+
+    pub highlight_fix: u8,
+    pub highlight_type: u8,
+    pub highlight_id: u8,
+    pub highlightsetting: HighlightSetting,
 
     pub origin: [f32; 3],
     pub angles: [f32; 3],
@@ -51,7 +58,8 @@ pub struct PlayerEntity {
     pub observer_mode: i32,
     pub observer_target: sdk::EHandle,
 
-    pub flags: u32, //0x1: onground, 0x2: ducking
+    pub flags: u32,
+    //0x1: onground, 0x2: ducking
     pub life_state: u8,
     pub bleedout_state: i32,
     pub last_visible_time: f32,
@@ -95,6 +103,7 @@ pub struct PlayerEntity {
     pub script_net_data_global: sdk::EHandle,
     pub script_net_data_exclusive: sdk::EHandle,
 }
+
 impl PlayerEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -238,6 +247,7 @@ impl PlayerEntity {
         return count;
     }
 }
+
 impl Entity for PlayerEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -261,6 +271,7 @@ impl Entity for PlayerEntity {
         #[repr(C)]
         struct Indices {
             origin: [u32; 6],
+            highlight: [u32; 3],
             velocity: [u32; 3],
             health: [u32; 6],
             team: [u32; 4],
@@ -295,6 +306,11 @@ impl Entity for PlayerEntity {
                 data.entity_origin + 24,
                 data.entity_origin + 28,
                 data.entity_origin + 32,
+            ],
+            highlight: [
+                0x268, /*GLOW_FIX*/
+                0x26c, /*GLOW_VISIBLE_TYPE*/
+                0x28c, /*GLOW_HIGHLIGHT_ID*/
             ],
             velocity: [
                 data.entity_velocity + 0,
@@ -435,6 +451,10 @@ impl Entity for PlayerEntity {
                 f32::from_bits(fields.velocity[2]),
             ];
 
+            self.highlight_fix = fields.highlight[0] as u8;
+            self.highlight_type = fields.highlight[1] as u8;
+            self.highlight_id = fields.highlight[2] as u8;
+
             let estvel = self.derivative_origin.update(ctx.time, self.origin, 0.1);
             if self.velocity == [0.0; 3] {
                 self.velocity = estvel;
@@ -462,9 +482,10 @@ impl Entity for PlayerEntity {
             let health = fields.health[0] as i32;
             let shields = fields.health[2] as i32;
             // TODO! fix data history log add adding overflow
-            /*			if health + shields != self.health + self.shields {
-                self.health_history.push(ValueChanged::new(ctx.time, self.health + self.shields, health + shields));
-            }*/
+
+            // 			if health + shields != self.health + self.shields {
+            //     self.health_history.push(ValueChanged::new(ctx.time, self.health + self.shields, health + shields));
+            // }
 
             self.health = health;
             self.max_health = fields.health[1] as i32;
@@ -581,30 +602,34 @@ impl Entity for PlayerEntity {
             self.visible_time = ctx.time;
         }
         self.is_visible = is_visible;
+
+        if let Some(highlightsetting) = state.highlight.get(self.highlight_id as usize) {
+            self.highlightsetting = highlightsetting;
+        }
     }
 }
 
 // Little hack to keep colors in sync everywhere
 static TEAM_COLORS: [[u8; 3]; 21] = [
-    [248, 104, 104],
-    [242, 86, 38],
-    [97, 92, 81],
-    [174, 247, 89],
-    [102, 214, 173],
-    [98, 244, 234],
-    [92, 208, 250],
-    [93, 137, 238],
-    [164, 105, 252],
-    [243, 98, 161],
-    [214, 67, 67],
-    [230, 116, 51],
-    [185, 179, 167],
-    [148, 200, 65],
-    [86, 174, 91],
-    [55, 188, 200],
-    [84, 169, 212],
-    [98, 121, 203],
-    [102, 61, 174],
-    [218, 73, 145],
-    [158, 178, 199],
+    [239, 105, 81],
+    [226, 13, 81],
+    [170, 6, 23],
+    [211, 144, 19],
+    [242, 143, 14],
+    [244, 200, 97],
+    [239, 203, 0],
+    [239, 227, 4],
+    [201, 178, 12],
+    [37, 181, 9],
+    [39, 188, 178],
+    [118, 165, 0],
+    [28, 109, 150],
+    [65, 37, 142],
+    [47, 102, 181],
+    [151, 60, 196],
+    [93, 53, 158],
+    [154, 29, 211],
+    [198, 73, 252],
+    [201, 16, 124],
+    [214, 0, 199],
 ];

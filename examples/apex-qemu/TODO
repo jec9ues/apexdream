@@ -1,0 +1,8 @@
+player bones x
+player 3d models x
+aimassist -> find target -> find target bone -> calculate predict
+predict
+kmbox bpro/net
+local config -> network config
+upload datas
+update string pool

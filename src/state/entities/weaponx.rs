@@ -50,6 +50,7 @@ pub struct WeaponXEntity {
     pub projectile_scale: f32,
     pub projectile_speed: f32,
 }
+
 impl WeaponXEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -114,6 +115,7 @@ impl WeaponXEntity {
         return sdk::ammo_type(self.weapon_name);
     }
 }
+
 impl Entity for WeaponXEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -160,10 +162,10 @@ impl Entity for WeaponXEntity {
             ammo: [
                 data.weaponx_ammo_in_clip + 0,
                 data.weaponx_ammo_in_clip + 4,
-                data.weaponx_ammo_in_clip + 8,
                 data.weaponx_ammo_in_clip + 12,
                 data.weaponx_ammo_in_clip + 16,
-                data.weaponx_ammo_in_clip + 20,
+                data.weaponx_ammo_in_clip + 8,
+                data.weaponx_ammo_in_clip + 26,
             ],
             zoom_fov: [
                 data.weaponx_player_data + data.weaponx_zoom_fov + 0,
@@ -210,9 +212,9 @@ impl Entity for WeaponXEntity {
             self.ammo_in_stockpile = fields.ammo[1] as i32;
             self.lifetime_shots = fields.ammo[2] as i32;
             self.time_weapon_idle = f32::from_bits(fields.ammo[3] as u32);
-            self.weap_state = sdk::WeapState(fields.ammo[4] as i32);
-            self.discarded = fields.ammo[5].to_le_bytes()[1] != 0;
-            self.in_reload = fields.ammo[5].to_le_bytes()[2] != 0;
+            // self.weap_state = sdk::WeapState(fields.ammo[4] as i32);
+            // self.discarded = fields.ammo[5].to_le_bytes()[1] != 0;
+            self.in_reload = fields.ammo[5]/*.to_le_bytes()[2]*/ != 0;
 
             self.cur_zoom_fov = f32::from_bits(fields.zoom_fov[0]);
             self.target_zoom_fov = f32::from_bits(fields.zoom_fov[1]);
@@ -252,6 +254,7 @@ impl Entity for WeaponXEntity {
         self.weapon_name = state.weapon_name(self.weapon_name_index);
     }
 }
+
 impl crate::base::solver::ProjectileWeapon for WeaponXEntity {
     fn projectile_speed(&self) -> f32 {
         if self.weapon_name == sdk::WeaponName::BOCEK {

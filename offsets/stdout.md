@@ -237,7 +237,9 @@ vkp
 
 ## Buttons
 
-These are addresses to global instances of the [`kbutton_t`](https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/game/client/kbutton.h#L14-L20) struct.
+These are addresses to global instances of
+the [`kbutton_t`](https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/game/client/kbutton.h#L14-L20)
+struct.
 
 ```
 kbutton_t in_attack;
@@ -297,721 +299,721 @@ kbutton_t in_zoom;
 <summary><code>client_class CAI_BaseNPC</code></summary>
 
 class_id: `0`  
-sizeof: `0x1e10`  
+sizeof: `0x1e10`
 </details>
 <details>
 <summary><code>client_class CAmbientGeneric</code></summary>
 
 class_id: `1`  
-sizeof: `0xad0`  
+sizeof: `0xad0`
 </details>
 <details>
 <summary><code>client_class CBaseAnimating</code></summary>
 
 class_id: `2`  
-sizeof: `0x1640`  
+sizeof: `0x1640`
 </details>
 <details>
 <summary><code>client_class CBaseAnimatingOverlay</code></summary>
 
 class_id: `3`  
-sizeof: `0x1980`  
+sizeof: `0x1980`
 </details>
 <details>
 <summary><code>client_class CBaseCombatCharacter</code></summary>
 
 class_id: `4`  
-sizeof: `0x1c50`  
+sizeof: `0x1c50`
 </details>
 <details>
 <summary><code>client_class CBaseEntity</code></summary>
 
 class_id: `5`  
-sizeof: `0xa60`  
+sizeof: `0xa60`
 </details>
 <details>
 <summary><code>client_class CBaseGrenade</code></summary>
 
 class_id: `6`  
-sizeof: `0x2ef0`  
+sizeof: `0x2ef0`
 </details>
 <details>
 <summary><code>client_class CBaseTempEntity</code></summary>
 
 class_id: `7`  
-sizeof: `0x28`  
+sizeof: `0x28`
 </details>
 <details>
 <summary><code>client_class CBaseToggle</code></summary>
 
 class_id: `8`  
-sizeof: `0xa90`  
+sizeof: `0xa90`
 </details>
 <details>
 <summary><code>client_class CBaseTrigger</code></summary>
 
 class_id: `9`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CBaseVPhysicsTrigger</code></summary>
 
 class_id: `11`  
-sizeof: `0xa70`  
+sizeof: `0xa70`
 </details>
 <details>
 <summary><code>client_class CBaseViewModel</code></summary>
 
 class_id: `10`  
-sizeof: `0x4f50`  
+sizeof: `0x4f50`
 </details>
 <details>
 <summary><code>client_class CBoneFollower</code></summary>
 
 class_id: `12`  
-sizeof: `0xa70`  
+sizeof: `0xa70`
 </details>
 <details>
 <summary><code>client_class CBreakableProp</code></summary>
 
 class_id: `13`  
-sizeof: `0x1640`  
+sizeof: `0x1640`
 </details>
 <details>
 <summary><code>client_class CBreakableSurface</code></summary>
 
 class_id: `14`  
-sizeof: `0xec0`  
+sizeof: `0xec0`
 </details>
 <details>
 <summary><code>client_class CCarePackageInsightProp</code></summary>
 
 class_id: `15`  
-sizeof: `0x1690`  
+sizeof: `0x1690`
 </details>
 <details>
 <summary><code>client_class CCascadeLight</code></summary>
 
 class_id: `16`  
-sizeof: `0xbb0`  
+sizeof: `0xbb0`
 </details>
 <details>
 <summary><code>client_class CColorCorrection</code></summary>
 
 class_id: `17`  
-sizeof: `0xbb0`  
+sizeof: `0xbb0`
 </details>
 <details>
 <summary><code>client_class CCrossbowBolt</code></summary>
 
 class_id: `18`  
-sizeof: `0x2e50`  
+sizeof: `0x2e50`
 </details>
 <details>
 <summary><code>client_class CDeathBoxProp</code></summary>
 
 class_id: `19`  
-sizeof: `0x16c0`  
+sizeof: `0x16c0`
 </details>
 <details>
 <summary><code>client_class CDynamicLight</code></summary>
 
 class_id: `20`  
-sizeof: `0xa80`  
+sizeof: `0xa80`
 </details>
 <details>
 <summary><code>client_class CDynamicProp</code></summary>
 
 class_id: `21`  
-sizeof: `0x1680`  
+sizeof: `0x1680`
 </details>
 <details>
 <summary><code>client_class CDynamicPropLightweight</code></summary>
 
 class_id: `22`  
-sizeof: `0x1680`  
+sizeof: `0x1680`
 </details>
 <details>
 <summary><code>client_class CEntityBlocker</code></summary>
 
 class_id: `23`  
-sizeof: `0xa60`  
+sizeof: `0xa60`
 </details>
 <details>
 <summary><code>client_class CEntityDissolve</code></summary>
 
 class_id: `24`  
-sizeof: `0xa90`  
+sizeof: `0xa90`
 </details>
 <details>
 <summary><code>client_class CEntityLinkPage</code></summary>
 
 class_id: `25`  
-sizeof: `0x1270`  
+sizeof: `0x1270`
 </details>
 <details>
 <summary><code>client_class CEnvDecoy</code></summary>
 
 class_id: `26`  
-sizeof: `0x1640`  
+sizeof: `0x1640`
 </details>
 <details>
 <summary><code>client_class CEnvWind</code></summary>
 
 class_id: `27`  
-sizeof: `0xbe0`  
+sizeof: `0xbe0`
 </details>
 <details>
 <summary><code>client_class CFerroProp</code></summary>
 
 class_id: `28`  
-sizeof: `0x1680`  
+sizeof: `0x1680`
 </details>
 <details>
 <summary><code>client_class CFirstPersonProxy</code></summary>
 
 class_id: `29`  
-sizeof: `0x16a0`  
+sizeof: `0x16a0`
 </details>
 <details>
 <summary><code>client_class CFuncBrush</code></summary>
 
 class_id: `30`  
-sizeof: `0xad0`  
+sizeof: `0xad0`
 </details>
 <details>
 <summary><code>client_class CFuncBrushLightweight</code></summary>
 
 class_id: `31`  
-sizeof: `0xad0`  
+sizeof: `0xad0`
 </details>
 <details>
 <summary><code>client_class CFuncMoveLinear</code></summary>
 
 class_id: `32`  
-sizeof: `0xa90`  
+sizeof: `0xa90`
 </details>
 <details>
 <summary><code>client_class CGameRulesProxy</code></summary>
 
 class_id: `33`  
-sizeof: `0xa60`  
+sizeof: `0xa60`
 </details>
 <details>
 <summary><code>client_class CGlobalNonRewinding</code></summary>
 
 class_id: `34`  
-sizeof: `0x1270`  
+sizeof: `0x1270`
 </details>
 <details>
 <summary><code>client_class CGrappleHook</code></summary>
 
 class_id: `35`  
-sizeof: `0x1650`  
+sizeof: `0x1650`
 </details>
 <details>
 <summary><code>client_class CHardPointEntity</code></summary>
 
 class_id: `36`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CHardPointFrontierEntity</code></summary>
 
 class_id: `37`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CHealthKit</code></summary>
 
 class_id: `38`  
-sizeof: `0x1640`  
+sizeof: `0x1640`
 </details>
 <details>
 <summary><code>client_class CImportantOnEntSound</code></summary>
 
 class_id: `39`  
-sizeof: `0xa80`  
+sizeof: `0xa80`
 </details>
 <details>
 <summary><code>client_class CInfoPlacementHelper</code></summary>
 
 class_id: `40`  
-sizeof: `0xa80`  
+sizeof: `0xa80`
 </details>
 <details>
 <summary><code>client_class CInfoTarget</code></summary>
 
 class_id: `41`  
-sizeof: `0xa60`  
+sizeof: `0xa60`
 </details>
 <details>
 <summary><code>client_class CInfoTargetGravity</code></summary>
 
 class_id: `42`  
-sizeof: `0xa70`  
+sizeof: `0xa70`
 </details>
 <details>
 <summary><code>client_class CInfoTargetMinimap</code></summary>
 
 class_id: `43`  
-sizeof: `0xa60`  
+sizeof: `0xa60`
 </details>
 <details>
 <summary><code>client_class CLootGrabber</code></summary>
 
 class_id: `44`  
-sizeof: `0x1690`  
+sizeof: `0x1690`
 </details>
 <details>
 <summary><code>client_class CLootRoller</code></summary>
 
 class_id: `45`  
-sizeof: `0x16b0`  
+sizeof: `0x16b0`
 </details>
 <details>
 <summary><code>client_class CMaterialHarvester</code></summary>
 
 class_id: `46`  
-sizeof: `0x1700`  
+sizeof: `0x1700`
 </details>
 <details>
 <summary><code>client_class CMissile</code></summary>
 
 class_id: `47`  
-sizeof: `0x2fa0`  
+sizeof: `0x2fa0`
 </details>
 <details>
 <summary><code>client_class CMovieDisplay</code></summary>
 
 class_id: `48`  
-sizeof: `0xbc0`  
+sizeof: `0xbc0`
 </details>
 <details>
 <summary><code>client_class CNPC_Drone</code></summary>
 
 class_id: `49`  
-sizeof: `0x1e30`  
+sizeof: `0x1e30`
 </details>
 <details>
 <summary><code>client_class CNPC_Dropship</code></summary>
 
 class_id: `50`  
-sizeof: `0x1e40`  
+sizeof: `0x1e40`
 </details>
 <details>
 <summary><code>client_class CNPC_SentryTurret</code></summary>
 
 class_id: `51`  
-sizeof: `0x1e30`  
+sizeof: `0x1e30`
 </details>
 <details>
 <summary><code>client_class CNPC_Titan</code></summary>
 
 class_id: `52`  
-sizeof: `0x1eb0`  
+sizeof: `0x1eb0`
 </details>
 <details>
 <summary><code>client_class CParticleSystem</code></summary>
 
 class_id: `53`  
-sizeof: `0xb20`  
+sizeof: `0xb20`
 </details>
 <details>
 <summary><code>client_class CPhysicsProp</code></summary>
 
 class_id: `54`  
-sizeof: `0x16a0`  
+sizeof: `0x16a0`
 </details>
 <details>
 <summary><code>client_class CPlayer</code></summary>
 
 class_id: `55`  
-sizeof: `0x48d0`  
+sizeof: `0x48d0`
 </details>
 <details>
 <summary><code>client_class CPlayerDecoy</code></summary>
 
 class_id: `56`  
-sizeof: `0x16b0`  
+sizeof: `0x16b0`
 </details>
 <details>
 <summary><code>client_class CPlayerTasklist</code></summary>
 
 class_id: `57`  
-sizeof: `0xfb0`  
+sizeof: `0xfb0`
 </details>
 <details>
 <summary><code>client_class CPlayerVehicle</code></summary>
 
 class_id: `58`  
-sizeof: `0x1d00`  
+sizeof: `0x1d00`
 </details>
 <details>
 <summary><code>client_class CPlayerWaypoint</code></summary>
 
 class_id: `59`  
-sizeof: `0xd60`  
+sizeof: `0xd60`
 </details>
 <details>
 <summary><code>client_class CPointCamera</code></summary>
 
 class_id: `60`  
-sizeof: `0xb10`  
+sizeof: `0xb10`
 </details>
 <details>
 <summary><code>client_class CPortal_PointPush</code></summary>
 
 class_id: `61`  
-sizeof: `0xa80`  
+sizeof: `0xa80`
 </details>
 <details>
 <summary><code>client_class CPostProcessController</code></summary>
 
 class_id: `62`  
-sizeof: `0xa80`  
+sizeof: `0xa80`
 </details>
 <details>
 <summary><code>client_class CPredictedFirstPersonProxy</code></summary>
 
 class_id: `63`  
-sizeof: `0x16c0`  
+sizeof: `0x16c0`
 </details>
 <details>
 <summary><code>client_class CProjectile</code></summary>
 
 class_id: `64`  
-sizeof: `0x2e20`  
+sizeof: `0x2e20`
 </details>
 <details>
 <summary><code>client_class CPropDoor</code></summary>
 
 class_id: `65`  
-sizeof: `0x1740`  
+sizeof: `0x1740`
 </details>
 <details>
 <summary><code>client_class CPropSurvival</code></summary>
 
 class_id: `66`  
-sizeof: `0x1670`  
+sizeof: `0x1670`
 </details>
 <details>
 <summary><code>client_class CRopeKeyframe</code></summary>
 
 class_id: `67`  
-sizeof: `0xf60`  
+sizeof: `0xf60`
 </details>
 <details>
 <summary><code>client_class CScriptMover</code></summary>
 
 class_id: `68`  
-sizeof: `0x1870`  
+sizeof: `0x1870`
 </details>
 <details>
 <summary><code>client_class CScriptMoverTrainNode</code></summary>
 
 class_id: `69`  
-sizeof: `0x1090`  
+sizeof: `0x1090`
 </details>
 <details>
 <summary><code>client_class CScriptNetData</code></summary>
 
 class_id: `70`  
-sizeof: `0xc70`  
+sizeof: `0xc70`
 </details>
 <details>
 <summary><code>client_class CScriptNetDataGlobal</code></summary>
 
 class_id: `78`  
-sizeof: `0xda0`  
+sizeof: `0xda0`
 </details>
 <details>
 <summary><code>client_class CScriptNetDataGlobalNonRewind</code></summary>
 
 class_id: `79`  
-sizeof: `0xda0`  
+sizeof: `0xda0`
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_DEATH_BOX</code></summary>
 
 class_id: `71`  
-sizeof: `0xce0`  
+sizeof: `0xce0`
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_GLOBAL</code></summary>
 
 class_id: `72`  
-sizeof: `0xda0`  
+sizeof: `0xda0`
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_GLOBAL_NON_REWIND</code></summary>
 
 class_id: `73`  
-sizeof: `0xda0`  
+sizeof: `0xda0`
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_PLAYER_EXCLUSIVE</code></summary>
 
 class_id: `74`  
-sizeof: `0xd40`  
+sizeof: `0xd40`
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_PLAYER_EXCLUSIVE_EXPANDED</code></summary>
 
 class_id: `75`  
-sizeof: `0xdb0`  
+sizeof: `0xdb0`
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_PLAYER_GLOBAL</code></summary>
 
 class_id: `76`  
-sizeof: `0xd60`  
+sizeof: `0xd60`
 </details>
 <details>
 <summary><code>client_class CScriptNetData_SNDC_TITAN_SOUL</code></summary>
 
 class_id: `77`  
-sizeof: `0xcf0`  
+sizeof: `0xcf0`
 </details>
 <details>
 <summary><code>client_class CScriptProp</code></summary>
 
 class_id: `80`  
-sizeof: `0x1720`  
+sizeof: `0x1720`
 </details>
 <details>
 <summary><code>client_class CScriptTraceVolume</code></summary>
 
 class_id: `81`  
-sizeof: `0xa90`  
+sizeof: `0xa90`
 </details>
 <details>
 <summary><code>client_class CShieldProp</code></summary>
 
 class_id: `82`  
-sizeof: `0x1690`  
+sizeof: `0x1690`
 </details>
 <details>
 <summary><code>client_class CSkyCamera</code></summary>
 
 class_id: `83`  
-sizeof: `0xa60`  
+sizeof: `0xa60`
 </details>
 <details>
 <summary><code>client_class CStatusEffectPlugin</code></summary>
 
 class_id: `84`  
-sizeof: `0xac0`  
+sizeof: `0xac0`
 </details>
 <details>
 <summary><code>client_class CTEBreakModel</code></summary>
 
 class_id: `86`  
-sizeof: `0x70`  
+sizeof: `0x70`
 </details>
 <details>
 <summary><code>client_class CTEEffectDispatch</code></summary>
 
 class_id: `87`  
-sizeof: `0xc8`  
+sizeof: `0xc8`
 </details>
 <details>
 <summary><code>client_class CTEExplosion</code></summary>
 
 class_id: `88`  
-sizeof: `0x80`  
+sizeof: `0x80`
 </details>
 <details>
 <summary><code>client_class CTEGibEvent</code></summary>
 
 class_id: `89`  
-sizeof: `0x38`  
+sizeof: `0x38`
 </details>
 <details>
 <summary><code>client_class CTEParticleSystem</code></summary>
 
 class_id: `90`  
-sizeof: `0x38`  
+sizeof: `0x38`
 </details>
 <details>
 <summary><code>client_class CTEPhysicsProp</code></summary>
 
 class_id: `91`  
-sizeof: `0x60`  
+sizeof: `0x60`
 </details>
 <details>
 <summary><code>client_class CTEProjectileTrail</code></summary>
 
 class_id: `92`  
-sizeof: `0x58`  
+sizeof: `0x58`
 </details>
 <details>
 <summary><code>client_class CTEScriptParticleSystem</code></summary>
 
 class_id: `93`  
-sizeof: `0x50`  
+sizeof: `0x50`
 </details>
 <details>
 <summary><code>client_class CTEScriptParticleSystemOnEntity</code></summary>
 
 class_id: `94`  
-sizeof: `0x40`  
+sizeof: `0x40`
 </details>
 <details>
 <summary><code>client_class CTEScriptParticleSystemOnEntityWithPos</code></summary>
 
 class_id: `95`  
-sizeof: `0x58`  
+sizeof: `0x58`
 </details>
 <details>
 <summary><code>client_class CTEShatterSurface</code></summary>
 
 class_id: `96`  
-sizeof: `0x68`  
+sizeof: `0x68`
 </details>
 <details>
 <summary><code>client_class CTESoundDispatch</code></summary>
 
 class_id: `97`  
-sizeof: `0x48`  
+sizeof: `0x48`
 </details>
 <details>
 <summary><code>client_class CTeam</code></summary>
 
 class_id: `85`  
-sizeof: `0xba0`  
+sizeof: `0xba0`
 </details>
 <details>
 <summary><code>client_class CTitanSoul</code></summary>
 
 class_id: `98`  
-sizeof: `0xde0`  
+sizeof: `0xde0`
 </details>
 <details>
 <summary><code>client_class CTriggerCylinderHeavy</code></summary>
 
 class_id: `99`  
-sizeof: `0xb90`  
+sizeof: `0xb90`
 </details>
 <details>
 <summary><code>client_class CTriggerNoGrapple</code></summary>
 
 class_id: `100`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CTriggerNoObjectPlacement</code></summary>
 
 class_id: `101`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CTriggerNoZipline</code></summary>
 
 class_id: `102`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CTriggerOutOfBounds</code></summary>
 
 class_id: `103`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CTriggerPlayerMovement</code></summary>
 
 class_id: `104`  
-sizeof: `0xab0`  
+sizeof: `0xab0`
 </details>
 <details>
 <summary><code>client_class CTriggerPointGravity</code></summary>
 
 class_id: `105`  
-sizeof: `0xac0`  
+sizeof: `0xac0`
 </details>
 <details>
 <summary><code>client_class CTriggerSlip</code></summary>
 
 class_id: `106`  
-sizeof: `0xac0`  
+sizeof: `0xac0`
 </details>
 <details>
 <summary><code>client_class CTriggerUpdraft</code></summary>
 
 class_id: `107`  
-sizeof: `0xaa0`  
+sizeof: `0xaa0`
 </details>
 <details>
 <summary><code>client_class CTurret</code></summary>
 
 class_id: `108`  
-sizeof: `0x1a30`  
+sizeof: `0x1a30`
 </details>
 <details>
 <summary><code>client_class CVFogVolume</code></summary>
 
 class_id: `109`  
-sizeof: `0xb20`  
+sizeof: `0xb20`
 </details>
 <details>
 <summary><code>client_class CVGuiScreen</code></summary>
 
 class_id: `110`  
-sizeof: `0xb10`  
+sizeof: `0xb10`
 </details>
 <details>
 <summary><code>client_class CVortexSphere</code></summary>
 
 class_id: `111`  
-sizeof: `0xab0`  
+sizeof: `0xab0`
 </details>
 <details>
 <summary><code>client_class CWaterLODControl</code></summary>
 
 class_id: `112`  
-sizeof: `0xa70`  
+sizeof: `0xa70`
 </details>
 <details>
 <summary><code>client_class CWeaponX</code></summary>
 
 class_id: `113`  
-sizeof: `0x67e0`  
+sizeof: `0x67e0`
 </details>
 <details>
 <summary><code>client_class CWorld</code></summary>
 
 class_id: `114`  
-sizeof: `0x1330`  
+sizeof: `0x1330`
 </details>
 <details>
 <summary><code>client_class CZipline</code></summary>
 
 class_id: `115`  
-sizeof: `0x1080`  
+sizeof: `0x1080`
 </details>
 <details>
 <summary><code>client_class CZiplineEnd</code></summary>
 
 class_id: `116`  
-sizeof: `0xa80`  
+sizeof: `0xa80`
 </details>
 <details>
 <summary><code>client_class CZiprail</code></summary>
 
 class_id: `117`  
-sizeof: `0x13d0`  
+sizeof: `0x13d0`
 </details>
 <details>
 <summary><code>client_class DoorMover</code></summary>
 
 class_id: `118`  
-sizeof: `0x1880`  
+sizeof: `0x1880`
 </details>
 <details>
 <summary><code>client_class ScriptMoverLightweight</code></summary>
 
 class_id: `119`  
-sizeof: `0x1880`  
+sizeof: `0x1880`
 </details>
 ```
 
@@ -7300,7 +7302,7 @@ zoomfrac_autoattack: Float(-1.0)
 Print when SteamNetworkingIdentities are allocated/deallocated
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>Allow_auto_Party</code></summary>
@@ -7308,7 +7310,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>AutoRejectInviteToPlay</code></summary>
@@ -7316,7 +7318,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>AutoRejectNewRules</code></summary>
@@ -7324,7 +7326,7 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>BlendBonesMode</code></summary>
@@ -7332,7 +7334,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>Clubs_AllowMalformedTags</code></summary>
@@ -7340,7 +7342,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>Clubs_QueryPrefersFriend</code></summary>
@@ -7348,7 +7350,7 @@ flags: `0x2`
 Use friend on clubs querry
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>Clubs_ValidateTagFromServer</code></summary>
@@ -7356,7 +7358,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>Clubs_oldJoinFlow</code></summary>
@@ -7364,7 +7366,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>Communities_TextUseLocalName</code></summary>
@@ -7372,7 +7374,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>CrossPlay_user_optin</code></summary>
@@ -7380,7 +7382,7 @@ flags: `0x2`
 Our Crossplay opt-in preference
 
 default: `"1"`  
-flags: `0x1000200`  
+flags: `0x1000200`
 </details>
 <details>
 <summary><code>DigiCertGlobalRoot_usable</code></summary>
@@ -7388,7 +7390,7 @@ flags: `0x1000200`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>DoorSoundPrefixDouble</code></summary>
@@ -7396,7 +7398,7 @@ flags: `0x2`
 Sound prefix for door sounds for double doors
 
 default: `"Door_Single_"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>DoorSoundPrefixSingle</code></summary>
@@ -7404,7 +7406,7 @@ flags: `0x2`
 Sound prefix for door sounds for single doors
 
 default: `"Door_Single_"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_AcceptInvite_Check_isAcceptingInvite</code></summary>
@@ -7412,7 +7414,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_RTM_DELAY_QUERRY_SCRIPT_SECONDS</code></summary>
@@ -7420,7 +7422,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_RTM_DELAY_QUERRY_SECONDS</code></summary>
@@ -7428,7 +7430,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_RTM_Enabled</code></summary>
@@ -7436,7 +7438,7 @@ flags: `0x2`
 Allow RTM code to work!
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_RTM_Productid</code></summary>
@@ -7444,15 +7446,15 @@ flags: `0x2`
 
 
 default: `"r5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_SEARCH_Enabled</code></summary>
 
-Allow EADP SEARCH  code to work!
+Allow EADP SEARCH code to work!
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_code_redemption_enabled</code></summary>
@@ -7460,7 +7462,7 @@ flags: `0x2`
 Allows code redemption requests to be made
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_code_redemption_hostname</code></summary>
@@ -7468,7 +7470,7 @@ flags: `0x2`
 
 
 default: `"proxy/commerce_gateway/coderedemption/redeem"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_friends_invite_has_platform</code></summary>
@@ -7476,7 +7478,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_http_inbound_friend_invite_can_use_commentforname</code></summary>
@@ -7484,7 +7486,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_optin_crossplay_old_flow</code></summary>
@@ -7492,7 +7494,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_optin_datachange_throttle</code></summary>
@@ -7502,7 +7504,7 @@ flags: `0x2`
 default: `"2"`  
 flags: `0x2`  
 min value: `0.1`  
-max value: `5`  
+max value: `5`
 </details>
 <details>
 <summary><code>EADP_search_accountname_count</code></summary>
@@ -7510,7 +7512,7 @@ max value: `5`
 The Number of responce from a name search.
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_search_use_starts_with</code></summary>
@@ -7518,7 +7520,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_server_environment</code></summary>
@@ -7526,7 +7528,7 @@ flags: `0x2`
 
 
 default: `"INT"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_um_debug</code></summary>
@@ -7534,7 +7536,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_um_dev_persistence_domain</code></summary>
@@ -7542,7 +7544,7 @@ flags: `0x2`
 Value used to construct marketplace alias sent to UM in dev
 
 default: `"r5dev_a"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_um_enabled</code></summary>
@@ -7550,7 +7552,7 @@ flags: `0x2`
 Allows requests to be made the UM service
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_um_forceError</code></summary>
@@ -7558,7 +7560,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_um_path</code></summary>
@@ -7566,7 +7568,7 @@ flags: `0x2`
 
 
 default: `"em/v4.5/action"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_um_promo_id</code></summary>
@@ -7574,7 +7576,7 @@ flags: `0x2`
 The trigger id for promos
 
 default: `"fetchpromo"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>Invite_Flyout_Off</code></summary>
@@ -7582,7 +7584,7 @@ flags: `0x2`
 Used to disable Invite Fly Outs.
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>OriginAllowRebootClientAuthTokens</code></summary>
@@ -7590,7 +7592,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>OriginRebootClientAuthTokens_Retryinterval</code></summary>
@@ -7598,7 +7600,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>PURGE_PLAYER_DISPLAYS_AMOUNT</code></summary>
@@ -7606,7 +7608,7 @@ flags: `0x2`
 
 
 default: `"16"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>PresenceForFirstPartyFriends</code></summary>
@@ -7614,7 +7616,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ScriptDisallowedToUsePersistenceOnSP</code></summary>
@@ -7622,7 +7624,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ScriptSaveAllowed</code></summary>
@@ -7630,7 +7632,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>StreamMicDisabled</code></summary>
@@ -7638,7 +7640,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>Stryder3PToken_debug</code></summary>
@@ -7646,7 +7648,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>StryderEaIdFetchEnabled</code></summary>
@@ -7654,7 +7656,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>TLS_trust_cert</code></summary>
@@ -7662,7 +7664,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>TalkIsStream</code></summary>
@@ -7670,7 +7672,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>TextDataFromCommunityOnlyInLobby</code></summary>
@@ -7678,7 +7680,7 @@ flags: `0x80`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>VoiceDataFromCommunityOnlyInLobby</code></summary>
@@ -7686,7 +7688,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>VoiceNeedsReset</code></summary>
@@ -7694,7 +7696,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_DigiCertGlobalRoot_usable</code></summary>
@@ -7702,7 +7704,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_TLS_hostname</code></summary>
@@ -7710,7 +7712,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_TLS_secure_conn</code></summary>
@@ -7718,7 +7720,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_TLS_trust_cert</code></summary>
@@ -7726,7 +7728,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_telemetry_buffer_sends_per_second</code></summary>
@@ -7734,7 +7736,7 @@ flags: `0x2`
 
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_telemetry_shortcircuit</code></summary>
@@ -7742,7 +7744,7 @@ flags: `0x2`
 Allow customers to turn off xlog.
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>XLOG_telemetry_socket_recv_freq</code></summary>
@@ -7750,7 +7752,7 @@ flags: `0x80000`
 
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_telemetry_socket_send_freq</code></summary>
@@ -7758,7 +7760,7 @@ flags: `0x2`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>XLOG_telemetry_streams</code></summary>
@@ -7766,7 +7768,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>adjustableCharacterBoostBias</code></summary>
@@ -7774,7 +7776,7 @@ flags: `0x2`
 Change the character boost bias
 
 default: `"0.1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>adjustableCharacterBoostIndirectDiffuse</code></summary>
@@ -7782,7 +7784,7 @@ flags: `0x2`
 Scale the global amount of indirect diffuse lighting on characters in gameplay. Does not affect the lobby.
 
 default: `"1.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ai_titan_grapple_max_len</code></summary>
@@ -7790,7 +7792,7 @@ flags: `0x2`
 
 
 default: `"3000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>airslowmo_enabled</code></summary>
@@ -7798,7 +7800,7 @@ flags: `0x2002`
 Enables air slowmo
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>airslowmo_enter_time</code></summary>
@@ -7806,7 +7808,7 @@ flags: `0x2002`
 Duration it takes to reach full slowmo
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>airslowmo_ground_immediate_end</code></summary>
@@ -7814,7 +7816,7 @@ flags: `0x2002`
 Controls whether air slowmo fades out after landing or immediately stops
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>airslowmo_leave_time</code></summary>
@@ -7822,7 +7824,7 @@ flags: `0x2002`
 Duration it takes to leave full slowmo
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>airslowmo_scripted_speed</code></summary>
@@ -7830,7 +7832,7 @@ flags: `0x2002`
 
 
 default: `"0.8"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>airslowmo_when_hovering</code></summary>
@@ -7838,7 +7840,7 @@ flags: `0x2002`
 Replaces hovering with air slowmo
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>akimbo_weapon_can_zoom</code></summary>
@@ -7846,7 +7848,7 @@ flags: `0x2002`
 Can player zoom when dual wielding
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>allow_comms_filter</code></summary>
@@ -7854,7 +7856,7 @@ flags: `0x2002`
 enables cl_comms_filter
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>always_touch_triggers_cl</code></summary>
@@ -7862,7 +7864,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>animEvent_debug</code></summary>
@@ -7870,7 +7872,7 @@ flags: `0x2`
 1 = sparse, 2 = verbose
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>animEvent_debugEnt</code></summary>
@@ -7878,7 +7880,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>animEvent_debug_cl</code></summary>
@@ -7886,7 +7888,7 @@ flags: `0x2`
 1 = sparse, 2 = verbose
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>anim_estimateVelocity</code></summary>
@@ -7894,7 +7896,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>anim_playerMovementAngleMargin</code></summary>
@@ -7902,7 +7904,7 @@ flags: `0x2002`
 
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>anim_player_ragdoll_fix</code></summary>
@@ -7910,7 +7912,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>anim_print_transition_overflow</code></summary>
@@ -7918,7 +7920,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>anim_runGestureAnimEventsToCompletionOnReset_client</code></summary>
@@ -7926,7 +7928,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>anim_showstate</code></summary>
@@ -7934,7 +7936,7 @@ flags: `0x6000`
 Show the (client) animation state for the specified entity (-1 for none).
 
 default: `"-1"`  
-flags: `0x6002`  
+flags: `0x6002`
 </details>
 <details>
 <summary><code>anim_showstatelog</code></summary>
@@ -7942,7 +7944,7 @@ flags: `0x6002`
 1 to output anim_showstate to Msg(). 2 to store in AnimState.log. 3 for both.
 
 default: `"0"`  
-flags: `0x6002`  
+flags: `0x6002`
 </details>
 <details>
 <summary><code>anim_transitionsequences</code></summary>
@@ -7950,7 +7952,7 @@ flags: `0x6002`
 Enables blended transitions between sequences.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>anim_view_entity_third_person_camera_use_move_parent</code></summary>
@@ -7958,7 +7960,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>anim_window_debug</code></summary>
@@ -7966,7 +7968,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>announcement</code></summary>
@@ -7974,7 +7976,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>announcementImage</code></summary>
@@ -7982,7 +7984,7 @@ flags: `0x12`
 
 
 default: `""`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>announcementVersion</code></summary>
@@ -7990,7 +7992,7 @@ flags: `0x12`
 
 
 default: `"0"`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>armored_leap_disable_player_move_input</code></summary>
@@ -7998,7 +8000,7 @@ flags: `0x12`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>assetdownloads_desiredState</code></summary>
@@ -8006,7 +8008,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>assetdownloads_enabled</code></summary>
@@ -8014,7 +8016,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>assetdownloads_forceError</code></summary>
@@ -8022,7 +8024,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>assetdownloads_hostname</code></summary>
@@ -8030,7 +8032,7 @@ flags: `0x2`
 
 
 default: `"r5-assets.stryder.respawn.com"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>async_serialize</code></summary>
@@ -8038,7 +8040,7 @@ flags: `0x2`
 Force async reads to serialize for profiling
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>attachment_orthogonal_warnings</code></summary>
@@ -8046,15 +8048,16 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>autoConnect</code></summary>
 
-Automatically attempt to connect to a party server from the main menu, 0 = disabled, 1 = enabled, 2 = enabled w/ custom match
+Automatically attempt to connect to a party server from the main menu, 0 = disabled, 1 = enabled, 2 = enabled w/ custom
+match
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>autohitch</code></summary>
@@ -8062,7 +8065,7 @@ flags: `0x80000`
 Continuously hitch the process
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>automantle_backoff_anim_maxfrac</code></summary>
@@ -8070,7 +8073,7 @@ flags: `0x2`
 Fraction of mantle after which pulling back simply aborts the mantle
 
 default: `"0.7"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_cooldown</code></summary>
@@ -8078,7 +8081,7 @@ flags: `0x2002`
 Minimum time between mantles
 
 default: `".25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_dangle_required_space</code></summary>
@@ -8086,7 +8089,7 @@ flags: `0x2002`
 Required space under the ledge to dangle
 
 default: `"60"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_debug</code></summary>
@@ -8094,7 +8097,7 @@ flags: `0x2002`
 Debugs player auto-mantle behavior
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_disable_hang</code></summary>
@@ -8102,7 +8105,7 @@ flags: `0x2002`
 disables the hang mantle behavior
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_enable</code></summary>
@@ -8110,7 +8113,7 @@ flags: `0x2002`
 Enables player auto-mantle behavior
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_forwarddist</code></summary>
@@ -8118,7 +8121,7 @@ flags: `0x2002`
 Distance forward to do the ground check from when auto-mantling
 
 default: `"26.f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_gun_enable_height</code></summary>
@@ -8126,7 +8129,7 @@ flags: `0x2002`
 Eye height above ledge at which gun is reenabled
 
 default: `"33"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_height_above</code></summary>
@@ -8134,7 +8137,7 @@ flags: `0x2002`
 Mantle height above ledge below which the "above" animation is used and above which the "high" animation is used
 
 default: `"30"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_height_below</code></summary>
@@ -8142,7 +8145,7 @@ flags: `0x2002`
 Mantle height above ledge below which the "below" animation is used
 
 default: `"-10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_height_level</code></summary>
@@ -8150,7 +8153,7 @@ flags: `0x2002`
 Mantle height above ledge below which the "level" animation is used
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_jumpoff_anim_maxfrac</code></summary>
@@ -8158,7 +8161,7 @@ flags: `0x2002`
 Maximum fraction of mantle at which jump off animation is played
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_jumpoff_duration</code></summary>
@@ -8166,7 +8169,7 @@ flags: `0x2002`
 Duration of jump off animation when jumping off
 
 default: `"0.1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_max_frac</code></summary>
@@ -8174,7 +8177,7 @@ flags: `0x2002`
 Fractional amount (0-1) player can move forward without hitting jump.
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_maxangle_push</code></summary>
@@ -8182,7 +8185,7 @@ flags: `0x2002`
 Max angle the player can be pushing from the wall normal to auto-mantle
 
 default: `"50"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_maxangle_view</code></summary>
@@ -8190,7 +8193,7 @@ flags: `0x2002`
 Max angle the player can be facing from the wall to auto-mantle
 
 default: `"50"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_min_frac</code></summary>
@@ -8198,7 +8201,7 @@ flags: `0x2002`
 Fractional amount (0-1) player can move backward without hitting jump.
 
 default: `"0.1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_mindist</code></summary>
@@ -8206,7 +8209,7 @@ flags: `0x2002`
 Minimum forward distance when auto-mantling
 
 default: `"18.f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_rest_frac</code></summary>
@@ -8214,7 +8217,7 @@ flags: `0x2002`
 Fractional amount (0-1) player will tend toward when no input is given.
 
 default: `"0.4"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_rest_frac_below</code></summary>
@@ -8222,7 +8225,7 @@ flags: `0x2002`
 Replaces rest_frac when using the "below" animation
 
 default: `"0.3"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_searchdist</code></summary>
@@ -8230,7 +8233,7 @@ flags: `0x2002`
 Forward distance within which to look for a ledge to auto-mantle
 
 default: `"5.f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_trace_debug</code></summary>
@@ -8238,7 +8241,7 @@ flags: `0x2002`
 Debugs the traces of player auto-mantle behavior
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>automantle_view_correction_speed</code></summary>
@@ -8246,7 +8249,7 @@ flags: `0x2002`
 Speed at which view direction is clamped when mantling
 
 default: `"180"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>automantle_view_high_yaw_max</code></summary>
@@ -8254,7 +8257,7 @@ flags: `0x4000`
 Max view yaw when mantling with the "high" mantle animation
 
 default: `"90"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>automantle_view_pitch_max</code></summary>
@@ -8262,7 +8265,7 @@ flags: `0x4000`
 Max view pitch when mantling
 
 default: `"35"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>automantle_view_pitch_min</code></summary>
@@ -8270,7 +8273,7 @@ flags: `0x4000`
 Min view pitch when mantling
 
 default: `"-80"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>automantle_view_yaw_max</code></summary>
@@ -8278,7 +8281,7 @@ flags: `0x4000`
 Max view yaw when mantling
 
 default: `"60"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>automantle_wallrun_maxangle_view</code></summary>
@@ -8286,7 +8289,7 @@ flags: `0x4000`
 Max angle the player can be facing from the wall to auto-mantle while wall running
 
 default: `"45"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>backtrace_disable</code></summary>
@@ -8294,7 +8297,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>backtrace_reporting_disconnect</code></summary>
@@ -8302,7 +8305,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>backtrace_reporting_error</code></summary>
@@ -8310,7 +8313,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>banktilt_accel</code></summary>
@@ -8318,7 +8321,7 @@ flags: `0x2`
 Acceleration of ziprail bank tilt
 
 default: `"14"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>banktilt_maxvel</code></summary>
@@ -8326,7 +8329,7 @@ flags: `0x2002`
 Maximum speed of ziprail bank tilt
 
 default: `"4"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>baseanimatingoverlay_playbackRateThreshold</code></summary>
@@ -8334,7 +8337,7 @@ flags: `0x2002`
 
 
 default: `"0.05"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>baselines_print</code></summary>
@@ -8342,7 +8345,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>bhit_enable</code></summary>
@@ -8350,7 +8353,7 @@ flags: `0x2`
 Enables bhit commands from the client
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>bhit_reliable</code></summary>
@@ -8358,15 +8361,15 @@ flags: `0x2002`
 Makes bhit commands reliable messages
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>bink_materials_enabled</code></summary>
 
-Allows materials with 'Emissive Uses Video' checked to play video on the material 
+Allows materials with 'Emissive Uses Video' checked to play video on the material
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>bink_preload_videopanel_movies</code></summary>
@@ -8374,7 +8377,7 @@ flags: `0x2`
 Preload Bink movies used by VideoPanel.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>boost_jetwash_prediction_factor</code></summary>
@@ -8382,7 +8385,7 @@ flags: `0x2`
 Factor used to scale player's velocity when finding jetwash trace point.
 
 default: `"20.0f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>bot_lagOut</code></summary>
@@ -8390,7 +8393,7 @@ flags: `0x2002`
 Cause bots to lag out
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>bot_num_exclusive_teams</code></summary>
@@ -8398,15 +8401,16 @@ flags: `0x2`
 Number of teams to reserve and fill with bots(autoplayers)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>brushmodel_colors</code></summary>
 
-If true, brush models pass their entity's color to the GPU, so shaders can use it as diffuse modulation. If false, they use white instead, which is the old behavior.
+If true, brush models pass their entity's color to the GPU, so shaders can use it as diffuse modulation. If false, they
+use white instead, which is the old behavior.
 
 default: `"0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>budget_animatingEntities</code></summary>
@@ -8414,7 +8418,7 @@ flags: `0x6000`
 
 
 default: `"5000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>budget_animationOverlayEntities</code></summary>
@@ -8422,7 +8426,7 @@ flags: `0x2`
 
 
 default: `"260"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>budget_combatCharEntities</code></summary>
@@ -8430,7 +8434,7 @@ flags: `0x2`
 
 
 default: `"200"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>budget_weaponEntities</code></summary>
@@ -8438,7 +8442,7 @@ flags: `0x2`
 
 
 default: `"1200"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>budget_ziplineEntities</code></summary>
@@ -8446,7 +8450,7 @@ flags: `0x2`
 
 
 default: `"400"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>bug_reproNum</code></summary>
@@ -8454,7 +8458,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>build_nonmerged</code></summary>
@@ -8462,7 +8466,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>buildcubemaps_async</code></summary>
@@ -8470,7 +8474,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>buildcubemaps_index</code></summary>
@@ -8478,7 +8482,7 @@ flags: `0x4000`
 
 
 default: `"-1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>buildcubemaps_pvs_start_early</code></summary>
@@ -8486,7 +8490,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>buildcubemaps_single_step</code></summary>
@@ -8494,7 +8498,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>building_cubemaps</code></summary>
@@ -8502,7 +8506,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>bulletPredictionDebug</code></summary>
@@ -8510,7 +8514,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>bullet_trace_test_debug</code></summary>
@@ -8518,7 +8522,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>bullet_trace_test_enable</code></summary>
@@ -8526,7 +8530,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>c_dropship_ground_fx_dist_interval</code></summary>
@@ -8534,7 +8538,7 @@ flags: `0x2002`
 
 
 default: `"256"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_dropship_ground_fx_time_interval</code></summary>
@@ -8542,15 +8546,15 @@ flags: `0x2`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_dropship_rope_debug</code></summary>
 
- Used to visualize the drop ship rope interaction.
+Used to visualize the drop ship rope interaction.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_dropship_rope_events</code></summary>
@@ -8558,7 +8562,7 @@ flags: `0x2`
 Turn on client side drop ship rope interaction detection.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_dropship_rope_magnitude</code></summary>
@@ -8566,7 +8570,7 @@ flags: `0x2`
 Used to scale the interaction of a drop ship and a rope.
 
 default: `"128"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_dropship_rope_range</code></summary>
@@ -8574,7 +8578,7 @@ flags: `0x2`
 Max distance away from a drop ship that a Rope is effected.
 
 default: `"1024"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_maxdistance</code></summary>
@@ -8582,7 +8586,7 @@ flags: `0x2`
 
 
 default: `"400"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_maxpitch</code></summary>
@@ -8590,7 +8594,7 @@ flags: `0x2`
 
 
 default: `"90"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_maxyaw</code></summary>
@@ -8598,7 +8602,7 @@ flags: `0x2`
 
 
 default: `"135"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_mindistance</code></summary>
@@ -8606,7 +8610,7 @@ flags: `0x2`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_minpitch</code></summary>
@@ -8614,7 +8618,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_minyaw</code></summary>
@@ -8622,7 +8626,7 @@ flags: `0x2`
 
 
 default: `"-135"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_orthoheight</code></summary>
@@ -8630,7 +8634,7 @@ flags: `0x2`
 
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_orthowidth</code></summary>
@@ -8638,7 +8642,7 @@ flags: `0x2`
 
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderaimdistADS_110</code></summary>
@@ -8646,7 +8650,7 @@ flags: `0x2`
 
 
 default: `"35.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderaimdistADS_70</code></summary>
@@ -8654,7 +8658,7 @@ flags: `0x2`
 
 
 default: `"50.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderaimdistADS_90</code></summary>
@@ -8662,7 +8666,7 @@ flags: `0x2`
 
 
 default: `"40.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderaimdist_110</code></summary>
@@ -8670,7 +8674,7 @@ flags: `0x2`
 
 
 default: `"60.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderaimdist_70</code></summary>
@@ -8678,7 +8682,7 @@ flags: `0x2`
 
 
 default: `"100.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderaimdist_90</code></summary>
@@ -8686,7 +8690,7 @@ flags: `0x2`
 
 
 default: `"75.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderdist</code></summary>
@@ -8694,7 +8698,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshouldergetsviewpunch</code></summary>
@@ -8702,7 +8706,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderheight</code></summary>
@@ -8710,7 +8714,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_thirdpersonshoulderoffset</code></summary>
@@ -8718,7 +8722,7 @@ flags: `0x2`
 
 
 default: `"17.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>c_threadedAnimPostData</code></summary>
@@ -8726,7 +8730,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_collision</code></summary>
@@ -8734,7 +8738,7 @@ flags: `0x2`
 When in thirdperson and cam_collision is set to 1, an attempt is made to keep the camera from passing though walls.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_debug_collision</code></summary>
@@ -8742,7 +8746,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_idealdelta</code></summary>
@@ -8750,7 +8754,7 @@ flags: `0x2`
 Controls the speed when matching offset to ideal angles in thirdperson view
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_idealdist</code></summary>
@@ -8758,7 +8762,7 @@ flags: `0x2`
 
 
 default: `"150"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_ideallag</code></summary>
@@ -8766,7 +8770,7 @@ flags: `0x2`
 Amount of lag used when matching offset to ideal angles in thirdperson view
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_idealpitch</code></summary>
@@ -8774,7 +8778,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_idealyaw</code></summary>
@@ -8782,7 +8786,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchLock_feetRelative</code></summary>
@@ -8790,7 +8794,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchfreeze_on</code></summary>
@@ -8798,7 +8802,7 @@ flags: `0x2`
 Freeze the cam pitch
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchlock_on</code></summary>
@@ -8806,7 +8810,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchlock_period</code></summary>
@@ -8814,7 +8818,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchlock_phase</code></summary>
@@ -8822,7 +8826,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchlock_pitchBase</code></summary>
@@ -8830,7 +8834,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchlock_pitchRange</code></summary>
@@ -8838,7 +8842,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_pitchlock_pitchWiggleRoom</code></summary>
@@ -8846,7 +8850,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_player_viewheight_scale</code></summary>
@@ -8854,7 +8858,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_showangles</code></summary>
@@ -8862,7 +8866,7 @@ flags: `0x2`
 When in thirdperson, print viewangles/idealangles/cameraoffsets to the console.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_yawfreeze_on</code></summary>
@@ -8870,7 +8874,7 @@ flags: `0x2`
 Freeze the cam yaw
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_zoomfreeze_on</code></summary>
@@ -8878,7 +8882,7 @@ flags: `0x2`
 Freeze the cam zoom
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>can_stand_on_obb</code></summary>
@@ -8886,7 +8890,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cc_captiontrace</code></summary>
@@ -8894,7 +8898,7 @@ flags: `0x2`
 Show missing closecaptions (0 = no, 1 = devconsole, 2 = show in hud)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cc_global_norepeat</code></summary>
@@ -8902,7 +8906,7 @@ flags: `0x2`
 How often a caption can repeat, unless overriden by norepeat. (or 0)
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cc_linger_time</code></summary>
@@ -8910,7 +8914,7 @@ flags: `0x2`
 Close caption linger time in seconds.
 
 default: `"1.0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>cc_max_duration</code></summary>
@@ -8918,7 +8922,7 @@ flags: `0x80`
 The max duration in seconds for a closed caption if event doesn't stop playing.
 
 default: `"30.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cc_minvisibleitems</code></summary>
@@ -8926,7 +8930,7 @@ flags: `0x2`
 Minimum number of caption items to show.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cc_predisplay_time</code></summary>
@@ -8934,7 +8938,7 @@ flags: `0x2`
 Close caption delay in seconds before showing caption.
 
 default: `"0.25"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>cc_rui</code></summary>
@@ -8942,7 +8946,7 @@ flags: `0x80`
 Use RUI to draw closecaption text.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cc_text_size</code></summary>
@@ -8950,7 +8954,7 @@ flags: `0x2`
 Changes the size of subtitles and closed captions text. 0 = normal, 1 = large, 2 = huge.
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>cc_timeshift_norepeat</code></summary>
@@ -8958,7 +8962,7 @@ flags: `0x1000000`
 How often a caption can repeat, unless overriden by norepeat. (timeshift only) (or 0)
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cdndownloads_hostname</code></summary>
@@ -8966,7 +8970,7 @@ flags: `0x2`
 
 
 default: `"r5-build-cache.rspn.ad.ea.com"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chasecam_distanceMax_override</code></summary>
@@ -8974,7 +8978,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chat_rules_MuteIsMute</code></summary>
@@ -8982,7 +8986,7 @@ flags: `0x2`
 Ignore Difrences between text and Voice muting.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chat_rules_log_details</code></summary>
@@ -8990,7 +8994,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_console_ptt</code></summary>
@@ -8998,7 +9002,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_debug</code></summary>
@@ -9006,7 +9010,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_min_status_send_interval</code></summary>
@@ -9014,7 +9018,7 @@ flags: `0x2`
 
 
 default: `"16"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_nameLength</code></summary>
@@ -9022,7 +9026,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_namePaddingX</code></summary>
@@ -9030,7 +9034,7 @@ flags: `0x2`
 
 
 default: `"12"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_nameWidth</code></summary>
@@ -9038,7 +9042,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_onlyWhenActive</code></summary>
@@ -9046,7 +9050,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_sendServerMutes</code></summary>
@@ -9054,7 +9058,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_useSlopSpace</code></summary>
@@ -9062,7 +9066,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_use_deprecated_isfriends</code></summary>
@@ -9070,7 +9074,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_voiceMode</code></summary>
@@ -9078,7 +9082,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_voiceMode</code></summary>
@@ -9086,7 +9090,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cheap_captions_fadetime</code></summary>
@@ -9094,7 +9098,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cheap_captions_test</code></summary>
@@ -9102,7 +9106,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>check_PSN_ByName_BlockList</code></summary>
@@ -9110,7 +9114,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chroma_enable</code></summary>
@@ -9118,7 +9122,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>cl_NotifyAllLevelAssetsLoaded_endframe</code></summary>
@@ -9126,7 +9130,7 @@ flags: `0x80`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_RunClientConnectScripts_Before_ProcessOnDataChangedEvents</code></summary>
@@ -9134,7 +9138,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_SetupAllBones</code></summary>
@@ -9142,7 +9146,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ShowBoneSetupEnts</code></summary>
@@ -9150,7 +9154,7 @@ flags: `0x2`
 Show which entities are having their bones setup each frame.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_adjustTimeEntsPerJob</code></summary>
@@ -9158,7 +9162,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_aggregate_particles</code></summary>
@@ -9166,7 +9170,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_allowABSCalculationDuringSnapshotScriptCalls</code></summary>
@@ -9174,7 +9178,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_allowABSDuringSnapshotScriptCalls</code></summary>
@@ -9182,7 +9186,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_allowAnimsToInterpolateBackward</code></summary>
@@ -9190,7 +9194,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_always_draw_3p_player</code></summary>
@@ -9198,7 +9202,7 @@ flags: `0x2`
 Always draw the 3p player model, even when in first-person view
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_always_ragdoll_radius</code></summary>
@@ -9206,7 +9210,7 @@ flags: `0x2`
 Always create client ragdoll if within this distance to viewer
 
 default: `"500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_anglespeedkey</code></summary>
@@ -9214,7 +9218,7 @@ flags: `0x2`
 
 
 default: `"0.67"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_anim_blend_transition_dist</code></summary>
@@ -9222,7 +9226,7 @@ flags: `0x2`
 
 
 default: `"2500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_anim_deferred_fire_enabled</code></summary>
@@ -9230,7 +9234,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_anim_detail_dist</code></summary>
@@ -9238,7 +9242,7 @@ flags: `0x2`
 
 
 default: `"1500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_anim_face_dist</code></summary>
@@ -9246,7 +9250,7 @@ flags: `0x2`
 
 
 default: `"250"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_anim_sequence_transition_full_weight_optimization</code></summary>
@@ -9254,7 +9258,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_anim_sounds_seek</code></summary>
@@ -9262,7 +9266,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>cl_approx_footstep_origin</code></summary>
@@ -9270,7 +9274,7 @@ flags: `0xa`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_approx_tracer_origin</code></summary>
@@ -9278,7 +9282,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_async_bone_setup</code></summary>
@@ -9286,7 +9290,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_base_entity_effect_lock</code></summary>
@@ -9294,7 +9298,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_base_entity_link_with_locks</code></summary>
@@ -9302,7 +9306,7 @@ flags: `0x2`
 Use mutex when updating child/peer pointers to avoid potential race condition with InvalidatePhysicsRecursive
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_bones_incremental_blend</code></summary>
@@ -9310,7 +9314,7 @@ flags: `0x2`
 Don't reblend bones which we don't need to in SetupBones.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_bones_incremental_transform</code></summary>
@@ -9318,7 +9322,7 @@ flags: `0x2`
 Don't retransform bones which we don't need to in SetupBones.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_bones_oldhack</code></summary>
@@ -9326,7 +9330,7 @@ flags: `0x2`
 Redo all previously transformed bones in SetupBones--old 'hack'.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_bounds_show_errors</code></summary>
@@ -9334,7 +9338,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_burninggibs</code></summary>
@@ -9342,7 +9346,7 @@ flags: `0x2`
 A burning player that gibs has burning gibs.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_checkForFrametimeHitch</code></summary>
@@ -9350,7 +9354,7 @@ flags: `0x2`
 Detect client hitches and avoid large UserCmd sim intervals that result. Instead use a recent avg frametime
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_checkForFrametimeHitch_thresh</code></summary>
@@ -9358,7 +9362,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_clock_correction</code></summary>
@@ -9366,7 +9370,7 @@ flags: `0x2`
 Enable/disable clock correction on the client.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_clock_correction_ahead_correct_interval</code></summary>
@@ -9374,7 +9378,7 @@ flags: `0x4000`
 Minimum interval over which the clock will try to correct to ideal when it's ahead
 
 default: `"20"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_clock_correction_behind_correct_interval</code></summary>
@@ -9382,7 +9386,7 @@ flags: `0x4000`
 Interval over which the clock will try to correct to ideal when it's behind
 
 default: `"200"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_clock_correction_force_server_tick</code></summary>
@@ -9390,7 +9394,7 @@ flags: `0x4000`
 Force clock correction to match the server tick + this offset (-999 disables it).
 
 default: `"999"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_cmdFrametimes_print</code></summary>
@@ -9398,7 +9402,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_cmdbackup</code></summary>
@@ -9406,7 +9410,7 @@ flags: `0x2`
 Number of redundant usercmds to send, to cover client->server packet loss
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_comms_filter</code></summary>
@@ -9414,7 +9418,7 @@ flags: `0x2`
 -1 = everyone, 0 = nobody, 1 = friends, 2 = party members. Anyone not matching criteria will be muted by default.
 
 default: `"-1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>cl_configversion</code></summary>
@@ -9422,7 +9426,7 @@ flags: `0x1000000`
 Configuration layout version.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_configversion_dummy</code></summary>
@@ -9430,7 +9434,7 @@ flags: `0x2`
 Configuration layout version dummy.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_cull_weapon_fx</code></summary>
@@ -9438,7 +9442,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_deathhints_enabled</code></summary>
@@ -9446,7 +9450,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>cl_debugClientEntities</code></summary>
@@ -9454,7 +9458,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_debug_deferred_trace</code></summary>
@@ -9462,7 +9466,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_debug_deferred_trace_overlay</code></summary>
@@ -9470,7 +9474,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_debug_model_fx_sounds</code></summary>
@@ -9478,7 +9482,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_decal_alwayswhite</code></summary>
@@ -9486,7 +9490,7 @@ flags: `0x2`
 Force FX decals to white (1), or white full alpha (2).
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_decal_backoff</code></summary>
@@ -9494,7 +9498,7 @@ flags: `0x2`
 Amount to back off FX decal trace by.
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_deferred_effects</code></summary>
@@ -9502,7 +9506,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_deferred_trace_normal_priority</code></summary>
@@ -9510,7 +9514,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_demoviewoverride</code></summary>
@@ -9518,7 +9522,7 @@ flags: `0x2`
 Override view during demo playback
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_disableClubTagForPrivateMatch</code></summary>
@@ -9526,7 +9530,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_disable_ragdolls</code></summary>
@@ -9534,7 +9538,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_disable_splitscreen_cpu_level_cfgs_in_pip</code></summary>
@@ -9542,15 +9546,16 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_disconnectOnTooManySnapshotFrames</code></summary>
 
-Disconnect when the client gets too many snapshot messages from the server without the server getting any messages from the client.
+Disconnect when the client gets too many snapshot messages from the server without the server getting any messages from
+the client.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_doNetworkAsserts</code></summary>
@@ -9558,7 +9563,7 @@ flags: `0x2`
 Turn off to disable some client asserts that fail rarely, presumably due to network bugs.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_doRecreateEnts</code></summary>
@@ -9566,7 +9571,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_draw_player_model</code></summary>
@@ -9574,7 +9579,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_drawhud</code></summary>
@@ -9582,7 +9587,7 @@ flags: `0x2`
 Enable the rendering of the hud
 
 default: `"1"`  
-flags: `0x40004000`  
+flags: `0x40004000`
 </details>
 <details>
 <summary><code>cl_drawmonitors</code></summary>
@@ -9590,7 +9595,7 @@ flags: `0x40004000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ejectbrass</code></summary>
@@ -9598,7 +9603,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_enable_remote_splitscreen</code></summary>
@@ -9606,7 +9611,7 @@ flags: `0x2`
 Allows viewing of nonlocal players in a split screen fashion
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_entCreateDeleteDebug</code></summary>
@@ -9614,7 +9619,7 @@ flags: `0x2`
 If true, print out when we create or delete an entity on the client
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_events_ignore_invalidate</code></summary>
@@ -9622,7 +9627,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_failremoteconnections</code></summary>
@@ -9630,7 +9635,7 @@ flags: `0x2`
 Force connection attempts to time out
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_fasttempentcollision</code></summary>
@@ -9638,7 +9643,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_flip_vis_bits</code></summary>
@@ -9646,7 +9651,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_flushentitypacket</code></summary>
@@ -9654,7 +9659,7 @@ flags: `0x2`
 For debugging. Force the engine to flush an entity packet.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_footstep_event_max_dist</code></summary>
@@ -9662,7 +9667,7 @@ flags: `0x4000`
 
 
 default: `"4000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_footstep_event_max_dist_titan</code></summary>
@@ -9670,7 +9675,7 @@ flags: `0x2`
 
 
 default: `"4000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_forceAdjustTime</code></summary>
@@ -9678,7 +9683,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_fovScale</code></summary>
@@ -9688,7 +9693,7 @@ flags: `0x2`
 default: `"1.27216005"`  
 flags: `0x41000200`  
 min value: `1`  
-max value: `1.7`  
+max value: `1.7`
 </details>
 <details>
 <summary><code>cl_gib_allow</code></summary>
@@ -9696,7 +9701,7 @@ max value: `1.7`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>cl_gib_attack_dir_scale</code></summary>
@@ -9704,7 +9709,7 @@ flags: `0x40000000`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_gib_lifetime</code></summary>
@@ -9712,7 +9717,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_idealpitchscale</code></summary>
@@ -9720,7 +9725,7 @@ flags: `0x4000`
 0 to turn off. 0.8 is a good starting value
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ignorepackets</code></summary>
@@ -9728,7 +9733,7 @@ flags: `0x2`
 Force client to ignore packets (for debugging).
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_interp_all</code></summary>
@@ -9736,7 +9741,7 @@ flags: `0x4000`
 Disable interpolation list optimizations.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_interpolate</code></summary>
@@ -9744,7 +9749,7 @@ flags: `0x2`
 Interpolate entities on the client.
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_interpolate</code></summary>
@@ -9752,7 +9757,7 @@ flags: `0x2`
 Interpolate entities on the client.
 
 default: `"1.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_interpolateSoAllAnimsLoop</code></summary>
@@ -9760,7 +9765,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_interpolation_before_prediction</code></summary>
@@ -9768,7 +9773,7 @@ flags: `0x2`
 Interpolate entities before doing prediction
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ipgeo_country</code></summary>
@@ -9776,7 +9781,7 @@ flags: `0x2`
 IP Geo based country code of the client
 
 default: `""`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>cl_isUnderAge</code></summary>
@@ -9784,7 +9789,7 @@ flags: `0x200`
 
 
 default: `"0"`  
-flags: `0x80000200`  
+flags: `0x80000200`
 </details>
 <details>
 <summary><code>cl_is_softened_locale</code></summary>
@@ -9792,7 +9797,7 @@ flags: `0x80000200`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_jiggle_bone_debug</code></summary>
@@ -9800,7 +9805,7 @@ flags: `0x80000`
 Display physics-based 'jiggle bone' debugging information
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_jiggle_bone_debug_pitch_constraints</code></summary>
@@ -9808,7 +9813,7 @@ flags: `0x4000`
 Display physics-based 'jiggle bone' debugging information
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_jiggle_bone_debug_yaw_constraints</code></summary>
@@ -9816,7 +9821,7 @@ flags: `0x4000`
 Display physics-based 'jiggle bone' debugging information
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_jiggle_bone_invert</code></summary>
@@ -9824,7 +9829,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_jiggle_bone_sanity</code></summary>
@@ -9832,7 +9837,7 @@ flags: `0x4000`
 Prevent jiggle bones from pointing directly away from their target in case of numerical instability.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_keepPersistentDataOnDisconnect</code></summary>
@@ -9840,7 +9845,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_lagcompensation</code></summary>
@@ -9848,7 +9853,7 @@ flags: `0x2`
 Perform server side lag compensation of weapon firing events.
 
 default: `"1"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>cl_language</code></summary>
@@ -9856,7 +9861,7 @@ flags: `0x200`
 Language
 
 default: `"english"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_leafsystemvis</code></summary>
@@ -9864,7 +9869,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_lerpIfChildrenLerp</code></summary>
@@ -9872,7 +9877,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_liveapi_allow_requests</code></summary>
@@ -9880,7 +9885,7 @@ flags: `0x2`
 [LiveAPI] Allow processing and running any incoming requests.
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_config_file</code></summary>
@@ -9888,7 +9893,7 @@ flags: `0x80000`
 [LiveAPI] Path to the configuration file used for bidirectional communication
 
 default: `"config.json"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_liveapi_dir</code></summary>
@@ -9896,7 +9901,7 @@ flags: `0x2`
 [LiveAPI] Log directory
 
 default: `"live_api"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_liveapi_enabled</code></summary>
@@ -9904,7 +9909,7 @@ flags: `0x2`
 [LiveAPI] Global State
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_pretty_print_log</code></summary>
@@ -9912,7 +9917,7 @@ flags: `0x80000`
 [LiveAPI] Makes the JSON output more human-readable
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_spectator_only</code></summary>
@@ -9920,7 +9925,7 @@ flags: `0x80000`
 [LiveAPI] Spectator only (dev mode only)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_liveapi_use_protobuf</code></summary>
@@ -9928,7 +9933,7 @@ flags: `0x2`
 [LiveAPI] Use protobuf as the serialization format. Otherwise, use JSON.
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_use_v2</code></summary>
@@ -9936,7 +9941,7 @@ flags: `0x80000`
 [LiveAPI] Use LiveAPI version 2.0
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_use_websocket</code></summary>
@@ -9944,7 +9949,7 @@ flags: `0x80000`
 [LiveAPI] Use bidirectional websocket layer
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_ws_keepalive</code></summary>
@@ -9952,7 +9957,7 @@ flags: `0x80000`
 [LiveAPI] Interval of time to send Pong to any connected server
 
 default: `"30"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_ws_retry_count</code></summary>
@@ -9960,15 +9965,15 @@ flags: `0x80000`
 [LiveAPI] Amount of times to retry connecting before marking the connection as unavailable
 
 default: `"5"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_ws_retry_time</code></summary>
 
-[LiveAPI] Time between retries 
+[LiveAPI] Time between retries
 
 default: `"30"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_ws_servers</code></summary>
@@ -9976,7 +9981,7 @@ flags: `0x80000`
 [LiveAPI] Comma separated list of addresses to connect to. Must be in the form 'ws://domain.com:portNum'
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_liveapi_ws_timeout</code></summary>
@@ -9984,7 +9989,7 @@ flags: `0x80000`
 [LiveAPI] Websocket connection timeout in seconds
 
 default: `"300"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_loadBspFromServerInfo</code></summary>
@@ -9992,7 +9997,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_loadPostProcessShadersEarly</code></summary>
@@ -10000,7 +10005,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_loadStaticPropsInJob</code></summary>
@@ -10008,7 +10013,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_matchmaking_timeout</code></summary>
@@ -10018,7 +10023,7 @@ Total time allowed for the client to resend the 'connect' attempt when matchmaki
 default: `"1"`  
 flags: `0x80000`  
 min value: `0.5`  
-max value: `20000`  
+max value: `20000`
 </details>
 <details>
 <summary><code>cl_model_fx_gib_cull_front_dist</code></summary>
@@ -10026,7 +10031,7 @@ max value: `20000`
 
 
 default: `"3000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_model_fx_gib_cull_radius</code></summary>
@@ -10034,7 +10039,7 @@ flags: `0x2`
 
 
 default: `"1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_mouseenable</code></summary>
@@ -10042,15 +10047,16 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_mute_override_default</code></summary>
 
-If true, having a definitive setting for either a text/voice mute will override the default mute state of all comms methods to that value.
+If true, having a definitive setting for either a text/voice mute will override the default mute state of all comms
+methods to that value.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_mute_toggle_to_default</code></summary>
@@ -10058,7 +10064,7 @@ flags: `0x2`
 If true, player mutes will toggle back to the default state
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_noTimeoutLocalHost</code></summary>
@@ -10066,7 +10072,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_observer_preset_playerHash</code></summary>
@@ -10074,7 +10080,7 @@ flags: `0x2`
 Used to override the target player when playing as observer in Private/Custom Match
 
 default: `""`  
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>cl_observer_preset_playerSlot</code></summary>
@@ -10082,7 +10088,7 @@ flags: `0x40000008`
 Used to override the player slot for the team, only used if 'cl_observer_preset_team' is >= 0
 
 default: `"0"`  
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>cl_observer_preset_team</code></summary>
@@ -10090,7 +10096,7 @@ flags: `0x40000008`
 Used to override an observers target team (-1 uses previous behavior)
 
 default: `"-1"`  
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>cl_overrideEventTimes</code></summary>
@@ -10098,7 +10104,7 @@ flags: `0x40000008`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_parallelParticlePreDrawWork</code></summary>
@@ -10106,7 +10112,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_parallel_clientside_animations</code></summary>
@@ -10114,7 +10120,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_particle_batch_mode</code></summary>
@@ -10122,7 +10128,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_particle_control_snap_dist</code></summary>
@@ -10130,7 +10136,7 @@ flags: `0x2`
 
 
 default: `"2000.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particle_control_snap_mode</code></summary>
@@ -10138,7 +10144,7 @@ flags: `0x4000`
 0 - Off, 1 - By Distance, 2 - Force on
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particle_fallback_base</code></summary>
@@ -10146,7 +10152,7 @@ flags: `0x4000`
 Base for falling back to cheaper effects under load.
 
 default: `"0"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>cl_particle_fallback_multiplier</code></summary>
@@ -10154,7 +10160,7 @@ flags: `0x40000000`
 Multiplier for falling back to cheaper effects under load.
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>cl_particle_limiter_display_killed</code></summary>
@@ -10162,7 +10168,7 @@ flags: `0x40000000`
 Display a red box around killed fx.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particle_limiter_hide_killable</code></summary>
@@ -10170,7 +10176,7 @@ flags: `0x4000`
 Hide fx than could be killed if over limit.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>cl_particle_limiter_max_particle_count</code></summary>
@@ -10178,7 +10184,7 @@ flags: `0x2002`
 Limit the total number of active particles. 0 to not limit.
 
 default: `"10000"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particle_limiter_max_system_count</code></summary>
@@ -10186,7 +10192,7 @@ flags: `0x4000`
 Limit the total number of active particle systems. 0 to not limit.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particle_limiter_min_kill_distance</code></summary>
@@ -10194,7 +10200,7 @@ flags: `0x4000`
 Only kill fx that are further than this distance from the player.
 
 default: `"4000"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particle_limiter_overlay</code></summary>
@@ -10202,7 +10208,7 @@ flags: `0x4000`
 Display particle limiter infos.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particle_max_count</code></summary>
@@ -10210,15 +10216,16 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_particle_sim_fallback_base_multiplier</code></summary>
 
-How aggressive the switch to fallbacks will be depending on how far over the cl_particle_sim_fallback_threshold_ms the sim time is.  Higher numbers are more aggressive.
+How aggressive the switch to fallbacks will be depending on how far over the cl_particle_sim_fallback_threshold_ms the
+sim time is. Higher numbers are more aggressive.
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_particle_sim_fallback_threshold_ms</code></summary>
@@ -10226,7 +10233,7 @@ flags: `0x2`
 Amount of simulation time that can elapse before new systems start falling back to cheaper versions
 
 default: `"6.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_particle_snoozetime</code></summary>
@@ -10234,7 +10241,7 @@ flags: `0x2`
 Particle snooze time in seconds (0 is off)
 
 default: `"0.166667"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particles_show_bbox</code></summary>
@@ -10242,7 +10249,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_particles_show_bbox_name</code></summary>
@@ -10250,7 +10257,7 @@ flags: `0x4000`
 show the bounding box of only particles with this name
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_particles_show_controlpoints</code></summary>
@@ -10258,7 +10265,7 @@ flags: `0x2`
 1 to show parent effects, 2 shows all children effects too
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_pclass</code></summary>
@@ -10266,7 +10273,7 @@ flags: `0x4000`
 Dump entity by prediction classname.
 
 default: `""`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_pdump</code></summary>
@@ -10274,7 +10281,7 @@ flags: `0x4000`
 Dump info about this entity to screen.
 
 default: `"-1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_phys_maxticks</code></summary>
@@ -10282,7 +10289,7 @@ flags: `0x4000`
 Sets the max number of physics ticks allowed for client-side physics (ragdolls)
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_phys_show_active</code></summary>
@@ -10290,7 +10297,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_phys_timescale</code></summary>
@@ -10298,7 +10305,7 @@ flags: `0x4000`
 Sets the scale of time for client-side physics (ragdolls)
 
 default: `"1.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_physics_invalidate_ents</code></summary>
@@ -10306,7 +10313,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_physics_maxvelocity</code></summary>
@@ -10314,7 +10321,7 @@ flags: `0x2`
 Max velocity of a vphysics object on the client
 
 default: `"4000.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_physicsshadowupdate_render</code></summary>
@@ -10322,7 +10329,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_pitchspeed</code></summary>
@@ -10330,7 +10337,7 @@ flags: `0x2`
 
 
 default: `"225"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_playback_screenshots</code></summary>
@@ -10338,7 +10345,7 @@ flags: `0x2`
 Allows the client to playback screenshot and jpeg commands in demos.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_player_fullupdate_predicted_origin_fix</code></summary>
@@ -10346,7 +10353,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_postSnapshotTransitionBlockCount</code></summary>
@@ -10354,7 +10361,7 @@ flags: `0x2`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_preSnapshotTransitionBlockCount</code></summary>
@@ -10362,7 +10369,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_precache_player_models</code></summary>
@@ -10370,7 +10377,7 @@ flags: `0x2`
 pre load player models into the streaming system
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_pred_error_verbose</code></summary>
@@ -10378,15 +10385,16 @@ flags: `0x2`
 Show more field info when spewing prediction errors.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_pred_optimize</code></summary>
 
-Optimize for not rerunning prediction if there was no difference between what we predicted and the incoming networked state
+Optimize for not rerunning prediction if there was no difference between what we predicted and the incoming networked
+state
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_predict</code></summary>
@@ -10394,7 +10402,7 @@ flags: `0x2`
 Perform client side prediction.
 
 default: `"1"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>cl_predict_basetoggles</code></summary>
@@ -10402,7 +10410,7 @@ flags: `0x200`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_predict_cmdlimit</code></summary>
@@ -10410,7 +10418,7 @@ flags: `0x2`
 Artificially limits the number of remembered commands that can be used for prediction
 
 default: `"750"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_predict_error_icon_duration</code></summary>
@@ -10418,7 +10426,7 @@ flags: `0x4000`
 Duration for prediction error icon to stay visible
 
 default: `"0.5"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_predict_error_icon_show</code></summary>
@@ -10426,7 +10434,7 @@ flags: `0x4000`
 Whether to show the prediction error icon
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_predict_error_icon_threshold_angle</code></summary>
@@ -10434,7 +10442,7 @@ flags: `0x4000`
 Angle error required to show prediction error icon
 
 default: `"0.01"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_predict_error_icon_threshold_dist</code></summary>
@@ -10442,7 +10450,7 @@ flags: `0x4000`
 Distance error required to show prediction error icon
 
 default: `"1.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_predict_motioncontrol</code></summary>
@@ -10450,7 +10458,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_predict_viewangles</code></summary>
@@ -10458,7 +10466,7 @@ flags: `0x2`
 Predict view angles even if cl_predict is 0.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_prediction_error_timestamps</code></summary>
@@ -10466,16 +10474,15 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_predictionlist</code></summary>
 
 Show which entities are predicting
 
-
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_predictweapons</code></summary>
@@ -10483,7 +10490,7 @@ flags: `0x4000`
 Perform client side prediction of weapon effects.
 
 default: `"1"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>cl_prevent_weapon_text_hints</code></summary>
@@ -10491,7 +10498,7 @@ flags: `0x200`
 stops weapon text hints from appearing
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ragdoll_force_fade_time</code></summary>
@@ -10499,7 +10506,7 @@ flags: `0x2`
 Fade out ragdoll even if in players view after this many seconds
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ragdoll_force_fade_time_local_view_player</code></summary>
@@ -10507,7 +10514,7 @@ flags: `0x2`
 If the ragdoll is of the local view player then use the max of this and cl_ragdoll_force_fade_time for the fade time
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ragdoll_force_fade_time_on_moving_geo</code></summary>
@@ -10515,7 +10522,7 @@ flags: `0x2`
 Fade out ragdoll even if in players view after this many seconds when touching moving geo.
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ragdoll_force_fade_time_titan</code></summary>
@@ -10523,7 +10530,7 @@ flags: `0x2`
 Fade out titan ragdoll even if in players view after this many seconds
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_ragdoll_maxcount</code></summary>
@@ -10533,7 +10540,7 @@ flags: `0x2`
 default: `"8"`  
 flags: `0x40000000`  
 min value: `0`  
-max value: `8`  
+max value: `8`
 </details>
 <details>
 <summary><code>cl_ragdoll_self_collision</code></summary>
@@ -10541,7 +10548,7 @@ max value: `8`
 
 
 default: `"1"`  
-flags: `0x40000002`  
+flags: `0x40000002`
 </details>
 <details>
 <summary><code>cl_ranked_reconnect_timeout</code></summary>
@@ -10551,7 +10558,7 @@ Total time allowed for the client to resend the 'connect' attempt when reconnect
 default: `"15"`  
 flags: `0x80000`  
 min value: `0.5`  
-max value: `20000`  
+max value: `20000`
 </details>
 <details>
 <summary><code>cl_replayDelayTolerance</code></summary>
@@ -10559,7 +10566,7 @@ max value: `20000`
 
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_requireAnimForAnimEventsHdr</code></summary>
@@ -10567,7 +10574,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_resend</code></summary>
@@ -10577,7 +10584,7 @@ Delay in seconds before the client will resend the 'connect' attempt
 default: `"0.5"`  
 flags: `0x80000`  
 min value: `0.5`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>cl_resend_timeout</code></summary>
@@ -10587,7 +10594,7 @@ Total time allowed for the client to resend the 'connect' attempt
 default: `"10"`  
 flags: `0x80000`  
 min value: `0.5`  
-max value: `20000`  
+max value: `20000`
 </details>
 <details>
 <summary><code>cl_restoreSimulationTimeBase</code></summary>
@@ -10595,7 +10602,7 @@ max value: `20000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_retire_low_priority_lights</code></summary>
@@ -10603,7 +10610,7 @@ flags: `0x2`
 Low priority dlights are replaced by high priority ones
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_runWeaponCloneThinkWhenHidden</code></summary>
@@ -10611,7 +10618,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_safearea</code></summary>
@@ -10619,7 +10626,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>cl_screenshotname</code></summary>
@@ -10627,7 +10634,7 @@ flags: `0x1000000`
 Custom Screenshot name
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_scriptCompileAsync</code></summary>
@@ -10635,7 +10642,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_script_perf_dump_on_shutdown</code></summary>
@@ -10643,7 +10650,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_serverQueryResponse_dumpBin</code></summary>
@@ -10651,7 +10658,7 @@ flags: `0x2`
 Dump the binary Server Query response to C:/temp
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_serverQueryResponse_print</code></summary>
@@ -10659,7 +10666,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_serverQuery_version</code></summary>
@@ -10667,7 +10674,7 @@ flags: `0x2`
 Override the Query Protocol version the debug command cl_serverQuery uses
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_shadowupdatespacing</code></summary>
@@ -10675,7 +10682,7 @@ flags: `0x2`
 
 
 default: `"10.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_showClanTags</code></summary>
@@ -10683,7 +10690,7 @@ flags: `0x2`
 Only change this while disconnected from a server
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_show_splashes</code></summary>
@@ -10691,7 +10698,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_showfiredbullets</code></summary>
@@ -10699,7 +10706,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_showfps</code></summary>
@@ -10707,7 +10714,7 @@ flags: `0x2`
 Draw fps meter (1 = fps, 2 = smooth, 3 = server, 4 = Show+LogToFile, +10 = detailed )
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_showfps_altframetime</code></summary>
@@ -10715,7 +10722,7 @@ flags: `0x2`
 Use the showfps_enabled time instead of the old cl_showfps time.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_showpausedimage</code></summary>
@@ -10723,7 +10730,7 @@ flags: `0x2`
 Show the 'Paused' image when game is paused.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_showpos</code></summary>
@@ -10731,7 +10738,7 @@ flags: `0x2`
 Draw current position at top of screen
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_showsounds</code></summary>
@@ -10739,7 +10746,7 @@ flags: `0x80000`
 Print server to client networked sounds to the console
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_showtime</code></summary>
@@ -10747,7 +10754,7 @@ flags: `0x4000`
 Draw current demo time if recording a demo
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_simulateAllModelsRegardless</code></summary>
@@ -10755,7 +10762,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_simulationtimefix</code></summary>
@@ -10763,7 +10770,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_skipAnimEventsOnProps</code></summary>
@@ -10771,7 +10778,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_skipfastpath</code></summary>
@@ -10779,7 +10786,7 @@ flags: `0x2`
 Set to 1 to stop all models that go through the model fast path from rendering
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_smooth</code></summary>
@@ -10787,7 +10794,7 @@ flags: `0x4000`
 Smooth view/eye origin after prediction errors
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_smooth_debug</code></summary>
@@ -10795,7 +10802,7 @@ flags: `0x2`
 Show prediction errors that are being smoothed
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_smoothtime</code></summary>
@@ -10805,7 +10812,7 @@ Smooth client's view after prediction error over this many seconds
 default: `"0.25"`  
 flags: `0x2`  
 min value: `0.01`  
-max value: `2`  
+max value: `2`
 </details>
 <details>
 <summary><code>cl_snapshot_draw</code></summary>
@@ -10813,7 +10820,7 @@ max value: `2`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cl_threaded_bone_setup</code></summary>
@@ -10821,7 +10828,7 @@ flags: `0x80000`
 Enable parallel processing of C_BaseAnimating::SetupBones()
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_update_visibility_for_non_predicted_local_player_always</code></summary>
@@ -10829,7 +10836,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_updatedirty_async</code></summary>
@@ -10837,7 +10844,7 @@ flags: `0x2`
 Call UpdateDirtySpatialPartitionEntities on a worker thread.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_updatedirty_early</code></summary>
@@ -10845,7 +10852,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_updaterate_mp</code></summary>
@@ -10853,7 +10860,7 @@ flags: `0x2`
 Number of packets per second of updates you are requesting from the server in mp
 
 default: `"20"`  
-flags: `0x10202`  
+flags: `0x10202`
 </details>
 <details>
 <summary><code>cl_upspeed</code></summary>
@@ -10861,7 +10868,7 @@ flags: `0x10202`
 
 
 default: `"320"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_useFutureSnapForEvents</code></summary>
@@ -10869,7 +10876,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_useLobbyTypeForChatroom</code></summary>
@@ -10877,7 +10884,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_use_target_visibility_collision_group</code></summary>
@@ -10885,7 +10892,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_view_cone</code></summary>
@@ -10893,7 +10900,7 @@ flags: `0x2`
 Enable clamping view to animated/scripted viewcone
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_view_cone_debug</code></summary>
@@ -10901,7 +10908,7 @@ flags: `0x4000`
 Show view cone debugging window
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_viewmodel_pre_animate</code></summary>
@@ -10909,7 +10916,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voice_lvl_blocks</code></summary>
@@ -10917,7 +10924,7 @@ flags: `0x2`
 Amount of frames for any signal volume trackers using default value
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voice_lvl_samples_per_block</code></summary>
@@ -10925,7 +10932,7 @@ flags: `0x2`
 Amount of samples per frame for any signal volume trackers using default value
 
 default: `"500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize</code></summary>
@@ -10933,7 +10940,7 @@ flags: `0x2`
 Normalize incoming voice chat
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_attack</code></summary>
@@ -10941,7 +10948,7 @@ flags: `0x2`
 dB/sec to apply when returning to gain boost after surpassing min gain
 
 default: `"900"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_attenuate_on_clip</code></summary>
@@ -10949,7 +10956,7 @@ flags: `0x2`
 If enabled, volume will be immediately attenuated in cases where samples would clip by this many dB below current gain
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_db_decrease_per_sec</code></summary>
@@ -10957,7 +10964,7 @@ flags: `0x2`
 Speed at which to drop someone's voice volume
 
 default: `"240"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_db_increase_per_sec</code></summary>
@@ -10965,7 +10972,7 @@ flags: `0x2`
 Speed at which to ramp up someone's voice volume
 
 default: `"18"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_max_boost</code></summary>
@@ -10973,7 +10980,7 @@ flags: `0x2`
 Maximum gain to boost voice chat by (dB)
 
 default: `"24"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_min_boost</code></summary>
@@ -10981,7 +10988,7 @@ flags: `0x2`
 Minimum gain to boost voice chat by (dB)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_min_gain</code></summary>
@@ -10989,7 +10996,7 @@ flags: `0x2`
 Minimum voice level to consider boosting (dBFS)
 
 default: `"-28"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_release</code></summary>
@@ -10997,7 +11004,7 @@ flags: `0x2`
 dB/sec to attenuate when below min gain
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_rms_tweak</code></summary>
@@ -11005,7 +11012,7 @@ flags: `0x2`
 0.0 = boost peak to target, 1.0 = boost RMS to target
 
 default: `"0.2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voicein_normalize_target</code></summary>
@@ -11013,7 +11020,7 @@ flags: `0x2`
 Incoming voice chat will be normalized to this level (dBFS)
 
 default: `"-3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize</code></summary>
@@ -11021,7 +11028,7 @@ flags: `0x2`
 Normalize outgoing voice chat (pre-encode)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_attack</code></summary>
@@ -11029,7 +11036,7 @@ flags: `0x2`
 dB/sec to apply when returning to gain boost after surpassing min gain
 
 default: `"900"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_attenuate_on_clip</code></summary>
@@ -11037,7 +11044,7 @@ flags: `0x2`
 If enabled, volume will be immediately attenuated in cases where samples would clip by this many dB below current gain
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_db_decrease_per_sec</code></summary>
@@ -11045,7 +11052,7 @@ flags: `0x2`
 Speed at which to drop outgoing voice volume
 
 default: `"240"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_db_increase_per_sec</code></summary>
@@ -11053,7 +11060,7 @@ flags: `0x2`
 Speed at which to 'ramp up' outgoing voice volume
 
 default: `"18"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_max_boost</code></summary>
@@ -11061,7 +11068,7 @@ flags: `0x2`
 Maximum gain to boost voice chat by (dB)
 
 default: `"24"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_min_boost</code></summary>
@@ -11069,7 +11076,7 @@ flags: `0x2`
 Minimum gain to boost voice chat by (dB)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_min_gain</code></summary>
@@ -11077,7 +11084,7 @@ flags: `0x2`
 Minimum voice level to consider boosting (dBFS)
 
 default: `"-28"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_release</code></summary>
@@ -11085,7 +11092,7 @@ flags: `0x2`
 dB/sec to attenuate when below min gain
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_rms_tweak</code></summary>
@@ -11093,7 +11100,7 @@ flags: `0x2`
 0.0 = boost peak to target, 1.0 = boost RMS to target
 
 default: `"0.2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_voiceout_normalize_target</code></summary>
@@ -11101,7 +11108,7 @@ flags: `0x2`
 Outgoing voice chat will be normalized to this level (dBFS)
 
 default: `"-3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_warnAboutSoundsOnInvalidEntities</code></summary>
@@ -11109,7 +11116,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_yawspeed</code></summary>
@@ -11117,7 +11124,7 @@ flags: `0x2`
 
 
 default: `"210"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clampHostFrameTimeToOneTick_enable</code></summary>
@@ -11125,7 +11132,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clearOnAnimChange</code></summary>
@@ -11133,7 +11140,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>client_boostCount</code></summary>
@@ -11141,7 +11148,7 @@ flags: `0x2`
 Value should be set by script, Will be Shared with party in the bootsCount field of members.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>client_deferredSnapshotScriptCalls</code></summary>
@@ -11149,7 +11156,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clientport</code></summary>
@@ -11157,7 +11164,7 @@ flags: `0x2`
 Host game client port
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>cloak_enabled</code></summary>
@@ -11165,7 +11172,7 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cloak_pilotAberrationScale</code></summary>
@@ -11173,7 +11180,7 @@ flags: `0x4000`
 How far apart the pilot cloak samples should be
 
 default: `"3.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>cloak_pilotBrightenAdd</code></summary>
@@ -11181,7 +11188,7 @@ flags: `0x2002`
 Amount to add to the combined pilot cloak samples
 
 default: `"0.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>cloak_pilotNoiseFactor</code></summary>
@@ -11189,7 +11196,7 @@ flags: `0x2002`
 Intensity of noise in pilot cloak aberration
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>cloak_pilotTint1</code></summary>
@@ -11197,7 +11204,7 @@ flags: `0x2002`
 Brightness factor for center-left sample
 
 default: `"0.35"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>cloak_pilotTint2</code></summary>
@@ -11205,7 +11212,7 @@ flags: `0x2002`
 Brightness factor for upper-right sample
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>cloak_pilotTint3</code></summary>
@@ -11213,7 +11220,7 @@ flags: `0x2002`
 Brightness factor for lower-right sample
 
 default: `"0.65"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>clock_bias_mp</code></summary>
@@ -11221,7 +11228,7 @@ flags: `0x2002`
 
 
 default: `"-18.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clock_bias_sp</code></summary>
@@ -11229,7 +11236,7 @@ flags: `0x2`
 
 
 default: `"-2.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clock_showcorrections</code></summary>
@@ -11237,7 +11244,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clock_showdebuginfo</code></summary>
@@ -11245,7 +11252,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>closecaption</code></summary>
@@ -11253,7 +11260,7 @@ flags: `0x2`
 Enable close captioning. 1 = dialogue only, 2 = dialogue and sound effects.
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>clubs_allow_text_to_speech</code></summary>
@@ -11261,7 +11268,7 @@ flags: `0x1000000`
 Enables text-to-speech for club chat. hudchat_play_text_to_speech must also be enabled!
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>clubs_batch_querry_size</code></summary>
@@ -11269,7 +11276,7 @@ flags: `0x80000`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clubs_showEdits</code></summary>
@@ -11277,7 +11284,7 @@ flags: `0x2`
 When enabled will send and receive club messages when club details (like the logo) are edited.
 
 default: `"1"`  
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>clubs_showInvites</code></summary>
@@ -11285,7 +11292,7 @@ flags: `0xa`
 Whether to show club invites or not
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>clubs_useClientTagFilter</code></summary>
@@ -11293,7 +11300,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clusteredlighting_2dbounds</code></summary>
@@ -11302,7 +11309,7 @@ apply 2d bounds from projection of sphere. this reduces number of tiles to work 
 1 : sphere only, 2 : hexahedron only, 3 : both
 
 default: `"3"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_cluster_depth</code></summary>
@@ -11310,7 +11317,7 @@ flags: `0x4000`
 
 
 default: `"16"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_cluster_depth_lobby</code></summary>
@@ -11318,7 +11325,7 @@ flags: `0x4000`
 
 
 default: `"16"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_enable_fulllights</code></summary>
@@ -11326,7 +11333,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_enable_quad_dist</code></summary>
@@ -11334,7 +11341,7 @@ flags: `0x4000`
 -1 : off, 0-14 : on & full eval count
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clusteredlighting_enable_shlights</code></summary>
@@ -11342,7 +11349,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_light_importance_threshold</code></summary>
@@ -11350,7 +11357,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>clusteredlighting_no_realtime_check</code></summary>
@@ -11358,7 +11365,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_pixels_per_cluster</code></summary>
@@ -11366,7 +11373,7 @@ flags: `0x4000`
 CAUTION : if it's too small (too many clusters), a bigger value will be used.
 
 default: `"32"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_rasterize</code></summary>
@@ -11375,7 +11382,7 @@ rasterize hexahedron per light. this mode gets tighter ranges (most obviously wi
 1 : rasterization, 2 : conservative rasterization
 
 default: `"2"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_skip_behind_depth</code></summary>
@@ -11383,7 +11390,7 @@ flags: `0x4000`
 use depth prepass result to skip clusters behind. 0 - never, 1 - only outside lobby, 2 - always
 
 default: `"2"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_z_far_first</code></summary>
@@ -11391,7 +11398,7 @@ flags: `0x4000`
 min z of the second closest clusters. the closest clusters starts at view frustum's near z
 
 default: `"200"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_z_far_first_lobby</code></summary>
@@ -11399,7 +11406,7 @@ flags: `0x4000`
 min z of the second closest clusters. the closest clusters starts at view frustum's near z
 
 default: `"200"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_z_far_last</code></summary>
@@ -11407,7 +11414,7 @@ flags: `0x4000`
 max z of the farthest cluster
 
 default: `"20000"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>clusteredlighting_z_far_last_lobby</code></summary>
@@ -11415,7 +11422,7 @@ flags: `0x4000`
 max z of the farthest cluster
 
 default: `"3400"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cockpitDrift_scalePitch</code></summary>
@@ -11423,7 +11430,7 @@ flags: `0x4000`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpitDrift_scaleYaw</code></summary>
@@ -11431,7 +11438,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpitDrift_speedPitch</code></summary>
@@ -11439,7 +11446,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpitDrift_speedYaw</code></summary>
@@ -11447,7 +11454,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpitShake_sourceRollRange</code></summary>
@@ -11455,7 +11462,7 @@ flags: `0x2`
 The range of weapon kick roll that will be sampled for cockpit shake.
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpitShake_translateRange</code></summary>
@@ -11463,7 +11470,7 @@ flags: `0x2`
 Max amount of cockpit shake.
 
 default: `"0.6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_damage_chroma_scale</code></summary>
@@ -11471,7 +11478,7 @@ flags: `0x2`
 
 
 default: `"0.4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_hit_chroma_max_time</code></summary>
@@ -11479,7 +11486,7 @@ flags: `0x2`
 Time to get rid of the most recent hit_chroma adjustment when at near 0 health.
 
 default: `"0.6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_hit_chroma_scale</code></summary>
@@ -11487,7 +11494,7 @@ flags: `0x2`
 
 
 default: `"0.2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_pitch_down_frac</code></summary>
@@ -11495,7 +11502,7 @@ flags: `0x2`
 fractional amount that cockpit pitches as you look down
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_pitch_up_frac</code></summary>
@@ -11503,7 +11510,7 @@ flags: `0x2`
 fractional amount that cockpit pitches as you look up
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_screen_boot_chroma_scale</code></summary>
@@ -11511,7 +11518,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_screen_boot_delay_bottom</code></summary>
@@ -11519,7 +11526,7 @@ flags: `0x2`
 
 
 default: `"1.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_screen_boot_delay_left</code></summary>
@@ -11527,7 +11534,7 @@ flags: `0x2`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_screen_boot_delay_mid</code></summary>
@@ -11535,7 +11542,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_screen_boot_delay_right</code></summary>
@@ -11543,7 +11550,7 @@ flags: `0x2`
 
 
 default: `"0.75"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cockpit_screen_boot_delay_top</code></summary>
@@ -11551,7 +11558,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>coll_spatial_entry_limit_client</code></summary>
@@ -11559,15 +11566,16 @@ flags: `0x2`
 How many entries are used in the spatial acceleration structure for dynamic entities on the client.
 
 default: `"140"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>coll_spatial_optimize_prefetch</code></summary>
 
-Prefetch memory into the cache before optimizing spatial acceleration trees. This does more work, but tends to be faster overall.
+Prefetch memory into the cache before optimizing spatial acceleration trees. This does more work, but tends to be faster
+overall.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>coll_use_bolt_size</code></summary>
@@ -11575,7 +11583,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>colorblind_mode</code></summary>
@@ -11585,7 +11593,7 @@ flags: `0x2002`
 default: `"0"`  
 flags: `0x41000000`  
 min value: `0`  
-max value: `3`  
+max value: `3`
 </details>
 <details>
 <summary><code>comms_connect_delay</code></summary>
@@ -11593,7 +11601,7 @@ max value: `3`
 Wait this long before actually connecting to pending addr/token
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_deditext</code></summary>
@@ -11601,7 +11609,7 @@ flags: `0x2`
 Use new chatserver for dedi text chat (NOTE - relies on comms_newchatserver!)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_dedivoice</code></summary>
@@ -11609,7 +11617,7 @@ flags: `0x2`
 Use new chatserver for dedi voice chat (NOTE - relies on comms_newchatserver!)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_keepalive</code></summary>
@@ -11617,7 +11625,7 @@ flags: `0x2`
 Keepalive interval (0 = disabled)
 
 default: `"60.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_lobbytext</code></summary>
@@ -11625,7 +11633,7 @@ flags: `0x2`
 Use new chatserver for lobby text chat (NOTE - relies on comms_newchatserver!)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_newchatserver</code></summary>
@@ -11633,7 +11641,7 @@ flags: `0x2`
 Use new chatserver (replaces lobby voice chat)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_reconnect</code></summary>
@@ -11641,7 +11649,7 @@ flags: `0x2`
 Interval to wait between reconnection attempts (0=disabled)
 
 default: `"10.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_udp_keepalive</code></summary>
@@ -11649,7 +11657,7 @@ flags: `0x2`
 UDP Keepalive interval
 
 default: `"10.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_udp_minactivity</code></summary>
@@ -11657,7 +11665,7 @@ flags: `0x2`
 UDP - max silence interval allowed. Sends 0-length message to keep line open
 
 default: `"10.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_udpestablish</code></summary>
@@ -11665,7 +11673,7 @@ flags: `0x2`
 UDP connection establish interval
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_udpestablish_early</code></summary>
@@ -11673,7 +11681,7 @@ flags: `0x2`
 Allow UDP connection establish prior to joining room
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_block_num</code></summary>
@@ -11681,7 +11689,7 @@ flags: `0x2`
 Number of times the user has been comm blocked
 
 default: `"0"`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>communicationBlock_block_threshold</code></summary>
@@ -11689,7 +11697,7 @@ flags: `0x12`
 Number of filtered words required to block the chat
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_enabled</code></summary>
@@ -11697,7 +11705,7 @@ flags: `0x2`
 Check communication for muted words and taking action when they are found
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_report_self</code></summary>
@@ -11705,7 +11713,7 @@ flags: `0x2`
 Send a self-report if your own communication triggers the toxic phrase filter
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_report_threshold</code></summary>
@@ -11713,7 +11721,7 @@ flags: `0x2`
 Number of blocks required for auto-report
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_server_authoritative</code></summary>
@@ -11721,7 +11729,7 @@ flags: `0x2`
 Query Stryder to load / save comm block state
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_time_to_unblock</code></summary>
@@ -11729,7 +11737,7 @@ flags: `0x2`
 Int timestamp indicating expiration of the comm block
 
 default: `"0"`  
-flags: `0x1000200`  
+flags: `0x1000200`
 </details>
 <details>
 <summary><code>communicationBlock_warning_fade</code></summary>
@@ -11737,7 +11745,7 @@ flags: `0x1000200`
 Seconds for a communication block to complete the fadeout
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_warning_num</code></summary>
@@ -11745,7 +11753,7 @@ flags: `0x2`
 Number of times the user has been warned about toxic communication
 
 default: `"0"`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>communicationBlock_warning_sustain</code></summary>
@@ -11753,7 +11761,7 @@ flags: `0x12`
 Seconds for a communication block warning to appear before it fades
 
 default: `"120"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communicationBlock_warning_threshold</code></summary>
@@ -11761,7 +11769,7 @@ flags: `0x2`
 Number of filtered words required to warn the user
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communities_enabled</code></summary>
@@ -11769,7 +11777,7 @@ flags: `0x2`
 Enable communities
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>communities_hostname</code></summary>
@@ -11777,7 +11785,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>community</code></summary>
@@ -11785,7 +11793,7 @@ flags: `0x80000`
 Our current community
 
 default: `""`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>community_abortCommunitySettingsTime</code></summary>
@@ -11793,7 +11801,7 @@ flags: `0x200`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>community_abortUserInfoTime</code></summary>
@@ -11801,7 +11809,7 @@ flags: `0x2`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>community_frame_run</code></summary>
@@ -11809,7 +11817,7 @@ flags: `0x2`
 Communities should run it's frame update.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>community_send_server_voice</code></summary>
@@ -11817,7 +11825,7 @@ flags: `0x2`
 Communities will route voice data to the chat server!
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>community_spam</code></summary>
@@ -11825,7 +11833,7 @@ flags: `0x2`
 Whether communities should spam to the console log
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>community_staleCommunitySettingsTime</code></summary>
@@ -11833,7 +11841,7 @@ flags: `0x2`
 
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>community_staleUserInfoTime</code></summary>
@@ -11841,7 +11849,7 @@ flags: `0x2`
 
 
 default: `"120"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comunities_ChatMsgUselongName</code></summary>
@@ -11849,7 +11857,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>con_logfile</code></summary>
@@ -11857,7 +11865,7 @@ flags: `0x2`
 Console output gets written to this file
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>con_timestamp</code></summary>
@@ -11865,7 +11873,7 @@ flags: `0x2`
 Prefix console.log entries with timestamps
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_debug_show_detection</code></summary>
@@ -11873,7 +11881,7 @@ flags: `0x2`
 Toggle cheat detection debug messages.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_fast_duration_time_generic</code></summary>
@@ -11881,7 +11889,7 @@ flags: `0x2`
 In miliseconds, the maximum possible time duration of a press that is not suspicious.
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_fast_press_time_generic</code></summary>
@@ -11889,7 +11897,7 @@ flags: `0x2`
 In miliseconds, the maximum possible time between presses that is not rapid fire.
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_max_fast_presses_generic</code></summary>
@@ -11897,7 +11905,7 @@ flags: `0x2`
 The maximum number of rapid presses allowed in a second that are not suspicious.
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_out_of_bounds_threshold_generic</code></summary>
@@ -11905,7 +11913,7 @@ flags: `0x2`
 Maximum distance from center considered legal input (Default 40960)
 
 default: `"40960"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_pattern_rec_error_generic</code></summary>
@@ -11913,7 +11921,7 @@ flags: `0x2`
 The margin of error for pattern recognition. Default (1024).
 
 default: `"1024"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_report_freq_generic</code></summary>
@@ -11921,7 +11929,7 @@ flags: `0x2`
 Seconds between controller reports.
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_trigger_max_velocity_generic</code></summary>
@@ -11929,7 +11937,7 @@ flags: `0x2`
 The margin of error for pattern recognition. Default (150).
 
 default: `"150"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>controller_use_cheat_detection_generic</code></summary>
@@ -11937,7 +11945,7 @@ flags: `0x2`
 Use new cheat detection. (Default enabled)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cpu_level</code></summary>
@@ -11945,7 +11953,7 @@ flags: `0x2`
 CPU Level - Default: High
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cpu_level</code></summary>
@@ -11953,7 +11961,7 @@ flags: `0x2`
 CPU Level - Default: High
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>createentitydecals</code></summary>
@@ -11961,7 +11969,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>crossPlay_Enabled</code></summary>
@@ -11969,7 +11977,7 @@ flags: `0x4000`
 Allow crossPlay code to work
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm0_on_worker</code></summary>
@@ -11977,7 +11985,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_cascade_res</code></summary>
@@ -11985,7 +11993,7 @@ flags: `0x2`
 Set the cascading shadow maps rendertarget resolution
 
 default: `"1024"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_cascade_res</code></summary>
@@ -11993,7 +12001,7 @@ flags: `0x2`
 Set the cascading shadow maps rendertarget resolution
 
 default: `"1024"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_coverage</code></summary>
@@ -12001,7 +12009,7 @@ flags: `0x2`
 Set the cascading shadow maps coverage
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_culling_use_base_planes</code></summary>
@@ -12009,7 +12017,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_culling_use_exclusion_planes</code></summary>
@@ -12017,7 +12025,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_culling_use_inclusion_planes</code></summary>
@@ -12025,7 +12033,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_culling_use_planes</code></summary>
@@ -12033,7 +12041,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_debug_2d</code></summary>
@@ -12041,7 +12049,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_debug_culling</code></summary>
@@ -12049,7 +12057,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_debug_vis_hi_range</code></summary>
@@ -12057,7 +12065,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_debug_vis_lo_range</code></summary>
@@ -12065,7 +12073,7 @@ flags: `0x2`
 
 
 default: `".35"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_depth_bias</code></summary>
@@ -12073,7 +12081,7 @@ flags: `0x2`
 
 
 default: `"-0.000005f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_dropsequence_adjusted_coverage</code></summary>
@@ -12081,15 +12089,16 @@ flags: `0x2`
 Coverage for csm_dropsequence_adjustment
 
 default: `"6400"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_dropsequence_adjustment</code></summary>
 
-Adjust CSM 2 coverage during drop sequence for STATICSHADOWMODE_GENERATE_ONCE in order to prevent drop ship shadow from being clamped.
+Adjust CSM 2 coverage during drop sequence for STATICSHADOWMODE_GENERATE_ONCE in order to prevent drop ship shadow from
+being clamped.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_enabled</code></summary>
@@ -12097,7 +12106,7 @@ flags: `0x2`
 Set whether to render cascading shadow maps
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_fadeModels</code></summary>
@@ -12105,7 +12114,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_force_no_csm_in_reflections</code></summary>
@@ -12113,7 +12122,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_frustum_draw</code></summary>
@@ -12121,7 +12130,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_frustum_draw_lock</code></summary>
@@ -12129,7 +12138,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_ignore_cascade12</code></summary>
@@ -12137,7 +12146,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_ignore_edge_planes</code></summary>
@@ -12145,7 +12154,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_ignore_face_planes</code></summary>
@@ -12153,7 +12162,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_max_z_offset</code></summary>
@@ -12161,7 +12170,7 @@ flags: `0x2`
 Note csm_z_cover_world expands Z range as well
 
 default: `"1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_min_z_offset</code></summary>
@@ -12169,7 +12178,7 @@ flags: `0x2`
 Note csm_z_cover_world expands Z range as well
 
 default: `"-1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_renderable_shadows</code></summary>
@@ -12177,7 +12186,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_rope_shadows</code></summary>
@@ -12185,7 +12194,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_rot_override</code></summary>
@@ -12193,7 +12202,7 @@ flags: `0x2`
 map_settings_override MUST BE ENABLED FOR THIS TO BE FUNCTIONAL.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_rot_x</code></summary>
@@ -12201,7 +12210,7 @@ flags: `0x2`
 map_settings_override MUST BE ENABLED FOR THIS TO BE FUNCTIONAL.
 
 default: `"50"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_rot_y</code></summary>
@@ -12209,7 +12218,7 @@ flags: `0x2`
 map_settings_override MUST BE ENABLED FOR THIS TO BE FUNCTIONAL.
 
 default: `"43"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_shadow_split_lerp_factor_range</code></summary>
@@ -12217,7 +12226,7 @@ flags: `0x2`
 
 
 default: `".1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_terrain_shadows</code></summary>
@@ -12225,7 +12234,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_texel_size_cascade_0</code></summary>
@@ -12233,7 +12242,7 @@ flags: `0x2`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_texel_size_cascade_1</code></summary>
@@ -12241,7 +12250,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_texel_size_cascade_2</code></summary>
@@ -12249,7 +12258,7 @@ flags: `0x2`
 
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_texel_size_cascade_onecascade</code></summary>
@@ -12257,7 +12266,7 @@ flags: `0x2`
 
 
 default: `"2.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_use_env_light_direction</code></summary>
@@ -12265,7 +12274,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_world_shadow_meshes</code></summary>
@@ -12273,7 +12282,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_world_shadows</code></summary>
@@ -12281,7 +12290,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_z_cover_world</code></summary>
@@ -12289,7 +12298,7 @@ flags: `0x2`
 Expands CSM Depth coverage. 1 - Sea Height to Jump Height by Script, 2 - Static shadow's depth range
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>curl_allowHTTPS</code></summary>
@@ -12297,7 +12306,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>curl_preloadDlls</code></summary>
@@ -12305,7 +12314,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>curl_spamAllQueryStates</code></summary>
@@ -12313,7 +12322,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cursorWide</code></summary>
@@ -12321,7 +12330,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>curved_zipline_skip_cooldown_increase</code></summary>
@@ -12329,7 +12338,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>customMatchChannel_hostname</code></summary>
@@ -12337,7 +12346,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>customMatchPub_hostname</code></summary>
@@ -12345,7 +12354,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>customMatch_channel</code></summary>
@@ -12353,7 +12362,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>customMatch_enabled</code></summary>
@@ -12361,7 +12370,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>customMatch_forceHiddenPlaylistAccess</code></summary>
@@ -12369,7 +12378,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>customMatch_forceSpecialAccess</code></summary>
@@ -12377,7 +12386,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>customMatch_hasMultiplePlayers</code></summary>
@@ -12385,7 +12394,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>customMatch_liveapi</code></summary>
@@ -12393,7 +12402,7 @@ flags: `0x200`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>customMatch_playerToken</code></summary>
@@ -12401,7 +12410,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>customMatch_public_enabled</code></summary>
@@ -12409,7 +12418,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>customMatch_startMatchmakingDelay</code></summary>
@@ -12417,7 +12426,7 @@ flags: `0x2002`
 Countdown delay (seconds) before custom match admin starts matchmaking.
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>damageIndicatorReplayTimeOffset</code></summary>
@@ -12425,7 +12434,7 @@ flags: `0x2`
 Artificial delay of damage indicator in replay
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>damage_indicator_style_pilot</code></summary>
@@ -12433,7 +12442,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>damageinfo_defendInvalidValues</code></summary>
@@ -12441,7 +12450,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>debugFootstepEffects</code></summary>
@@ -12449,7 +12458,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>debug_controller_menu_test_generic</code></summary>
@@ -12457,7 +12466,7 @@ flags: `0x2`
 Enable the controller testing within the menu.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>debug_debug_overlay</code></summary>
@@ -12465,7 +12474,7 @@ flags: `0x2`
 Enable debug of the debug overlays
 
 default: `"0"`  
-flags: `0x4004`  
+flags: `0x4004`
 </details>
 <details>
 <summary><code>debug_force_textRestriction</code></summary>
@@ -12473,7 +12482,7 @@ flags: `0x4004`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>debug_force_ugcRestriction</code></summary>
@@ -12481,7 +12490,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>debug_force_voiceRestriction</code></summary>
@@ -12489,7 +12498,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>debug_map_crc</code></summary>
@@ -12497,7 +12506,7 @@ flags: `0x2`
 Prints CRC for each map lump loaded
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>decal_clip_debug_draw</code></summary>
@@ -12505,15 +12514,16 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>decal_clip_debug_groups</code></summary>
 
-this kicks off this many work groups when a decal is spawned instead of one for each triangle on the model. 0 is disabled
+this kicks off this many work groups when a decal is spawned instead of one for each triangle on the model. 0 is
+disabled
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>defer_weapon_effects</code></summary>
@@ -12521,7 +12531,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>delayPostSnapshotNotificationsToAfterInterpolation</code></summary>
@@ -12529,7 +12539,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>deltaBuf_dump_includeFields</code></summary>
@@ -12537,7 +12547,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>deltaBuf_forceOverflow</code></summary>
@@ -12545,7 +12555,7 @@ flags: `0x2`
 Simulate an overflow of the client delta buffer
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>deltaBuf_fullUpdateOnOverflow</code></summary>
@@ -12553,7 +12563,7 @@ flags: `0x2`
 Ask the server for a FullUpdate when the delta buffer overflows. This may cause a client death spiral
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>deltaBuf_restrictSizePercent</code></summary>
@@ -12561,7 +12571,7 @@ flags: `0x2`
 When testing budget limits, assume the delta buffer is smaller than it actually is by this percent
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>demo_autoRecord</code></summary>
@@ -12569,7 +12579,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>demo_autoRecordName</code></summary>
@@ -12577,7 +12587,7 @@ flags: `0x2`
 
 
 default: `"demo"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>demo_connect_string</code></summary>
@@ -12585,7 +12595,7 @@ flags: `0x2`
 Connect string for demo UI
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>demo_ui_enable</code></summary>
@@ -12593,7 +12603,7 @@ flags: `0x2`
 Suffix for the demo UI
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>depth_prepass_dist_cutouts</code></summary>
@@ -12601,7 +12611,7 @@ flags: `0x2`
 
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>depth_prepass_dist_opaques</code></summary>
@@ -12609,7 +12619,7 @@ flags: `0x2`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>depth_prepass_include_opaques</code></summary>
@@ -12617,7 +12627,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>devStats</code></summary>
@@ -12625,7 +12635,7 @@ flags: `0x2`
 True if game should report dev stats.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>developer</code></summary>
@@ -12633,7 +12643,7 @@ flags: `0x2002`
 Set developer message level
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>devnet_client_log</code></summary>
@@ -12641,7 +12651,7 @@ flags: `0x80000`
 Set by devnet server. When it opens a log for clients.
 
 default: `"NotSet"`  
-flags: `0x202`  
+flags: `0x202`
 </details>
 <details>
 <summary><code>directlighting_debug</code></summary>
@@ -12649,7 +12659,7 @@ flags: `0x202`
 1 - budget usage, 2 - light count per cell, 3 - attenuation check, 4 - cluster z coord
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>directlighting_debug_clusters</code></summary>
@@ -12657,7 +12667,7 @@ flags: `0x2`
 1 - light count in colors, 2 - all clusters
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>directlighting_debug_freeze</code></summary>
@@ -12665,7 +12675,7 @@ flags: `0x2`
 freeze light clusters so camera can move around to see the snapshot. 1 - freeze everything, 2 - freeze camera angle only
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debug_lightidx</code></summary>
@@ -12673,7 +12683,7 @@ flags: `0x4000`
 -1 : all, 0 and greater : specific light (s_globalLights index, which is 'static light index + 32 - skipped')
 
 default: `"-1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debug_lightvolume</code></summary>
@@ -12681,7 +12691,7 @@ flags: `0x4000`
 1 : screen space bounds, 2 : hexahedra, 3 : hexahedra cut by near plane
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debugout</code></summary>
@@ -12689,7 +12699,7 @@ flags: `0x4000`
 shader passes will write extra buffers with debug info
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debugpick</code></summary>
@@ -12697,7 +12707,7 @@ flags: `0x4000`
 Pick the center pixel (opaque only) and draw the influencing lights. 1 - enable, 2 - attenuation check too
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debugpick_drawmode</code></summary>
@@ -12705,7 +12715,7 @@ flags: `0x4000`
 Choose how lights are drawn. 0 - very simple, 1 - hexahedron, 2 - spheres & cones
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debugpick_freeze</code></summary>
@@ -12713,15 +12723,16 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debugpick_highlight</code></summary>
 
-Highlight one light shape at a time. The value is used how fast it cycles on the lights. Negative value will hide all other lights.
+Highlight one light shape at a time. The value is used how fast it cycles on the lights. Negative value will hide all
+other lights.
 
 default: `"3"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_debugpick_ztest</code></summary>
@@ -12729,7 +12740,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>directlighting_emissive_mul</code></summary>
@@ -12738,7 +12749,7 @@ Debug only. Lighting mode 1 only. global mutliplier for all emissive textures.
 This is used to convert emissive texel values to Nit values. (ex. if set 3, 1.0 in emissive texture becomes 3.0 Nit.)
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>directlighting_falloff</code></summary>
@@ -12748,7 +12759,7 @@ override falloff with ground truth based falloff. turns on debug shader.
 NOT RECOMMENDED TO CHANGE FOR LIGHTING_MODE 1
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>directlighting_falloff_cap</code></summary>
@@ -12756,7 +12767,7 @@ flags: `0x2`
 Debug only. falloff cap. effective only for ground truth based falloff.
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>directlighting_global_mul</code></summary>
@@ -12764,7 +12775,7 @@ flags: `0x2`
 Debug only. global mutliplier for all lighting result. emissive or unlit materials are not affected.
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>directlighting_mode</code></summary>
@@ -12772,7 +12783,7 @@ flags: `0x2`
 0 - always probe/lightmap, 1 - lobby uses clustered lighting, 2 - always clustered lighting
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>disable_zipline_in_oob_trigger</code></summary>
@@ -12780,7 +12791,7 @@ flags: `0x2`
 Disallow ziplines from being placed inside of OOB triggers.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>discord_largeImage</code></summary>
@@ -12788,7 +12799,7 @@ flags: `0x2002`
 
 
 default: `"default"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>discord_smallImage</code></summary>
@@ -12796,7 +12807,7 @@ flags: `0x2`
 
 
 default: `"default_small"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>discord_updatePresence</code></summary>
@@ -12804,7 +12815,7 @@ flags: `0x2`
 Enable discord rich presence.
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>dlight_default_falloff</code></summary>
@@ -12812,7 +12823,7 @@ flags: `0x80000`
 default half-distance fraction for legacy dlights.
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dlight_early_clear</code></summary>
@@ -12820,7 +12831,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dlight_enable</code></summary>
@@ -12828,7 +12839,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dlight_lumen_conversion</code></summary>
@@ -12836,7 +12847,7 @@ flags: `0x2`
 this value will be multiplier to all dlight colors when the map is set up with lighting mode 1.
 
 default: `"71.8"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>dlight_overlay</code></summary>
@@ -12844,7 +12855,7 @@ flags: `0x4000`
 Draw debug overlay of dlight array
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>dodge_cockpitHack</code></summary>
@@ -12852,7 +12863,7 @@ flags: `0x4000`
 Hack to avoid eye moving too far back in cockpit
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_cockpitOffsetMax</code></summary>
@@ -12860,7 +12871,7 @@ flags: `0x2002`
 Cockpit translation while dodging
 
 default: `"3"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_cockpitTiltMax</code></summary>
@@ -12868,7 +12879,7 @@ flags: `0x2002`
 Additional view tilt applied to the cockpit while dodging
 
 default: `"4"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_vertical_enable</code></summary>
@@ -12876,7 +12887,7 @@ flags: `0x2002`
 Enables vertical dodge
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_vertical_horzspeedscale</code></summary>
@@ -12884,7 +12895,7 @@ flags: `0x2002`
 Horizontal speed retained when dodging vertically
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_vertical_in_air</code></summary>
@@ -12892,7 +12903,7 @@ flags: `0x2002`
 Allow dodge to still apply vertical acceleration when player is in the air
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_vertical_threshold</code></summary>
@@ -12900,7 +12911,7 @@ flags: `0x2002`
 Stick deflection before dodge becomes vertical
 
 default: `"0.1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_viewTiltDecreaseSpeed</code></summary>
@@ -12908,7 +12919,7 @@ flags: `0x2002`
 Speed at which view tilt decreases while dodging (degrees/sec)
 
 default: `"2.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_viewTiltFalloffTime</code></summary>
@@ -12916,7 +12927,7 @@ flags: `0x2002`
 Time during which view tilt decays to zero while dodging
 
 default: `".7"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_viewTiltIncreaseSpeed</code></summary>
@@ -12924,7 +12935,7 @@ flags: `0x2002`
 Speed at which view tilt increases while dodging (degrees/sec)
 
 default: `"5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dodge_viewTiltMax</code></summary>
@@ -12932,7 +12943,7 @@ flags: `0x2002`
 Amount of view tilt while dodging in degrees
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>dof_enable</code></summary>
@@ -12940,7 +12951,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_farDepthEnd</code></summary>
@@ -12948,7 +12959,7 @@ flags: `0x2`
 
 
 default: `"3000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_farDepthStart</code></summary>
@@ -12956,7 +12967,7 @@ flags: `0x2`
 
 
 default: `"2000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_monitorFarDepthEnd</code></summary>
@@ -12964,7 +12975,7 @@ flags: `0x2`
 
 
 default: `"3000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_monitorFarDepthStart</code></summary>
@@ -12972,7 +12983,7 @@ flags: `0x2`
 
 
 default: `"2000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_monitorNearDepthEnd</code></summary>
@@ -12980,7 +12991,7 @@ flags: `0x2`
 
 
 default: `"7.7"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_monitorNearDepthStart</code></summary>
@@ -12988,7 +12999,7 @@ flags: `0x2`
 
 
 default: `"7.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_nearDepthEnd</code></summary>
@@ -12996,7 +13007,7 @@ flags: `0x2`
 
 
 default: `"7.7"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_nearDepthStart</code></summary>
@@ -13004,7 +13015,7 @@ flags: `0x2`
 
 
 default: `"7.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_overrideParams</code></summary>
@@ -13012,7 +13023,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dof_variable_blur</code></summary>
@@ -13020,7 +13031,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dormant_debug</code></summary>
@@ -13028,7 +13039,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>draw_target_info_offscreen</code></summary>
@@ -13036,7 +13047,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dtwatchclass</code></summary>
@@ -13044,7 +13055,7 @@ flags: `0x2`
 Watch all fields encoded with this table.
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dtwatchdecode</code></summary>
@@ -13052,7 +13063,7 @@ flags: `0x2`
 When watching show decode.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dtwatchencode</code></summary>
@@ -13060,7 +13071,7 @@ flags: `0x2`
 When watching show encode.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dtwatchent</code></summary>
@@ -13068,7 +13079,7 @@ flags: `0x2`
 Watch this entities data table encoding.
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dtwatchvar</code></summary>
@@ -13076,7 +13087,7 @@ flags: `0x2`
 Watch the named variable.
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dump_varsights_calculations</code></summary>
@@ -13084,7 +13095,7 @@ flags: `0x2`
 Dumps one frame of variable sights calculations and turns itself off.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>durango_voice_chat_team_only</code></summary>
@@ -13092,7 +13103,7 @@ flags: `0x2`
 Only turn on voice chat for players on the same team
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dvs_enable</code></summary>
@@ -13100,7 +13111,7 @@ flags: `0x2`
 Enable dynamic viewport scaling.
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>dvs_enable_in_lobby</code></summary>
@@ -13108,7 +13119,7 @@ flags: `0x40000000`
 Paired with dvs_enable. Both have to be true if we want to enable DVS in Lobby.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dvs_gpuframetime_max</code></summary>
@@ -13116,7 +13127,7 @@ flags: `0x2`
 GPU frametime threshold above which DVS will start decreasing the scale. Specified in microseconds.
 
 default: `"16500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dvs_gpuframetime_min</code></summary>
@@ -13124,7 +13135,7 @@ flags: `0x2`
 GPU frametime threshold below which DVS will start increasing the scale. Specified in microseconds.
 
 default: `"15000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dvs_scale_min</code></summary>
@@ -13134,7 +13145,7 @@ Smallest scale the viewport dimensions can be scaled by.
 default: `"0.5f"`  
 flags: `0x2`  
 min value: `0.01`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>ea_qvt_ident</code></summary>
@@ -13142,7 +13153,7 @@ max value: `1`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadpAuth_hostname</code></summary>
@@ -13150,7 +13161,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadpCodeRedemption_hostname</code></summary>
@@ -13158,7 +13169,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadpFriends_hostname</code></summary>
@@ -13166,7 +13177,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadpGroups_Enabled</code></summary>
@@ -13174,7 +13185,7 @@ flags: `0x80000`
 Allow EADP Groups to run
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadpGroups_hostname</code></summary>
@@ -13182,15 +13193,16 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadpGroups_lastActive_min_difference</code></summary>
 
-(hours) If difference between the current time and the club's lastActive time is at least this, we will send an update to the club. Negative values disble this feature.
+(hours) If difference between the current time and the club's lastActive time is at least this, we will send an update
+to the club. Negative values disble this feature.
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadpGroups_queryDisplayBatchUsePost</code></summary>
@@ -13198,7 +13210,7 @@ flags: `0x2`
 Use Post Not Get for /group/instances. calls
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadpGroups_tagBadlistLocation</code></summary>
@@ -13206,7 +13218,7 @@ flags: `0x2`
 Allow EADP Groups to run
 
 default: `"chatfilters/"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadpRtm_hostname</code></summary>
@@ -13214,7 +13226,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadpSearch_hostname</code></summary>
@@ -13222,7 +13234,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadpUM_hostname</code></summary>
@@ -13230,7 +13242,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadp_ctId</code></summary>
@@ -13238,7 +13250,7 @@ flags: `0x80000`
 
 
 default: `"df6bea12-b33e-6797-2f39-2e3cf6cde3fa"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadp_do_pidinfo_fetch</code></summary>
@@ -13246,7 +13258,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadp_force_nxNameDiscoverable</code></summary>
@@ -13254,7 +13266,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadp_friend_use_ctid</code></summary>
@@ -13262,7 +13274,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadp_persistence</code></summary>
@@ -13270,23 +13282,25 @@ flags: `0x2`
 
 
 default: `"R5"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>eadp_presence_encode_gamesessiondata</code></summary>
 
-base64 encode the entirety of gamesessiondata! Unstable for pre-S10.1 clients, but eliminates possibility of anything getting messed up. - workaround for current eadp rtm limitations.
+base64 encode the entirety of gamesessiondata! Unstable for pre-S10.1 clients, but eliminates possibility of anything
+getting messed up. - workaround for current eadp rtm limitations.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadp_presence_encode_presence_state</code></summary>
 
-base64 encode the presence state RTM message. More stable for old clients compared to encoding gamesessiondata. - workaround for current eadp rtm limitations.
+base64 encode the presence state RTM message. More stable for old clients compared to encoding gamesessiondata. -
+workaround for current eadp rtm limitations.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadp_rtm_spam_log</code></summary>
@@ -13294,7 +13308,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>effect_update_array_spam</code></summary>
@@ -13302,7 +13316,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>enableWeaponModClientScriptCallbacks</code></summary>
@@ -13310,7 +13324,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>enable_KVFileOverrides</code></summary>
@@ -13318,7 +13332,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>enable_debug_free_energize</code></summary>
@@ -13326,7 +13340,7 @@ flags: `0x2`
 when enabled, allow player to energize weapon without using consumble
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>enable_debug_overlays</code></summary>
@@ -13334,7 +13348,7 @@ flags: `0x2002`
 Enable rendering of debug overlays
 
 default: `"1"`  
-flags: `0x4004`  
+flags: `0x4004`
 </details>
 <details>
 <summary><code>enable_height_based_land_anims</code></summary>
@@ -13342,7 +13356,7 @@ flags: `0x4004`
 Enables different land animations based on the height of the fall. These may just be duplicates of each other.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>enable_height_based_land_anims_titans</code></summary>
@@ -13350,7 +13364,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>enable_io_error_reporting_to_backtrace</code></summary>
@@ -13358,7 +13372,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>enable_new_weapon_attachment_system</code></summary>
@@ -13366,7 +13380,7 @@ flags: `0x2`
 using new weapon attachment system rather than body groups
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>enable_skeleton_draw</code></summary>
@@ -13374,7 +13388,7 @@ flags: `0x2002`
 Render skeletons in wireframe
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>enable_uninitialized_netvar_crashes</code></summary>
@@ -13382,7 +13396,7 @@ flags: `0x4000`
 Enable crashing of the game when uninitialized network variables are used (QA only)! 1 - on, 0 - off (default).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ent_lightweightEnts</code></summary>
@@ -13390,7 +13404,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ent_repack_almostFull</code></summary>
@@ -13398,7 +13412,7 @@ flags: `0x2`
 
 
 default: `"3000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ent_repack_threshhold</code></summary>
@@ -13406,7 +13420,7 @@ flags: `0x2`
 
 
 default: `"0.0001"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>entity_error_on_hitbox_count_mismatch</code></summary>
@@ -13414,7 +13428,7 @@ flags: `0x2`
 If set to true, SetModel will trigger a script error if any hitbox attachments will become invalid.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>entity_skipRedundantAddEffects</code></summary>
@@ -13422,7 +13436,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>entity_useNetworkFieldBuffer</code></summary>
@@ -13430,7 +13444,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x400002`  
+flags: `0x400002`
 </details>
 <details>
 <summary><code>entityreport_minAllocations</code></summary>
@@ -13438,7 +13452,7 @@ flags: `0x400002`
 
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>equip_all_emotes</code></summary>
@@ -13446,7 +13460,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>error_if_non_standard_ent_create</code></summary>
@@ -13454,7 +13468,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eula_version</code></summary>
@@ -13462,7 +13476,7 @@ flags: `0x2`
 What the current version of the EULA is
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eula_version_accepted</code></summary>
@@ -13470,7 +13484,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>eventseq_debug</code></summary>
@@ -13478,7 +13492,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>everything_unlocked</code></summary>
@@ -13486,7 +13500,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>fast_intro</code></summary>
@@ -13494,7 +13508,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>fastpatch_uiscript_reset</code></summary>
@@ -13502,7 +13516,7 @@ flags: `0x2002`
 Call uiscript_reset to reload patched GUI scripts.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fatal_error_signal_abort</code></summary>
@@ -13510,7 +13524,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>fatal_script_error_prompt</code></summary>
@@ -13518,7 +13532,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>fatal_script_errors</code></summary>
@@ -13526,7 +13540,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>fatal_script_errors_client</code></summary>
@@ -13534,7 +13548,7 @@ flags: `0x2002`
 Enable fatal errors for client script. -1 will revert to using "fatal_script_errors"
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fatal_script_errors_server</code></summary>
@@ -13542,7 +13556,7 @@ flags: `0x2`
 Enable fatal errors for server script. -1 will revert to using "fatal_script_errors"
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>feature_suppression_flags</code></summary>
@@ -13550,7 +13564,7 @@ flags: `0x2`
 Flags to indicate which features to suppress on startup
 
 default: `"0"`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>filesystem_buffer_size</code></summary>
@@ -13558,7 +13572,7 @@ flags: `0x12`
 Size of per file buffers. 0 for none
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>filesystem_max_stdio_read</code></summary>
@@ -13566,7 +13580,7 @@ flags: `0x2`
 
 
 default: `"16"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>filesystem_native</code></summary>
@@ -13574,7 +13588,7 @@ flags: `0x2`
 Use native FS or STDIO
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>filesystem_report_buffered_io</code></summary>
@@ -13582,7 +13596,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>filesystem_unbuffered_io</code></summary>
@@ -13590,7 +13604,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>filesystem_use_overlapped_io</code></summary>
@@ -13598,7 +13612,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fire_animevents_overlay_not_active</code></summary>
@@ -13606,15 +13620,16 @@ flags: `0x2`
 fires anim events even if the overlay isn't active
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>first_person_bullet_delay</code></summary>
 
-Set the amount of additional delay for first person bullets fired with net_optimize_weapons in seconds. Required so bullets match animations with cl_predict 0 and in kill replay
+Set the amount of additional delay for first person bullets fired with net_optimize_weapons in seconds. Required so
+bullets match animations with cl_predict 0 and in kill replay
 
 default: `"0.1f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>first_person_proxy_blend_distance</code></summary>
@@ -13622,7 +13637,7 @@ flags: `0x2002`
 
 
 default: `"-60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>first_person_proxy_debug</code></summary>
@@ -13630,7 +13645,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>first_time_player_state</code></summary>
@@ -13638,7 +13653,7 @@ flags: `0x6000`
 The current stage a new user is at
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>firsttime_mp_message</code></summary>
@@ -13646,7 +13661,7 @@ flags: `0x1000000`
 first time joining multiplayer
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>fog_enable</code></summary>
@@ -13654,7 +13669,7 @@ flags: `0x1000000`
 map_settings_override MUST BE ENABLED FOR THIS TO BE FUNCTIONAL.
 
 default: `"1"`  
-flags: `0x40000002`  
+flags: `0x40000002`
 </details>
 <details>
 <summary><code>fog_enableskybox</code></summary>
@@ -13662,7 +13677,7 @@ flags: `0x40000002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fol_wind_speed_multiplier</code></summary>
@@ -13670,7 +13685,7 @@ flags: `0x2`
 Global wind speed multiplier for client animation.
 
 default: `"1"`  
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>force3PLaserAttachment</code></summary>
@@ -13678,7 +13693,7 @@ flags: `0xa`
 
 
 default: `"HEADFOCUS"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>force_EAAccess</code></summary>
@@ -13686,7 +13701,7 @@ flags: `0x2002`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>force_stance_v2</code></summary>
@@ -13694,7 +13709,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>fov_disableAbilityScaling</code></summary>
@@ -13702,7 +13717,7 @@ flags: `0x2002`
 Disable fov scaling for abilities
 
 default: `"0"`  
-flags: `0x41000000`  
+flags: `0x41000000`
 </details>
 <details>
 <summary><code>fps_absolute_max</code></summary>
@@ -13710,7 +13725,7 @@ flags: `0x41000000`
 fps_max can't rise above this absolute cap
 
 default: `"300.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>fps_max</code></summary>
@@ -13718,7 +13733,7 @@ flags: `0x2002`
 Frame rate limiter. -1 indicates use the desktop refresh. 0 is unlocked.
 
 default: `"-1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>fps_max_use_refresh</code></summary>
@@ -13726,7 +13741,7 @@ flags: `0x80000`
 Use refresh rate for fps_max.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fps_max_vsync</code></summary>
@@ -13734,7 +13749,7 @@ flags: `0x2`
 Frame rate limiter with vsync is enabled.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>freecam_swallowButtonInput</code></summary>
@@ -13742,7 +13757,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>freefall_sound_autoplay_time</code></summary>
@@ -13750,7 +13765,7 @@ flags: `0x2`
 If the player falls for longer than this amount of time freefall sounds will automatically start playing.
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>freefall_sound_height</code></summary>
@@ -13758,7 +13773,7 @@ flags: `0x2002`
 Height player must be falling from to trigger freefall sound effects.
 
 default: `"200.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>friends_joinUsePresence</code></summary>
@@ -13766,7 +13781,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>friends_onlineUpdateInterval</code></summary>
@@ -13774,7 +13789,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_intralevel_reads</code></summary>
@@ -13782,7 +13797,7 @@ flags: `0x2`
 Internal var to tell the file system that we are in an intraread state...
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_monitor_read_from_pack</code></summary>
@@ -13790,7 +13805,7 @@ flags: `0x2`
 0:Off, 1:Any, 2:Sync only
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_report_intra_level_readopens</code></summary>
@@ -13798,7 +13813,7 @@ flags: `0x2`
 0:Off, 1:NotAudio, 2:All
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_report_long_reads</code></summary>
@@ -13806,7 +13821,7 @@ flags: `0x2`
 0:Off, 1:All (for tracking accumulated duplicate read times), >1:Microsecond threshold
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_report_sync_opens</code></summary>
@@ -13814,7 +13829,7 @@ flags: `0x2`
 0:Off, 1:Always, 2:Not during map load
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_report_sync_opens_callstack</code></summary>
@@ -13822,7 +13837,7 @@ flags: `0x2`
 0 to not display the call-stack when we hit a fs_report_sync_opens warning. Set to 1 to display the call-stack.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_report_sync_opens_fatal</code></summary>
@@ -13830,7 +13845,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x40000002`  
+flags: `0x40000002`
 </details>
 <details>
 <summary><code>fs_showAllReads</code></summary>
@@ -13838,7 +13853,7 @@ flags: `0x40000002`
 0:Off, 1:On
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_vpk_file_open</code></summary>
@@ -13846,7 +13861,7 @@ flags: `0x2`
 0: No reporting, 1: Patch:VPKFilePath, 2: Patch:VPKFilePath:PartialPath
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_warning_mode</code></summary>
@@ -13854,7 +13869,7 @@ flags: `0x2`
 0:Off, 1:Warn main thread, 2:Warn other threads
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ftue_flow_enabled</code></summary>
@@ -13862,15 +13877,16 @@ flags: `0x2`
 Enables the FTUE/New Player flow
 
 default: `"1"`  
-flags: `0x2012`  
+flags: `0x2012`
 </details>
 <details>
 <summary><code>fullscreen_enabled</code></summary>
 
-Expose fullscreen state so that the popup thread can disable itself when we're in fullscreen (otherwise it kicks us out of fullscreen).
+Expose fullscreen state so that the popup thread can disable itself when we're in fullscreen (otherwise it kicks us out
+of fullscreen).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>func_break_max_pieces</code></summary>
@@ -13878,7 +13894,7 @@ flags: `0x2`
 
 
 default: `"15"`  
-flags: `0x2080`  
+flags: `0x2080`
 </details>
 <details>
 <summary><code>fx_debug</code></summary>
@@ -13886,7 +13902,7 @@ flags: `0x2080`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>fx_deferWorldTraceConstraint</code></summary>
@@ -13894,7 +13910,7 @@ flags: `0x2002`
 'Collision via traces' ops using collision mode 0 use deferred traces.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fx_glass_velocity_cap</code></summary>
@@ -13902,7 +13918,7 @@ flags: `0x2`
 Maximum downwards speed of shattered glass particles
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fx_impact_ally</code></summary>
@@ -13910,7 +13926,7 @@ flags: `0x2`
 
 
 default: `"0.49 0.76 1.0 1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fx_impact_enemy</code></summary>
@@ -13918,7 +13934,7 @@ flags: `0x2`
 
 
 default: `"1.0 0.47 0.13 1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fx_impact_neutral</code></summary>
@@ -13926,7 +13942,7 @@ flags: `0x2`
 
 
 default: `"0.86 0.86 0.86 1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fx_screenspacepass</code></summary>
@@ -13934,7 +13950,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>g_debug_ragdoll_removal</code></summary>
@@ -13942,7 +13958,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>g_ragdoll_fadespeed</code></summary>
@@ -13950,7 +13966,7 @@ flags: `0x6000`
 
 
 default: `"600"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>g_ragdoll_important_maxcount</code></summary>
@@ -13958,7 +13974,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>g_ragdoll_lvfadespeed</code></summary>
@@ -13966,7 +13982,7 @@ flags: `0x2002`
 
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gameCursor_ModeActive</code></summary>
@@ -13974,7 +13990,7 @@ flags: `0x2`
 Globally activates/deactivates game cursor mode
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gameCursor_Velocity</code></summary>
@@ -13982,7 +13998,7 @@ flags: `0x2`
 Game cursor velocity under joystick control
 
 default: `"1300.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_0</code></summary>
@@ -13992,7 +14008,7 @@ Gamepad ads sensitivity for 1x scopes / ironsights.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_1</code></summary>
@@ -14002,7 +14018,7 @@ Gamepad ads sensitivity for 2x scopes.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_2</code></summary>
@@ -14012,7 +14028,7 @@ Gamepad ads sensitivity for 3x scopes.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_3</code></summary>
@@ -14022,7 +14038,7 @@ Gamepad ads sensitivity for 4x scopes.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_4</code></summary>
@@ -14032,7 +14048,7 @@ Gamepad ads sensitivity for 6x scopes.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_5</code></summary>
@@ -14042,7 +14058,7 @@ Gamepad ads sensitivity for 8x scopes.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_6</code></summary>
@@ -14052,7 +14068,7 @@ Gamepad ads sensitivity for 10x scopes.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_ads_advanced_sensitivity_scalar_7</code></summary>
@@ -14062,7 +14078,7 @@ Gamepad ads sensitivity for an unused scope.
 default: `"1.0"`  
 flags: `0x1000000`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>gamepad_aim_assist_ads_high_power_scopes</code></summary>
@@ -14070,7 +14086,7 @@ max value: `20`
 Gamepad uses aim assist in ADS with high powered scopes
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_aim_assist_ads_low_power_scopes</code></summary>
@@ -14078,7 +14094,7 @@ flags: `0x1000000`
 Gamepad uses aim assist in ADS with low powered scopes
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_aim_assist_hip_high_power_scopes</code></summary>
@@ -14086,7 +14102,7 @@ flags: `0x1000000`
 Gamepad uses aim assist in Hip with high powered scopes
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_aim_assist_hip_low_power_scopes</code></summary>
@@ -14094,7 +14110,7 @@ flags: `0x1000000`
 Gamepad uses aim assist in Hip with low powered scopes
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_aim_assist_melee</code></summary>
@@ -14102,7 +14118,7 @@ flags: `0x1000000`
 Gamepad uses aim assist with melee weapons
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_aim_speed</code></summary>
@@ -14112,7 +14128,7 @@ flags: `0x1000000`
 default: `"2"`  
 flags: `0x1000000`  
 min value: `0`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_0</code></summary>
@@ -14122,7 +14138,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_1</code></summary>
@@ -14132,7 +14148,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_2</code></summary>
@@ -14142,7 +14158,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_3</code></summary>
@@ -14152,7 +14168,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_4</code></summary>
@@ -14162,7 +14178,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_5</code></summary>
@@ -14172,7 +14188,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_6</code></summary>
@@ -14182,7 +14198,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_aim_speed_ads_7</code></summary>
@@ -14192,7 +14208,7 @@ max value: `7`
 default: `"-1"`  
 flags: `0x1000000`  
 min value: `-1`  
-max value: `7`  
+max value: `7`
 </details>
 <details>
 <summary><code>gamepad_button_layout</code></summary>
@@ -14200,7 +14216,7 @@ max value: `7`
 Gamepad button layout (used by menus)
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_buttons_are_southpaw</code></summary>
@@ -14208,7 +14224,7 @@ flags: `0x1000000`
 Gamepad button layouts should use southpaw variants (used by menus)
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_ads_pitch</code></summary>
@@ -14216,7 +14232,7 @@ flags: `0x1000000`
 
 
 default: `"75.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_ads_turn_delay</code></summary>
@@ -14224,7 +14240,7 @@ flags: `0x1000000`
 
 
 default: `"0.25"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_ads_turn_pitch</code></summary>
@@ -14232,7 +14248,7 @@ flags: `0x1000000`
 
 
 default: `"30.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_ads_turn_time</code></summary>
@@ -14240,7 +14256,7 @@ flags: `0x1000000`
 
 
 default: `"1.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_ads_turn_yaw</code></summary>
@@ -14248,7 +14264,7 @@ flags: `0x1000000`
 
 
 default: `"30.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_ads_yaw</code></summary>
@@ -14256,7 +14272,7 @@ flags: `0x1000000`
 
 
 default: `"110.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_assist_on</code></summary>
@@ -14264,7 +14280,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_assist_style</code></summary>
@@ -14272,7 +14288,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_curve</code></summary>
@@ -14280,7 +14296,7 @@ flags: `0x1000000`
 
 
 default: `"10.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_deadzone_in</code></summary>
@@ -14288,7 +14304,7 @@ flags: `0x1000000`
 
 
 default: `"0.15"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_deadzone_out</code></summary>
@@ -14296,7 +14312,7 @@ flags: `0x1000000`
 
 
 default: `"0.02"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_enabled</code></summary>
@@ -14304,7 +14320,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_hip_pitch</code></summary>
@@ -14312,7 +14328,7 @@ flags: `0x1000000`
 
 
 default: `"120.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_hip_turn_delay</code></summary>
@@ -14320,7 +14336,7 @@ flags: `0x1000000`
 
 
 default: `"0.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_hip_turn_pitch</code></summary>
@@ -14328,7 +14344,7 @@ flags: `0x1000000`
 
 
 default: `"0.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_hip_turn_time</code></summary>
@@ -14336,7 +14352,7 @@ flags: `0x1000000`
 
 
 default: `"0.33"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_hip_turn_yaw</code></summary>
@@ -14344,7 +14360,7 @@ flags: `0x1000000`
 
 
 default: `"220.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_hip_yaw</code></summary>
@@ -14352,7 +14368,7 @@ flags: `0x1000000`
 
 
 default: `"160.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_pilot</code></summary>
@@ -14360,7 +14376,7 @@ flags: `0x1000000`
 
 
 default: `"0,1,2,3,4,5,6,7,8,9,10,11,12,13"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_custom_titan</code></summary>
@@ -14368,7 +14384,7 @@ flags: `0x1000000`
 
 
 default: `"0,1,2,3,4,5,6,7,8,9,10,11,12,13"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_deadzone_index_look</code></summary>
@@ -14376,7 +14392,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_deadzone_index_move</code></summary>
@@ -14384,7 +14400,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_enabled</code></summary>
@@ -14394,7 +14410,7 @@ True if the gamepad is enabled, false otherwise.
 default: `"1"`  
 flags: `0x2`  
 min value: `0`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>gamepad_look_curve</code></summary>
@@ -14404,7 +14420,7 @@ max value: `1`
 default: `"0"`  
 flags: `0x1000000`  
 min value: `0`  
-max value: `4`  
+max value: `4`
 </details>
 <details>
 <summary><code>gamepad_stick_layout</code></summary>
@@ -14412,7 +14428,7 @@ max value: `4`
 Gamepad stick layout (used by menus)
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_toggle_ads</code></summary>
@@ -14420,7 +14436,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_toggle_survivalSlot_to_weaponInspect</code></summary>
@@ -14428,7 +14444,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_togglecrouch_hold</code></summary>
@@ -14436,7 +14452,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_trigger_threshold</code></summary>
@@ -14444,7 +14460,7 @@ flags: `0x1000000`
 
 
 default: `"30"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_use_per_scope_ads_settings</code></summary>
@@ -14452,7 +14468,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_use_per_scope_sensitivity_scalars</code></summary>
@@ -14460,7 +14476,7 @@ flags: `0x1000000`
 Gamepad uses the per scope scalars
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gamepad_use_type</code></summary>
@@ -14468,7 +14484,7 @@ flags: `0x1000000`
 Gamepad use scheme (used by menus), 0: hold use, tap reload, 1: tap use, hold reload, 2: tap use/reload
 
 default: `"2"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gameui_xbox</code></summary>
@@ -14476,7 +14492,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gamma_adjusted</code></summary>
@@ -14484,7 +14500,7 @@ flags: `0x2`
 Whether player has done gamma adjustment
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>gatherprops_no_wait</code></summary>
@@ -14492,7 +14508,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gfx_desaturate_force</code></summary>
@@ -14500,7 +14516,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gfx_nvnUseLowLatency</code></summary>
@@ -14508,7 +14524,7 @@ flags: `0x2`
 enables Nvidia Low Latency SDK
 
 default: `"1"`  
-flags: `0x80080`  
+flags: `0x80080`
 </details>
 <details>
 <summary><code>gfx_nvnUseLowLatencyBoost</code></summary>
@@ -14516,7 +14532,7 @@ flags: `0x80080`
 enables Low Latency Boost
 
 default: `"1"`  
-flags: `0x80080`  
+flags: `0x80080`
 </details>
 <details>
 <summary><code>gl_clear_color_buffer</code></summary>
@@ -14524,7 +14540,7 @@ flags: `0x80080`
 Enable or disable the clearing of the main color buffer.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>gl_clear_fogcolor</code></summary>
@@ -14532,7 +14548,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>gl_clear_mrt4</code></summary>
@@ -14540,15 +14556,16 @@ flags: `0x4000`
 Enable or disable the clearing of mrt4.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>gl_clear_randomcolor</code></summary>
 
-Clear the back buffer to different colors. Helps spot open seams in geometry. This used to be random per-frame but it was too flashy, now controlled by gl_clear_randomcolor_period_sec.
+Clear the back buffer to different colors. Helps spot open seams in geometry. This used to be random per-frame but it
+was too flashy, now controlled by gl_clear_randomcolor_period_sec.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>gl_clear_randomcolor_period_sec</code></summary>
@@ -14556,7 +14573,7 @@ flags: `0x4000`
 The amount of seconds between switching the clear to a different random color.
 
 default: `"1.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>glass_break_required_speed</code></summary>
@@ -14564,7 +14581,7 @@ flags: `0x4000`
 
 
 default: `"150"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>glass_shatter_direction_force_scale</code></summary>
@@ -14572,7 +14589,7 @@ flags: `0x6000`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>glass_shatter_force_scale</code></summary>
@@ -14580,7 +14597,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>glass_shatter_size_scale</code></summary>
@@ -14588,7 +14605,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>glass_shatter_use_real_direction</code></summary>
@@ -14596,7 +14613,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>glitch_aberrationScale</code></summary>
@@ -14604,7 +14621,7 @@ flags: `0x2`
 How far apart the glitch cloak samples should be.
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>global_lighting_partial_update</code></summary>
@@ -14612,7 +14629,7 @@ flags: `0x2002`
 Allow partial uploads of GPU lights (optimization.)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gpu_count</code></summary>
@@ -14620,7 +14637,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gpu_driven_tex_stream_single_thread</code></summary>
@@ -14628,7 +14645,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gpu_level</code></summary>
@@ -14636,7 +14653,7 @@ flags: `0x2`
 GPU Level - Default: High
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gpu_level</code></summary>
@@ -14644,7 +14661,7 @@ flags: `0x2`
 GPU Level - Default: High
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gpu_mem_level</code></summary>
@@ -14652,7 +14669,7 @@ flags: `0x2`
 Memory Level - Default: Normal
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gpu_mem_level</code></summary>
@@ -14660,7 +14677,7 @@ flags: `0x2`
 Memory Level - Default: Normal
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gpu_vram_size_mb</code></summary>
@@ -14668,7 +14685,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>grapple_accel_human</code></summary>
@@ -14676,7 +14693,7 @@ flags: `0x2`
 Speed added per second from grapple, up to the grapple_speedRamp* speed
 
 default: `"1000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_accel_titan</code></summary>
@@ -14684,7 +14701,7 @@ flags: `0x2002`
 Speed added per second from grapple, up to the grapple_speedRamp* speed
 
 default: `"1800"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_around_obstacle_accel</code></summary>
@@ -14692,7 +14709,7 @@ flags: `0x2002`
 Acceleration around obstacles while grappling
 
 default: `"1000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_autoMantle</code></summary>
@@ -14700,7 +14717,7 @@ flags: `0x2002`
 After detaching from grapple, how long to keep trying to automantle
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_autoMeleeConvergeTime</code></summary>
@@ -14708,7 +14725,7 @@ flags: `0x2002`
 Simplify relative velocities when the enemy is this many seconds away from hitting us (increases chances of a hit)
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_autoMeleeOnDetach</code></summary>
@@ -14716,7 +14733,7 @@ flags: `0x2002`
 Starts a melee sequence when the grapple detaches.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_autoMeleePredict</code></summary>
@@ -14724,7 +14741,7 @@ flags: `0x2002`
 Whether to run grapple melee logic on the client (tends to mispredict anyway)
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_autoMeleePredictTime</code></summary>
@@ -14732,7 +14749,7 @@ flags: `0x2002`
 Melee begins when the enemy is this many seconds away from hitting us
 
 default: `"0.13"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_autoMeleeViewRotateSpeedFar</code></summary>
@@ -14740,7 +14757,7 @@ flags: `0x2002`
 Speed at which view rotates toward grapple melee target
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_autoMeleeViewRotateSpeedNear</code></summary>
@@ -14748,7 +14765,7 @@ flags: `0x2002`
 Speed at which view rotates toward grapple melee target
 
 default: `"3"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_debug</code></summary>
@@ -14756,7 +14773,7 @@ flags: `0x2002`
 Show grapple debug info
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_decelMeleeStrength</code></summary>
@@ -14764,7 +14781,7 @@ flags: `0x2002`
 Strength of extra deceleration that forces melee targets to come to you
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_decel_human</code></summary>
@@ -14772,7 +14789,7 @@ flags: `0x2002`
 Deceleration of player's speed that doesn't go toward the grapple point
 
 default: `"425"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_decel_titan</code></summary>
@@ -14780,7 +14797,7 @@ flags: `0x2002`
 Deceleration of player's speed that doesn't go toward the grapple point
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_detachExtraAllowedLength</code></summary>
@@ -14788,7 +14805,7 @@ flags: `0x2002`
 Extra allowed grapple length before detaching once it's attached
 
 default: `"256"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_disableMeleeWhenActive</code></summary>
@@ -14796,7 +14813,7 @@ flags: `0x2002`
 Disallows melee when the grapple is out.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_dontFightGravity</code></summary>
@@ -14804,7 +14821,7 @@ flags: `0x2002`
 Ignores downward speed when applying deceleration, so that gravity continues to pull you down
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_fallSpeed</code></summary>
@@ -14812,7 +14829,7 @@ flags: `0x2002`
 Fall speed of the grapple hook while it's returning
 
 default: `"300"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_forcedRetractVel</code></summary>
@@ -14820,7 +14837,7 @@ flags: `0x2002`
 Return speed of grapple hook when grapple is finished or cancelled
 
 default: `"3000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_gracePeriod</code></summary>
@@ -14828,7 +14845,7 @@ flags: `0x2002`
 Length of time player can grapple without using a charge, in case they mess up
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_gravityPushUnderContribution</code></summary>
@@ -14836,7 +14853,7 @@ flags: `0x2002`
 Pushing forward while looking "under" the grapple point increases gravity this much
 
 default: `"2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialImpulseOffGround_human</code></summary>
@@ -14844,7 +14861,7 @@ flags: `0x2002`
 Initial launch speed off the ground when grapple connects
 
 default: `"50"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialImpulseOffGround_human_npc</code></summary>
@@ -14852,7 +14869,7 @@ flags: `0x2002`
 Initial launch speed off the ground when grapple connects
 
 default: `"150"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialImpulseOffGround_titan</code></summary>
@@ -14860,7 +14877,7 @@ flags: `0x2002`
 Initial launch speed off the ground when grapple connects
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialImpulse_human</code></summary>
@@ -14868,7 +14885,7 @@ flags: `0x2002`
 Initial launch speed when grapple connects
 
 default: `"350"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialImpulse_titan</code></summary>
@@ -14876,7 +14893,7 @@ flags: `0x2002`
 Initial launch speed when grapple connects
 
 default: `"350"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialSlowFracVert_human</code></summary>
@@ -14884,7 +14901,7 @@ flags: `0x2002`
 Fraction of vertical speed that is retained when grapple connects
 
 default: `"0.4"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialSlowFracVert_titan</code></summary>
@@ -14892,7 +14909,7 @@ flags: `0x2002`
 Fraction of vertical speed that is retained when grapple connects
 
 default: `"0.1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialSlowFrac_human</code></summary>
@@ -14900,7 +14917,7 @@ flags: `0x2002`
 Fraction of XY speed that is retained when grapple connects
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialSlowFrac_titan</code></summary>
@@ -14908,7 +14925,7 @@ flags: `0x2002`
 Fraction of XY speed that is retained when grapple connects
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialSpeedMin_human</code></summary>
@@ -14916,7 +14933,7 @@ flags: `0x2002`
 When grapple connects, player speed is immediately set to at least this value (negative = away, positive = towards)
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_initialSpeedMin_titan</code></summary>
@@ -14924,7 +14941,7 @@ flags: `0x2002`
 When grapple connects, player speed is immediately set to at least this value (negative = away, positive = towards)
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_jumpFrac</code></summary>
@@ -14932,7 +14949,7 @@ flags: `0x2002`
 Jump velocity multiplier when grappled
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_letGravityHelpCosAngle</code></summary>
@@ -14940,7 +14957,7 @@ flags: `0x2002`
 Don't ignore gravity when grappling downward this much (0 is horizontal, 1 is straight down)
 
 default: `"0.8"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_lift</code></summary>
@@ -14948,7 +14965,7 @@ flags: `0x2002`
 Distance above grapple hook that player is pulled to
 
 default: `"25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_pullDelay_human</code></summary>
@@ -14956,7 +14973,7 @@ flags: `0x2002`
 Grapple delay between attachment and acceleration
 
 default: `"0.2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_pullDelay_titan</code></summary>
@@ -14964,7 +14981,7 @@ flags: `0x2002`
 Grapple delay between attachment and acceleration
 
 default: `"0.2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_retractVel</code></summary>
@@ -14972,7 +14989,7 @@ flags: `0x2002`
 Return speed of grapple hook when it hasn't hit anything yet
 
 default: `"6000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_rodeoVerticalImpulse</code></summary>
@@ -14980,7 +14997,7 @@ flags: `0x2002`
 Vertical impulse applied to the player when grappling off of a rodeo.
 
 default: `"750"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_shootVel</code></summary>
@@ -14988,7 +15005,7 @@ flags: `0x2002`
 Outward speed of grapple hook
 
 default: `"2000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_speedRampMax_human</code></summary>
@@ -14996,7 +15013,7 @@ flags: `0x2002`
 Player will accelerate to this speed after grapple_speedRampTime has passed
 
 default: `"400"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_speedRampMax_titan</code></summary>
@@ -15004,7 +15021,7 @@ flags: `0x2002`
 Player will accelerate to this speed after grapple_speedRampTime has passed
 
 default: `"750"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_speedRampMin_human</code></summary>
@@ -15012,7 +15029,7 @@ flags: `0x2002`
 Player will accelerate to this speed while grappling; lerps to grapple_speedRampMax over grapple_speedRampTime
 
 default: `"50"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_speedRampMin_titan</code></summary>
@@ -15020,7 +15037,7 @@ flags: `0x2002`
 Player will accelerate to this speed while grappling; lerps to grapple_speedRampMax over grapple_speedRampTime
 
 default: `"400"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_speedRampTime_human</code></summary>
@@ -15028,7 +15045,7 @@ flags: `0x2002`
 Time from grapple_speedRampMin to grapple_speedRampMax
 
 default: `"1.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_speedRampTime_titan</code></summary>
@@ -15036,7 +15053,7 @@ flags: `0x2002`
 Time from grapple_speedRampMin to grapple_speedRampMax
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_swingAngle</code></summary>
@@ -15044,7 +15061,7 @@ flags: `0x2002`
 Maximum angle from vertical that swinging will generate acceleration (it will tend to zero acceleration at this angle)
 
 default: `"45"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_swingPullAngle</code></summary>
@@ -15052,7 +15069,7 @@ flags: `0x2002`
 If the player is pushing forward within this angle of the pull direction, then switch out of swinging mode.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_swingPullSpeedLength</code></summary>
@@ -15060,7 +15077,7 @@ flags: `0x2002`
 When swinging, the grapple pull speed scale begins to scale back to 1.0 at lengths below this
 
 default: `"300.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_swingPullSpeedScale</code></summary>
@@ -15068,7 +15085,7 @@ flags: `0x2002`
 When swinging, the grapple pull speed is scaled by this much
 
 default: `"0.025"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_titanEmbarkDist</code></summary>
@@ -15076,7 +15093,7 @@ flags: `0x2002`
 Distance at which to begin embark when grappling to your own titan.
 
 default: `"250"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grapple_windowCheckDist</code></summary>
@@ -15084,7 +15101,7 @@ flags: `0x2002`
 Check for window hints at this distance from grapple point
 
 default: `"150"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>gravity_grenade_decel</code></summary>
@@ -15092,7 +15109,7 @@ flags: `0x2002`
 Deceleration applied by gravity grenade to nearby objects
 
 default: `"20000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>gravity_grenade_projectile_min_speed</code></summary>
@@ -15100,7 +15117,7 @@ flags: `0x2002`
 Gravity grenade never slows projectiles below this speed
 
 default: `"600"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ground_debug</code></summary>
@@ -15108,7 +15125,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ground_trace_hull_radius</code></summary>
@@ -15116,7 +15133,7 @@ flags: `0x2002`
 How wide of a sphere is the trace for getting a character's ground surface
 
 default: `"12.0f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grx_hasUnknownItems</code></summary>
@@ -15124,7 +15141,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>grx_vertical_dialogue_confirmation</code></summary>
@@ -15132,7 +15149,7 @@ flags: `0x2002`
 Enables the new vertical UI confirmation dialogue for store item purchases
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gtao_angle_bias</code></summary>
@@ -15140,7 +15157,7 @@ flags: `0x2`
 angle in degree [0-90)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gtao_intensity</code></summary>
@@ -15148,7 +15165,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gtao_intensity_in_lobby</code></summary>
@@ -15156,7 +15173,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gtao_thickness_heuristic</code></summary>
@@ -15164,7 +15181,7 @@ flags: `0x2`
 in range of [0,1)
 
 default: `"0.2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hasAnyAssetsWithDiscardedStreamableData</code></summary>
@@ -15172,7 +15189,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>hasMic</code></summary>
@@ -15180,7 +15197,7 @@ flags: `0x200`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>hasPartialInstall</code></summary>
@@ -15188,7 +15205,7 @@ flags: `0x200`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>hbao_angle_bias</code></summary>
@@ -15196,7 +15213,7 @@ flags: `0x200`
 angle in degree [0-90)
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hbao_intensity</code></summary>
@@ -15204,7 +15221,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hbao_stepsize_random</code></summary>
@@ -15212,7 +15229,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hbaobasic_tangent_bias</code></summary>
@@ -15220,7 +15237,7 @@ flags: `0x2`
 angle in degree [0-90)
 
 default: `"25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hidehud</code></summary>
@@ -15228,7 +15245,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>highlight_deferred_update</code></summary>
@@ -15236,7 +15253,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>highlight_draw</code></summary>
@@ -15244,7 +15261,7 @@ flags: `0x2`
 highlight_draw 0|1
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>highlight_enable_discard</code></summary>
@@ -15252,7 +15269,7 @@ flags: `0x2`
 Enable discard function in highlight geo pass 0|1
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>highlight_lazy_clear_buffers</code></summary>
@@ -15260,7 +15277,7 @@ flags: `0x2`
 highlight_lazy_clear_buffers 0|1
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>highlight_object_max_count</code></summary>
@@ -15268,7 +15285,7 @@ flags: `0x2`
 highlight_object_max_count OBJECT_MAX_COUNT
 
 default: `"255"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hitbox_bodygroup_check</code></summary>
@@ -15276,7 +15293,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hitch_alert_active</code></summary>
@@ -15284,7 +15301,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hitch_alert_color</code></summary>
@@ -15292,7 +15309,7 @@ flags: `0x2`
 The hitch/choke allerts will use this color.
 
 default: `"255 255 0 255"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hitch_alert_show_large_snapshots</code></summary>
@@ -15300,7 +15317,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_RunFrameServerAlways</code></summary>
@@ -15308,7 +15325,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_ShowIPCCallCount</code></summary>
@@ -15316,7 +15333,7 @@ flags: `0x2`
 Print # of IPC calls this number of times per second. If set to -1, the # of IPC calls is shown every frame.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_flush_threshold</code></summary>
@@ -15324,7 +15341,7 @@ flags: `0x2`
 Memory threshold below which the host should flush caches between server instances
 
 default: `"12"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>host_forceTakeHomeBuild</code></summary>
@@ -15332,7 +15349,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_framerate</code></summary>
@@ -15340,7 +15357,7 @@ flags: `0x2`
 Set to lock per-frame time elapse.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_hasIrreversibleShutdown</code></summary>
@@ -15348,7 +15365,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_limitlocal</code></summary>
@@ -15356,7 +15373,7 @@ flags: `0x2`
 Apply cl_cmdrate and cl_updaterate to loopback connection
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_map</code></summary>
@@ -15364,7 +15381,7 @@ flags: `0x2`
 Current map name.
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>host_print_frame_times</code></summary>
@@ -15372,7 +15389,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_profile</code></summary>
@@ -15380,7 +15397,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_runframe_input_parcelremainder</code></summary>
@@ -15388,7 +15405,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_server_thread_min_ticks</code></summary>
@@ -15396,7 +15413,7 @@ flags: `0x2`
 Only run the server thread when it needs this many ticks.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_sleep</code></summary>
@@ -15404,7 +15421,7 @@ flags: `0x2`
 Force the host to sleep a certain number of milliseconds each frame.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>host_speeds</code></summary>
@@ -15412,7 +15429,7 @@ flags: `0x4000`
 Show general system running times.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_syncfps</code></summary>
@@ -15420,7 +15437,7 @@ flags: `0x2`
 Synchronize real render time to host_framerate if possible.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_thread_join_fast</code></summary>
@@ -15428,7 +15445,7 @@ flags: `0x2`
 If true we force the server thread join before existing '_Host_RunFrame'
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_thread_mode</code></summary>
@@ -15436,7 +15453,7 @@ flags: `0x2`
 Run the host in threaded mode, (0 == off, 1 == if multicore, 2 == force)
 
 default: `"1"`  
-flags: `0x40000002`  
+flags: `0x40000002`
 </details>
 <details>
 <summary><code>host_threaded_sound</code></summary>
@@ -15444,7 +15461,7 @@ flags: `0x40000002`
 Run the sound on a thread (independent of mix)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_timescale</code></summary>
@@ -15452,7 +15469,7 @@ flags: `0x2`
 Prescale the clock by this amount.
 
 default: `"1.0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>hostname</code></summary>
@@ -15460,7 +15477,7 @@ flags: `0x6000`
 Hostname for server.
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>hover_vehicle_acceleration</code></summary>
@@ -15468,7 +15485,7 @@ flags: `0x80000`
 
 
 default: `"750.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_air_acceleration</code></summary>
@@ -15476,7 +15493,7 @@ flags: `0x2002`
 
 
 default: `"250.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_boost_cooldown</code></summary>
@@ -15484,7 +15501,7 @@ flags: `0x2002`
 
 
 default: `"25.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_boost_speed_max</code></summary>
@@ -15492,7 +15509,7 @@ flags: `0x2002`
 
 
 default: `"2000.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_boost_speed_min</code></summary>
@@ -15500,7 +15517,7 @@ flags: `0x2002`
 
 
 default: `"1200.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_deceleration</code></summary>
@@ -15508,7 +15525,7 @@ flags: `0x2002`
 
 
 default: `"550.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_deceleration_powerbreaking</code></summary>
@@ -15516,7 +15533,7 @@ flags: `0x2002`
 
 
 default: `"1000.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_invisible_when_camera_is_too_close</code></summary>
@@ -15524,7 +15541,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hover_vehicle_passenger_left_attachment_name</code></summary>
@@ -15532,7 +15549,7 @@ flags: `0x2`
 
 
 default: `"passenger1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>hover_vehicle_speed</code></summary>
@@ -15540,7 +15557,7 @@ flags: `0x2002`
 
 
 default: `"1000.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>http_StryderKey</code></summary>
@@ -15548,7 +15565,7 @@ flags: `0x2002`
 
 
 default: `"CFFpQM9Tz88YppZt2X8nVz8nhNuaakDd"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>http_debug</code></summary>
@@ -15556,7 +15573,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_debug_forceFailRate</code></summary>
@@ -15564,7 +15581,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_debug_forceFailStatus</code></summary>
@@ -15572,7 +15589,7 @@ flags: `0x2`
 
 
 default: `"429"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_expoBackoff_Enabled</code></summary>
@@ -15580,7 +15597,7 @@ flags: `0x2`
 0 - Linear backoff, 1 - Powers of two, 2 - DecorrJitterV2
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_expoBackoff_Factor</code></summary>
@@ -15588,7 +15605,7 @@ flags: `0x2`
 Factor used within expoBackoff formula to help smooth the first calculated delay
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_expoBackoff_FirstDelay</code></summary>
@@ -15596,7 +15613,7 @@ flags: `0x2`
 Median approx. of delay for first retry in seconds
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_expoBackoff_LongScale</code></summary>
@@ -15604,7 +15621,7 @@ flags: `0x2`
 Factor to increase for longer backoff. Disabled if <= 1.0
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_expoBackoff_MaxFailureWait</code></summary>
@@ -15612,7 +15629,7 @@ flags: `0x2`
 Longest possible wait between retry attempts
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_expoBackoff_ScaleFactor</code></summary>
@@ -15620,7 +15637,7 @@ flags: `0x2`
 Factor that allows the median values of retry waits to fall near whole seconds
 
 default: `"0.7142857"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_failuresAsErrors</code></summary>
@@ -15628,7 +15645,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_maxAllocateAttempts</code></summary>
@@ -15636,7 +15653,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_recv_fail_realloc</code></summary>
@@ -15644,7 +15661,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_sandbox</code></summary>
@@ -15652,7 +15669,7 @@ flags: `0x2`
 
 
 default: `"EARW.50"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>http_showQueries</code></summary>
@@ -15660,7 +15677,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hud_autoreloadscript</code></summary>
@@ -15668,7 +15685,7 @@ flags: `0x2`
 Automatically reloads the animation script each time one is ran
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hud_setting_accessibleChat</code></summary>
@@ -15676,7 +15693,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_adsDof</code></summary>
@@ -15684,7 +15701,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_anonymousMode</code></summary>
@@ -15692,7 +15709,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000200`  
+flags: `0x1000200`
 </details>
 <details>
 <summary><code>hud_setting_compactOverHeadNames</code></summary>
@@ -15700,7 +15717,7 @@ flags: `0x1000200`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_damageIndicatorStyle</code></summary>
@@ -15708,7 +15725,7 @@ flags: `0x1000000`
 
 
 default: `"2"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_damageTextStyle</code></summary>
@@ -15716,7 +15733,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_enableModWheel</code></summary>
@@ -15724,7 +15741,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_healthUseOnHold</code></summary>
@@ -15732,7 +15749,7 @@ flags: `0x1000000`
 use health by holding button
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_healthWheelToggle</code></summary>
@@ -15740,7 +15757,7 @@ flags: `0x1000000`
 toggle health wheel on press
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_healthWheelUseOnRelease</code></summary>
@@ -15748,7 +15765,7 @@ flags: `0x1000000`
 use health after selecting it
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_lootPromptStyle</code></summary>
@@ -15756,7 +15773,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_minimapRotate</code></summary>
@@ -15764,7 +15781,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_ordnanceUseOnHold</code></summary>
@@ -15772,7 +15789,7 @@ flags: `0x1000000`
 use ordnance by holding button
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_ordnanceWheelToggle</code></summary>
@@ -15780,7 +15797,7 @@ flags: `0x1000000`
 toggle ordnance wheel on press
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_ordnanceWheelUseOnRelease</code></summary>
@@ -15788,7 +15805,7 @@ flags: `0x1000000`
 use ordnance after selecting it
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_pingAlpha</code></summary>
@@ -15796,7 +15813,7 @@ flags: `0x1000000`
 
 
 default: `"1.0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_pingDoubleTapEnemy</code></summary>
@@ -15804,7 +15821,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_pingWheelToggle</code></summary>
@@ -15812,7 +15829,7 @@ flags: `0x1000000`
 toggle ping wheel on press
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showButtonHints</code></summary>
@@ -15820,7 +15837,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showCallsigns</code></summary>
@@ -15828,7 +15845,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showHopUpPopUp</code></summary>
@@ -15836,7 +15853,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showLevelUp</code></summary>
@@ -15844,7 +15861,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showMedals</code></summary>
@@ -15852,7 +15869,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showMeter</code></summary>
@@ -15860,7 +15877,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showObituary</code></summary>
@@ -15868,7 +15885,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showOffscreenPortrait</code></summary>
@@ -15876,7 +15893,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showTeamNamesOnMap</code></summary>
@@ -15884,7 +15901,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showTips</code></summary>
@@ -15892,7 +15909,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_showWeaponFlyouts</code></summary>
@@ -15900,7 +15917,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_streamerMode</code></summary>
@@ -15908,7 +15925,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hud_setting_ultDisplay</code></summary>
@@ -15916,7 +15933,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_clear_on_hide</code></summary>
@@ -15924,7 +15941,7 @@ flags: `0x2`
 Clear chat input when chatbox gets hidden (e.g. when opening a menu)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_enable_old_history_handling</code></summary>
@@ -15932,7 +15949,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_new_message_fade_duration</code></summary>
@@ -15940,7 +15957,7 @@ flags: `0x2`
 How long messages added to the text chat will take to fade from opaque to not visible
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_new_message_shown_duration</code></summary>
@@ -15948,7 +15965,7 @@ flags: `0x2`
 How long messages added to the text chat stick around with the panel not focused
 
 default: `"12"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_play_text_to_speech</code></summary>
@@ -15956,7 +15973,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hudchat_retain_input_state</code></summary>
@@ -15964,7 +15981,7 @@ flags: `0x1000000`
 When chatbox loses focus, save the input string and restore the input state to the next visible chatbox
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_text_check_teams</code></summary>
@@ -15972,7 +15989,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_text_to_speech_max_age</code></summary>
@@ -15980,7 +15997,7 @@ flags: `0x2`
 Maximum age in seconds for text chat that is played as audio speech
 
 default: `"900"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_transition_message_mode_fade_duration</code></summary>
@@ -15988,7 +16005,7 @@ flags: `0x2`
 When switching message mode of the text chat panel how long it takes to transition visibility
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hudchat_visibility</code></summary>
@@ -15996,7 +16013,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>hudwarp_chopsize</code></summary>
@@ -16004,7 +16021,7 @@ flags: `0x1000000`
 Number of pixels to a primitive before chopping for warping.
 
 default: `"60.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>hudwarp_override</code></summary>
@@ -16012,7 +16029,7 @@ flags: `0x4000`
 Use convar settings for hud warp (instead of script-provided settings)
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>hudwarp_viewDist</code></summary>
@@ -16020,7 +16037,7 @@ flags: `0x4000`
 Distance back from sphere center to use when 2d projecting.
 
 default: `"1.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>hudwarp_xScale</code></summary>
@@ -16028,7 +16045,7 @@ flags: `0x4000`
 Final scale for X (after projecting sphere surface to 2d.)
 
 default: `"1.2"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>hudwarp_xWarp</code></summary>
@@ -16036,7 +16053,7 @@ flags: `0x4000`
 Degrees of arc of sphere to use (0-90, low distortion to high.)
 
 default: `"45.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>hudwarp_yScale</code></summary>
@@ -16044,7 +16061,7 @@ flags: `0x4000`
 Final scale for Y (after projecting sphere surface to 2d.)
 
 default: `"1.1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>hudwarp_yWarp</code></summary>
@@ -16052,7 +16069,7 @@ flags: `0x4000`
 Degrees of arc for Y warp (0-90, low distortion to high.)
 
 default: `"30.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>idcolor_ally</code></summary>
@@ -16060,7 +16077,7 @@ flags: `0x4000`
 
 
 default: `"0.34 0.59 0.86 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_ally_cb1</code></summary>
@@ -16068,7 +16085,7 @@ flags: `0x2`
 
 
 default: `"0.24 0.50 0.96 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_ally_cb2</code></summary>
@@ -16076,7 +16093,7 @@ flags: `0x2`
 
 
 default: `"0.0 0.58 0.77 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_ally_cb3</code></summary>
@@ -16084,7 +16101,7 @@ flags: `0x2`
 
 
 default: `"0.28 0.52 0.97 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_enemy</code></summary>
@@ -16092,7 +16109,7 @@ flags: `0x2`
 
 
 default: `"0.8 0.25 0.15 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_enemy_cb1</code></summary>
@@ -16100,7 +16117,7 @@ flags: `0x2`
 
 
 default: `"0.89 0.78 0.0 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_enemy_cb2</code></summary>
@@ -16108,7 +16125,7 @@ flags: `0x2`
 
 
 default: `"1.0 0.627 0.68 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_enemy_cb3</code></summary>
@@ -16116,7 +16133,7 @@ flags: `0x2`
 
 
 default: `"0.82 0.74 0.06 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>idcolor_neutral</code></summary>
@@ -16124,7 +16141,7 @@ flags: `0x2`
 
 
 default: `"1.0 1.0 1.0 0.6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ignore_fatal_errors</code></summary>
@@ -16132,15 +16149,16 @@ flags: `0x2`
 Don't exit on fatal errors.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ignore_material_flags_for_decals</code></summary>
 
-When turned on, decals will ignore checking the material to see if they accept decals. This is mostly used for stickers currently.
+When turned on, decals will ignore checking the material to see if they accept decals. This is mostly used for stickers
+currently.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ignore_script_errors</code></summary>
@@ -16148,7 +16166,7 @@ flags: `0x2`
 Ignore script errors.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ik_debug</code></summary>
@@ -16156,7 +16174,7 @@ flags: `0x2`
 Enables debug lines for IK
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_debug_chain</code></summary>
@@ -16164,7 +16182,7 @@ flags: `0x2002`
 Allows specifying a single IK chain name for IK debugging
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_debug_ent</code></summary>
@@ -16172,7 +16190,7 @@ flags: `0x2002`
 Allows specifying a single entity for IK debugging
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_debug_text</code></summary>
@@ -16180,7 +16198,7 @@ flags: `0x2002`
 Enables IK debug text; requires ik_debug
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_enable</code></summary>
@@ -16188,7 +16206,7 @@ flags: `0x2002`
 Enables IK
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_enable_client</code></summary>
@@ -16196,7 +16214,7 @@ flags: `0x2002`
 Enables IK on the client
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_height_adjust</code></summary>
@@ -16204,7 +16222,7 @@ flags: `0x2002`
 Enable ik height adjustment
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_height_adjust_debug</code></summary>
@@ -16212,7 +16230,7 @@ flags: `0x2002`
 Debugging for ik height adjustment
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_height_adjust_move_speed</code></summary>
@@ -16220,7 +16238,7 @@ flags: `0x2002`
 IK height adjustment speed per unit of horizontal velocity in units per second
 
 default: `"2.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_height_adjust_sine</code></summary>
@@ -16228,7 +16246,7 @@ flags: `0x2002`
 Test ik height adjustment with a sine wave
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_height_adjust_speed</code></summary>
@@ -16236,7 +16254,7 @@ flags: `0x2002`
 IK height adjustment speed as a fraction of step size per second
 
 default: `"2.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_latch</code></summary>
@@ -16244,7 +16262,7 @@ flags: `0x2002`
 Enables IK latching to ground during footsteps
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_normal_lerp_rate</code></summary>
@@ -16252,7 +16270,7 @@ flags: `0x2002`
 Rate at which feet adjust to a new ground orientation in angles per second
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ik_unlatch_max_rate</code></summary>
@@ -16260,7 +16278,7 @@ flags: `0x2002`
 Maximum rate an IK'd bone can unlatch; prevents pop on animation transition
 
 default: `"5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ime_enabled</code></summary>
@@ -16268,7 +16286,7 @@ flags: `0x2002`
 Enabled the IME
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>imgui_buildmode</code></summary>
@@ -16276,7 +16294,7 @@ flags: `0x2`
 Show the imgui implementation of the Build Mode dialog
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>imgui_buildmode</code></summary>
@@ -16284,7 +16302,7 @@ flags: `0x2`
 Show the imgui implementation of the Build Mode dialog
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>impact_allow</code></summary>
@@ -16292,7 +16310,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>impact_debug_info</code></summary>
@@ -16300,7 +16318,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>impact_victim_offset_dist</code></summary>
@@ -16308,7 +16326,7 @@ flags: `0x2`
 Distance to offset impact sounds from the victim, when requested
 
 default: `"256"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>impulse_low_decel_duration_scalar</code></summary>
@@ -16316,7 +16334,7 @@ flags: `0x2`
 Impulse magnitude is multiplied by this to give a length of time that the player can't decelerate
 
 default: `"0.003"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>inPartyChat</code></summary>
@@ -16324,7 +16342,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>in_forceuser</code></summary>
@@ -16332,7 +16350,7 @@ flags: `0x200`
 Force user input to this split screen player.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>in_syncRT</code></summary>
@@ -16340,7 +16358,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>in_usekeyboardsampletime</code></summary>
@@ -16348,7 +16366,7 @@ flags: `0x2`
 Use keyboard sample time smoothing.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>inflight_stream_texture_max</code></summary>
@@ -16358,7 +16376,7 @@ flags: `0x2`
 default: `"8"`  
 flags: `0x2`  
 min value: `1`  
-max value: `8`  
+max value: `8`
 </details>
 <details>
 <summary><code>infoblock_requestInterval</code></summary>
@@ -16366,7 +16384,7 @@ max value: `8`
 Time between info block requests
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>input_did_turn_threshold</code></summary>
@@ -16374,7 +16392,7 @@ flags: `0x2`
 Degrees per second.
 
 default: `"1.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>intro_viewed</code></summary>
@@ -16382,7 +16400,7 @@ flags: `0x2`
 Whether the introduction video has been viewed by this player
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>ip</code></summary>
@@ -16390,7 +16408,7 @@ flags: `0x1000000`
 Overrides IP for multihomed hosts
 
 default: `"localhost"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>joy_advaxisr</code></summary>
@@ -16398,7 +16416,7 @@ flags: `0x80000`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joy_advaxisu</code></summary>
@@ -16406,7 +16424,7 @@ flags: `0x2`
 
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joy_advaxisv</code></summary>
@@ -16414,7 +16432,7 @@ flags: `0x2`
 
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joy_advaxisx</code></summary>
@@ -16422,7 +16440,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joy_advaxisy</code></summary>
@@ -16430,7 +16448,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joy_advaxisz</code></summary>
@@ -16438,7 +16456,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joy_inverty</code></summary>
@@ -16446,7 +16464,7 @@ flags: `0x2`
 Whether to invert the Y axis of the joystick for looking.
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>joy_legacy</code></summary>
@@ -16454,7 +16472,7 @@ flags: `0x1000000`
 Turn on/off 'Legacy' mapping for control sticks.
 
 default: `"0"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>joy_movement_stick</code></summary>
@@ -16462,7 +16480,7 @@ flags: `0x40000000`
 Which stick controls movement (0 is left stick)
 
 default: `"0"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>joy_requireFocus</code></summary>
@@ -16470,7 +16488,7 @@ flags: `0x40000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joy_rumble</code></summary>
@@ -16478,7 +16496,7 @@ flags: `0x2`
 Controller rumble. 0: off, 1: on (default).
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>joy_spoofUiType</code></summary>
@@ -16486,7 +16504,7 @@ flags: `0x1000000`
 
 
 default: `"-1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>joy_xcontroller_cfg_loaded</code></summary>
@@ -16494,7 +16512,7 @@ flags: `0x80000`
 If 0, the 360controller.cfg file will be executed on startup & option changes.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>jpeg_quality</code></summary>
@@ -16502,7 +16520,7 @@ flags: `0x2`
 jpeg screenshot quality.
 
 default: `"90"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>jt_help_with_anything_ignore_preference</code></summary>
@@ -16510,7 +16528,7 @@ flags: `0x2`
 This let's JT_HelpWithAnything() work on tasks that are not preferred.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>jump_grace_cutoff_speed</code></summary>
@@ -16518,7 +16536,7 @@ flags: `0x2`
 If the player's speed is above this value we prevent them from lurching entirely.
 
 default: `"1100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_decay_start_tap_count</code></summary>
@@ -16526,7 +16544,7 @@ flags: `0x2002`
 The first tap when we start the decay of the grace tap strength.
 
 default: `"1000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_jump</code></summary>
@@ -16534,7 +16552,7 @@ flags: `0x2002`
 If disabled this will use last time on ground instead of last jump time for jump grace.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_limit_to_90</code></summary>
@@ -16542,7 +16560,7 @@ flags: `0x2002`
 Limit velocity change to within 90 degrees of the current velocity.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_max</code></summary>
@@ -16550,7 +16568,7 @@ flags: `0x2002`
 Amount of velocity change allowed during jump_graceperiod, as a fraction of sprinting speed
 
 default: `"0.7"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_max_tap_count</code></summary>
@@ -16558,7 +16576,7 @@ flags: `0x2002`
 Maximum grace taps per jump. See also jump_grace_decay_start_tap_count
 
 default: `"1000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_min_tap_period</code></summary>
@@ -16566,7 +16584,7 @@ flags: `0x2002`
 Minimum time between grace taps in seconds.
 
 default: `"0.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_multi_tap_decay</code></summary>
@@ -16574,15 +16592,16 @@ flags: `0x2002`
 Scale the power of the normal grace jump by this amount for each grace tap after jump_grace_decay_start_tap_count.
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_multi_tap_decay_velocity_based_easing_type</code></summary>
 
-The easing function that will be used to determine how much to decay the player's tap strafe strength based on velocity. 0 = cubic, 1 = sine, 2 = circular, 3 = linear, 4 = cutoff
+The easing function that will be used to determine how much to decay the player's tap strafe strength based on velocity.
+0 = cubic, 1 = sine, 2 = circular, 3 = linear, 4 = cutoff
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_multi_tap_decay_velocity_based_max_decay</code></summary>
@@ -16590,15 +16609,16 @@ flags: `0x2002`
 This is the max amount we'll dampen the players tap strafe strength in a single iteration
 
 default: `"0.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_multi_tap_decay_velocity_based_max_speed</code></summary>
 
-If the player's velocity exceeds this value, we'll use the max damping value. otherwise we'll damp their tap strafe strength along an easing curve
+If the player's velocity exceeds this value, we'll use the max damping value. otherwise we'll damp their tap strafe
+strength along an easing curve
 
 default: `"900"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_require_tap</code></summary>
@@ -16606,7 +16626,7 @@ flags: `0x2002`
 Allow jump grace air movement requires taps instead of working with joysticks and keyboard holds.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_grace_strength</code></summary>
@@ -16614,7 +16634,7 @@ flags: `0x2002`
 Fraction of change toward the new direction when pressing a direction during jump_graceperiod
 
 default: `"0.7"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_graceperiod</code></summary>
@@ -16622,7 +16642,7 @@ flags: `0x2002`
 Extra time during which a player can jump after falling off a ledge
 
 default: `"0.2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_graceperiodmax</code></summary>
@@ -16630,7 +16650,7 @@ flags: `0x2002`
 Extra time during which a player can change their direction with after jumping (fades to 0 strength at this time)
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_graceperiodmin</code></summary>
@@ -16638,7 +16658,7 @@ flags: `0x2002`
 Extra time during which a player can change their direction with after jumping (at full strength)
 
 default: `"0.2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jump_pad_geo_trace_debug</code></summary>
@@ -16646,7 +16666,7 @@ flags: `0x2002`
 Enable jump pad geo trace debugging
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>jumppad_vert_override_ducked_scalar</code></summary>
@@ -16654,7 +16674,7 @@ flags: `0x2002`
 When a player triggers a jump pad while crouched, scale vert override by this amount
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>killReplay_lagCompensate</code></summary>
@@ -16662,7 +16682,7 @@ flags: `0x2002`
 Adjust player timing to try to match what the client saw rather than what the server saw.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>killReplay_playNonReplayRemoteCallsOnLocalClientPlayer</code></summary>
@@ -16670,7 +16690,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>laserSightColor</code></summary>
@@ -16678,7 +16698,7 @@ flags: `0x2`
 Custom Laser Sight Color
 
 default: `"0000"`  
-flags: `0x1000200`  
+flags: `0x1000200`
 </details>
 <details>
 <summary><code>laserSightColorCustomized</code></summary>
@@ -16686,7 +16706,7 @@ flags: `0x1000200`
 Custom Laser Sight Color Enabled
 
 default: `"0"`  
-flags: `0x1000200`  
+flags: `0x1000200`
 </details>
 <details>
 <summary><code>leaf_threadedRecompute</code></summary>
@@ -16694,7 +16714,7 @@ flags: `0x1000200`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>leaf_threadedRecompute_batchSize</code></summary>
@@ -16702,7 +16722,7 @@ flags: `0x2`
 
 
 default: `"12"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>leech_npc_angle_cos</code></summary>
@@ -16710,7 +16730,7 @@ flags: `0x2`
 Cos(angle) allowed for leeching npcs
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>lerp_careAboutAttachmentBonePosition</code></summary>
@@ -16718,7 +16738,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lerp_debugEnt</code></summary>
@@ -16726,7 +16746,7 @@ flags: `0x2`
 
 
 default: `"-2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>lerp_opt</code></summary>
@@ -16734,7 +16754,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lerp_threaded</code></summary>
@@ -16742,7 +16762,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lerp_threaded_numEntsPerTask</code></summary>
@@ -16750,15 +16770,15 @@ flags: `0x2`
 
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>light_maxcone</code></summary>
 
-Max light cone limit.  Cone limit is half angle in degrees.
+Max light cone limit. Cone limit is half angle in degrees.
 
 default: `"85"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lighting_debug_overlay</code></summary>
@@ -16766,7 +16786,7 @@ flags: `0x2`
 Show Lighting debug window
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lightmap_realtimelight</code></summary>
@@ -16774,7 +16794,7 @@ flags: `0x2`
 If true use the real-time light lightmap for selecting real-time lights.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lightmap_realtimeshadows</code></summary>
@@ -16782,7 +16802,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>liveapi_session</code></summary>
@@ -16790,7 +16810,7 @@ flags: `0x2`
 Allows LiveAPI for this match session. See LiveAPI_Session_e
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>load_during_video</code></summary>
@@ -16798,7 +16818,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>loaderrorsCount</code></summary>
@@ -16806,7 +16826,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>loaderrorsNeedShown</code></summary>
@@ -16814,7 +16834,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lobatac_fix</code></summary>
@@ -16822,7 +16842,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>lobby_battlepass_milestone_enabled</code></summary>
@@ -16830,7 +16850,7 @@ flags: `0x2002`
 Enables the battle pass milestone page(this also disables the old popup)
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>lobby_cullNetEntities</code></summary>
@@ -16838,7 +16858,7 @@ flags: `0x2002`
 Cull networked entities while in lobby only.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lobby_flicker_fix_disable</code></summary>
@@ -16846,7 +16866,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>localClientPlayerCachedLevel</code></summary>
@@ -16854,7 +16874,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x1000010`  
+flags: `0x1000010`
 </details>
 <details>
 <summary><code>locationInfo</code></summary>
@@ -16862,7 +16882,7 @@ flags: `0x1000010`
 What OS(on PC and Durango) or PSN account(on PS4) reports as the user's location
 
 default: `""`  
-flags: `0x210`  
+flags: `0x210`
 </details>
 <details>
 <summary><code>locationInfo_nucleus</code></summary>
@@ -16870,7 +16890,7 @@ flags: `0x210`
 What origin(on PC) or nucleus(on console) reports as the user's location
 
 default: `""`  
-flags: `0x210`  
+flags: `0x210`
 </details>
 <details>
 <summary><code>locator_background_border_color</code></summary>
@@ -16878,7 +16898,7 @@ flags: `0x210`
 The default color for the border.
 
 default: `"255 255 255 15"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_background_border_thickness</code></summary>
@@ -16886,7 +16906,7 @@ flags: `0x2`
 How many pixels the background borders the left and right.
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_background_color</code></summary>
@@ -16894,7 +16914,7 @@ flags: `0x2`
 The default color for the background.
 
 default: `"255 255 255 5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_background_shift_x</code></summary>
@@ -16902,7 +16922,7 @@ flags: `0x2`
 How many pixels the background is shifted right.
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_background_shift_y</code></summary>
@@ -16910,7 +16930,7 @@ flags: `0x2`
 How many pixels the background is shifted down.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_background_style</code></summary>
@@ -16918,7 +16938,7 @@ flags: `0x2`
 Setting this to 1 will show rectangle backgrounds behind the items word-bubble pointers.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_background_thickness_x</code></summary>
@@ -16926,7 +16946,7 @@ flags: `0x2`
 How many pixels the background borders the left and right.
 
 default: `"8"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_background_thickness_y</code></summary>
@@ -16934,7 +16954,7 @@ flags: `0x2`
 How many pixels the background borders the top and bottom.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_fade_time</code></summary>
@@ -16942,7 +16962,7 @@ flags: `0x2`
 Number of seconds it takes for a lesson to fully fade in/out.
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_icon_max_size_non_ss</code></summary>
@@ -16950,7 +16970,7 @@ flags: `0x2`
 Minimum scale of the icon on the screen
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_icon_min_size_non_ss</code></summary>
@@ -16958,7 +16978,7 @@ flags: `0x2`
 Minimum scale of the icon on the screen
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_lerp_rest</code></summary>
@@ -16966,7 +16986,7 @@ flags: `0x2`
 Number of seconds before moving from the center.
 
 default: `"2.25f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_lerp_speed</code></summary>
@@ -16974,7 +16994,7 @@ flags: `0x2`
 Speed that static lessons move along the Y axis.
 
 default: `"5.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_lerp_time</code></summary>
@@ -16982,7 +17002,7 @@ flags: `0x2`
 Number of seconds to lerp before reaching final destination
 
 default: `"1.75f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_pulse_time</code></summary>
@@ -16990,7 +17010,7 @@ flags: `0x2`
 Number of seconds to pulse after changing icon or position
 
 default: `"1.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_split_len</code></summary>
@@ -16998,7 +17018,7 @@ flags: `0x2`
 
 
 default: `"0.5f"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>locator_split_maxwide_percent</code></summary>
@@ -17006,7 +17026,7 @@ flags: `0x4000`
 
 
 default: `"0.80f"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>locator_start_at_crosshair</code></summary>
@@ -17014,7 +17034,7 @@ flags: `0x4000`
 Start position at the crosshair instead of the top middle of the screen.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_target_offset_x</code></summary>
@@ -17022,7 +17042,7 @@ flags: `0x2`
 How many pixels to offset the locator from the target position.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_target_offset_y</code></summary>
@@ -17030,7 +17050,7 @@ flags: `0x2`
 How many pixels to offset the locator from the target position.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>locator_topdown_style</code></summary>
@@ -17038,7 +17058,7 @@ flags: `0x2`
 Topdown games set this to handle distance and offscreen location differently.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>lookspring</code></summary>
@@ -17046,7 +17066,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>lookstrafe</code></summary>
@@ -17054,7 +17074,7 @@ flags: `0x80`
 
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>m_acceleration</code></summary>
@@ -17062,7 +17082,7 @@ flags: `0x80`
 Mouse acceleration.
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>m_forward</code></summary>
@@ -17070,7 +17090,7 @@ flags: `0x80`
 Mouse forward factor.
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>m_invert_pitch</code></summary>
@@ -17078,7 +17098,7 @@ flags: `0x2`
 Whether to invert the pitch axis of the mouse.
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>m_side</code></summary>
@@ -17086,7 +17106,7 @@ flags: `0x1000000`
 Mouse side factor.
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mainmenu_background_movie</code></summary>
@@ -17094,23 +17114,26 @@ flags: `0x2`
 
 
 default: `"media/frontend.bik"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>map_settings_override</code></summary>
 
-If this is enabled then the following ConVars will be functional and override the maps current value: fog_enable, mat_bloomscale
+If this is enabled then the following ConVars will be functional and override the maps current value: fog_enable,
+mat_bloomscale
 
 default: `"0"`  
-flags: `0x40004002`  
+flags: `0x40004002`
 </details>
 <details>
 <summary><code>mat_autoexposure_compensation</code></summary>
 
-This works like exposure compensation on a camera, in EV units. 0EV is no compensation, -1EV gives half the light, +2EV gives 4x the light, etc. The exposure range is still subject to the min/max, so you might want to use mat_autoexposure_uncap 1.
+This works like exposure compensation on a camera, in EV units. 0EV is no compensation, -1EV gives half the light, +2EV
+gives 4x the light, etc. The exposure range is still subject to the min/max, so you might want to use
+mat_autoexposure_uncap 1.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_debug</code></summary>
@@ -17118,7 +17141,7 @@ flags: `0x2`
 Shows current exposure value.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_disable_controllers</code></summary>
@@ -17126,7 +17149,7 @@ flags: `0x2`
 Disable exposure controllers so that they don't override exposure values.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_force_value</code></summary>
@@ -17134,7 +17157,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x40004000`  
+flags: `0x40004000`
 </details>
 <details>
 <summary><code>mat_autoexposure_max</code></summary>
@@ -17142,7 +17165,7 @@ flags: `0x40004000`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_max_luminance</code></summary>
@@ -17150,7 +17173,7 @@ flags: `0x2`
 Clamps the maximum per-pixel luminance used to determine autoexposure values.
 
 default: `"10.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_max_multiplier</code></summary>
@@ -17158,7 +17181,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_min</code></summary>
@@ -17166,7 +17189,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_min_multiplier</code></summary>
@@ -17174,7 +17197,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_speed</code></summary>
@@ -17182,25 +17205,27 @@ flags: `0x2`
 Changes the speed at which exposure adapts to changes in scene luminance.
 
 default: `"0.1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_autoexposure_target_lum_max</code></summary>
 
-The maximum average luminance that autoexposure would like to reach. If the image average luminance is higher than this, exposure would decrease.
+The maximum average luminance that autoexposure would like to reach. If the image average luminance is higher than this,
+exposure would decrease.
 
 default: `"1.0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>mat_autoexposure_target_lum_min</code></summary>
 
-The minimum average luminance that autoexposure would like to reach. If the image average luminance is lower than this, exposure would increase.
+The minimum average luminance that autoexposure would like to reach. If the image average luminance is lower than this,
+exposure would increase.
 
 default: `"0.18"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>mat_autoexposure_uncap</code></summary>
@@ -17208,7 +17233,7 @@ min value: `0`
 mat_autoexposure_min and mat_autoexposure_max are ignored when this is set.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_clamp</code></summary>
@@ -17216,7 +17241,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_cutoff</code></summary>
@@ -17224,7 +17249,7 @@ flags: `0x2`
 
 
 default: `"1.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_scalefactor_scalar</code></summary>
@@ -17232,7 +17257,7 @@ flags: `0x2`
 
 
 default: `"0.1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>mat_bloom_streak_amount</code></summary>
@@ -17240,7 +17265,7 @@ flags: `0x80000`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_streak_clamp</code></summary>
@@ -17248,7 +17273,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_streak_cutoff</code></summary>
@@ -17256,7 +17281,7 @@ flags: `0x2`
 
 
 default: `"5.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_streak_cutoff_exposure_adapt</code></summary>
@@ -17264,7 +17289,7 @@ flags: `0x2`
 Whether streak cutoff value should scale with exposure values. R2 behavior is 0.0, R5 behavior is 1.0
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_streak_exponent_post</code></summary>
@@ -17272,7 +17297,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_streak_exponent_pre</code></summary>
@@ -17280,7 +17305,7 @@ flags: `0x2`
 
 
 default: `"1.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_wide_amount</code></summary>
@@ -17288,7 +17313,7 @@ flags: `0x2`
 
 
 default: `"0.4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_wide_clamp</code></summary>
@@ -17296,7 +17321,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloom_wide_exponent_pre</code></summary>
@@ -17304,7 +17329,7 @@ flags: `0x2`
 
 
 default: `"1.4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_bloomamount_rate</code></summary>
@@ -17312,7 +17337,7 @@ flags: `0x2`
 
 
 default: `"0.05f"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_bloomscale</code></summary>
@@ -17320,7 +17345,7 @@ flags: `0x4000`
 map_settings_override MUST BE ENABLED FOR THIS TO BE FUNCTIONAL.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_checkStalls</code></summary>
@@ -17328,7 +17353,7 @@ flags: `0x2`
 If true, flushes then syncs the render thread to the GPU at various spots of code to find hidden GPU stalls.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_cloudmask</code></summary>
@@ -17336,7 +17361,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_colcorrection_disableentities</code></summary>
@@ -17344,7 +17369,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_colcorrection_disableentities</code></summary>
@@ -17352,7 +17377,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_colcorrection_disableentities</code></summary>
@@ -17360,7 +17385,7 @@ flags: `0x2`
 Disable map color-correction entities
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_colcorrection_editor</code></summary>
@@ -17368,7 +17393,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_colcorrection_editor</code></summary>
@@ -17376,7 +17401,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_colcorrection_forceentitiesclientside</code></summary>
@@ -17384,7 +17409,7 @@ flags: `0x2`
 Forces color correction entities to be updated on the client
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_colorcorrection</code></summary>
@@ -17392,7 +17417,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_debug_luminance</code></summary>
@@ -17400,7 +17425,7 @@ flags: `0x4002`
 Visualize the per-pixel luminance of incoming light reaching the camera. Not in a real unit.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_luminance_max</code></summary>
@@ -17409,7 +17434,7 @@ Maximum luminance (to be shown as white) for the visualization.
 
 default: `"1.0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>mat_debug_luminance_min</code></summary>
@@ -17418,7 +17443,7 @@ Minimum luminance (to be shown as black) for the visualization.
 
 default: `"0.0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>mat_debug_postprocess_allowed</code></summary>
@@ -17426,7 +17451,7 @@ min value: `0`
 Allow postprocessing when debug views are enabled.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_postprocessing_effects</code></summary>
@@ -17434,7 +17459,7 @@ flags: `0x2`
 0 = off, 1 = show post-processing in top left corner of screen
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_tonemapping</code></summary>
@@ -17442,7 +17467,7 @@ flags: `0x2`
 
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_tonemapping_disable</code></summary>
@@ -17450,7 +17475,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_tonemapping_linear_segment_end</code></summary>
@@ -17459,7 +17484,7 @@ The highest luminance value that is unaffected by the Frostbite tonemapper.
 
 default: `"0.5"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>mat_debug_tonemapping_mid1</code></summary>
@@ -17467,7 +17492,7 @@ min value: `0`
 
 
 default: `"10.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_tonemapping_mid2</code></summary>
@@ -17475,7 +17500,7 @@ flags: `0x2`
 
 
 default: `"1.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_tonemapping_shoulder</code></summary>
@@ -17483,7 +17508,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debug_tonemapping_toe</code></summary>
@@ -17491,7 +17516,7 @@ flags: `0x2`
 
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_debugalttab</code></summary>
@@ -17499,7 +17524,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_depthbias_decal</code></summary>
@@ -17507,7 +17532,7 @@ flags: `0x4000`
 use integer value
 
 default: `"-16"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbias_normal</code></summary>
@@ -17515,7 +17540,7 @@ flags: `0x4002`
 use integer value
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbias_shadowmap</code></summary>
@@ -17523,7 +17548,7 @@ flags: `0x4002`
 use integer value
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbias_tightshadowmap</code></summary>
@@ -17531,7 +17556,7 @@ flags: `0x4002`
 use integer value. effective on View model selfshadow
 
 default: `"10000"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbias_ui</code></summary>
@@ -17539,7 +17564,7 @@ flags: `0x4002`
 use integer value
 
 default: `"-50"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbias_zfill</code></summary>
@@ -17547,7 +17572,7 @@ flags: `0x4002`
 use integer value
 
 default: `"16"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbiasclamp_decal</code></summary>
@@ -17555,7 +17580,7 @@ flags: `0x4002`
 
 
 default: `"-0.001"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbiasclamp_normal</code></summary>
@@ -17563,7 +17588,7 @@ flags: `0x4002`
 
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbiasclamp_shadowmap</code></summary>
@@ -17571,7 +17596,7 @@ flags: `0x4002`
 
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbiasclamp_ui</code></summary>
@@ -17579,7 +17604,7 @@ flags: `0x4002`
 
 
 default: `"-0.001"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthbiasclamp_zfill</code></summary>
@@ -17587,7 +17612,7 @@ flags: `0x4002`
 
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_depthtest_force_disabled</code></summary>
@@ -17595,7 +17620,7 @@ flags: `0x4002`
 only works on PC and XB1 for now
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_diffuse</code></summary>
@@ -17603,7 +17628,7 @@ flags: `0x4002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_disable_bloom</code></summary>
@@ -17611,7 +17636,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x40000002`  
+flags: `0x40000002`
 </details>
 <details>
 <summary><code>mat_disable_lightmap_ambient</code></summary>
@@ -17619,7 +17644,7 @@ flags: `0x40000002`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_disable_lightmaps</code></summary>
@@ -17627,7 +17652,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_disable_model_ambient</code></summary>
@@ -17635,7 +17660,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_drawMenuGrid</code></summary>
@@ -17643,7 +17668,7 @@ flags: `0x4000`
 Enable menu grid guide overlay. Only accurate for 16:9 aspect ratio.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_drawTitleSafe</code></summary>
@@ -17651,7 +17676,7 @@ flags: `0x2`
 Enable title safe overlay
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_drawflat</code></summary>
@@ -17659,7 +17684,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_dynamic_tonemapping</code></summary>
@@ -17667,7 +17692,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_dynamic_tonemapping</code></summary>
@@ -17675,17 +17700,18 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_enable_ssr</code></summary>
 
 NOTE - UNABLE TO ENABLE - Toggle Screen Space Reflections.
-If you want to use SSR again, uncomment the line with (1u << MTLENVOPT_SSR) in shader.cpp of bakery and then rebuild shaders.
+If you want to use SSR again, uncomment the line with (1u << MTLENVOPT_SSR) in shader.cpp of bakery and then rebuild
+shaders.
 
 default: `"0"`  
 flags: `0x2`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>mat_envmap_capture_res</code></summary>
@@ -17693,7 +17719,7 @@ max value: `1`
 The capture resolution for envmaps.
 
 default: `"512"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_envmap_output_res</code></summary>
@@ -17701,7 +17727,7 @@ flags: `0x2`
 The output resolution for envmaps. Downsampled from mat_envmap_capture_res.
 
 default: `"256"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_envmap_scale</code></summary>
@@ -17709,7 +17735,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_envmap_scale</code></summary>
@@ -17717,7 +17743,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_fastnobump</code></summary>
@@ -17725,15 +17751,15 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_fastspecular</code></summary>
 
-Enable/Disable specularity for visual testing.  Will not reload materials and will not affect perf.
+Enable/Disable specularity for visual testing. Will not reload materials and will not affect perf.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_filterlightmaps</code></summary>
@@ -17741,7 +17767,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_filtertextures</code></summary>
@@ -17749,7 +17775,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_force_bloom</code></summary>
@@ -17757,7 +17783,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_forceaniso</code></summary>
@@ -17767,7 +17793,7 @@ flags: `0x4000`
 default: `"2"`  
 flags: `0x40000000`  
 min value: `0`  
-max value: `16`  
+max value: `16`
 </details>
 <details>
 <summary><code>mat_frame_color_bias</code></summary>
@@ -17775,7 +17801,7 @@ max value: `16`
 Add a constant value to the average frame color.
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_frame_color_enabled</code></summary>
@@ -17783,7 +17809,7 @@ flags: `0x2`
 Update the average frame color each frame.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_frame_color_scale</code></summary>
@@ -17791,7 +17817,7 @@ flags: `0x2`
 Scale the average frame color.
 
 default: `"5.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_frame_color_spot_metering_screen_ratio</code></summary>
@@ -17799,7 +17825,7 @@ flags: `0x2`
 Use a percentage of the screen around the center to compute the average frame color.
 
 default: `"0.8"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_fullbright</code></summary>
@@ -17807,7 +17833,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_fxaa_enable</code></summary>
@@ -17815,7 +17841,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_global_lighting</code></summary>
@@ -17823,7 +17849,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_global_lighting</code></summary>
@@ -17831,7 +17857,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_global_lighting</code></summary>
@@ -17839,7 +17865,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_hdr_debug_heatmap</code></summary>
@@ -17847,7 +17873,7 @@ flags: `0x2`
 Visualize the HDR display output luminance, in nits.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_hdr_debug_heatmap_max_nits</code></summary>
@@ -17856,7 +17882,7 @@ Maximum luminance (to be shown as white) for the heatmap visualization.
 
 default: `"4096"`  
 flags: `0x2`  
-min value: `1`  
+min value: `1`
 </details>
 <details>
 <summary><code>mat_hdr_debug_heatmap_min_nits</code></summary>
@@ -17865,7 +17891,7 @@ Minimum luminance (to be shown as black) for the heatmap visualization.
 
 default: `"1"`  
 flags: `0x2`  
-min value: `1`  
+min value: `1`
 </details>
 <details>
 <summary><code>mat_hdr_paper_white_nits</code></summary>
@@ -17873,7 +17899,7 @@ min value: `1`
 The luminance (in nits) of a value of 1.0 in our rendering engine.
 
 default: `"300"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_hdrcolcorrection_editor</code></summary>
@@ -17881,7 +17907,7 @@ flags: `0x4002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_hdrcolorcorrection</code></summary>
@@ -17889,7 +17915,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_hide_sun_in_last_cascade</code></summary>
@@ -17897,7 +17923,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_instancing</code></summary>
@@ -17905,7 +17931,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_letterbox_aspect_goal</code></summary>
@@ -17913,7 +17939,7 @@ flags: `0x2`
 Letterbox when the window aspect ratio is below this threshold
 
 default: `"1.6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_letterbox_aspect_threshold</code></summary>
@@ -17921,7 +17947,7 @@ flags: `0x2`
 Letterbox when the window aspect ratio is below this threshold
 
 default: `"1.59"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_lightcull_subview</code></summary>
@@ -17929,7 +17955,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_lightcull_subviews</code></summary>
@@ -17937,7 +17963,7 @@ flags: `0x2`
 Re-cull lighting for subviews (monitors etc.)
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_local_contrast_edge_scale_override</code></summary>
@@ -17945,7 +17971,7 @@ flags: `0x4000`
 
 
 default: `"-1000.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_local_contrast_midtone_mask_override</code></summary>
@@ -17953,7 +17979,7 @@ flags: `0x2`
 
 
 default: `"-1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_local_contrast_scale_override</code></summary>
@@ -17961,7 +17987,7 @@ flags: `0x2`
 
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_local_contrast_vignette_end_override</code></summary>
@@ -17969,7 +17995,7 @@ flags: `0x2`
 
 
 default: `"-1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_local_contrast_vignette_start_override</code></summary>
@@ -17977,7 +18003,7 @@ flags: `0x2`
 
 
 default: `"-1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_character_0</code></summary>
@@ -17985,7 +18011,7 @@ flags: `0x2`
 
 
 default: `"0 0 0 0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_character_1</code></summary>
@@ -17993,7 +18019,7 @@ flags: `0x2`
 
 
 default: `"0 0 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_character_2</code></summary>
@@ -18001,7 +18027,7 @@ flags: `0x2`
 
 
 default: `"1 0 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_character_3</code></summary>
@@ -18009,7 +18035,7 @@ flags: `0x2`
 
 
 default: `"1 1 2 2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_character_4</code></summary>
@@ -18017,7 +18043,7 @@ flags: `0x2`
 
 
 default: `"3 3 3 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_cockpit_0</code></summary>
@@ -18025,7 +18051,7 @@ flags: `0x2`
 
 
 default: `"0 0 0 0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_cockpit_1</code></summary>
@@ -18033,7 +18059,7 @@ flags: `0x2`
 
 
 default: `"0 0 0 0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_cockpit_2</code></summary>
@@ -18041,7 +18067,7 @@ flags: `0x2`
 
 
 default: `"0 0 0 0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_cockpit_3</code></summary>
@@ -18049,7 +18075,7 @@ flags: `0x2`
 
 
 default: `"1 0 0 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_cockpit_4</code></summary>
@@ -18057,7 +18083,7 @@ flags: `0x2`
 
 
 default: `"3 3 3 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_model_0</code></summary>
@@ -18065,7 +18091,7 @@ flags: `0x2`
 
 
 default: `"0 0 0 0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_model_1</code></summary>
@@ -18073,7 +18099,7 @@ flags: `0x2`
 
 
 default: `"1 0 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_model_2</code></summary>
@@ -18081,7 +18107,7 @@ flags: `0x2`
 
 
 default: `"1 1 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_model_3</code></summary>
@@ -18089,7 +18115,7 @@ flags: `0x2`
 
 
 default: `"1 1 2 2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_model_4</code></summary>
@@ -18097,7 +18123,7 @@ flags: `0x2`
 
 
 default: `"3 3 3 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_other_0</code></summary>
@@ -18105,7 +18131,7 @@ flags: `0x2`
 
 
 default: `"0 0 0 0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_other_1</code></summary>
@@ -18113,7 +18139,7 @@ flags: `0x2`
 
 
 default: `"1 1 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_other_2</code></summary>
@@ -18121,7 +18147,7 @@ flags: `0x2`
 
 
 default: `"1 1 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_other_3</code></summary>
@@ -18129,7 +18155,7 @@ flags: `0x2`
 
 
 default: `"1 1 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_other_4</code></summary>
@@ -18137,7 +18163,7 @@ flags: `0x2`
 
 
 default: `"3 3 3 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_world_0</code></summary>
@@ -18145,7 +18171,7 @@ flags: `0x2`
 
 
 default: `"0 0 0 0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_world_1</code></summary>
@@ -18153,7 +18179,7 @@ flags: `0x2`
 
 
 default: `"0 0 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_world_2</code></summary>
@@ -18161,7 +18187,7 @@ flags: `0x2`
 
 
 default: `"0 1 1 1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_world_3</code></summary>
@@ -18169,7 +18195,7 @@ flags: `0x2`
 
 
 default: `"1 1 2 2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_materialmip_world_4</code></summary>
@@ -18177,7 +18203,7 @@ flags: `0x2`
 
 
 default: `"3 3 3 3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_maxframelatency</code></summary>
@@ -18185,7 +18211,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_mip_linear</code></summary>
@@ -18193,7 +18219,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>mat_mipmaptextures</code></summary>
@@ -18201,7 +18227,7 @@ flags: `0x40000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_norendering</code></summary>
@@ -18209,7 +18235,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_norendering</code></summary>
@@ -18217,7 +18243,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_picmip</code></summary>
@@ -18227,7 +18253,7 @@ flags: `0x4000`
 default: `"0"`  
 flags: `0x40000000`  
 min value: `0`  
-max value: `4`  
+max value: `4`
 </details>
 <details>
 <summary><code>mat_postprocess_enable</code></summary>
@@ -18235,7 +18261,7 @@ max value: `4`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_postprocess_enable</code></summary>
@@ -18243,7 +18269,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_report_queue_status</code></summary>
@@ -18251,7 +18277,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x800002`  
+flags: `0x800002`
 </details>
 <details>
 <summary><code>mat_screen_blur_enabled</code></summary>
@@ -18259,7 +18285,7 @@ flags: `0x800002`
 Enables screen blur render step
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_screen_blur_override</code></summary>
@@ -18267,7 +18293,7 @@ flags: `0x2`
 
 
 default: `"-1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_shadowstate</code></summary>
@@ -18275,7 +18301,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_sharpen_amount</code></summary>
@@ -18283,7 +18309,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_sharpen_threshold</code></summary>
@@ -18291,7 +18317,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_sharpen_width</code></summary>
@@ -18299,7 +18325,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_showenvmapmask</code></summary>
@@ -18307,7 +18333,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_showlowresimage</code></summary>
@@ -18315,7 +18341,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_showmiplevels</code></summary>
@@ -18323,7 +18349,7 @@ flags: `0x4000`
 color-code miplevels 2: normalmaps, 1: everything else
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_skipid</code></summary>
@@ -18331,7 +18357,7 @@ flags: `0x4000`
 Don't draw a particular mesh id. Helps track down which mesh you care about.
 
 default: `"-1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_slopescaledepthbias_decal</code></summary>
@@ -18339,7 +18365,7 @@ flags: `0x4000`
 
 
 default: `"-4"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_slopescaledepthbias_normal</code></summary>
@@ -18347,7 +18373,7 @@ flags: `0x4002`
 
 
 default: `"0.0f"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_slopescaledepthbias_shadowmap</code></summary>
@@ -18355,7 +18381,7 @@ flags: `0x4002`
 
 
 default: `"2"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_slopescaledepthbias_ui</code></summary>
@@ -18363,7 +18389,7 @@ flags: `0x4002`
 
 
 default: `"-1.7"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_slopescaledepthbias_zfill</code></summary>
@@ -18371,7 +18397,7 @@ flags: `0x4002`
 
 
 default: `"2"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>mat_surfacefilter</code></summary>
@@ -18379,7 +18405,7 @@ flags: `0x4002`
 If set, limits surfaces shown by mat_surfaceid and mat_surfacemat to those containing the substring.
 
 default: `""`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_surfaceid</code></summary>
@@ -18387,7 +18413,7 @@ flags: `0x4000`
 Draws the index of world surfaces. Can be filtered with mat_surfacefilter.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_surfacemat</code></summary>
@@ -18395,15 +18421,16 @@ flags: `0x4000`
 Draws the material name of world surfaces. Can be filtered with mat_surfacefilter.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_syncGPU</code></summary>
 
-If true, syncs the render thread to the GPU at the end of each frame, instead of letting the render thread get one frame ahead.
+If true, syncs the render thread to the GPU at the end of each frame, instead of letting the render thread get one frame
+ahead.
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>mat_syncInterval</code></summary>
@@ -18411,7 +18438,7 @@ flags: `0x80000`
 Number of frames to skip per sync. 0 = novsync, 1 = 60 fps, 2 = 30, 3 == 20, 4 = 15, etc.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_sync_rt</code></summary>
@@ -18419,15 +18446,16 @@ flags: `0x2`
 Sync the render thread after each queued call. This is really slow, but makes debugging much easier.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_sync_rt_flushes_gpu</code></summary>
 
-Synchronizing the render thread to the main thread will also force both threads to wait for the GPU to be done. Makes the hitch/stutter from a synchronization worse, but might fix some stability issues.
+Synchronizing the render thread to the main thread will also force both threads to wait for the GPU to be done. Makes
+the hitch/stutter from a synchronization worse, but might fix some stability issues.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_translucency_errors</code></summary>
@@ -18435,7 +18463,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_vignette_enable</code></summary>
@@ -18443,7 +18471,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_allowMapRotationPreloading</code></summary>
@@ -18451,7 +18479,7 @@ flags: `0x2`
 Allow the server to change currently loaded map based on map rotation times
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>match_backingOutMaxTimeToWait</code></summary>
@@ -18459,7 +18487,7 @@ flags: `0x80000`
 
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_backoutslow</code></summary>
@@ -18467,7 +18495,7 @@ flags: `0x2`
 Forces empty server queries (for backing out of a lobby) to take this long
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_connect</code></summary>
@@ -18475,7 +18503,7 @@ flags: `0x2`
 If set to 0, we won't actually connect to any matchmaking results we get back
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_datacenter</code></summary>
@@ -18483,7 +18511,7 @@ flags: `0x2`
 Which datacenter we are running on
 
 default: `"west us"`  
-flags: `0x82000`  
+flags: `0x82000`
 </details>
 <details>
 <summary><code>match_defaultMap_party</code></summary>
@@ -18491,7 +18519,7 @@ flags: `0x82000`
 Default map to load if the dedicated server is empty
 
 default: `"mp_lobby"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_dir</code></summary>
@@ -18499,7 +18527,7 @@ flags: `0x2`
 What dir to look in for the matchmaking scripts
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_displayDatacenter</code></summary>
@@ -18507,7 +18535,7 @@ flags: `0x2`
 If set to 0, display datacenter as selected, if else match location
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_dumpSearchResults</code></summary>
@@ -18515,7 +18543,7 @@ flags: `0x2`
 Dumps search result text to the console
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_emptyUpdateRate</code></summary>
@@ -18523,7 +18551,7 @@ flags: `0x2`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_enabled</code></summary>
@@ -18531,7 +18559,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_fakePort</code></summary>
@@ -18539,7 +18567,7 @@ flags: `0x2`
 Lie about our port number (so players can't connect)
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_fakeS2SPort</code></summary>
@@ -18547,7 +18575,7 @@ flags: `0x2`
 Lie about our s2s port number (so servers can't connect)
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_forceVerboseSearches</code></summary>
@@ -18555,7 +18583,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_goodReputation</code></summary>
@@ -18563,15 +18591,16 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x202`  
+flags: `0x202`
 </details>
 <details>
 <summary><code>match_jip</code></summary>
 
-Allow the server to be set Joinable In-Progress. Warning need to be also unlocked through a playlist var of the same name. Meant to be turn on / off dynamically during a match.
+Allow the server to be set Joinable In-Progress. Warning need to be also unlocked through a playlist var of the same
+name. Meant to be turn on / off dynamically during a match.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>match_maxPingsSent</code></summary>
@@ -18579,7 +18608,7 @@ flags: `0x2002`
 
 
 default: `"50"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_myBestDatacenter</code></summary>
@@ -18587,7 +18616,7 @@ flags: `0x2`
 Which datacenter we have the lowest ping to
 
 default: `""`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>match_myDatacenter</code></summary>
@@ -18595,7 +18624,7 @@ flags: `0x80200`
 Which datacenter we prefer (same as match_myBestDatacenter unless user changes it)
 
 default: `""`  
-flags: `0x80080200`  
+flags: `0x80080200`
 </details>
 <details>
 <summary><code>match_myRankedDatacenter</code></summary>
@@ -18603,7 +18632,7 @@ flags: `0x80080200`
 Which datacenter we prefer for Ranked play (same as match_myBestDatacenter unless user changes it)
 
 default: `""`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>match_myTeam</code></summary>
@@ -18611,7 +18640,7 @@ flags: `0x80200`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>match_partyChangeNum</code></summary>
@@ -18619,7 +18648,7 @@ flags: `0x200`
 The int that represents the change num of our party struct (did it change?)
 
 default: `""`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>match_partySize</code></summary>
@@ -18627,7 +18656,7 @@ flags: `0x200`
 The size of our party
 
 default: `""`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>match_partySub</code></summary>
@@ -18635,7 +18664,7 @@ flags: `0x200`
 The name of our party subscription
 
 default: `""`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>match_pingWaveInterval</code></summary>
@@ -18643,7 +18672,7 @@ flags: `0x200`
 
 
 default: `"0.2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_playlist</code></summary>
@@ -18651,7 +18680,7 @@ flags: `0x2`
 The playlist we are looking for
 
 default: `""`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>match_precachemap</code></summary>
@@ -18659,7 +18688,7 @@ flags: `0x80200`
 Whether to precache the map for the selected playlist
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>match_precachemapOnMismatch</code></summary>
@@ -18667,7 +18696,7 @@ flags: `0x2002`
 Whether to re-precache the map on mismatch between engine and matchmaking
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>match_privateMatchListWithStryder</code></summary>
@@ -18675,7 +18704,7 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_rankedMaxPing</code></summary>
@@ -18683,7 +18712,7 @@ flags: `0x2`
 
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>match_rankedSwitchETA</code></summary>
@@ -18691,7 +18720,7 @@ flags: `0x2002`
 
 
 default: `"300"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>match_resetPlaylistBetweenMatches</code></summary>
@@ -18699,7 +18728,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_roleToken</code></summary>
@@ -18707,7 +18736,7 @@ flags: `0x2`
 The role token used when matchmaking (e.g. for private match).
 
 default: `""`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>match_searchInterval</code></summary>
@@ -18715,7 +18744,7 @@ flags: `0x80200`
 How often to repeat searches
 
 default: `"2"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>match_searching</code></summary>
@@ -18723,7 +18752,7 @@ flags: `0x80000`
 Whether or not we want the system to be actively searching right now
 
 default: `"0"`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>match_skipRedundantServerResets</code></summary>
@@ -18731,7 +18760,7 @@ flags: `0x80200`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_teamNoFill</code></summary>
@@ -18739,7 +18768,7 @@ flags: `0x2`
 If set, matchmaking won't fill the player's team with non-party members
 
 default: `"0"`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>match_trackMMR</code></summary>
@@ -18747,7 +18776,7 @@ flags: `0x80200`
 
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>match_updateNotableRate</code></summary>
@@ -18755,7 +18784,7 @@ flags: `0x80000`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_updateRate</code></summary>
@@ -18763,7 +18792,7 @@ flags: `0x2`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_useMatchmaking</code></summary>
@@ -18771,7 +18800,7 @@ flags: `0x2`
 This dedi is a matchmaking dedi
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_verbosePrintsInterval</code></summary>
@@ -18779,7 +18808,7 @@ flags: `0x2`
 
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_visiblePlaylists</code></summary>
@@ -18787,7 +18816,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>matchmaking_hostname</code></summary>
@@ -18795,7 +18824,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>max_explosive_damage_mass</code></summary>
@@ -18803,7 +18832,7 @@ flags: `0x80000`
 Anything heavier than this will be clamped. (units kg)
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>max_explosive_damage_velocity</code></summary>
@@ -18811,7 +18840,7 @@ flags: `0x2002`
 inches/sec
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>max_tweak_shadow_updates</code></summary>
@@ -18819,7 +18848,7 @@ flags: `0x2002`
 
 
 default: `"8"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>melee_aim_assist_can_lock_pitch</code></summary>
@@ -18827,7 +18856,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_aim_assist_use_target_velocity</code></summary>
@@ -18835,7 +18864,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_attack_trace_can_use_lunge_distance</code></summary>
@@ -18843,7 +18872,7 @@ flags: `0x2002`
 
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_cone_trace_box_check</code></summary>
@@ -18851,7 +18880,7 @@ flags: `0x2002`
 
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_abort_distance</code></summary>
@@ -18859,7 +18888,7 @@ flags: `0x2002`
 Abort the lunge if the distance moved in one frame is less than this much of the expected lunge distance.
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_abort_if_blocked</code></summary>
@@ -18867,7 +18896,7 @@ flags: `0x2002`
 Lunging can abort if the player hits something that blocks their lunge movement.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_adjust_trace_distance</code></summary>
@@ -18875,7 +18904,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_align_eye_position</code></summary>
@@ -18883,7 +18912,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_dot_check</code></summary>
@@ -18891,7 +18920,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_force_enable_flying</code></summary>
@@ -18899,7 +18928,7 @@ flags: `0x2002`
 Lunging will always ignore gravity.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_lag_compensate_target</code></summary>
@@ -18907,7 +18936,7 @@ flags: `0x2002`
 Lunging will apply lag compensation the target's position.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_scale_by_speed</code></summary>
@@ -18915,7 +18944,7 @@ flags: `0x2002`
 Increase lunge range (by up to the given scale) if the player is going fast enough.
 
 default: `"2.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_slide</code></summary>
@@ -18923,7 +18952,7 @@ flags: `0x2002`
 When lunging, try slide along surfaces
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_use_closest_distance_between_cylinders</code></summary>
@@ -18931,7 +18960,7 @@ flags: `0x2002`
 When calculating distance to the lunge target, treat them as cylinders rather than points.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_lunge_use_command_time</code></summary>
@@ -18939,7 +18968,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>melee_queue_attack_anim_event</code></summary>
@@ -18947,16 +18976,15 @@ flags: `0x2002`
 Run melee attacks after the player has moved this frame
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mem_dumpstats</code></summary>
 
 Dump current and max heap usage info to console at end of frame ( set to 2 for continuous output )
 
-
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_incremental_compact_rate</code></summary>
@@ -18964,7 +18992,7 @@ flags: `0x2`
 Rate at which to attempt internal heap compaction
 
 default: `".1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mem_level</code></summary>
@@ -18972,7 +19000,7 @@ flags: `0x4000`
 Memory Level - Default: High
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_level</code></summary>
@@ -18980,7 +19008,7 @@ flags: `0x2`
 Memory Level - Default: High
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_runheapchecks</code></summary>
@@ -18988,15 +19016,16 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_saving_release_mb</code></summary>
 
-Amount of free mem that stops memory saving (in MB). Should be higher than mem_saving_trigger_mb + mem_saving_request_mb to prevent thrashing
+Amount of free mem that stops memory saving (in MB). Should be higher than mem_saving_trigger_mb + mem_saving_request_mb
+to prevent thrashing
 
 default: `"40"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>mem_saving_request_mb</code></summary>
@@ -19004,7 +19033,7 @@ flags: `0x80000`
 Amount of memory to request from streaming systems when saving is active (in MB)
 
 default: `"20"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>mem_saving_trigger_mb</code></summary>
@@ -19012,7 +19041,7 @@ flags: `0x80000`
 Amount of free mem that triggers memory saving (in MB)
 
 default: `"10"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>mem_saving_use_factor</code></summary>
@@ -19020,7 +19049,7 @@ flags: `0x80000`
 Memory saving will not trigger unless streamers are using a total of (mem_saving_use_factor * mem_saving_request_mb)
 
 default: `"10"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>mem_saving_vram_release_mb</code></summary>
@@ -19028,7 +19057,7 @@ flags: `0x80000`
 
 
 default: `"512"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>mem_saving_vram_request_mb</code></summary>
@@ -19036,7 +19065,7 @@ flags: `0x40000000`
 
 
 default: `"0"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>mem_saving_vram_trigger_mb</code></summary>
@@ -19044,25 +19073,23 @@ flags: `0x40000000`
 
 
 default: `"256"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>mem_test_each_frame</code></summary>
 
 Run heap check at end of every frame
 
-
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_test_every_n_seconds</code></summary>
 
 Run heap check at a specified interval
 
-
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_test_quiet</code></summary>
@@ -19070,7 +19097,7 @@ flags: `0x2`
 Don't print stats when memtesting
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>menu_faq_community_version</code></summary>
@@ -19078,7 +19105,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>menu_faq_patchnotes_version</code></summary>
@@ -19086,7 +19113,7 @@ flags: `0x1000000`
 
 
 default: `"-1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>menu_faq_viewed</code></summary>
@@ -19094,7 +19121,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>menu_was_multiplayer_played_last</code></summary>
@@ -19102,7 +19129,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>metric_recent_period</code></summary>
@@ -19110,7 +19137,7 @@ flags: `0x1000000`
 Length of metrics recent period (seconds)
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metric_update_interval</code></summary>
@@ -19118,7 +19145,7 @@ flags: `0x2`
 Update metric at this interval (seconds)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metrichttp_enabled</code></summary>
@@ -19126,7 +19153,7 @@ flags: `0x2`
 Use 0 to disable CMetricHttp functionality.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metrichttp_max_pending_http_requests</code></summary>
@@ -19134,7 +19161,7 @@ flags: `0x2`
 Upper limit on pending http requests for metrics.
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metrichttp_reset_on_level_shutdown</code></summary>
@@ -19142,7 +19169,7 @@ flags: `0x2`
 Reset the metrics on level shutdown.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metricmanagernet_enabled</code></summary>
@@ -19150,7 +19177,7 @@ flags: `0x2`
 Use 0 to disable CMetricManagerNet functionality.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metricmanagernet_reset_on_level_shutdown</code></summary>
@@ -19158,7 +19185,7 @@ flags: `0x2`
 Reset the metrics on level shutdown.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metricmanagernet_update_interval</code></summary>
@@ -19166,7 +19193,7 @@ flags: `0x2`
 Update CMetricManagerNet metrics at this interval (seconds)
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>migrate_attempt_interval</code></summary>
@@ -19174,7 +19201,7 @@ flags: `0x2`
 
 
 default: `"2.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>migrate_attempt_max_retries</code></summary>
@@ -19182,7 +19209,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_actor_occlusion_radius</code></summary>
@@ -19190,7 +19217,7 @@ flags: `0x2`
 Distance which must be penetrated for one of the entity check points to be considered occluded.
 
 default: `"8.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_channels</code></summary>
@@ -19198,7 +19225,7 @@ flags: `0x2`
 Number of audio channels, commonly 2(stereo), 6(5.1), 8(7.1). (0 is default)
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>miles_channels_menuoption</code></summary>
@@ -19206,7 +19233,7 @@ flags: `0x80`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_channels_menuoption_headphones</code></summary>
@@ -19214,7 +19241,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_devnet_screenshot_attach_dump</code></summary>
@@ -19222,7 +19249,7 @@ flags: `0x2`
 Attach miles dump file to each DevNet screenshot
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_devnet_screenshot_attach_samples</code></summary>
@@ -19230,7 +19257,7 @@ flags: `0x2`
 Attach recent miles output sample file to each DevNet screenshot
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_driver</code></summary>
@@ -19238,7 +19265,7 @@ flags: `0x2`
 Options are 'wasapi' (default), 'xaudio2', 'directsound', 'wasapi_ss', 'null'
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>miles_driver_mix_mode</code></summary>
@@ -19246,7 +19273,7 @@ flags: `0x80000`
 0 = auto, 1 = both indirect, 2 = both direct, 3 = direct upmixing
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_error_counter_data_error_threshold</code></summary>
@@ -19254,7 +19281,7 @@ flags: `0x2`
 Errors per second beyond which Miles data error icons are shown. Negative = disabled
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_error_counter_display</code></summary>
@@ -19262,7 +19289,7 @@ flags: `0x2`
 Show error icons when we exceed sound playback error thresholds.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_error_counter_limits_error_threshold</code></summary>
@@ -19270,7 +19297,7 @@ flags: `0x2`
 Errors per second beyond which Miles limiting error icons are shown. Negative = disabled
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_error_counter_starvation_error_threshold</code></summary>
@@ -19278,7 +19305,7 @@ flags: `0x2`
 Errors per second beyond which Miles starvation error icons are shown. Negative = disabled
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_flip_active_window_logic</code></summary>
@@ -19286,7 +19313,7 @@ flags: `0x2`
 Only hear audio when NOT the active window.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>miles_force_emitter_environment</code></summary>
@@ -19294,7 +19321,7 @@ flags: `0x2002`
 Force Environment on played sounds and entities (per-event controllers and suffixes.)
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_force_listener_environment</code></summary>
@@ -19302,7 +19329,7 @@ flags: `0x2`
 Force environment on listener (i.e., global controller changes only)
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_freeze</code></summary>
@@ -19310,7 +19337,7 @@ flags: `0x2`
 When 1, sound is paused and incoming play events are ignored.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_initial_occlusion_delay</code></summary>
@@ -19318,7 +19345,7 @@ flags: `0x2`
 Time (in msec) to delay new sounds when we defer their traces.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_language</code></summary>
@@ -19326,15 +19353,15 @@ flags: `0x2`
 Language to use for audio (requires a miles restart to change.)
 
 default: `""`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>miles_lfe_lowpass_hz</code></summary>
 
-(0=filter disabled) cutoff  threshold for lowpass applied to LFE channel(s)
+(0=filter disabled) cutoff threshold for lowpass applied to LFE channel(s)
 
 default: `"120"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_lfe_lowpass_iterations</code></summary>
@@ -19342,7 +19369,7 @@ flags: `0x2`
 lfe lowpass falloff = -12dB/oct * miles_lfe_lowpass_iterations
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_listener_freeze</code></summary>
@@ -19350,7 +19377,7 @@ flags: `0x2`
 When 1, stop updating listener position.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_listener_soundscape_roof_iter_count</code></summary>
@@ -19358,7 +19385,7 @@ flags: `0x2`
 Number of iterations we test the roof offset to find the listener soundscape.
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_listener_soundscape_roof_min_z_separation</code></summary>
@@ -19366,7 +19393,7 @@ flags: `0x2`
 How far above the listener an event must be to qualify as a potential soundscape roof event
 
 default: `"15.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_listener_soundscape_roof_offset</code></summary>
@@ -19374,15 +19401,16 @@ flags: `0x2`
 How far down below the sound source to test for the listener soundscape
 
 default: `"-46.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_listener_soundscape_roof_old_logic</code></summary>
 
-Use the simple old ss roof check that is marginally faster but doesn't properly handle certain cases with delegate soundscapes.
+Use the simple old ss roof check that is marginally faster but doesn't properly handle certain cases with delegate
+soundscapes.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_nonactor_occlusion</code></summary>
@@ -19390,7 +19418,7 @@ flags: `0x2`
 Do traces to determine when non-entity sounds are occluded.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_nonactor_occlusion_radius</code></summary>
@@ -19398,7 +19426,7 @@ flags: `0x2`
 Distance which must be penetrated for a non-entity sound to be considered occluded.
 
 default: `"8.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_nopandist</code></summary>
@@ -19406,7 +19434,7 @@ flags: `0x2`
 Distance at which panning is forced to center-front.
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_occlusion</code></summary>
@@ -19414,7 +19442,7 @@ flags: `0x2`
 When nonzero, perform occlusion checks
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_occlusion_force</code></summary>
@@ -19422,7 +19450,7 @@ flags: `0x2`
 0 to 100: Force all sounds to have occlusion values of 0 (unoccluded) to 100 (completely occluded). -1 for normal.
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_occlusion_partial</code></summary>
@@ -19430,7 +19458,7 @@ flags: `0x2`
 When zero, occlusion state is binary. When nonzero, allow partial occlusion of audio.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_occlusion_use_reset_after_deferred_initial</code></summary>
@@ -19438,7 +19466,7 @@ flags: `0x2`
 For A/B testing feature. Enable permanently eventually.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_output_device</code></summary>
@@ -19446,7 +19474,7 @@ flags: `0x2`
 empty = default
 
 default: `""`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>miles_recreate_on_default_changed</code></summary>
@@ -19454,7 +19482,7 @@ flags: `0x80`
 Recreate driver when swapping devices with miles_output_device set to default
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>miles_replay_transition_enable_early_cleanup</code></summary>
@@ -19462,7 +19490,7 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>miles_samplerate</code></summary>
@@ -19470,7 +19498,7 @@ flags: `0x2002`
 Sample rate, commonly 48000, 44100, 22050, or 11025 (0 is default)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_samples_dither</code></summary>
@@ -19478,7 +19506,7 @@ flags: `0x2`
 Enable dithering for dumped audio samples
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_samples_folddown</code></summary>
@@ -19486,7 +19514,7 @@ flags: `0x2`
 Fold down dumped audio samples
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_samples_noise_shape</code></summary>
@@ -19494,7 +19522,7 @@ flags: `0x2`
 Enable noise shaping for dumped audio samples
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_scale_floor_occlusion</code></summary>
@@ -19502,7 +19530,7 @@ flags: `0x2`
 Scale occlusion applied due to soundscape floors/roofs (floor_occlusion_base, floor_occlusion_incremental, floor_skip)
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_scale_soundscape_occlusion</code></summary>
@@ -19510,7 +19538,7 @@ flags: `0x2`
 Scale occlusion applied due to soundscapes (i.e. occlusion_adjustment)
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_scale_unadjusted_occlusion</code></summary>
@@ -19518,7 +19546,7 @@ flags: `0x2`
 Scale all occlusion
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_send_csom_telemetry</code></summary>
@@ -19526,7 +19554,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_server_sounds_debug</code></summary>
@@ -19534,7 +19562,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_server_sounds_print</code></summary>
@@ -19542,7 +19570,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_solo_ents</code></summary>
@@ -19550,7 +19578,7 @@ flags: `0x2`
 Only play sounds from this entity index (or space-separated list of indices.)
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_soundscape_imgui</code></summary>
@@ -19558,7 +19586,7 @@ flags: `0x2`
 Show imgui-based soundscape debugging window
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_soundscape_skipfloors</code></summary>
@@ -19566,23 +19594,25 @@ flags: `0x2`
 Enables soundscape floor skip logic
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_soundscape_skipfloors_distance</code></summary>
 
-If above zero, soundscape floor skip logic will ignore floors within this many Z units of the listener (multiplied by the respective soundscape's floor_skip value)
+If above zero, soundscape floor skip logic will ignore floors within this many Z units of the listener (multiplied by
+the respective soundscape's floor_skip value)
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_soundscape_skipfloors_mode</code></summary>
 
-Determines how many floors to skip, max(listenerFloorSkip, eventFloorSkip), mode 1=min(listenerFloorSkip, eventFloorSkip) logic, and mode 2=just listenerFloorSkip
+Determines how many floors to skip, max(listenerFloorSkip, eventFloorSkip), mode 1=min(listenerFloorSkip,
+eventFloorSkip) logic, and mode 2=just listenerFloorSkip
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_soundscape_skipfloors_offset</code></summary>
@@ -19590,7 +19620,7 @@ flags: `0x2`
 Offsets listener Z position used for floor skip logic
 
 default: `"0.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_spatialize_front_degrees</code></summary>
@@ -19598,7 +19628,7 @@ flags: `0x2`
 Front panning field angle
 
 default: `"45.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_spatialize_front_use_view_fov</code></summary>
@@ -19606,7 +19636,7 @@ flags: `0x2`
 Matches front panning field angle to FOV of main view
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_spatialize_offplane_strength</code></summary>
@@ -19614,7 +19644,7 @@ flags: `0x2`
 Offplane omni-fication strength
 
 default: `"0.4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_spatialize_on</code></summary>
@@ -19622,7 +19652,7 @@ flags: `0x2`
 Enable hard spatialization test
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_spatialize_rear_degrees</code></summary>
@@ -19630,7 +19660,7 @@ flags: `0x2`
 Rear panning field angle
 
 default: `"120.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_suffixes</code></summary>
@@ -19638,7 +19668,7 @@ flags: `0x2`
 Use emitter suffixed versions of sounds.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_buffer_ms</code></summary>
@@ -19646,7 +19676,7 @@ flags: `0x2`
 Amount of ms to buffer incoming voice before playback. Smooths out pops/clicks, but incurs a delay
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_decimate_at_bytes</code></summary>
@@ -19654,7 +19684,7 @@ flags: `0x2`
 voice_decimate_rate is applied when at least this many bytes of uncompressed incoming voice have been queued
 
 default: `"22050"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_decimate_rate</code></summary>
@@ -19662,7 +19692,7 @@ flags: `0x2`
 Every N'th sample is removed when above voice_decimate_at_bytes
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_max_queued_bytes</code></summary>
@@ -19670,7 +19700,7 @@ flags: `0x2`
 If this many incoming voice bytes are queued for playback, drain the buffer and reject incoming samples
 
 default: `"33000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_part_size</code></summary>
@@ -19678,7 +19708,7 @@ flags: `0x2`
 When filling CSOMV parts, we will attempt to continue to the next part once the current part has this many bytes in it.
 
 default: `"320"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_warning</code></summary>
@@ -19686,7 +19716,7 @@ flags: `0x2`
 Display voice limits warning when there are more than this many active voices at once
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_warning_hipri</code></summary>
@@ -19694,7 +19724,7 @@ flags: `0x2`
 Display voice limits warning when there are more than this many voices with a high priority
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_voice_warning_icon_display_time</code></summary>
@@ -19702,7 +19732,7 @@ flags: `0x2`
 How long to display voice limit indicator
 
 default: `"2.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>min_explosive_damage_mass</code></summary>
@@ -19710,7 +19740,7 @@ flags: `0x2`
 Anything lighter than this will be clamped. (units kg)
 
 default: `"20"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>missile_default_speed</code></summary>
@@ -19718,7 +19748,7 @@ flags: `0x2002`
 
 
 default: `"2500"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>missile_homing_speed</code></summary>
@@ -19726,7 +19756,7 @@ flags: `0x2002`
 
 
 default: `"150"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mod_trace_load</code></summary>
@@ -19734,7 +19764,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>model_defaultFadeDistMin</code></summary>
@@ -19742,7 +19772,7 @@ flags: `0x2`
 Default minimum fade distance.
 
 default: `"400"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>model_defaultFadeDistMin</code></summary>
@@ -19750,7 +19780,7 @@ flags: `0x4000`
 Default minimum fade distance.
 
 default: `"400"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>model_defaultFadeDistScale</code></summary>
@@ -19758,7 +19788,7 @@ flags: `0x4000`
 Factor that is multiplied by the model's radius to get the default fade distance.
 
 default: `"40"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>model_defaultFadeDistScale</code></summary>
@@ -19766,7 +19796,7 @@ flags: `0x4000`
 Factor that is multiplied by the model's radius to get the default fade distance.
 
 default: `"40"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>model_fadeRangeFraction</code></summary>
@@ -19774,7 +19804,7 @@ flags: `0x4000`
 Fraction of the fade distance to fade over.
 
 default: `"0.1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>model_fadeRangeFractionNear</code></summary>
@@ -19782,7 +19812,7 @@ flags: `0x4000`
 Fraction of the near fade distance at which impostors are invisible.
 
 default: `"0.9"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>modelswap_allow_anim_continuation</code></summary>
@@ -19790,7 +19820,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>monitor_cc</code></summary>
@@ -19798,7 +19828,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>monitor_mat_sharpen_amount</code></summary>
@@ -19806,7 +19836,7 @@ flags: `0x2`
 
 
 default: `"2.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>monitor_postfx</code></summary>
@@ -19814,7 +19844,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>monitor_rui_world_enabled</code></summary>
@@ -19822,7 +19852,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>monitor_snapshot_frame_delay</code></summary>
@@ -19830,7 +19860,7 @@ flags: `0x2`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>monitor_zfar_default</code></summary>
@@ -19838,7 +19868,7 @@ flags: `0x2`
 
 
 default: `"642"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>monitor_zfar_override</code></summary>
@@ -19846,7 +19876,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>monitor_zfar_override_enabled</code></summary>
@@ -19854,7 +19884,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mouse_sensitivity</code></summary>
@@ -19864,7 +19894,7 @@ Mouse sensitivity.
 default: `"5"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_use_per_scope_sensitivity_scalars</code></summary>
@@ -19872,7 +19902,7 @@ max value: `20`
 Uses the per scope scalars
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_0</code></summary>
@@ -19882,7 +19912,7 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_1</code></summary>
@@ -19892,7 +19922,7 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_2</code></summary>
@@ -19902,7 +19932,7 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_3</code></summary>
@@ -19912,7 +19942,7 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_4</code></summary>
@@ -19922,7 +19952,7 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_5</code></summary>
@@ -19932,7 +19962,7 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_6</code></summary>
@@ -19942,7 +19972,7 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>mouse_zoomed_sensitivity_scalar_7</code></summary>
@@ -19952,15 +19982,16 @@ Mouse sensitivity.
 default: `"1.0"`  
 flags: `0x80`  
 min value: `0.1`  
-max value: `20`  
+max value: `20`
 </details>
 <details>
 <summary><code>move_one_cmd_per_client_frame</code></summary>
 
-Force clients to generate exactly one user command per client frame. There will not be a one-to-one relationship between cmds and ticks.
+Force clients to generate exactly one user command per client frame. There will not be a one-to-one relationship between
+cmds and ticks.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>movement_anim_downed_playback_maxrate</code></summary>
@@ -19968,7 +19999,7 @@ flags: `0x2002`
 
 
 default: `"2.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>movement_anim_playback_maxrate</code></summary>
@@ -19976,7 +20007,7 @@ flags: `0x2002`
 
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>movement_anim_playback_minrate</code></summary>
@@ -19984,7 +20015,7 @@ flags: `0x2002`
 
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>movement_anim_sprint_playback_maxrate</code></summary>
@@ -19992,7 +20023,7 @@ flags: `0x2002`
 
 
 default: `"1.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mp_accountLink_requestInterval</code></summary>
@@ -20000,7 +20031,7 @@ flags: `0x2002`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mp_allowed</code></summary>
@@ -20008,7 +20039,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mp_bodyyawrate</code></summary>
@@ -20016,7 +20047,7 @@ flags: `0x2`
 
 
 default: `"400"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mp_countRRNobodyAsLobby</code></summary>
@@ -20024,7 +20055,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mp_enablematchending</code></summary>
@@ -20032,7 +20063,7 @@ flags: `0x2`
 When set to 0, match will not end
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mp_enabletimelimit</code></summary>
@@ -20040,7 +20071,7 @@ flags: `0x2002`
 enable mp_timelimit timer in games
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mp_gamemode</code></summary>
@@ -20048,7 +20079,7 @@ flags: `0x2002`
 Current game mode name
 
 default: `""`  
-flags: `0x12002`  
+flags: `0x12002`
 </details>
 <details>
 <summary><code>mp_linkingAccountTime</code></summary>
@@ -20056,7 +20087,7 @@ flags: `0x12002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mp_linkingAccountWindow</code></summary>
@@ -20064,7 +20095,7 @@ flags: `0x2`
 
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mp_maxbodyyaw</code></summary>
@@ -20072,7 +20103,7 @@ flags: `0x2`
 
 
 default: `"60"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mp_permission_requestInterval</code></summary>
@@ -20080,7 +20111,7 @@ flags: `0x2002`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mp_permission_rerequestInterval</code></summary>
@@ -20088,7 +20119,7 @@ flags: `0x2`
 
 
 default: `"21600"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mp_player_level</code></summary>
@@ -20096,7 +20127,7 @@ flags: `0x2`
 To read mp player level in SP
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>mp_scaleAnimationSpeeds</code></summary>
@@ -20104,7 +20135,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mp_showgestureslots</code></summary>
@@ -20112,7 +20143,7 @@ flags: `0x2002`
 Show multiplayer client/server gesture slot information for the specified player index (-1 for no one).
 
 default: `"-1"`  
-flags: `0x6002`  
+flags: `0x6002`
 </details>
 <details>
 <summary><code>mtx_giftingEnabled</code></summary>
@@ -20120,7 +20151,7 @@ flags: `0x6002`
 Allow gifting feature to enabled/disabled.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mtx_giftingForce2FA</code></summary>
@@ -20128,7 +20159,7 @@ flags: `0x2002`
 Bypass 2FA check and show as 2FA was activated on players account.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mtx_giftingLimit</code></summary>
@@ -20136,7 +20167,7 @@ flags: `0x2002`
 Max number of times a person can gift per reset period.
 
 default: `"5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mtx_giftingMinAccountLevel</code></summary>
@@ -20144,7 +20175,7 @@ flags: `0x2002`
 Minimum level your account needs to be to gift.
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mtx_giftingMinFriendshipInDays</code></summary>
@@ -20152,7 +20183,7 @@ flags: `0x2002`
 Minimum length of time players can be friends for gifting to be allowed.
 
 default: `"14"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>mtx_svEdition</code></summary>
@@ -20160,7 +20191,7 @@ flags: `0x2002`
 
 
 default: `"1600"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>multiplay_ip</code></summary>
@@ -20168,7 +20199,7 @@ flags: `0x2002`
 public ip of the server
 
 default: `""`  
-flags: `0x22`  
+flags: `0x22`
 </details>
 <details>
 <summary><code>multiplay_serverid</code></summary>
@@ -20176,7 +20207,7 @@ flags: `0x22`
 Multiplay-assigned server-identifier
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>muteWeaponSounds</code></summary>
@@ -20184,7 +20215,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>name</code></summary>
@@ -20192,7 +20223,7 @@ flags: `0x2002`
 Current user name
 
 default: `"unnamed"`  
-flags: `0x480`  
+flags: `0x480`
 </details>
 <details>
 <summary><code>nemesis_use_looping_sound</code></summary>
@@ -20200,7 +20231,7 @@ flags: `0x480`
 Nemesis uses looping sound when fully charged, or it's using burst fire sound
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>net_RunInvalidatePhysics</code></summary>
@@ -20208,7 +20239,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_async_sendto</code></summary>
@@ -20216,7 +20247,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_autoUnthrottle</code></summary>
@@ -20224,7 +20255,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_bandwidthPrintThreshold</code></summary>
@@ -20232,7 +20263,7 @@ flags: `0x2`
 Percentage where it's worth printing spam about this message in the bandwidth tracker prints
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_bindToSpecificAddress</code></summary>
@@ -20240,7 +20271,7 @@ flags: `0x2`
 Only bind to a certain interface
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_blockmsg</code></summary>
@@ -20248,7 +20279,7 @@ flags: `0x80000`
 Discards incoming message: <0|1|name>
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>net_chatThroughChatserver</code></summary>
@@ -20256,7 +20287,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_chokeloop</code></summary>
@@ -20264,7 +20295,7 @@ flags: `0x2`
 Apply bandwidth choke to loopback packets (only in MP)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_clearReliableDataOnReset</code></summary>
@@ -20272,15 +20303,16 @@ flags: `0x2`
 Whether we should erase unsent reliable data when we call netchan->Reset()
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_client_side_weapon_animations</code></summary>
 
-Enable/disable client side weapon animations. Only apply to already optimized weapons, eg. rapid fire instant hit weapons like xo16, r101 etc.
+Enable/disable client side weapon animations. Only apply to already optimized weapons, eg. rapid fire instant hit
+weapons like xo16, r101 etc.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>net_compressAlgorithm</code></summary>
@@ -20288,7 +20320,7 @@ flags: `0x2002`
 Oodle compression algorithm used.
 
 default: `"9"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_compressAlgorithmOptim</code></summary>
@@ -20296,7 +20328,7 @@ flags: `0x2`
 Oodle compression algorithm tunable.
 
 default: `"9"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_compressDataBlock</code></summary>
@@ -20304,7 +20336,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_compresspackets</code></summary>
@@ -20312,7 +20344,7 @@ flags: `0x2`
 Use compression on game packets.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_compresspackets_minsize</code></summary>
@@ -20320,7 +20352,7 @@ flags: `0x2`
 Don't bother compressing packets below this size.
 
 default: `"500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_connectPacketWarningThreshhold</code></summary>
@@ -20328,7 +20360,7 @@ flags: `0x2`
 
 
 default: `"0.9"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_createUndoDeltas</code></summary>
@@ -20336,7 +20368,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dataRate</code></summary>
@@ -20344,7 +20376,7 @@ flags: `0x2`
 
 
 default: `"256000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dataRateCL</code></summary>
@@ -20352,7 +20384,7 @@ flags: `0x2`
 Max bytes/sec the client can send data before choking itself
 
 default: `"128000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dataRateDev</code></summary>
@@ -20360,7 +20392,7 @@ flags: `0x2`
 
 
 default: `"81920"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dataRateDev_enabled</code></summary>
@@ -20368,15 +20400,16 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_data_block_enabled</code></summary>
 
-Enable/disable net data block optimization for load times. When disabled large chunks are sent down via existing netchan reliability system instead of net data blocks.
+Enable/disable net data block optimization for load times. When disabled large chunks are sent down via existing netchan
+reliability system instead of net data blocks.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>net_datablock_debugReceiver</code></summary>
@@ -20384,7 +20417,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_debugSender</code></summary>
@@ -20392,7 +20425,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_dumpBlocks</code></summary>
@@ -20400,7 +20433,7 @@ flags: `0x2`
 Dump all binary datablocks to C:\temp
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_dumpMsg</code></summary>
@@ -20408,7 +20441,7 @@ flags: `0x2`
 Dump datablock report for messages that contain this substring. Use * to dump everything
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_dumpOnlyRealClients</code></summary>
@@ -20416,7 +20449,7 @@ flags: `0x2`
 Only dump for real clients (non fake, non bot)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_fastRate</code></summary>
@@ -20424,7 +20457,7 @@ flags: `0x2`
 
 
 default: `"128000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_longSendTime</code></summary>
@@ -20432,7 +20465,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_minResendInterval</code></summary>
@@ -20440,7 +20473,7 @@ flags: `0x2`
 
 
 default: `"0.1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_networkLossForSlowSpeed</code></summary>
@@ -20448,7 +20481,7 @@ flags: `0x2`
 
 
 default: `"0.1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_printSummaries</code></summary>
@@ -20456,7 +20489,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_qos_budgetRollover</code></summary>
@@ -20464,7 +20497,7 @@ flags: `0x2`
 Allow unused send budget to rollover into following frames
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_qos_enabled</code></summary>
@@ -20472,7 +20505,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_qos_rateMax</code></summary>
@@ -20480,7 +20513,7 @@ flags: `0x2`
 
 
 default: `"1048576"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_qos_rateMin</code></summary>
@@ -20488,7 +20521,7 @@ flags: `0x2`
 
 
 default: `"20480"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_resendRateForSlowSpeed</code></summary>
@@ -20496,7 +20529,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_datablock_slowRate</code></summary>
@@ -20504,7 +20537,7 @@ flags: `0x2`
 
 
 default: `"64000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_debugLerping</code></summary>
@@ -20512,7 +20545,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_deltaFieldEntityBlockSize</code></summary>
@@ -20520,7 +20553,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dumpChangesPrecise</code></summary>
@@ -20528,7 +20561,7 @@ flags: `0x2`
 Prints floats at full precision
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_encrypt_copyCtx</code></summary>
@@ -20536,7 +20569,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_encrypt_debug</code></summary>
@@ -20544,7 +20577,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_encrypt_multiKey</code></summary>
@@ -20552,15 +20585,16 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_encrypt_relay_traffic</code></summary>
 
-Manually encrypt / decrypt traffic that is sent over the Valve Relay. Note that the Valve Relay already encrypts traffic on its own.
+Manually encrypt / decrypt traffic that is sent over the Valve Relay. Note that the Valve Relay already encrypts traffic
+on its own.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_forceUnnecessaryUndoDeltas</code></summary>
@@ -20568,7 +20602,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_forcetimeout</code></summary>
@@ -20576,7 +20610,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>net_highPacketLatencyThreshold</code></summary>
@@ -20584,7 +20618,7 @@ flags: `0x4000`
 
 
 default: `"0.200"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_highPacketLossThreshold</code></summary>
@@ -20592,7 +20626,7 @@ flags: `0x2`
 
 
 default: `"0.05"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_ignoreAllSnapshots</code></summary>
@@ -20600,7 +20634,7 @@ flags: `0x2`
 Drop all snapshot messages
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_largeSnapshotThreshold</code></summary>
@@ -20608,7 +20642,7 @@ flags: `0x2`
 The size of a snapshot that qualifies as a large snapshot
 
 default: `"15000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_lerpFields</code></summary>
@@ -20616,15 +20650,16 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_maxAccumulatedClearTimeBalance</code></summary>
 
-Max time (in seconds) to count not sending data to this player towards their 'remaining bandwidth' balance [if we haven't sent a packet in 2 minutes, that doesn't mean they have 2 minutes of bandwidth remaining to use]
+Max time (in seconds) to count not sending data to this player towards their 'remaining bandwidth'
+balance [if we haven't sent a packet in 2 minutes, that doesn't mean they have 2 minutes of bandwidth remaining to use]
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_maxRecvCall</code></summary>
@@ -20632,7 +20667,7 @@ flags: `0x2`
 
 
 default: `"1000"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_maxRecvPacket</code></summary>
@@ -20640,7 +20675,7 @@ flags: `0x80000`
 
 
 default: `"10000"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_maxcleartime</code></summary>
@@ -20648,7 +20683,7 @@ flags: `0x80000`
 Max # of seconds we can wait for next packets to be sent based on rate setting (0 == no limit).
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_maxroutable</code></summary>
@@ -20658,7 +20693,7 @@ Requested max packet size before packets are 'split'.
 default: `"1200"`  
 flags: `0x202`  
 min value: `576`  
-max value: `1200`  
+max value: `1200`
 </details>
 <details>
 <summary><code>net_minConnectionTimeForSpam</code></summary>
@@ -20666,7 +20701,7 @@ max value: `1200`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_minResetIdleTimerInterval</code></summary>
@@ -20674,7 +20709,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_minimumPacketLossDC</code></summary>
@@ -20682,7 +20717,7 @@ flags: `0x2`
 The lowest packet loss we have to any datacenter
 
 default: `"100"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>net_netGraph2</code></summary>
@@ -20690,7 +20725,7 @@ flags: `0x200`
 
 
 default: `"0"`  
-flags: `0x41080000`  
+flags: `0x41080000`
 </details>
 <details>
 <summary><code>net_noPostDataForDeletedEnts</code></summary>
@@ -20698,7 +20733,7 @@ flags: `0x41080000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_optimize_persistent_data</code></summary>
@@ -20706,7 +20741,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_optimize_playlists</code></summary>
@@ -20714,15 +20749,16 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_optimize_weapons</code></summary>
 
-Enable/disable bandwidth optimizations made to weapons. Additional experimental optimizations can be enabled values 2 (weapon player data) and 3 (client side weapon animation)
+Enable/disable bandwidth optimizations made to weapons. Additional experimental optimizations can be enabled values 2 (
+weapon player data) and 3 (client side weapon animation)
 
 default: `"2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>net_portTryMax</code></summary>
@@ -20730,7 +20766,7 @@ flags: `0x2002`
 The number of different ports to try to find an unused one.
 
 default: `"64"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_predictParentEntities</code></summary>
@@ -20738,7 +20774,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_predictedEntsUseFirstAvailableSnapshot</code></summary>
@@ -20746,7 +20782,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_predictionDebug</code></summary>
@@ -20754,7 +20790,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_pretendSnapshotArrayFull</code></summary>
@@ -20762,7 +20798,7 @@ flags: `0x2`
 Pretend the client snapshot array is full even when it isn't
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_printCompression</code></summary>
@@ -20770,7 +20806,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_printOutOfSnapshots</code></summary>
@@ -20778,7 +20814,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_printUnnecessaryDeltas</code></summary>
@@ -20786,15 +20822,16 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_processSocketStats_trigger</code></summary>
 
-Print out stats of what packets we receive during the next process of sockets. Set to the enum of the socket you care about ie. NetSocketID_e
+Print out stats of what packets we receive during the next process of sockets. Set to the enum of the socket you care
+about ie. NetSocketID_e
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_protocol_base</code></summary>
@@ -20802,7 +20839,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_protocol_increment</code></summary>
@@ -20810,7 +20847,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_queuedPackets_PrintOversleeps</code></summary>
@@ -20818,7 +20855,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_queuedPackets_SkipSmallSleeps</code></summary>
@@ -20826,7 +20863,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_queuedPackets_debug</code></summary>
@@ -20834,7 +20871,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_queuedPackets_emptyQueueSleep</code></summary>
@@ -20842,7 +20879,7 @@ flags: `0x2`
 Can't be changed at runtime
 
 default: `"10"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_queuedPackets_force</code></summary>
@@ -20850,7 +20887,7 @@ flags: `0x80000`
 Force all packets into the queue, even if they are to be sent immediately
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_queuedPackets_printThreshold</code></summary>
@@ -20858,7 +20895,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recentNetworkGapWindow</code></summary>
@@ -20866,7 +20903,7 @@ flags: `0x2`
 
 
 default: `"2.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recentNetworkGapsNeeded</code></summary>
@@ -20874,7 +20911,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recentWindowTime</code></summary>
@@ -20882,7 +20919,7 @@ flags: `0x2`
 
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recreateScriptInstanceOnReplayTransition</code></summary>
@@ -20890,7 +20927,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recvBufferSizeOverride</code></summary>
@@ -20898,7 +20935,7 @@ flags: `0x2`
 Override the default receive socket buffer size
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_recv_dumpChanges</code></summary>
@@ -20906,7 +20943,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recv_dumpNetworkedChangesOnEntCreate</code></summary>
@@ -20914,7 +20951,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recv_dumpNetworkedChangesOnNoDelta</code></summary>
@@ -20922,7 +20959,7 @@ flags: `0x2`
 Dump all the fields that change in a NoDelta snapshot to a CSV file. Use pivot tables to see which fields often change
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recv_watchEnt</code></summary>
@@ -20930,7 +20967,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recv_watchField1</code></summary>
@@ -20938,7 +20975,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_recv_watchField2</code></summary>
@@ -20946,7 +20983,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_resourcePrintMinimum</code></summary>
@@ -20954,7 +20991,7 @@ flags: `0x2`
 Minimum count for printing bandwidth info about a resource (sound, effect)
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_sendFloatDeltas</code></summary>
@@ -20962,7 +20999,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_sendProfileTotals</code></summary>
@@ -20970,7 +21007,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_sendtoInJob</code></summary>
@@ -20978,7 +21015,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showFailedAuth</code></summary>
@@ -20986,7 +21023,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showLargeSnapshot</code></summary>
@@ -20994,7 +21031,7 @@ flags: `0x2`
 Show console spam when we get large snapshots from the server
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showServerStruggle</code></summary>
@@ -21002,7 +21039,7 @@ flags: `0x2`
 Print when the server is struggling.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showUndoDeltas</code></summary>
@@ -21010,7 +21047,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showUserWarnings</code></summary>
@@ -21018,16 +21055,15 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showchoke</code></summary>
 
 Show console spam when we get choked snapshots from the server
 
-
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showchokeInterval</code></summary>
@@ -21035,7 +21071,7 @@ flags: `0x2`
 The minimum time interval between spam about going above our network budget
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showdrop</code></summary>
@@ -21043,7 +21079,7 @@ flags: `0x2`
 Show dropped packets in console
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showfragments</code></summary>
@@ -21051,7 +21087,7 @@ flags: `0x2`
 Show netchannel fragments
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showmsg</code></summary>
@@ -21059,7 +21095,7 @@ flags: `0x2`
 Show incoming message: <0|1|name>
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showpeaks</code></summary>
@@ -21067,7 +21103,7 @@ flags: `0x2`
 Show messages for large packets only: <size>
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showsendrecv</code></summary>
@@ -21075,7 +21111,7 @@ flags: `0x2`
 Show sendto and recvfrom calls
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_showsplits</code></summary>
@@ -21083,7 +21119,7 @@ flags: `0x2`
 Show info about packet splits
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_showudp</code></summary>
@@ -21091,7 +21127,7 @@ flags: `0x80000`
 Dump UDP packets summary to console
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_showudp_oob</code></summary>
@@ -21099,7 +21135,7 @@ flags: `0x80000`
 Dump OOB UDP packets summary to console
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_showudp_remoteonly</code></summary>
@@ -21107,7 +21143,7 @@ flags: `0x80000`
 Dump non-loopback udp only
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_showusercmd</code></summary>
@@ -21115,7 +21151,7 @@ flags: `0x80000`
 Show user command encoding
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_skipUnnecessaryDeltas</code></summary>
@@ -21123,7 +21159,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_splitrate</code></summary>
@@ -21131,7 +21167,7 @@ flags: `0x2`
 Number of fragments for a splitpacket that can be sent per frame
 
 default: `"3"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_splitrateDefaultMP</code></summary>
@@ -21139,7 +21175,7 @@ flags: `0x80000`
 Default MP number of fragments for a splitpacket that can be sent per frame
 
 default: `"3"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_splitrateDefaultSP</code></summary>
@@ -21147,7 +21183,7 @@ flags: `0x80000`
 Default SP number of fragments for a splitpacket that can be sent per frame
 
 default: `"10000"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>net_tamperPackets</code></summary>
@@ -21155,7 +21191,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_threadedEntityDeltas</code></summary>
@@ -21163,7 +21199,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_threadedProcessPacket</code></summary>
@@ -21171,7 +21207,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_timeoutUsesLastReadTime</code></summary>
@@ -21179,7 +21215,7 @@ flags: `0x2`
 Don't let us time out if we haven't been actually checking the socket for packets (inside a loop, for example)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_traceroute</code></summary>
@@ -21187,7 +21223,7 @@ flags: `0x2`
 On/Off traceroute.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_traceroute_max_hops</code></summary>
@@ -21195,7 +21231,7 @@ flags: `0x2`
 Max number of hops to attempt during a traceroute.
 
 default: `"255"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_trackEnt_bandwidthFrame</code></summary>
@@ -21203,7 +21239,7 @@ flags: `0x2`
 Turn on/off bandwidth tracker clearing/swapping when tracking an entity (entity tracking is not on main thread).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_trackerWarningInterval</code></summary>
@@ -21211,7 +21247,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_transmission_events_enabled</code></summary>
@@ -21219,7 +21255,7 @@ flags: `0x2`
 Record and report network transmission events for I/O bandwidth estimation
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_use_valve_relay</code></summary>
@@ -21227,7 +21263,7 @@ flags: `0x2`
 Enable connection to Valve Relay and transport over Steam Datagram sockets
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_use_valve_relay_only</code></summary>
@@ -21235,7 +21271,7 @@ flags: `0x2`
 When in use, stop listening for connections over UDP and exclusively use Valve's Relay
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_usesocketsforloopback</code></summary>
@@ -21243,7 +21279,7 @@ flags: `0x2`
 Use network sockets layer even for listen server local player's packets (multiplayer only).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_verifyEncryption</code></summary>
@@ -21251,7 +21287,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_voiceEchoFromChatServer</code></summary>
@@ -21259,7 +21295,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_warnAboutSocketReadGaps</code></summary>
@@ -21267,7 +21303,7 @@ flags: `0x2`
 Warn if we are waiting longer than this to check a socket for new packets
 
 default: `"0.200"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_warnGapTime</code></summary>
@@ -21275,7 +21311,7 @@ flags: `0x2`
 
 
 default: `"0.4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_wifi</code></summary>
@@ -21283,7 +21319,7 @@ flags: `0x2`
 0 = ethernet, 1 = wifi, -1 = unknown
 
 default: `"-1"`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>net_worldHitchSlopTime</code></summary>
@@ -21291,7 +21327,7 @@ flags: `0x80200`
 
 
 default: `"0.031"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>netchan_stats_window_time</code></summary>
@@ -21299,7 +21335,7 @@ flags: `0x2`
 How long are NetChan stats valid. Packet loss, etc
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>next</code></summary>
@@ -21307,7 +21343,7 @@ flags: `0x2`
 Set to 1 to advance to next frame ( when singlestep == 1 )
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>nextEnergizeCooldownTime</code></summary>
@@ -21315,7 +21351,7 @@ flags: `0x4000`
 If player cancel energize or just energized the weapon, it will take this time to be able to start next try
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>noReloadAfterUse</code></summary>
@@ -21323,7 +21359,7 @@ flags: `0x2002`
 Disables reloads for "+useAndReload" input if a use is triggered.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>noise_filter_scale</code></summary>
@@ -21331,7 +21367,7 @@ flags: `0x2002`
 
 
 default: `"0.006"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>not_focus_sleep</code></summary>
@@ -21339,7 +21375,7 @@ flags: `0x1000000`
 MS to sleep while window doesn't have focus
 
 default: `"50"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>notification_displayTime</code></summary>
@@ -21347,7 +21383,7 @@ flags: `0x80000`
 How long notifications should wait before auto-hiding
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>nucleus_id</code></summary>
@@ -21355,7 +21391,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80000200`  
+flags: `0x80000200`
 </details>
 <details>
 <summary><code>nucleus_persona_id</code></summary>
@@ -21363,7 +21399,7 @@ flags: `0x80000200`
 
 
 default: `"unknown"`  
-flags: `0x80000200`  
+flags: `0x80000200`
 </details>
 <details>
 <summary><code>number_shortenToMillionsAfter</code></summary>
@@ -21371,7 +21407,7 @@ flags: `0x80000200`
 
 
 default: `"2000000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>nx_static_lobby_capture_debug</code></summary>
@@ -21379,7 +21415,7 @@ flags: `0x2`
 Force lobby capture every frame to debug capture process.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>nx_static_lobby_capture_delay_frames</code></summary>
@@ -21387,15 +21423,16 @@ flags: `0x2`
 Delay frames when capturing the lobby to allow texture streaming to finish
 
 default: `"30"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>nx_static_lobby_mode</code></summary>
 
-Enable capturing the static elements of the lobby to reduce GPU workload. 0 = disabled, 1 = only in handheld, 2 = always on
+Enable capturing the static elements of the lobby to reduce GPU workload. 0 = disabled, 1 = only in handheld, 2 = always
+on
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>nx_subtile_override</code></summary>
@@ -21403,7 +21440,7 @@ flags: `0x4000`
 Override for subtile size. (0 to disable)
 
 default: `"2"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>nx_viewportscale_max_handheld</code></summary>
@@ -21412,7 +21449,7 @@ Sets the max viewportscale value on Switch handheld
 
 default: `"1.0"`  
 flags: `0x80000`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>nx_viewportscale_max_handheld_lobby</code></summary>
@@ -21421,7 +21458,7 @@ Sets the max viewportscale value on Switch handheld
 
 default: `"1.0"`  
 flags: `0x80000`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>nx_viewportscale_min_handheld</code></summary>
@@ -21430,7 +21467,7 @@ Sets the min viewportscale value on Switch handheld
 
 default: `"0.7"`  
 flags: `0x80000`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>nx_viewportscale_min_handheld_lobby</code></summary>
@@ -21439,7 +21476,7 @@ Sets the min viewportscale value on Switch handheld
 
 default: `"1.0"`  
 flags: `0x80000`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>object_placement_debug</code></summary>
@@ -21447,7 +21484,7 @@ max value: `1`
 Enable/disable debug lines for object placement
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>offhandTossOverheadPitchThreshold</code></summary>
@@ -21455,7 +21492,7 @@ flags: `0x4002`
 
 
 default: `"-1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>offhand_alignEndAnim1p3p</code></summary>
@@ -21463,7 +21500,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>offhand_cancelled_by_melee_v2</code></summary>
@@ -21471,7 +21508,7 @@ flags: `0x2`
 Use the offhand_cancelled_by_melee weapon setting to decide if an offhand weapon can be cancelled via a melee attack
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>old_anim_parity</code></summary>
@@ -21479,7 +21516,7 @@ flags: `0x2002`
 (fallback) use the old anim parity code
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>old_culling</code></summary>
@@ -21487,7 +21524,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>old_gather_props</code></summary>
@@ -21495,7 +21532,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>one_handed_change_rate</code></summary>
@@ -21503,7 +21540,7 @@ flags: `0x80000`
 The rate at which the transition to and from one handed weapon usage takes place
 
 default: `"1.25"`  
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>opaque_renderable_worker</code></summary>
@@ -21511,7 +21548,7 @@ flags: `0xa`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>openinvite_duration_default</code></summary>
@@ -21519,7 +21556,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ordnanceSwapSelectCooldown</code></summary>
@@ -21527,7 +21564,7 @@ flags: `0x2`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>orientation_matches_disabled</code></summary>
@@ -21535,7 +21572,7 @@ flags: `0x2`
 Disables the Orientation Matches
 
 default: `"0"`  
-flags: `0x2012`  
+flags: `0x2012`
 </details>
 <details>
 <summary><code>origin_Errorlevel_OldBehaviour</code></summary>
@@ -21543,7 +21580,7 @@ flags: `0x2012`
 Enables Setting errorlevel for as in the old code base did.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_Errorlevel_Telemetry</code></summary>
@@ -21551,7 +21588,7 @@ flags: `0x2`
 Enables sending host Telemetry event for Origin errorLevel
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_authCodeFailureMaxBackoffSeconds</code></summary>
@@ -21559,7 +21596,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_autoRefreshTokenClient</code></summary>
@@ -21567,7 +21604,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_autoRefreshTokenServer</code></summary>
@@ -21575,7 +21612,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_debug</code></summary>
@@ -21583,7 +21620,7 @@ flags: `0x2`
 Enable Origin HTTP debug logging (all HTTP queries and responses, token data etc.)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_ignoreInvitesOnLoadScreen</code></summary>
@@ -21591,7 +21628,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_igo_mutes_sound_enabled</code></summary>
@@ -21599,7 +21636,7 @@ flags: `0x2`
 Enables feature for optionally muting game sound when Origin overlays are launched.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_igo_mutes_sound_enabled</code></summary>
@@ -21607,7 +21644,7 @@ flags: `0x2`
 Enables feature for optionally muting game sound when Origin overlays are launched.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_igo_muting_sound</code></summary>
@@ -21615,7 +21652,7 @@ flags: `0x2`
 True if game sound was muted when launching an Origin overlay.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_keepOldPresence</code></summary>
@@ -21623,7 +21660,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_presense_updateRate</code></summary>
@@ -21631,7 +21668,7 @@ flags: `0x2`
 Minimum time between origin updates in seconds.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_tokenFailureMaxBackoffSeconds</code></summary>
@@ -21639,7 +21676,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_useGamePresence</code></summary>
@@ -21647,7 +21684,7 @@ flags: `0x2`
 Use gamepresence instead of title name as the presence string for friends who are ingame
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>panel_showVisChanges</code></summary>
@@ -21655,7 +21692,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>panel_test_title_safe</code></summary>
@@ -21663,7 +21700,7 @@ flags: `0x2`
 Test vgui panel positioning with title safe indentation
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>parenting_debug</code></summary>
@@ -21671,7 +21708,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particleEffect_checkShouldStillPlay</code></summary>
@@ -21679,7 +21716,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_alwayswakeonstop</code></summary>
@@ -21687,7 +21724,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particle_cpu_level</code></summary>
@@ -21697,7 +21734,7 @@ flags: `0x2002`
 default: `"0"`  
 flags: `0x40000000`  
 min value: `0`  
-max value: `2`  
+max value: `2`
 </details>
 <details>
 <summary><code>particle_delete_all_except</code></summary>
@@ -21705,7 +21742,7 @@ max value: `2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_dlights_enable</code></summary>
@@ -21713,7 +21750,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_dlights_spew</code></summary>
@@ -21721,7 +21758,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_gpu_level</code></summary>
@@ -21729,7 +21766,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_lighting_clear_enable</code></summary>
@@ -21737,7 +21774,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_lighting_size</code></summary>
@@ -21745,7 +21782,7 @@ flags: `0x2`
 The size of each particle in the atlas
 
 default: `"32"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_lighting_viewmodel_enable</code></summary>
@@ -21753,7 +21790,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay</code></summary>
@@ -21761,7 +21798,7 @@ flags: `0x2`
 Show particle overlay (2 for same as particle_overlay_list_tally)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_detail_attributes</code></summary>
@@ -21769,7 +21806,7 @@ flags: `0x2`
 Space separated list of attributes to show per particle - 'all id duration xyz prev_xyz radius color alpha length'
 
 default: `"id"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_detail_filter</code></summary>
@@ -21777,7 +21814,7 @@ flags: `0x2`
 Filters which particles to see in detail - can be id or substring or *
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_detail_list_particles</code></summary>
@@ -21785,7 +21822,7 @@ flags: `0x2`
 List individual particles in detail view
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_detail_scroll</code></summary>
@@ -21793,7 +21830,7 @@ flags: `0x2`
 Skip this many rows in particle overlay detail
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_hide_sleeping</code></summary>
@@ -21801,7 +21838,7 @@ flags: `0x2`
 Hide sleeping effects in particle overlay
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_list_filter</code></summary>
@@ -21809,7 +21846,7 @@ flags: `0x2`
 Filters which particles to see in list - can be id or substring or *
 
 default: `"*"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_list_tally</code></summary>
@@ -21817,7 +21854,7 @@ flags: `0x2`
 Show tally of particle counts, rather than list (same as particle_overlay 2)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_list_tally_collapse_children</code></summary>
@@ -21825,7 +21862,7 @@ flags: `0x2`
 Collapse children in tally-- only show totals at top level.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_old</code></summary>
@@ -21833,7 +21870,7 @@ flags: `0x2`
 Draw particle overlay the old way (no imgui)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_overlay_scroll</code></summary>
@@ -21841,7 +21878,7 @@ flags: `0x2`
 Skip this many rows in particle overlay
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_remap_vol2cp_debug</code></summary>
@@ -21849,7 +21886,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_script_dump</code></summary>
@@ -21857,7 +21894,7 @@ flags: `0x2`
 particle_script_dump SCRIPT_HANDLE
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particle_script_list</code></summary>
@@ -21865,7 +21902,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particle_script_log</code></summary>
@@ -21873,7 +21910,7 @@ flags: `0x2002`
 particle_script_log SCRIPT_HANDLE
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particle_scrub_debug</code></summary>
@@ -21881,7 +21918,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_debug_effect</code></summary>
@@ -21889,7 +21926,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_is_using_time_scrub</code></summary>
@@ -21897,7 +21934,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particle_scrub_max_dt</code></summary>
@@ -21905,7 +21942,7 @@ flags: `0x2002`
 
 
 default: `"0.02"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_play_speed</code></summary>
@@ -21913,7 +21950,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_quality</code></summary>
@@ -21921,7 +21958,7 @@ flags: `0x2`
 
 
 default: `"6"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_time</code></summary>
@@ -21929,7 +21966,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_simulateoverflow</code></summary>
@@ -21937,7 +21974,7 @@ flags: `0x2`
 Used for stress-testing particle systems. Randomly denies creation of particles.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>particles_cull_dlights</code></summary>
@@ -21945,7 +21982,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particles_max_passes</code></summary>
@@ -21953,7 +21990,7 @@ flags: `0x2002`
 
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particles_spawncull</code></summary>
@@ -21961,7 +21998,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>particles_spawncull_report</code></summary>
@@ -21969,7 +22006,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>parties_alwaysReadSubs</code></summary>
@@ -21977,7 +22014,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_autoCreatePartyAlways</code></summary>
@@ -21985,7 +22022,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_autoCreatePartyDelay</code></summary>
@@ -21993,7 +22030,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_color_enabled</code></summary>
@@ -22001,7 +22038,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>party_forceMapLoadedCorrection</code></summary>
@@ -22009,7 +22046,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_hostname</code></summary>
@@ -22017,7 +22054,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>party_httpHandleTimeout</code></summary>
@@ -22025,7 +22062,7 @@ flags: `0x80000`
 
 
 default: `"10.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_keepAliveTime</code></summary>
@@ -22033,7 +22070,7 @@ flags: `0x2`
 How often party clients should send a keepalive packet
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_keepAliveTime</code></summary>
@@ -22041,7 +22078,7 @@ flags: `0x2`
 How often party clients should send a keepalive packet
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_leaderReadyOnly</code></summary>
@@ -22049,7 +22086,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_leaveMatchOnJoin</code></summary>
@@ -22057,7 +22094,7 @@ flags: `0x2`
 Whether a player should quit the match they're in when they join a party
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>party_migrateFromMatch</code></summary>
@@ -22065,7 +22102,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_minSize</code></summary>
@@ -22073,7 +22110,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_noSlotsUsedTimeout</code></summary>
@@ -22081,7 +22118,7 @@ flags: `0x2`
 
 
 default: `"10.0f"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_nofill_selected</code></summary>
@@ -22089,7 +22126,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80200`  
+flags: `0x80200`
 </details>
 <details>
 <summary><code>party_privacy</code></summary>
@@ -22097,7 +22134,7 @@ flags: `0x80200`
 our privacy setting for parties
 
 default: `"open"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_readyToSearch</code></summary>
@@ -22105,7 +22142,7 @@ flags: `0x2`
 our ready-up status
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_relyOnPartyForMemberUserInfo</code></summary>
@@ -22113,7 +22150,7 @@ flags: `0x2`
 If true, we won't re-request userinfo speculatively, only when their version changes in our party block
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_requireConsensusForSearch</code></summary>
@@ -22121,7 +22158,7 @@ flags: `0x2`
 Whether everyone in the party has to ready up before finding a match
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_userinfo_allowstale</code></summary>
@@ -22129,7 +22166,7 @@ flags: `0x2`
 If true, stale userinfo for party members will continue to be used until the new info is fetched
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>paused</code></summary>
@@ -22137,7 +22174,7 @@ flags: `0x40000000`
 Is the server paused.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>perTriangleCollisionForced</code></summary>
@@ -22145,7 +22182,7 @@ flags: `0x2002`
 Forces all traces on static models to use high detail traces.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_cmetric_pin_verbosity</code></summary>
@@ -22153,7 +22190,7 @@ flags: `0x2`
 Verbosity of cmetric pin telemetry. 0 = none, 1 = minimal, 2 = full
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_heartbeat_debug</code></summary>
@@ -22161,7 +22198,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_heartbeat_enabled</code></summary>
@@ -22169,7 +22206,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_heartbeat_force</code></summary>
@@ -22177,7 +22214,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_heartbeat_interval</code></summary>
@@ -22185,7 +22222,7 @@ flags: `0x2`
 Interval between sending telemetry samples aka heartbeats
 
 default: `"900"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_json_builder</code></summary>
@@ -22193,7 +22230,7 @@ flags: `0x2`
 Use json builder utility instead of printf
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_killswitch</code></summary>
@@ -22201,7 +22238,7 @@ flags: `0x2`
 A value of 1 means perfcharts is deactivated.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_pin_enabled</code></summary>
@@ -22209,7 +22246,7 @@ flags: `0x2`
 Enable telemetry events (pin).
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>perfcharts_pin_print</code></summary>
@@ -22217,7 +22254,7 @@ flags: `0x2`
 Print telemetry events (pin).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>persistenceDef_hostname</code></summary>
@@ -22225,7 +22262,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>persistenceDef_queryMaxHttpRetries</code></summary>
@@ -22233,7 +22270,7 @@ flags: `0x80000`
 
 
 default: `"4"`  
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>persistenceDef_readMaxHttpRetries</code></summary>
@@ -22241,7 +22278,7 @@ flags: `0x6`
 
 
 default: `"2"`  
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>persistenceDef_retryReadAfterErrorTime</code></summary>
@@ -22249,7 +22286,7 @@ flags: `0x6`
 
 
 default: `"15"`  
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>persistenceDef_writeMaxHttpRetries</code></summary>
@@ -22257,7 +22294,7 @@ flags: `0x6`
 
 
 default: `"4"`  
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>persistence_clForceNew</code></summary>
@@ -22265,7 +22302,7 @@ flags: `0x6`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>persistence_disableForBuildProcess</code></summary>
@@ -22273,7 +22310,7 @@ flags: `0x200`
 
 
 default: `"0"`  
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>persistence_enforce_manifest</code></summary>
@@ -22281,7 +22318,7 @@ flags: `0x6`
 Enable validating against manifest.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>persistence_hostname</code></summary>
@@ -22289,7 +22326,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>persistence_new_player_if_upgrade_fails</code></summary>
@@ -22297,7 +22334,7 @@ flags: `0x80000`
 Create a new player if upgrade fails. (dev only)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>persistence_upload_def</code></summary>
@@ -22305,7 +22342,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>persistence_upload_failure_is_error</code></summary>
@@ -22313,7 +22350,7 @@ flags: `0x6`
 
 
 default: `"1"`  
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>persistence_use_rson_schema</code></summary>
@@ -22321,7 +22358,7 @@ flags: `0x6`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>persistent_warningRate</code></summary>
@@ -22329,7 +22366,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pertrianglecollision</code></summary>
@@ -22337,7 +22374,7 @@ flags: `0x2`
 Enables per-triangle collision with TRACEDETAILLEVEL_HIGH (i.e., bullets) on static models.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>phys_bounce</code></summary>
@@ -22345,15 +22382,17 @@ flags: `0x2`
 
 
 default: `"0.2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_cfm</code></summary>
 
-Constraint Force Mixing value. Softens the force applied to resolve constraints. ode.org/ode-latest-userguide.html: "If CFM is set to zero, the constraint will be hard .... the constraint is allowed to be violated by an amount proportional to CFM times the restoring force that is needed to enforce the constraint"
+Constraint Force Mixing value. Softens the force applied to resolve constraints. ode.org/ode-latest-userguide.html: "If
+CFM is set to zero, the constraint will be hard .... the constraint is allowed to be violated by an amount proportional
+to CFM times the restoring force that is needed to enforce the constraint"
 
 default: `"0.0001"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_cfm_anglejointstop</code></summary>
@@ -22361,7 +22400,7 @@ flags: `0x2002`
 
 
 default: `"0.0001"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_drawContacts</code></summary>
@@ -22369,7 +22408,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_drawContactsDuration</code></summary>
@@ -22377,7 +22416,7 @@ flags: `0x2002`
 
 
 default: `"0.016666"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_drawGeoms</code></summary>
@@ -22385,7 +22424,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_drawTunnelChecks</code></summary>
@@ -22393,7 +22432,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_enableObjectPairCollidePrototype</code></summary>
@@ -22401,15 +22440,17 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>phys_erp</code></summary>
 
-Fraction of penetration that physics tries to resolve per time step. At 1.0, all contacts add a velocity that will end the penetration in a single frame, though this is unstable. At 0.0, contacts create no outward force (though they still provide friction).
+Fraction of penetration that physics tries to resolve per time step. At 1.0, all contacts add a velocity that will end
+the penetration in a single frame, though this is unstable. At 0.0, contacts create no outward force (though they still
+provide friction).
 
 default: `"0.05"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_erp_anglejointstop</code></summary>
@@ -22417,7 +22458,7 @@ flags: `0x2002`
 
 
 default: `"0.05"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_frictionDefault</code></summary>
@@ -22425,7 +22466,7 @@ flags: `0x2002`
 
 
 default: `"0.82"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>phys_showObjectCount</code></summary>
@@ -22433,7 +22474,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>phys_threadGoWide</code></summary>
@@ -22441,7 +22482,7 @@ flags: `0x2`
 Go wide across threads with Physics.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>physics_async_cl</code></summary>
@@ -22449,7 +22490,7 @@ flags: `0x2`
 Run physics simulation asynchronously from the main thread.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>physics_autoSleepAngularThreshold</code></summary>
@@ -22457,7 +22498,7 @@ flags: `0x2`
 Angular speed below which a physic object goes to sleep. (in degrees / second)
 
 default: `"120"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_autoSleepDebug</code></summary>
@@ -22465,7 +22506,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_autoSleepGroundHysteresis</code></summary>
@@ -22473,7 +22514,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_autoSleepSpeedThreshold</code></summary>
@@ -22481,7 +22522,7 @@ flags: `0x2002`
 Speed below which a physic object goes to sleep.
 
 default: `"20"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_collideWithMovingGeo</code></summary>
@@ -22489,7 +22530,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_collision_speed_threshold</code></summary>
@@ -22497,7 +22538,7 @@ flags: `0x2002`
 
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_defaultMaxAngularSpeed</code></summary>
@@ -22505,7 +22546,7 @@ flags: `0x2002`
 
 
 default: `"10000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_defaultMaxSpeed</code></summary>
@@ -22513,7 +22554,7 @@ flags: `0x2002`
 
 
 default: `"10000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_scaled_mem</code></summary>
@@ -22521,7 +22562,7 @@ flags: `0x2002`
 Amout of extra memory taken by scaled collision meshes
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>physics_tunnelChecks</code></summary>
@@ -22529,7 +22570,7 @@ flags: `0x2`
 Do traces to prevent physics objects from falling through the world.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>physics_tunnelChecksForceAlways</code></summary>
@@ -22537,7 +22578,7 @@ flags: `0x2002`
 Require objects to do tunnel checks every frame.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>pin_opt_in</code></summary>
@@ -22545,7 +22586,7 @@ flags: `0x2002`
 Enables sending PIN telemetry data to EA
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>pin_plat_id</code></summary>
@@ -22553,7 +22594,7 @@ flags: `0x1000000`
 Platform user id for PIN
 
 default: `"0"`  
-flags: `0x80000202`  
+flags: `0x80000202`
 </details>
 <details>
 <summary><code>pin_sid</code></summary>
@@ -22561,7 +22602,7 @@ flags: `0x80000202`
 Session ID
 
 default: `"unknown"`  
-flags: `0x80000200`  
+flags: `0x80000200`
 </details>
 <details>
 <summary><code>pin_telemetry_actually_send</code></summary>
@@ -22569,7 +22610,7 @@ flags: `0x80000200`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_debug_code</code></summary>
@@ -22577,7 +22618,7 @@ flags: `0x2`
 Shows unformatted json of all messages
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_debug_http_requests</code></summary>
@@ -22585,7 +22626,7 @@ flags: `0x2`
 Track down pin http requests lifetime
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_debug_payload</code></summary>
@@ -22593,7 +22634,7 @@ flags: `0x2`
 Shows final payloads being sent to PIN server, including header
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_debug_script</code></summary>
@@ -22601,7 +22642,7 @@ flags: `0x2`
 Shows nicely formatted json of script messages
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_dont_send_events</code></summary>
@@ -22609,7 +22650,7 @@ flags: `0x2`
 List of PIN events to suppress
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>pin_telemetry_hostname</code></summary>
@@ -22617,7 +22658,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_inactivity_send_time</code></summary>
@@ -22625,7 +22666,7 @@ flags: `0x2`
 Interval at which client PIN messages are sent. (Client only)
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_max_payload_size</code></summary>
@@ -22633,7 +22674,7 @@ flags: `0x2`
 
 
 default: `"30720"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_send_debug</code></summary>
@@ -22641,7 +22682,7 @@ flags: `0x2`
 Enables x-ea-lint-level 2 for useful error messages
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pin_telemetry_throttling_enabled</code></summary>
@@ -22649,7 +22690,7 @@ flags: `0x2`
 Controls whether we throttle PIN events or not
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>pin_telemetry_throttling_warnings</code></summary>
@@ -22657,7 +22698,7 @@ flags: `0x2002`
 Controls whether print warnings about PIN throttling
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ping_max_green</code></summary>
@@ -22665,7 +22706,7 @@ flags: `0x2002`
 
 
 default: `"70"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ping_max_red</code></summary>
@@ -22673,7 +22714,7 @@ flags: `0x2`
 
 
 default: `"250"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ping_max_yellow</code></summary>
@@ -22681,23 +22722,25 @@ flags: `0x2`
 
 
 default: `"140"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ping_minSentForChoice</code></summary>
 
-Minimum number of pings sent to this target (not received) before we are willing to say the player can matchmake because we're confident that this data is useful
+Minimum number of pings sent to this target (not received) before we are willing to say the player can matchmake because
+we're confident that this data is useful
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ping_qos_units</code></summary>
 
-Divisor to use for pings, so we don't think a 3 ping is wildly better than a 4 ping, but we do think a 33 ping is worse than a 31 ping (at 60fps, that's another frame of latency)
+Divisor to use for pings, so we don't think a 3 ping is wildly better than a 4 ping, but we do think a 33 ping is worse
+than a 31 ping (at 60fps, that's another frame of latency)
 
 default: `"32"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ping_usePacketLoss</code></summary>
@@ -22705,7 +22748,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pixvis_enable</code></summary>
@@ -22713,7 +22756,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pixvis_maxquads</code></summary>
@@ -22721,7 +22764,7 @@ flags: `0x2`
 Change the upper bound on how many 2x2 quads to sample for pixel visibility
 
 default: `"256"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>pixvis_spew</code></summary>
@@ -22729,7 +22772,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>plat_environment</code></summary>
@@ -22737,7 +22780,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>platform_user_id</code></summary>
@@ -22745,7 +22788,7 @@ flags: `0x2`
 Platform user id (origin user id on PC, xuid on xboxone)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playerArrayRemovesMarkForDelete</code></summary>
@@ -22753,7 +22796,7 @@ flags: `0x2`
 Enable fix for GetPlayerArray that removes markedfordelete players from the array
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playerListPartyColorB</code></summary>
@@ -22761,7 +22804,7 @@ flags: `0x2`
 
 
 default: `"204"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playerListPartyColorG</code></summary>
@@ -22769,7 +22812,7 @@ flags: `0x2`
 
 
 default: `"255"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playerListPartyColorR</code></summary>
@@ -22777,7 +22820,7 @@ flags: `0x2`
 
 
 default: `"179"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playerListUseFriendColor</code></summary>
@@ -22785,7 +22828,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_ADS_buffer_time_seconds</code></summary>
@@ -22793,7 +22836,7 @@ flags: `0x2`
 How long (in seconds) will the game buffer a Toggle Zoom attempt if the player cannot ADS when they press the button.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>player_debugPredictedPosition</code></summary>
@@ -22801,7 +22844,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_deltaAnimsMakeMeUnpredicted</code></summary>
@@ -22809,7 +22852,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_doJetwashEffects</code></summary>
@@ -22817,7 +22860,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_extraairaccelleration</code></summary>
@@ -22825,7 +22868,7 @@ flags: `0x2`
 Extra air acceleration given to players, even if they're already at max speed. Helps to start wall running
 
 default: `"2.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>player_highFrequencyThinkDistance</code></summary>
@@ -22833,7 +22876,7 @@ flags: `0x2002`
 
 
 default: `"6000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_movementBounds_predictionShare</code></summary>
@@ -22841,7 +22884,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>player_movingDeathThreshold</code></summary>
@@ -22849,7 +22892,7 @@ flags: `0x2002`
 
 
 default: `"50"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>player_respawnInputDebounceDuration</code></summary>
@@ -22857,7 +22900,7 @@ flags: `0x6000`
 How long after respawning will certain player inputs be debounced for
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_setting_autosprint</code></summary>
@@ -22865,7 +22908,7 @@ flags: `0x2`
 Automatically sprint when walking forward.
 
 default: `"0"`  
-flags: `0x41000000`  
+flags: `0x41000000`
 </details>
 <details>
 <summary><code>player_setting_damage_closes_deathbox_menu</code></summary>
@@ -22873,7 +22916,7 @@ flags: `0x41000000`
 Controls whether death box automatically closes when taking damage (used for menus).
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>player_setting_enable_heartbeat_sounds</code></summary>
@@ -22881,7 +22924,7 @@ flags: `0x1000000`
 Enables heartbeat sensor heartbeat sounds.
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>player_setting_stickysprintforward</code></summary>
@@ -22889,7 +22932,7 @@ flags: `0x1000000`
 Double-tapping sprint will keep the player sprinting forward.
 
 default: `"0"`  
-flags: `0x41000200`  
+flags: `0x41000200`
 </details>
 <details>
 <summary><code>player_showEyePosition</code></summary>
@@ -22897,7 +22940,7 @@ flags: `0x41000200`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_silence_listener_on_spectatee_swap</code></summary>
@@ -22905,7 +22948,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_silence_on_spectatee_swap</code></summary>
@@ -22913,7 +22956,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_useMovementBounds</code></summary>
@@ -22921,7 +22964,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>player_use_prompt_enabled</code></summary>
@@ -22929,7 +22972,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>player_usercmd_skipping_enabled</code></summary>
@@ -22937,7 +22980,7 @@ flags: `0x1000000`
 Allows server to skip simulating certain UserCmds to save CPU
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>player_viewchange_debug_pitch</code></summary>
@@ -22945,7 +22988,7 @@ flags: `0x2002`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_viewchange_debug_roll</code></summary>
@@ -22953,7 +22996,7 @@ flags: `0x2`
 
 
 default: `"9"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>player_viewchange_debug_yaw</code></summary>
@@ -22961,7 +23004,7 @@ flags: `0x2`
 
 
 default: `"160"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_allowGameDediToPatch</code></summary>
@@ -22969,7 +23012,7 @@ flags: `0x2`
 Allow game dedi to apply patch playlist
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_changeGamemodeAutomatically</code></summary>
@@ -22977,7 +23020,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_debug</code></summary>
@@ -22985,7 +23028,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_debug_getvar</code></summary>
@@ -22993,7 +23036,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_debug_localization</code></summary>
@@ -23001,7 +23044,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_debug_validateQueryVersusKV</code></summary>
@@ -23009,7 +23052,7 @@ flags: `0x2`
 Until we're confident in PlaylistQuery, validate that we get the same results as the KV search
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_debug_varByName</code></summary>
@@ -23017,7 +23060,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_dump</code></summary>
@@ -23025,7 +23068,7 @@ flags: `0x2`
 Dump contents of playlists file (and patches) when we parse it
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlist_mapRotationIgnoreFakeTime</code></summary>
@@ -23033,7 +23076,7 @@ flags: `0x2`
 Ignore FakeTime computing what is the current map in the rotation cycle
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>playlist_variableErrorsChecks</code></summary>
@@ -23041,7 +23084,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>playlistquery_enabled</code></summary>
@@ -23049,7 +23092,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>portal_pointpush_debug</code></summary>
@@ -23057,7 +23100,7 @@ flags: `0x2`
 Debug the portal_pointpush.
 
 default: `"0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>portal_pointpush_think_rate</code></summary>
@@ -23065,7 +23108,7 @@ flags: `0x6000`
 The amount of time between thinks for the portal_pointpush.
 
 default: `"0.05f"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>portal_use_player_avoidance</code></summary>
@@ -23073,7 +23116,7 @@ flags: `0x6000`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>postdataupdate_threaded</code></summary>
@@ -23081,7 +23124,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>postdataupdate_threaded_chunksize</code></summary>
@@ -23089,7 +23132,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>presence_teamscores_percentage_step</code></summary>
@@ -23097,7 +23140,7 @@ flags: `0x2`
 Limits percentage values (RPSUB_MODE_MAP_FRIENDLYSCORE_ENEMYSCORE_PERCENTAGE) to multiples of this value
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>print_timeprefix</code></summary>
@@ -23105,7 +23148,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>process_pending_vm_effects</code></summary>
@@ -23113,7 +23156,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>progressbar_allow_wrap</code></summary>
@@ -23121,7 +23164,7 @@ flags: `0x2`
 Allow loading bar to wrap.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>progressbar_high_precision</code></summary>
@@ -23129,7 +23172,7 @@ flags: `0x2`
 Use a higher precision bar.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>progressbar_single_bar</code></summary>
@@ -23137,15 +23180,17 @@ flags: `0x2`
 Use a single bar.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_arcIndicatorAccountsForParentMoverVelocity</code></summary>
 
-If enabled, the projectile arc indicator will try to account for our parent mover's velocity. If the projectile only hits the parent, we will use our velocity relative to the parent to display the arc, otherwise we will use its true velocity as normal.
+If enabled, the projectile arc indicator will try to account for our parent mover's velocity. If the projectile only
+hits the parent, we will use our velocity relative to the parent to display the arc, otherwise we will use its true
+velocity as normal.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_debug_arc_client_offset</code></summary>
@@ -23153,7 +23198,7 @@ flags: `0x2`
 Offset client arc drawing vertically by this much
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_fake_prediction_in_kill_replay</code></summary>
@@ -23161,7 +23206,7 @@ flags: `0x2`
 Calls weapon primary-attack callbacks on client during replay to create predicted projectiles
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_faketrails</code></summary>
@@ -23169,15 +23214,16 @@ flags: `0x2002`
 Enables fake projectile trails when the projectile impacts on the server before lag compensation is complete
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_filltrails</code></summary>
 
-Fill the gap between the gun barrel and the first seen projectile position for trail Fx (1: 1st person only, 2: 3rd person only, 3: 1st and 3rd persons)
+Fill the gap between the gun barrel and the first seen projectile position for trail Fx (1: 1st person only, 2: 3rd
+person only, 3: 1st and 3rd persons)
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_lagCompensationDebug</code></summary>
@@ -23185,7 +23231,7 @@ flags: `0x2`
 Draws lag compensation on projectiles
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_lagCompensationDebugDrawNoReg</code></summary>
@@ -23193,7 +23239,7 @@ flags: `0x2002`
 Debug draw when NoReg is detected. Set >= 2 to notify all clients
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_lagCompensationDebugDrawTime</code></summary>
@@ -23201,7 +23247,7 @@ flags: `0x2002`
 Amount of time debug drawing persists with projectile_lagCompensationDebug enabled.
 
 default: `"5.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_lagCompensationDebugExtra</code></summary>
@@ -23209,7 +23255,7 @@ flags: `0x2002`
 Draws the "real" arc the projectile would take, as well as an extra simple simulation to compare with the actual path
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_lagCompensationDebugForceNoReg</code></summary>
@@ -23217,7 +23263,7 @@ flags: `0x2002`
 Force no reg on all shots.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_lagCompensationDebugServerOffset</code></summary>
@@ -23225,7 +23271,7 @@ flags: `0x2002`
 Offset the server debug lines by this many units vertically
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_lagCompensationMissileTimeStepScalar</code></summary>
@@ -23233,7 +23279,7 @@ flags: `0x2002`
 Scales the time step used for seeking missiles in lag compensation
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_muzzleOffsetFirstPersonDecayDist</code></summary>
@@ -23241,7 +23287,7 @@ flags: `0x2002`
 Distance over which projectiles fake their origin to come out of the gun muzzle
 
 default: `"1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_muzzleOffsetFirstPersonDecayMaxTime</code></summary>
@@ -23249,7 +23295,7 @@ flags: `0x2`
 Max time over which projectiles fake their origin to come out of the gun muzzle
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_muzzleOffsetThirdPersonDecayDist</code></summary>
@@ -23257,7 +23303,7 @@ flags: `0x2`
 Distance over which projectiles fake their origin to come out of the gun muzzle
 
 default: `"1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_muzzleOffsetThirdPersonDecayMaxTime</code></summary>
@@ -23265,7 +23311,7 @@ flags: `0x2`
 Max time over which projectiles fake their origin to come out of the gun muzzle
 
 default: `"0.1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_prediction</code></summary>
@@ -23273,7 +23319,7 @@ flags: `0x2`
 Performs client-side prediction and lag compensation on projectiles
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>projectile_predictionErrorCorrectTime</code></summary>
@@ -23281,7 +23327,7 @@ flags: `0x2002`
 Time over which prediction errors are corrected for projectiles
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>projectile_prediction_move_to_impact</code></summary>
@@ -23289,7 +23335,7 @@ flags: `0x2`
 When impact predicted, move projectile to the predicted impact point to ensure the trail ends at the impact point
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>prop_front_to_back_opt</code></summary>
@@ -23297,7 +23343,7 @@ flags: `0x2`
 Front to Back optimization for props (ex. Grass). It works for the models that are built with it enabled.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>prop_lightweightPropsSkipAnimData</code></summary>
@@ -23305,7 +23351,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>prop_survivalSkipsAnimData</code></summary>
@@ -23313,7 +23359,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>props_break_burst_rotation</code></summary>
@@ -23321,7 +23367,7 @@ flags: `0x2`
 Rate of rotation in degrees per second.
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>props_break_max_pieces</code></summary>
@@ -23329,7 +23375,7 @@ flags: `0x2002`
 Maximum prop breakable piece count (-1 = model default)
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>props_break_max_pieces_perframe</code></summary>
@@ -23337,7 +23383,7 @@ flags: `0x2002`
 Maximum prop breakable piece count per frame (-1 = model default)
 
 default: `"20"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ps5_activities_env</code></summary>
@@ -23345,7 +23391,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x210`  
+flags: `0x210`
 </details>
 <details>
 <summary><code>publication_hostname</code></summary>
@@ -23353,7 +23399,7 @@ flags: `0x210`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>push_cl</code></summary>
@@ -23361,7 +23407,7 @@ flags: `0x80000`
 1: Moving geo pushes client entities, 0: Client entities do not get pushed
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>push_cl_always_update_prev_matrix</code></summary>
@@ -23369,7 +23415,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>push_debug</code></summary>
@@ -23377,7 +23423,7 @@ flags: `0x2`
 Debug all pushing entities
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>push_debug_ent</code></summary>
@@ -23385,7 +23431,7 @@ flags: `0x2002`
 Debug pushing entity
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>push_exit_traversal_if_goal_position_blocked</code></summary>
@@ -23393,7 +23439,7 @@ flags: `0x2002`
 If enabled, will end the players traversal if their traversal end position is blocked
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>push_ignore_animation_entity_blockers</code></summary>
@@ -23401,7 +23447,7 @@ flags: `0x2002`
 Push trace will ignore entity blockers that are generated by a revive or execution animation
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>push_ragdolls</code></summary>
@@ -23409,7 +23455,7 @@ flags: `0x2002`
 Toggles whether to push ragdoll entities
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>push_search_along_traversal_during_crush_resolution</code></summary>
@@ -23417,7 +23463,7 @@ flags: `0x2002`
 If enabled, searches along the traversal path to place the player in a spot where they won't be crushed
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>putEntityInSafeSpot_maskExcludesMonster</code></summary>
@@ -23425,7 +23471,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>pve_debug</code></summary>
@@ -23433,7 +23479,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>pvs_addWorkItemsAccum</code></summary>
@@ -23441,7 +23487,7 @@ flags: `0x2002`
 Accumulate this many work items from the main PVS job before adding them to the worker thread array, which can be slow
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pvs_addWorkItemsThreshold_edges</code></summary>
@@ -23449,7 +23495,7 @@ flags: `0x2`
 load balancing threshold; if a node has more than this many leaves, it will spread the work across threads
 
 default: `"50"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pvs_addWorkItemsThreshold_leaves</code></summary>
@@ -23457,7 +23503,7 @@ flags: `0x2`
 load balancing threshold; if a node has more than this many leaves, it will spread the work across threads
 
 default: `"5000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pvs_cullBoxes</code></summary>
@@ -23465,7 +23511,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pvs_debug</code></summary>
@@ -23473,7 +23519,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pvs_frustumCullOnly</code></summary>
@@ -23481,7 +23527,7 @@ flags: `0x2`
 0 - Off, 1 - On by Script, 2 - forced On
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pvs_start_early</code></summary>
@@ -23489,7 +23535,7 @@ flags: `0x2`
 0 not early, 1 after view setup, 2 after threaded bone setup
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_AirboatViewDampenDamp</code></summary>
@@ -23497,7 +23543,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>r_AirboatViewDampenFreq</code></summary>
@@ -23505,7 +23551,7 @@ flags: `0x6000`
 
 
 default: `"7.0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>r_AirboatViewZHeight</code></summary>
@@ -23513,7 +23559,7 @@ flags: `0x6000`
 
 
 default: `"0.0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>r_JeepViewDampenDamp</code></summary>
@@ -23521,7 +23567,7 @@ flags: `0x6000`
 
 
 default: `"1.0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>r_JeepViewDampenFreq</code></summary>
@@ -23529,7 +23575,7 @@ flags: `0x6000`
 
 
 default: `"7.0"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>r_VehicleViewDampen</code></summary>
@@ -23537,7 +23583,7 @@ flags: `0x6000`
 
 
 default: `"1"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>r_WaterDrawRefraction</code></summary>
@@ -23545,7 +23591,7 @@ flags: `0x6000`
 Enable water refraction
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_allow_unattached_skinned_decals</code></summary>
@@ -23553,7 +23599,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_aspectratio</code></summary>
@@ -23561,7 +23607,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_blurmenubg</code></summary>
@@ -23569,7 +23615,7 @@ flags: `0x2`
 Blurs background when menus are open
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_bone_matrix_bulk_update_threshold</code></summary>
@@ -23577,7 +23623,7 @@ flags: `0x2`
 
 
 default: `"64"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_brush_queue_mode</code></summary>
@@ -23585,7 +23631,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_check_models_for_decal_correctness_on_load</code></summary>
@@ -23593,7 +23639,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_createmodeldecals</code></summary>
@@ -23601,7 +23647,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>r_cullshadowworldmeshes</code></summary>
@@ -23609,7 +23655,7 @@ flags: `0x40000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_debug_draw_box_depth_test</code></summary>
@@ -23617,7 +23663,7 @@ flags: `0x2`
 Toggle depth test for debug draw box functionality
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_decal_cover_count</code></summary>
@@ -23625,7 +23671,7 @@ flags: `0x2`
 
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_decal_cull_stretch_limit</code></summary>
@@ -23633,7 +23679,7 @@ flags: `0x2`
 Reciprocal of per-tri limit on decal stretching (0 is most permissive, 1 is most restrictive.)
 
 default: `"0.707"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_decal_draw_basis</code></summary>
@@ -23641,7 +23687,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_decal_drawclipped</code></summary>
@@ -23649,7 +23695,7 @@ flags: `0x2`
 A bit-field! 1:Draw decal debug triangle overlays of *all* potential hits, 2:Draw actual hits, 4:Draw clipped hits
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_decal_overlap_area</code></summary>
@@ -23657,7 +23703,7 @@ flags: `0x4000`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_decal_overlap_count</code></summary>
@@ -23665,7 +23711,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_decal_test_scale</code></summary>
@@ -23673,7 +23719,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_decals</code></summary>
@@ -23683,7 +23729,7 @@ flags: `0x2`
 default: `"256"`  
 flags: `0x40000000`  
 min value: `0`  
-max value: `256`  
+max value: `256`
 </details>
 <details>
 <summary><code>r_deferred_decals</code></summary>
@@ -23691,7 +23737,7 @@ max value: `256`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_deferredlighting</code></summary>
@@ -23699,7 +23745,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_delay_texture_destroy</code></summary>
@@ -23707,7 +23753,7 @@ flags: `0x2`
 immediate call on Destroy() may cause GPU hang as it can still be used by GPU. this will make it delayed by one frame.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_ditherFade</code></summary>
@@ -23715,7 +23761,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_ditherFade</code></summary>
@@ -23723,7 +23769,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_ditherFadeShadows</code></summary>
@@ -23731,7 +23777,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawallrenderables</code></summary>
@@ -23739,7 +23785,7 @@ flags: `0x4000`
 Draw all renderables, even ones inside solid leaves.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawalphasort</code></summary>
@@ -23747,7 +23793,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawbrushmodels</code></summary>
@@ -23755,7 +23801,7 @@ flags: `0x4000`
 Render brush models. 0=Off, 1=Normal, 2=Wireframe
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawdecals</code></summary>
@@ -23763,7 +23809,7 @@ flags: `0x4000`
 Render decals.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawdepth_of_blend2transparent</code></summary>
@@ -23771,7 +23817,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_drawdlights</code></summary>
@@ -23779,7 +23825,7 @@ flags: `0x2`
 whether to debug draw dlights
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawentities</code></summary>
@@ -23787,7 +23833,7 @@ flags: `0x4000`
 0: dont' draw; 1: draw normal; 2: draw bones; 3: draw hulls
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawlight_simple</code></summary>
@@ -23795,7 +23841,7 @@ flags: `0x4000`
 simple shape. useful when too many lights are drawn.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawlight_ztest</code></summary>
@@ -23803,7 +23849,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawlightdist</code></summary>
@@ -23811,7 +23857,7 @@ flags: `0x4000`
 If r_drawstaticlight is -1, only include draw lights within this radius
 
 default: `"4000"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawlightinfo</code></summary>
@@ -23819,7 +23865,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawmodelsinzfill</code></summary>
@@ -23827,7 +23873,7 @@ flags: `0x4000`
 Draw models in the zfill pass where they will affect light tile culling
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawopaquerenderables</code></summary>
@@ -23835,7 +23881,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawopaquestaticprops</code></summary>
@@ -23843,7 +23889,7 @@ flags: `0x4000`
 Toggle drawing of static props
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawparticles</code></summary>
@@ -23851,7 +23897,7 @@ flags: `0x4000`
 Enable/disable particle rendering
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawrenderboxes</code></summary>
@@ -23859,7 +23905,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawscreenspaceparticles</code></summary>
@@ -23867,7 +23913,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_drawsky</code></summary>
@@ -23875,7 +23921,7 @@ flags: `0x2`
 Enable the rendering of sky
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawstaticlight</code></summary>
@@ -23883,7 +23929,7 @@ flags: `0x4000`
 0 = none, -1 = all within r_drawlightdist, other draws that light index
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawstaticprops</code></summary>
@@ -23891,7 +23937,7 @@ flags: `0x4000`
 Toggle drawing of static props
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawtracers</code></summary>
@@ -23899,7 +23945,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawtransrenderables</code></summary>
@@ -23907,7 +23953,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawvgui</code></summary>
@@ -23915,7 +23961,7 @@ flags: `0x4000`
 Enable the rendering of vgui panels
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawviewmodel</code></summary>
@@ -23923,7 +23969,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_drawworld</code></summary>
@@ -23931,7 +23977,7 @@ flags: `0x4000`
 Render the world (0 = none, 1 = opaque only, 2 = trans only, 3 = both).
 
 default: `"3"`  
-flags: `0x40004000`  
+flags: `0x40004000`
 </details>
 <details>
 <summary><code>r_dump_sticker_load_state</code></summary>
@@ -23939,7 +23985,7 @@ flags: `0x40004000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_dynamic</code></summary>
@@ -23947,7 +23993,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>r_earlyRenderables</code></summary>
@@ -23955,7 +24001,7 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_enableOriginSort</code></summary>
@@ -23963,7 +24009,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_fadeincode</code></summary>
@@ -23971,7 +24017,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_farz</code></summary>
@@ -23979,7 +24025,7 @@ flags: `0x2`
 Override the far clipping plane. -1 means to use the value in env_fog_controller.
 
 default: `"-1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_fix_decal_mirroring</code></summary>
@@ -23987,7 +24033,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_jiggle_bones</code></summary>
@@ -23995,7 +24041,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_lightmap</code></summary>
@@ -24003,7 +24049,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x804000`  
+flags: `0x804000`
 </details>
 <details>
 <summary><code>r_lightprobe_force_trans_dist</code></summary>
@@ -24011,7 +24057,7 @@ flags: `0x804000`
 if an entity moves this distance or greater in one frame it is automatically transitioned to a new probe
 
 default: `"2000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_lightstyle</code></summary>
@@ -24019,7 +24065,15 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x804000`  
+flags: `0x804000`
+</details>
+<details>
+<summary><code>r_lod</code></summary>
+
+
+
+default: `"-1"`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_lod</code></summary>
@@ -24028,6 +24082,7 @@ flags: `0x804000`
 
 default: `"-1"`  
 flags: `0x2`  
+min value: `-1`
 </details>
 <details>
 <summary><code>r_lod</code></summary>
@@ -24035,16 +24090,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
-min value: `-1`  
-</details>
-<details>
-<summary><code>r_lod</code></summary>
-
-
-
-default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_lod_shift</code></summary>
@@ -24053,7 +24099,7 @@ Shifts the quality of LODs towards higher LOD levels
 
 default: `"0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>r_lod_shift</code></summary>
@@ -24062,7 +24108,7 @@ Shifts the quality of LODs towards higher LOD levels
 
 default: `"0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>r_lod_switch_scale</code></summary>
@@ -24070,15 +24116,15 @@ min value: `0`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>r_mapextents</code></summary>
 
-Set the max dimension for the map.  This determines the far clipping plane
+Set the max dimension for the map. This determines the far clipping plane
 
 default: `"16384"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_modeldecal_maxtotal</code></summary>
@@ -24086,15 +24132,16 @@ flags: `0x4000`
 
 
 default: `"75"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_modeldecal_transform_non_rigid</code></summary>
 
-Should be set to 1 after 14.1 copy-up. This ConVar only exists to maintain a previous behavior where non-rigid decals would accidentally not draw at all.
+Should be set to 1 after 14.1 copy-up. This ConVar only exists to maintain a previous behavior where non-rigid decals
+would accidentally not draw at all.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_nearz</code></summary>
@@ -24102,7 +24149,7 @@ flags: `0x2`
 Near clipping plane distance
 
 default: `"7"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_no_stalls</code></summary>
@@ -24110,7 +24157,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_no_stalls</code></summary>
@@ -24118,7 +24165,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_no_stalls</code></summary>
@@ -24126,7 +24173,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_norefresh</code></summary>
@@ -24134,7 +24181,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_emit_sound</code></summary>
@@ -24142,7 +24189,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_lighting_debug</code></summary>
@@ -24150,7 +24197,7 @@ flags: `0x2`
 Toggle Particle Lighting Debug Texture
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_lighting_enable</code></summary>
@@ -24158,7 +24205,7 @@ flags: `0x2`
 Toggle Particle Lighting
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_lighting_enable</code></summary>
@@ -24166,7 +24213,7 @@ flags: `0x2`
 Toggle Particle Lighting
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_lighting_force</code></summary>
@@ -24174,7 +24221,7 @@ flags: `0x2`
 Force all particles to be lit
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_lighting_force</code></summary>
@@ -24182,7 +24229,7 @@ flags: `0x2`
 Force all particles to be lit
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_low_res_debug</code></summary>
@@ -24190,7 +24237,7 @@ flags: `0x2`
 Toggle Low Res Paricle Debug Texture
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_low_res_draw_weight_tex</code></summary>
@@ -24198,7 +24245,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_low_res_enable</code></summary>
@@ -24206,7 +24253,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_low_res_force</code></summary>
@@ -24214,7 +24261,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_low_res_tiled_composite</code></summary>
@@ -24222,7 +24269,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_sim_spike_increment_ms</code></summary>
@@ -24230,7 +24277,7 @@ flags: `0x2`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_sim_spike_threshold_ms</code></summary>
@@ -24238,7 +24285,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particle_timescale</code></summary>
@@ -24246,7 +24293,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_particles_early_distance_cull</code></summary>
@@ -24254,7 +24301,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_pos_debug</code></summary>
@@ -24262,7 +24309,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_render_pos_debug</code></summary>
@@ -24270,7 +24317,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_rimlight</code></summary>
@@ -24278,7 +24325,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_rootlod</code></summary>
@@ -24288,7 +24335,7 @@ Root LOD
 default: `"0"`  
 flags: `0x4800002`  
 min value: `0`  
-max value: `2`  
+max value: `2`
 </details>
 <details>
 <summary><code>r_ropetranslucent</code></summary>
@@ -24296,7 +24343,7 @@ max value: `2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_setupBoneWorkSize</code></summary>
@@ -24304,7 +24351,7 @@ flags: `0x2`
 work size for SetupBone_Worker
 
 default: `"10"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_setupBoneWorkerThreadhold</code></summary>
@@ -24312,7 +24359,7 @@ flags: `0x4000`
 minimum ModelListByType_t::m_nSetupBoneCount value to be threaded for SetupBoneForModelList() call
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_setupBoneWortSort</code></summary>
@@ -24320,7 +24367,7 @@ flags: `0x4000`
 Sort bone work.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_shadowrendertotexture</code></summary>
@@ -24328,7 +24375,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_skin_skip_invalid_materials</code></summary>
@@ -24336,7 +24383,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>r_sky_ignoreAngles</code></summary>
@@ -24344,7 +24391,7 @@ flags: `0x40000000`
 Ignore the angle of the sky (for debugging)
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_sort_trans_debug</code></summary>
@@ -24352,7 +24399,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_sort_trans_debug_dist</code></summary>
@@ -24360,7 +24407,7 @@ flags: `0x2`
 
 
 default: `"2000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_threaded_particles</code></summary>
@@ -24368,7 +24415,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_updaterefracttexture</code></summary>
@@ -24376,7 +24423,7 @@ flags: `0x2`
 When disabled, supresses any update of refract texture.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_updaterefracttexture_allowmultiple</code></summary>
@@ -24384,15 +24431,16 @@ flags: `0x4000`
 Allows multiple updates of refract texture per frame.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_visambient</code></summary>
 
-Draw leaf ambient lighting samples. Mask of VIS_AMBIENT = 1, VIS_SKY = 2, VIS_SUN = 4, VIS_CLOUDMASK = 8, VIS_LIGHTS_1ST = 16, etc.
+Draw leaf ambient lighting samples. Mask of VIS_AMBIENT = 1, VIS_SKY = 2, VIS_SUN = 4, VIS_CLOUDMASK = 8,
+VIS_LIGHTS_1ST = 16, etc.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_visambient_orig</code></summary>
@@ -24400,7 +24448,7 @@ flags: `0x2`
 Show original lighting probes instead of the improved ones the game actually uses
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_visambient_point</code></summary>
@@ -24408,15 +24456,16 @@ flags: `0x2`
 Draw leaf ambient lighting samples, for a point (like particles).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_vismodellighting_lightpos</code></summary>
 
-Draw a line from the point light to the model lighting origin for this many of the closest lights that have r_vismodellighting enabled.
+Draw a line from the point light to the model lighting origin for this many of the closest lights that have
+r_vismodellighting enabled.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_vismodellighting_maxdist</code></summary>
@@ -24424,7 +24473,7 @@ flags: `0x4000`
 
 
 default: `"1000.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_vismodellighting_mindist</code></summary>
@@ -24432,7 +24481,7 @@ flags: `0x4000`
 
 
 default: `"48.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_vismodellighting_offset_x</code></summary>
@@ -24440,7 +24489,7 @@ flags: `0x4000`
 Offset the model lighting spheres by this amount.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_vismodellighting_offset_y</code></summary>
@@ -24448,7 +24497,7 @@ flags: `0x4000`
 Offset the model lighting spheres by this amount.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_vismodellighting_offset_z</code></summary>
@@ -24456,7 +24505,7 @@ flags: `0x4000`
 Offset the model lighting spheres by this amount.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_vissun_transitions</code></summary>
@@ -24464,7 +24513,7 @@ flags: `0x4000`
 Shows which lightprobes receive total sunlight (red), partial sunlight (purple), and none (blue).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_visualizeproplightcaching</code></summary>
@@ -24472,7 +24521,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_visualizetraces</code></summary>
@@ -24480,7 +24529,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_visualizetraces_duration</code></summary>
@@ -24488,7 +24537,7 @@ flags: `0x4000`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_volumetric_lighting_blur_count</code></summary>
@@ -24496,7 +24545,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_volumetric_lighting_blur_type</code></summary>
@@ -24504,7 +24553,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_volumetric_lighting_defer_init</code></summary>
@@ -24512,7 +24561,7 @@ flags: `0x2`
 Init Volumetric Textures Dynamically
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_volumetric_lighting_enabled</code></summary>
@@ -24520,7 +24569,7 @@ flags: `0x4000`
 Toggle Volumetric Light
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_volumetric_lighting_min_relative_contribution</code></summary>
@@ -24528,7 +24577,7 @@ flags: `0x2`
 
 
 default: `"0.02"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_volumetric_lighting_numSteps</code></summary>
@@ -24536,7 +24585,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_volumetric_lighting_rotate_dither</code></summary>
@@ -24544,7 +24593,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_water_draw_env_volumes</code></summary>
@@ -24552,7 +24601,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_water_draw_mode</code></summary>
@@ -24560,7 +24609,7 @@ flags: `0x2`
 0: standard, 1: dynamic only, 2: static only
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_water_force_envmap</code></summary>
@@ -24568,7 +24617,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_water_render_only_body</code></summary>
@@ -24576,7 +24625,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_water_rendering_enabled</code></summary>
@@ -24584,7 +24633,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_water_wave_debug</code></summary>
@@ -24592,7 +24641,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_water_wireframe</code></summary>
@@ -24600,7 +24649,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_watersim_debug</code></summary>
@@ -24608,7 +24657,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_watersim_enabled_override</code></summary>
@@ -24616,7 +24665,7 @@ flags: `0x2`
 Override the enabling of water simulation
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_wave_fx_debug_emitters</code></summary>
@@ -24624,7 +24673,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_wave_fx_enabled</code></summary>
@@ -24632,7 +24681,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_wave_fx_progress_tolerance</code></summary>
@@ -24640,7 +24689,7 @@ flags: `0x2`
 
 
 default: `"0.03"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_wave_fx_start_progress</code></summary>
@@ -24648,7 +24697,7 @@ flags: `0x2`
 
 
 default: `"0.51"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_wave_fx_view_radius</code></summary>
@@ -24656,7 +24705,7 @@ flags: `0x2`
 
 
 default: `"2000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_zfill</code></summary>
@@ -24664,7 +24713,7 @@ flags: `0x2`
 Enable/disable all zfill passes. See r_zfill_xxxxxx for individual passes.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_zfill_opaque_renderables</code></summary>
@@ -24672,7 +24721,7 @@ flags: `0x4000`
 When r_zfill is enabled, draw opaque renderables.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_zfill_static_props</code></summary>
@@ -24680,7 +24729,7 @@ flags: `0x4000`
 When r_zfill is enabled, draw static props.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_zfill_world_meshes</code></summary>
@@ -24688,7 +24737,7 @@ flags: `0x4000`
 When r_zfill is enabled, draw world meshes.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>r_zfill_world_occluder</code></summary>
@@ -24696,7 +24745,7 @@ flags: `0x4000`
 When r_zfill is enabled, draw world occluder mesh.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>ragdoll_debug</code></summary>
@@ -24704,7 +24753,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ragdoll_sleepaftertime</code></summary>
@@ -24712,7 +24761,7 @@ flags: `0x2002`
 After this many seconds of being basically stationary, the ragdoll will go to sleep.
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rankedplay_display_enabled</code></summary>
@@ -24720,7 +24769,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>rankedplay_voice_enabled</code></summary>
@@ -24728,7 +24777,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>reactive_wakeOnStop</code></summary>
@@ -24736,7 +24785,7 @@ flags: `0x1000000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>real_time_update_dt</code></summary>
@@ -24744,7 +24793,7 @@ flags: `0x2`
 
 
 default: `"0.001"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>realms_add_child_to_parent_by_default</code></summary>
@@ -24752,7 +24801,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>realms_script_error_on_parenting_mismatch</code></summary>
@@ -24760,7 +24809,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>recalculateOrigin_threaded_chunksize</code></summary>
@@ -24768,7 +24817,7 @@ flags: `0x2002`
 
 
 default: `"50"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reconnect_available_timespan</code></summary>
@@ -24776,7 +24825,7 @@ flags: `0x2`
 Amount of seconds for which reconnect is available since last save.
 
 default: `"2400"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reconnect_cache_delete</code></summary>
@@ -24784,7 +24833,7 @@ flags: `0x2`
 Allow / Disallow reconnect to remove cached reconnect params.
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>reconnect_check_platform_id</code></summary>
@@ -24792,7 +24841,7 @@ flags: `0x80000`
 Check platform id from local file. Useful when testing with multiple local win64 clients.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reconnect_debug</code></summary>
@@ -24800,7 +24849,7 @@ flags: `0x2`
 Never disconnect a player having lost connection.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reconnect_delay</code></summary>
@@ -24808,7 +24857,7 @@ flags: `0x2`
 Amount of seconds for which reconnect is waiting before connecting.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reconnect_enabled</code></summary>
@@ -24816,7 +24865,7 @@ flags: `0x2`
 Whether disconnecting keeps the player around to allow reconnecting
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reconnect_party_enabled</code></summary>
@@ -24824,7 +24873,7 @@ flags: `0x2`
 Reconnect to your party (if any) when reconnecting to the match.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reconnect_timeout</code></summary>
@@ -24832,7 +24881,7 @@ flags: `0x2`
 Seconds after a disconnected client is completely removed from the server, stopping it from reconnecting
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>remoteCalls_requireConnectionScriptsForViewPlayer</code></summary>
@@ -24840,7 +24889,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>remote_function_clear_stats_on_game_state_change</code></summary>
@@ -24848,7 +24897,7 @@ flags: `0x2`
 do we want to clear stats on server remote function data during match state changes - Prematch/Match/Epilogue.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>remote_function_pin_tracking</code></summary>
@@ -24856,7 +24905,7 @@ flags: `0x2`
 do we want to send PIN data on server remote function data
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rendering_debug_overlay</code></summary>
@@ -24864,7 +24913,7 @@ flags: `0x2`
 Show Rendering debug window
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>replay_enable</code></summary>
@@ -24872,7 +24921,7 @@ flags: `0x2`
 Enable Replay recording on server
 
 default: `"1"`  
-flags: `0x402002`  
+flags: `0x402002`
 </details>
 <details>
 <summary><code>replay_prediction_smooth</code></summary>
@@ -24880,7 +24929,7 @@ flags: `0x402002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>report_cliententitysim</code></summary>
@@ -24888,7 +24937,7 @@ flags: `0x2`
 List all clientside simulations and time - will report and turn itself off.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>report_clientthinklist</code></summary>
@@ -24896,7 +24945,7 @@ flags: `0x4000`
 List all clientside entities thinking and time - will report and turn itself off.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>report_legacy_attachment_errors</code></summary>
@@ -24904,7 +24953,7 @@ flags: `0x4000`
 Give attachment-related script errors that old code wouldn't give because it checked for -1 instead of 0.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reticle_color</code></summary>
@@ -24912,7 +24961,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x41000000`  
+flags: `0x41000000`
 </details>
 <details>
 <summary><code>roamingcam_cameraspacemotion</code></summary>
@@ -24920,7 +24969,7 @@ flags: `0x41000000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_downSpeedMult</code></summary>
@@ -24928,7 +24977,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_forwardSpeed</code></summary>
@@ -24936,7 +24985,7 @@ flags: `0x2`
 
 
 default: `"1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_forwardSpeed_fast</code></summary>
@@ -24944,7 +24993,7 @@ flags: `0x2`
 
 
 default: `"10000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_forwardSpeed_slow</code></summary>
@@ -24952,7 +25001,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_moveCollisionThreshold</code></summary>
@@ -24960,7 +25009,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_movecollision</code></summary>
@@ -24968,7 +25017,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_movesmoothing</code></summary>
@@ -24976,7 +25025,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_rollSpeed</code></summary>
@@ -24984,7 +25033,7 @@ flags: `0x2`
 
 
 default: `"40"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_serverupdateinterval</code></summary>
@@ -24992,7 +25041,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_sideSpeedMult</code></summary>
@@ -25000,7 +25049,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_smoothtime</code></summary>
@@ -25008,7 +25057,7 @@ flags: `0x2`
 
 
 default: `"0.15"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_viewsmoothing</code></summary>
@@ -25016,7 +25065,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rodeo_camera_smooth_blend_out_time</code></summary>
@@ -25024,7 +25073,7 @@ flags: `0x2`
 
 
 default: `"0.4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rodeo_camera_smooth_enable</code></summary>
@@ -25032,7 +25081,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rodeoed_anims_enabled</code></summary>
@@ -25040,7 +25089,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_collide</code></summary>
@@ -25048,7 +25097,7 @@ flags: `0x2`
 Collide rope with the world
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_debug_shake</code></summary>
@@ -25056,7 +25105,7 @@ flags: `0x2`
 Helps visualize ropes effected by a shake.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_parallelMeshBuilder</code></summary>
@@ -25064,7 +25113,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_regenMeshEachDraw</code></summary>
@@ -25072,7 +25121,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_shake</code></summary>
@@ -25080,7 +25129,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_texels_per_world_unit</code></summary>
@@ -25088,7 +25137,7 @@ flags: `0x2`
 
 
 default: `"8"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_visibility_fx_enable</code></summary>
@@ -25096,7 +25145,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_wiggle_harmonic_falloff</code></summary>
@@ -25104,7 +25153,7 @@ flags: `0x2`
 Falloff for oscillation magnitude of wave of increasing frequency (ropes and grapple)
 
 default: `"0.75"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_wiggle_magnitude_loose</code></summary>
@@ -25112,15 +25161,16 @@ flags: `0x2`
 Fraction of rope (including grapple) distance used as max wiggle distance while the rope is loose (shooting)
 
 default: `".04"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_wiggle_magnitude_tight</code></summary>
 
-Fraction of rope (including grapple) distance used as max wiggle distance while the rope is tight (pulling or retracting)
+Fraction of rope (including grapple) distance used as max wiggle distance while the rope is tight (pulling or
+retracting)
 
 default: `".002"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_wiggle_oscillate_speed</code></summary>
@@ -25128,7 +25178,7 @@ flags: `0x2`
 Speed at which rope (including grapple) wiggle oscillates
 
 default: `"64"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_wiggle_rotate_speed</code></summary>
@@ -25136,7 +25186,7 @@ flags: `0x2`
 Speed at which rope (including grapple) wiggle rotates
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_wiggle_zipline_min_points</code></summary>
@@ -25144,7 +25194,7 @@ flags: `0x2`
 Increases point count for ziplines that are wiggling
 
 default: `"80"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rope_wind_dist</code></summary>
@@ -25152,7 +25202,7 @@ flags: `0x2`
 Don't use CPU applying small wind gusts to ropes when they're past this distance.
 
 default: `"1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rotate_ents</code></summary>
@@ -25160,7 +25210,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rprof_dump_with_compression</code></summary>
@@ -25168,7 +25218,7 @@ flags: `0x2`
 Use compression when creating Rprof dumps
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rprof_prune_path_from_draw_events</code></summary>
@@ -25176,7 +25226,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rspn_motd</code></summary>
@@ -25184,7 +25234,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rt_sleep</code></summary>
@@ -25192,15 +25242,20 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>rt_sync_message_pump</code></summary>
 
-If 1 render thread with process message queue before starting main thread processing. If 2 then main thread will wait for the next frames message queue processing before gathering mouse input. If 3 then the main thread will wait for the current frames message queue processing before gathering mouse input...this may have a problem with the queue message pump sometimes starting before gathering mouse input and sometimes after causing hitches, but it has less latency and lower frame times when compared to the other methods. If 0 then gathering mouse input may happen before, during, or after the last frames mouse messages were process causing horrible hitch mouse response.
+If 1 render thread with process message queue before starting main thread processing. If 2 then main thread will wait
+for the next frames message queue processing before gathering mouse input. If 3 then the main thread will wait for the
+current frames message queue processing before gathering mouse input...this may have a problem with the queue message
+pump sometimes starting before gathering mouse input and sometimes after causing hitches, but it has less latency and
+lower frame times when compared to the other methods. If 0 then gathering mouse input may happen before, during, or
+after the last frames mouse messages were process causing horrible hitch mouse response.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rt_worker</code></summary>
@@ -25208,7 +25263,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>ruiPanel_resArgName</code></summary>
@@ -25216,7 +25271,7 @@ flags: `0x80000`
 
 
 default: `"actualRes"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_asyncTracks</code></summary>
@@ -25224,7 +25279,7 @@ flags: `0x2`
 Toggles async update of RUI tracks
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_defaultDebugFontFace</code></summary>
@@ -25232,7 +25287,7 @@ flags: `0x2`
 Default font face for rui text in debug messages
 
 default: `"ArameMono"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_defaultFontFace</code></summary>
@@ -25240,7 +25295,7 @@ flags: `0x2`
 Default font face for rui text
 
 default: `"DefaultRegularFont"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_defaultFontHeight</code></summary>
@@ -25248,7 +25303,7 @@ flags: `0x2`
 Default font height for rui text
 
 default: `"28"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_overrideVguiTextRendering</code></summary>
@@ -25256,7 +25311,7 @@ flags: `0x2`
 Use rui for rendering all vgui text
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_padDist</code></summary>
@@ -25264,7 +25319,7 @@ flags: `0x2`
 
 
 default: `"0.7"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_safeAreaFrac</code></summary>
@@ -25273,7 +25328,7 @@ Fraction of safe area to use
 
 default: `"0.0"`  
 flags: `0x2`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>rui_standardTextHeight</code></summary>
@@ -25281,7 +25336,7 @@ max value: `1`
 
 
 default: `"64.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_staticPropLimit</code></summary>
@@ -25289,7 +25344,7 @@ flags: `0x2`
 Arbitrarily limit static props in rui.
 
 default: `"51"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>rui_useWidgetDraws</code></summary>
@@ -25297,7 +25352,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>s15_freeze_fix</code></summary>
@@ -25305,7 +25360,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>save_enable</code></summary>
@@ -25313,7 +25368,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scheme_manager_font_debug</code></summary>
@@ -25321,7 +25376,7 @@ flags: `0x2`
 0:Off, 1:On
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scr_centertime</code></summary>
@@ -25329,7 +25384,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>screen_indicator_back_range</code></summary>
@@ -25337,7 +25392,7 @@ flags: `0x2`
 Number of degrees behind the player that is considered more behind than to the side
 
 default: `"60.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>screen_indicator_ellipse_height</code></summary>
@@ -25345,7 +25400,7 @@ flags: `0x2`
 
 
 default: `"0.75"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>screen_indicator_ellipse_width</code></summary>
@@ -25353,7 +25408,7 @@ flags: `0x2`
 
 
 default: `"0.85"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>screen_indicator_pitch_limit</code></summary>
@@ -25361,7 +25416,7 @@ flags: `0x2`
 The maximum pitch difference that will affect the indicator position
 
 default: `"75.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>screen_indicator_pitch_scale</code></summary>
@@ -25369,7 +25424,7 @@ flags: `0x2`
 
 
 default: `"2.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>screenfade_debug</code></summary>
@@ -25377,7 +25432,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptNetVar_categoryAsserts</code></summary>
@@ -25385,7 +25440,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_compile_all_levels</code></summary>
@@ -25393,7 +25448,7 @@ flags: `0x2`
 Compiles all level scripts when loading a map.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_compile_debug_dump_rprof</code></summary>
@@ -25401,7 +25456,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_compile_debug_track_timing</code></summary>
@@ -25409,7 +25464,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_compile_debug_verbose_logging</code></summary>
@@ -25417,7 +25472,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_debugger_connect_client_on_mapspawn</code></summary>
@@ -25425,7 +25480,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_debugger_connect_ui_auto</code></summary>
@@ -25433,7 +25488,7 @@ flags: `0x2`
 Only takes effect after uiscript_reset. Use command line argument -script_debugger_connect_ui for startup.
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_debugger_host</code></summary>
@@ -25441,7 +25496,7 @@ flags: `0x2`
 
 
 default: `"localhost"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_debugger_port_client</code></summary>
@@ -25449,7 +25504,7 @@ flags: `0x2002`
 
 
 default: `"15101"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_debugger_port_server</code></summary>
@@ -25457,7 +25512,7 @@ flags: `0x2`
 
 
 default: `"15100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_debugger_port_ui</code></summary>
@@ -25465,7 +25520,7 @@ flags: `0x2`
 
 
 default: `"15102"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_disallow_newslot_on_globals</code></summary>
@@ -25473,7 +25528,7 @@ flags: `0x2`
 Throws compile errors for global variables assigned with <-
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_div_0_script_error</code></summary>
@@ -25481,15 +25536,16 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_dump_simple</code></summary>
 
-If enabled then script dump format will skip null array/table entries and display each non-container value on a single line with the fully scoped key name.
+If enabled then script dump format will skip null array/table entries and display each non-container value on a single
+line with the fully scoped key name.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_error_on_midgame_load</code></summary>
@@ -25497,16 +25553,15 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_infinite_loop_ms</code></summary>
 
 If script runs for more than this many milliseconds at one time then you will get a script error.
 
-
 default: `"10000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_mover_traversal_mover_support</code></summary>
@@ -25514,7 +25569,7 @@ flags: `0x2002`
 Enable script mover traversal to work on other movers.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_obfuscated_id_magic</code></summary>
@@ -25522,7 +25577,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_obfuscated_id_technique</code></summary>
@@ -25530,7 +25585,7 @@ flags: `0x2`
 
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_parallel_trace_LOS_multiple</code></summary>
@@ -25538,7 +25593,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_precache_errors</code></summary>
@@ -25546,7 +25601,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>script_printDeferredCalls</code></summary>
@@ -25554,7 +25609,7 @@ flags: `0x6000`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_ranked_debug</code></summary>
@@ -25562,7 +25617,7 @@ flags: `0x2002`
 Turns on extra debugging for ranked script.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>script_retry_after_compile_errors</code></summary>
@@ -25570,7 +25625,7 @@ flags: `0x2002`
 After a compile error, tries compiling again immediately.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_seasonNameQueryInterval</code></summary>
@@ -25578,7 +25633,7 @@ flags: `0x2`
 
 
 default: `"600"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_showErrorDialogs</code></summary>
@@ -25586,7 +25641,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_slopTimeBeforeBudgetEnforcement</code></summary>
@@ -25594,7 +25649,7 @@ flags: `0x2`
 How long to wait before we start complaining about slow budgets
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>script_window_client_precache</code></summary>
@@ -25602,7 +25657,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_assert_on_bad_params</code></summary>
@@ -25610,7 +25665,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_debug</code></summary>
@@ -25618,7 +25673,7 @@ flags: `0x2`
 Enable debug print around remote functions
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_printReconnectDiscards</code></summary>
@@ -25626,7 +25681,7 @@ flags: `0x2`
 Print instances where we discard remote calls on players who are in reconnect state
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_printWarningNullEntity</code></summary>
@@ -25634,7 +25689,7 @@ flags: `0x2`
 Enable extra warnings when replicating null entities
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_resetOnlyUi</code></summary>
@@ -25642,7 +25697,7 @@ flags: `0x2`
 Only UI function can be reset
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_saveFuncName</code></summary>
@@ -25650,7 +25705,7 @@ flags: `0x2`
 Save script function name for easier debugging & also for PIN data tracking
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_stringMaxStored</code></summary>
@@ -25658,7 +25713,7 @@ flags: `0x2`
 Maximum cache size for strings
 
 default: `"512"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>seasonquest_force_missionscleared_count</code></summary>
@@ -25666,7 +25721,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>seasonquest_force_treasurepacks_count</code></summary>
@@ -25674,7 +25729,7 @@ flags: `0x2002`
 
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>send_pin_on_error</code></summary>
@@ -25682,7 +25737,7 @@ flags: `0x2002`
 Send a PIN event on an internal error.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sequence_transitioner_enable</code></summary>
@@ -25690,7 +25745,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>serverFilter</code></summary>
@@ -25698,7 +25753,7 @@ flags: `0x2002`
 Only connects to servers with the same value
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>serverReports_hostname</code></summary>
@@ -25706,7 +25761,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>server_build_datenum</code></summary>
@@ -25714,7 +25769,7 @@ flags: `0x80000`
 Server compile date number.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>server_concommands_allways_network</code></summary>
@@ -25722,7 +25777,7 @@ flags: `0x2002`
 When set to 1 , server commands with listen server pass down the network layer.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>settings_field_lookup_doesnt_exist_is_fatal</code></summary>
@@ -25730,7 +25785,7 @@ flags: `0x2`
 If GlobalSettingsField doesn't exist, then Script Error
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sfm_record_hz</code></summary>
@@ -25738,7 +25793,7 @@ flags: `0x2002`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shader_lod_world_mesh_scaled_dist</code></summary>
@@ -25746,7 +25801,7 @@ flags: `0x2`
 
 
 default: `"4000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shader_lods_enable</code></summary>
@@ -25754,7 +25809,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shader_lods_static_prop_scaled_dist</code></summary>
@@ -25762,7 +25817,7 @@ flags: `0x40000000`
 
 
 default: `"10"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_always_update</code></summary>
@@ -25770,7 +25825,7 @@ flags: `0x40000000`
 Set to 1 to make shadow maps regenerate every frame.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_bleedfudge</code></summary>
@@ -25778,7 +25833,7 @@ flags: `0x4000`
 Fudge value to decrease shadow map light bleeding
 
 default: `"0.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_capable</code></summary>
@@ -25786,7 +25841,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shadow_clear_dist</code></summary>
@@ -25794,7 +25849,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_combine_copy_with_filter</code></summary>
@@ -25802,7 +25857,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shadow_cull_in_lobby</code></summary>
@@ -25810,7 +25865,7 @@ flags: `0x2`
 Allow culling of any kind of shadow when in the lobby, if it's outside of the view frustum.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_dbg_cone_depthtest</code></summary>
@@ -25818,7 +25873,7 @@ flags: `0x4000`
 for shadow_dbg_cones
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_dbg_cones</code></summary>
@@ -25826,15 +25881,16 @@ flags: `0x4000`
 Visualize shadow cones. Color-coded per shadow status.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_dbg_draw</code></summary>
 
-Visualize shadow atlas texture (1 .. 4, larger numbers for smaller sizes)Tweak - Purple, Dirty - Red, Dynamic - Green, Old Dynamic - Blue
+Visualize shadow atlas texture (1 .. 4, larger numbers for smaller sizes)Tweak - Purple, Dirty - Red, Dynamic - Green,
+Old Dynamic - Blue
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_default_filter_size</code></summary>
@@ -25842,7 +25898,7 @@ flags: `0x4000`
 Size of the blur filter applied to spot shadows that don't request a different size. Odd integer only.
 
 default: `"3"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_depth_dimen_min</code></summary>
@@ -25850,7 +25906,7 @@ flags: `0x4000`
 Minimum resolution of a spot shadow map in width and height
 
 default: `"256"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_depth_upres_factor_max</code></summary>
@@ -25858,7 +25914,7 @@ flags: `0x40000000`
 Maximum requested upres factor of spot shadows (dimen_min << this) == largest spot shadow dimen
 
 default: `"2"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_drawfrustum</code></summary>
@@ -25866,7 +25922,7 @@ flags: `0x40000000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shadow_dynamic_spot_budgets</code></summary>
@@ -25874,7 +25930,7 @@ flags: `0x2`
 Indicates how many dynamic spot shadows are visible at any given time, relative to some performance budgets.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shadow_enable</code></summary>
@@ -25882,7 +25938,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_esm_enable</code></summary>
@@ -25890,7 +25946,7 @@ flags: `0x40000000`
 (EXPERIMENTAL) Use exponential spot shadow maps instead of variance maps
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_filter_maxstep</code></summary>
@@ -25898,7 +25954,7 @@ flags: `0x4000`
 Max step threshold for shadow map blend
 
 default: `"0.18"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_format_16_bit</code></summary>
@@ -25906,7 +25962,7 @@ flags: `0x4000`
 Use 16-bit float format for shadows
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_info</code></summary>
@@ -25914,15 +25970,16 @@ flags: `0x4000`
 Information about currently active depth shadows
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shadow_lobby_mode_allowed</code></summary>
 
-allow special mode for lobby that does some tricks to improve spotlight shadow quality. 0 - disallowed, 1- allowed, 2 - forced
+allow special mode for lobby that does some tricks to improve spotlight shadow quality. 0 - disallowed, 1- allowed, 2 -
+forced
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_lobby_player_intersect_scalar</code></summary>
@@ -25930,7 +25987,7 @@ flags: `0x4000`
 Priority scalar for shadows in lobby whose cone intersects the player. (Lower is higher priority)
 
 default: `"1.0f"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_max_downsizing_spot_updates</code></summary>
@@ -25938,7 +25995,7 @@ flags: `0x40000000`
 Downsizing shadows are exceptions. We want to update more of them than shadow_max_spot_updates
 
 default: `"24"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_max_dynamic_lobby</code></summary>
@@ -25946,7 +26003,7 @@ flags: `0x4000`
 Maximum number of shadows that should update every frame in Lobby.
 
 default: `"10"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_max_old_dynamic</code></summary>
@@ -25954,7 +26011,7 @@ flags: `0x40000000`
 Maximum number of old shadows that should update every frame. It's a part of shadow_maxdynamic
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shadow_max_spot_updates</code></summary>
@@ -25962,7 +26019,7 @@ flags: `0x2`
 Maximum number of dynamic shadow maps to update on any given frame
 
 default: `"4"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_maxdynamic</code></summary>
@@ -25970,7 +26027,7 @@ flags: `0x4000`
 Maximum number of shadows that should update every frame.
 
 default: `"4"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_maxdynamic</code></summary>
@@ -25978,15 +26035,16 @@ flags: `0x40000000`
 Maximum number of shadows that should update every frame.
 
 default: `"4"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>shadow_min_count_smallest</code></summary>
 
-Represents the minimum number of min resolution spot shadows to allocate in the shadow atlas.This will be adjusted upward to a multiple of the max sized spot shadow to find legal sized atlas dimensions.
+Represents the minimum number of min resolution spot shadows to allocate in the shadow atlas.This will be adjusted
+upward to a multiple of the max sized spot shadow to find legal sized atlas dimensions.
 
 default: `"576"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_minvariance</code></summary>
@@ -25994,7 +26052,7 @@ flags: `0x4000`
 Minimum variance for shadow maps (controls edge softness)
 
 default: `"0.00001"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_multisampled</code></summary>
@@ -26002,7 +26060,7 @@ flags: `0x4000`
 Enable multisampling for shadows.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_noLOD</code></summary>
@@ -26010,7 +26068,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shadow_pcf_bias</code></summary>
@@ -26018,7 +26076,7 @@ flags: `0x2`
 How much to bias shadow samples to prevent aliasing
 
 default: `"0.0005"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_pcf_kernel_width</code></summary>
@@ -26028,7 +26086,7 @@ How many pcf samples to take. A value of 'n' means nxn samples across (2n)x(2n) 
 default: `"3"`  
 flags: `0x4000`  
 min value: `0`  
-max value: `3`  
+max value: `3`
 </details>
 <details>
 <summary><code>shadow_pcf_mode</code></summary>
@@ -26036,7 +26094,7 @@ max value: `3`
 0: PCF off. 1: PCF only in Lobby. 2: PCF everywhere, no VSM. PCF not implemented for Switch.
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_show_spot_udpate_infos</code></summary>
@@ -26044,7 +26102,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_tools_depth_dimen_min</code></summary>
@@ -26052,7 +26110,7 @@ flags: `0x4000`
 Minimum tools mode (lightedit) resolution of a spot shadow map in width and height
 
 default: `"256"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_tools_depth_upres_factor_max</code></summary>
@@ -26060,15 +26118,16 @@ flags: `0x4000`
 Maximum requested tools mode upres factor of spot shadows (dimen_min << this) == largest spot shadow dimen
 
 default: `"3"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_tools_min_count_smallest</code></summary>
 
-Represents the minimum number of min resolution spot shadows to allocate in the shadow atlas in tools mode.This will be adjusted upward to a multiple of the max sized spot shadow to find legal sized atlas dimensions.
+Represents the minimum number of min resolution spot shadows to allocate in the shadow atlas in tools mode.This will be
+adjusted upward to a multiple of the max sized spot shadow to find legal sized atlas dimensions.
 
 default: `"4096"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_tools_mode</code></summary>
@@ -26076,7 +26135,7 @@ flags: `0x4000`
 Turn on shadow tools mode rendering (higher atlas size limits, running out of shadows does not spam
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shadow_update_culling</code></summary>
@@ -26084,7 +26143,7 @@ flags: `0x4000`
 Don't update shadows that aren't in the view frustum.
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shake_angleFactor_human</code></summary>
@@ -26092,7 +26151,7 @@ flags: `0x4000`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_angleFactor_titan</code></summary>
@@ -26100,7 +26159,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_basicPitchFactor</code></summary>
@@ -26108,7 +26167,7 @@ flags: `0x2`
 
 
 default: `"0.20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_basicRandomRollFactor</code></summary>
@@ -26116,7 +26175,7 @@ flags: `0x2`
 
 
 default: `"0.15"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_offsetFactor_human</code></summary>
@@ -26124,7 +26183,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_offsetFactor_titan</code></summary>
@@ -26132,7 +26191,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_viewmodelFactor_ads_human</code></summary>
@@ -26140,7 +26199,7 @@ flags: `0x2`
 
 
 default: `"0.01"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_viewmodelFactor_ads_titan</code></summary>
@@ -26148,7 +26207,7 @@ flags: `0x2`
 
 
 default: `"0.10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_viewmodelFactor_human</code></summary>
@@ -26156,7 +26215,7 @@ flags: `0x2`
 
 
 default: `"0.10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_viewmodelFactor_titan</code></summary>
@@ -26164,7 +26223,7 @@ flags: `0x2`
 
 
 default: `"0.10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>showfps_enabled</code></summary>
@@ -26172,7 +26231,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>showfps_heightpercent</code></summary>
@@ -26180,7 +26239,7 @@ flags: `0x80000`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>showfps_max_ms</code></summary>
@@ -26188,7 +26247,7 @@ flags: `0x2`
 Maximum time in ms that will fit on the showfps graph.
 
 default: `"0.1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>showfps_mouse_latency</code></summary>
@@ -26196,7 +26255,7 @@ flags: `0x80000`
 If 1 showfps_enabled will show mouse input latency instead of the time from before the move command.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>showfps_smoothtime</code></summary>
@@ -26204,7 +26263,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>showfps_spinner</code></summary>
@@ -26212,7 +26271,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>showmem_enabled</code></summary>
@@ -26220,23 +26279,25 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>showmem_mode_bottom</code></summary>
 
-Mode 0 is total free memory(excluding garlic), 1 is small block heap, 2 is total small block heap, 3 is Client Script, 4 is UI Script, 5 is Server Script (on PC)
+Mode 0 is total free memory(excluding garlic), 1 is small block heap, 2 is total small block heap, 3 is Client Script, 4
+is UI Script, 5 is Server Script (on PC)
 
 default: `"3"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>showmem_mode_top</code></summary>
 
-Mode 0 is total free memory(excluding garlic), 1 is small block heap, 2 is total small block heap, 3 is Client Script, 4 is UI Script, 5 is Server Script (on PC)
+Mode 0 is total free memory(excluding garlic), 1 is small block heap, 2 is total small block heap, 3 is Client Script, 4
+is UI Script, 5 is Server Script (on PC)
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>showmemnumstats</code></summary>
@@ -26245,7 +26306,7 @@ Display On-Screen Numerical Memory Information
 
 default: `"0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>showmemnumstatsrefresh</code></summary>
@@ -26254,7 +26315,7 @@ Refresh rate of querying the os for memory information in milliseconds.
 
 default: `"500"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>shownet_enabled</code></summary>
@@ -26262,7 +26323,7 @@ min value: `0`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>sidearmSwapSelectCooldown</code></summary>
@@ -26270,7 +26331,7 @@ flags: `0x80000`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sidearmSwapSelectDoubleTapTime</code></summary>
@@ -26278,7 +26339,7 @@ flags: `0x2`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>single_frame_shutdown_for_reload</code></summary>
@@ -26286,7 +26347,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>singlestep</code></summary>
@@ -26294,7 +26355,7 @@ flags: `0x2`
 Run engine in single step mode ( set next to 1 to advance a frame )
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>skill_hostname</code></summary>
@@ -26302,7 +26363,7 @@ flags: `0x4000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>skipIntroVideos</code></summary>
@@ -26310,7 +26371,7 @@ flags: `0x80000`
 skip intro videos
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>skip_jump_height_fraction</code></summary>
@@ -26318,7 +26379,7 @@ flags: `0x2`
 Jump height fraction when skipping
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>skip_jump_height_speed</code></summary>
@@ -26326,7 +26387,7 @@ flags: `0x2002`
 Jump height loss only applies above this speed
 
 default: `"450"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>skip_replenish_double_jump</code></summary>
@@ -26334,7 +26395,7 @@ flags: `0x2002`
 Whether the player can double jump after skipping
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>skip_sounds</code></summary>
@@ -26342,7 +26403,7 @@ flags: `0x2002`
 Enables skip-specific sounds
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>skip_speed_reduce</code></summary>
@@ -26350,7 +26411,7 @@ flags: `0x2002`
 Speed lost when skipping
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>skip_speed_retain</code></summary>
@@ -26358,7 +26419,7 @@ flags: `0x2002`
 Speed loss doesn't go below this
 
 default: `"-1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>skip_time</code></summary>
@@ -26366,7 +26427,7 @@ flags: `0x2002`
 Time after landing that is considered "skipping" if the player jumps again
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sleep_when_meeting_framerate</code></summary>
@@ -26374,7 +26435,7 @@ flags: `0x2002`
 Sleep instead of spinning if we're meeting the desired framerate.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sleep_when_meeting_framerate_headroom_ms</code></summary>
@@ -26382,7 +26443,7 @@ flags: `0x2`
 Only sleep if the current frame has at least this much time remaining, otherwise spin.
 
 default: `"2.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>slide_auto_stand</code></summary>
@@ -26390,7 +26451,7 @@ flags: `0x2`
 Automatically stand when slide ends
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>slide_max_angle_dot</code></summary>
@@ -26398,7 +26459,7 @@ flags: `0x2002`
 Cosine of max angle from forward that you can slide when sprinting
 
 default: `"0.6"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>slide_max_duck_frac_to_start</code></summary>
@@ -26406,7 +26467,7 @@ flags: `0x2002`
 Required max duck fraction to start a slide
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>slide_step_velocity_reduction</code></summary>
@@ -26414,7 +26475,7 @@ flags: `0x2002`
 Velocity reduction when going up a step (is multiplied by step height)
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>slide_viewTiltDecreaseSpeed</code></summary>
@@ -26422,7 +26483,7 @@ flags: `0x2002`
 Speed at which view tilt decreases while sliding in degrees per second
 
 default: `"2.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>slide_viewTiltIncreaseSpeed</code></summary>
@@ -26430,7 +26491,7 @@ flags: `0x2`
 Speed at which view tilt increases while sliding in degrees per second
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>slide_viewTiltPlayerSpeed</code></summary>
@@ -26438,7 +26499,7 @@ flags: `0x2`
 Speed at which view tilt is full while sliding
 
 default: `"400"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>slide_viewTiltSide</code></summary>
@@ -26446,7 +26507,7 @@ flags: `0x2`
 View tilt when looking to the side while sliding in degrees
 
 default: `"15"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>slide_whileInAir</code></summary>
@@ -26454,7 +26515,7 @@ flags: `0x2`
 Allows beginning a slide (including the boost) while still in the air
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>slowconsolelog_old_logic</code></summary>
@@ -26462,7 +26523,7 @@ flags: `0x2002`
 Flush console.log after each write.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>smoothstairs_lunge</code></summary>
@@ -26470,7 +26531,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>snapshot_force_local_client_player_transmit</code></summary>
@@ -26478,7 +26539,7 @@ flags: `0x2002`
 Force the local client player to always be transmitted to their own client
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>snapshot_local_client_player_delete_assert</code></summary>
@@ -26486,7 +26547,7 @@ flags: `0x2`
 Assert if we ever try to delete a local client player in a snapshot
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>snapshot_recipient_code_affects_tick_last_changed</code></summary>
@@ -26494,7 +26555,7 @@ flags: `0x2`
 When a SendProp updates its Recipient Code refresh its tick last changed
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>snapshot_tlc_sorted_props_enabled</code></summary>
@@ -26502,7 +26563,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>solid_obb_pass_standard_filter</code></summary>
@@ -26510,15 +26571,15 @@ flags: `0x2`
 SOLID_OBB objects pass standard filter rules.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sort_opaque_meshes</code></summary>
 
-Sort opaque meshes front to back to try to improve rendering speed.  This may not be worth the CPU cost.
+Sort opaque meshes front to back to try to improve rendering speed. This may not be worth the CPU cost.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_ambientgeneric_allow_refresh</code></summary>
@@ -26526,7 +26587,7 @@ flags: `0x2`
 Tell all ambient_generics to re-think when calling the RefreshSoundSytem() client script function
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_classic_music</code></summary>
@@ -26534,7 +26595,7 @@ flags: `0x2`
 classic music volume
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>sound_entity_seek_snap</code></summary>
@@ -26542,7 +26603,7 @@ flags: `0x1000000`
 Play C_ImporantOnEntSound entity sound from beginning if we get it within this many seconds of its begin time.
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_musicReduced</code></summary>
@@ -26550,15 +26611,15 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>sound_num_speakers</code></summary>
 
-2 - headphones or stereo, 6 - 5.1 surround, 8 - 7.1 surround.  All other values invalid
+2 - headphones or stereo, 6 - 5.1 surround, 8 - 7.1 surround. All other values invalid
 
 default: `"2"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>sound_only_warn_on_missing_sound_events_in_client_script</code></summary>
@@ -26566,7 +26627,7 @@ flags: `0x80`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_printloaderrors</code></summary>
@@ -26574,7 +26635,7 @@ flags: `0x2`
 Set to 1 to print sound errors on load.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_volume</code></summary>
@@ -26582,7 +26643,7 @@ flags: `0x2`
 master game volume
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>sound_volume_dialogue</code></summary>
@@ -26590,7 +26651,7 @@ flags: `0x1000000`
 dialogue volume (mp)
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>sound_volume_dialogue_sp</code></summary>
@@ -26598,7 +26659,7 @@ flags: `0x1000000`
 dialogue volume (sp)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_volume_music_game</code></summary>
@@ -26606,7 +26667,7 @@ flags: `0x2`
 music volume in game (mp)
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>sound_volume_music_game_sp</code></summary>
@@ -26614,7 +26675,7 @@ flags: `0x1000000`
 music volume in game (sp)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_volume_music_lobby</code></summary>
@@ -26622,7 +26683,7 @@ flags: `0x2`
 music volume in lobby
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>sound_volume_sfx</code></summary>
@@ -26630,7 +26691,7 @@ flags: `0x1000000`
 sound effect volume (mp)
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>sound_volume_sfx_sp</code></summary>
@@ -26638,7 +26699,7 @@ flags: `0x1000000`
 sound effect volume (sp)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sound_volume_voice</code></summary>
@@ -26646,7 +26707,7 @@ flags: `0x2`
 voice chat volume
 
 default: `"1"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>sound_without_focus</code></summary>
@@ -26654,15 +26715,16 @@ flags: `0x80`
 Play sounds even when the app doesn't have focus.
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>soundtrigger_repeat_interval</code></summary>
 
-Decides how long to wait before repeating a soundtrigger event on the given player. Set to 0 to wait until the current sound ends.
+Decides how long to wait before repeating a soundtrigger event on the given player. Set to 0 to wait until the current
+sound ends.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sp_not_focus_pause</code></summary>
@@ -26670,7 +26732,7 @@ flags: `0x2`
 Pause the singleplayer game when the window is not in focus
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>spam_skinning_matrices_used</code></summary>
@@ -26678,7 +26740,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>spam_skinning_matrices_used_detailed</code></summary>
@@ -26686,7 +26748,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>spatial_partition_deadlock_assert</code></summary>
@@ -26694,7 +26756,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>spectator_command_interval</code></summary>
@@ -26702,7 +26764,7 @@ flags: `0x2002`
 Specify the minimum time between spectator command.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_audioenabled</code></summary>
@@ -26710,7 +26772,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_enabled</code></summary>
@@ -26718,7 +26780,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>speechtotext_forcedisabled</code></summary>
@@ -26726,7 +26788,7 @@ flags: `0x1000000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_gettokentime_interval</code></summary>
@@ -26734,7 +26796,7 @@ flags: `0x2`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_hostname</code></summary>
@@ -26742,7 +26804,7 @@ flags: `0x2`
 
 
 default: `"api.us-east.speech-to-text.watson.cloud.ibm.com"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_msg_droptimeout</code></summary>
@@ -26750,7 +26812,7 @@ flags: `0x2`
 
 
 default: `"30.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_path</code></summary>
@@ -26758,7 +26820,7 @@ flags: `0x2`
 
 
 default: `"instances/b7fc6d53-24c8-4594-978c-2e19bc484d00/v1/recognize?profanity_filter=true&smart_formatting=true"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_quiettime</code></summary>
@@ -26766,7 +26828,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_stats_errorspermin</code></summary>
@@ -26774,7 +26836,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_stats_interval</code></summary>
@@ -26782,7 +26844,7 @@ flags: `0x2`
 
 
 default: `"60.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_stats_senderrors</code></summary>
@@ -26790,7 +26852,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_stats_sendrequests</code></summary>
@@ -26798,7 +26860,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotext_stats_sendsuccess</code></summary>
@@ -26806,7 +26868,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speechtotexttoken_hostname</code></summary>
@@ -26814,7 +26876,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>speex_audio_recording</code></summary>
@@ -26822,7 +26884,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_audio_value</code></summary>
@@ -26830,7 +26892,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_preprocess_agc</code></summary>
@@ -26838,7 +26900,7 @@ flags: `0x2`
 Set encoder agc (automatic gain control) on/off
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_preprocess_agc_max_gain</code></summary>
@@ -26846,7 +26908,7 @@ flags: `0x2`
 Set maximal gain in dB. ( High values Risks swamping noise filter)
 
 default: `"13"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_preprocess_noise_suppress</code></summary>
@@ -26854,7 +26916,7 @@ flags: `0x2`
 Set maximum attenuation of the noise in dB (negative number)
 
 default: `"-20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_preprocess_set_agc_decrement</code></summary>
@@ -26862,7 +26924,7 @@ flags: `0x2`
 Set maximal gain decrease in dB/second.
 
 default: `"-10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_preprocess_set_agc_increment</code></summary>
@@ -26870,7 +26932,7 @@ flags: `0x2`
 Set maximal gain increase in dB/second.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_preprocess_set_agc_target</code></summary>
@@ -26878,7 +26940,7 @@ flags: `0x2`
 Set Automatic Gain Control target. 0/32767
 
 default: `"8000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_quiet_threshold</code></summary>
@@ -26886,7 +26948,7 @@ flags: `0x2`
 
 
 default: `"1300"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>speex_quiet_window</code></summary>
@@ -26894,7 +26956,7 @@ flags: `0x80`
 
 
 default: `"40"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_set_enh</code></summary>
@@ -26902,7 +26964,7 @@ flags: `0x2`
 Set enhancement on/off (decoder only)
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_use_highpass</code></summary>
@@ -26910,7 +26972,7 @@ flags: `0x2`
 Use a highpass filter do help remove DC before encode
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>speex_use_preprocessor</code></summary>
@@ -26918,7 +26980,7 @@ flags: `0x2`
 Controls the running of voice preprocessor before encode
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>spinner_debug_info</code></summary>
@@ -26926,7 +26988,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>sprint_powerdrain</code></summary>
@@ -26934,7 +26996,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sprint_view_shake_style</code></summary>
@@ -26942,7 +27004,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x41000000`  
+flags: `0x41000000`
 </details>
 <details>
 <summary><code>sprinttilt_accel</code></summary>
@@ -26950,7 +27012,7 @@ flags: `0x41000000`
 Acceleration of sprint view tilt fraction
 
 default: `"35"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sprinttilt_maxvel</code></summary>
@@ -26958,7 +27020,7 @@ flags: `0x2002`
 Maximum speed of sprint view tilt
 
 default: `"2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sprinttilt_turnrange</code></summary>
@@ -26966,7 +27028,7 @@ flags: `0x2002`
 Max turn rate that creates view tilt when sprinting
 
 default: `"120"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ss_enable</code></summary>
@@ -26974,7 +27036,7 @@ flags: `0x2002`
 Enables Split Screen support. Play Single Player now launches into split screen mode. NO ONLINE SUPPORT
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ss_force_primary_fullscreen</code></summary>
@@ -26982,7 +27044,7 @@ flags: `0x2`
 If enabled, all splitscreen users will only see the first user's screen full screen
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ss_mimic</code></summary>
@@ -26990,15 +27052,16 @@ flags: `0x2`
 Split screen users mimic base player's CUserCmds
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>ss_splitmode</code></summary>
 
-Two player split screen mode (0 - recommended settings base on the width, 1 - horizontal, 2 - vertical (only allowed in widescreen)
+Two player split screen mode (0 - recommended settings base on the width, 1 - horizontal, 2 - vertical (only allowed in
+widescreen)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ss_verticalsplit</code></summary>
@@ -27006,15 +27069,16 @@ flags: `0x2`
 Two player split screen uses vertical split (do not set this directly, use ss_splitmode instead).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ss_viewmodelfov</code></summary>
 
-Client-side viewmodel fov control that is global for all splitscreen players on this machine.  This gets overridden via splitscreen_config.txt for splitscreen.
+Client-side viewmodel fov control that is global for all splitscreen players on this machine. This gets overridden via
+splitscreen_config.txt for splitscreen.
 
 default: `"54"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ss_voice_hearpartner</code></summary>
@@ -27022,7 +27086,7 @@ flags: `0x2002`
 Route voice between splitscreen players on same system.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_allow_partial</code></summary>
@@ -27031,7 +27095,7 @@ When it's enabled, Partial SSAO could run when dynamic viewport is smaller than 
 It doesn't look good and has a problem of some flickering. Try it with viewportscale_rand to see the problem.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_blur</code></summary>
@@ -27039,7 +27103,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_blur_edge_sharpness</code></summary>
@@ -27047,7 +27111,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_depth_max</code></summary>
@@ -27055,7 +27119,7 @@ flags: `0x2`
 
 
 default: `"10000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_downsample</code></summary>
@@ -27063,7 +27127,7 @@ flags: `0x2`
 0 = 1:1, 1 = 2:1, 2 = 4:1
 
 default: `"0"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>ssao_enabled</code></summary>
@@ -27071,7 +27135,7 @@ flags: `0x40000000`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>ssao_exponent</code></summary>
@@ -27079,7 +27143,7 @@ flags: `0x40000000`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_jitter_scale</code></summary>
@@ -27087,7 +27151,7 @@ flags: `0x2`
 in range of [0,1]
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_max_res</code></summary>
@@ -27095,7 +27159,7 @@ flags: `0x2`
 SSAO render target size will be enforced to be this size when it's going to be ssao_max_res_threshold or greater
 
 default: `"1080"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_max_res_threshold</code></summary>
@@ -27103,7 +27167,7 @@ flags: `0x2`
 ssao_max_res is enforced when SSAO render target size is at this size or greater
 
 default: `"1440"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_num_directions</code></summary>
@@ -27111,7 +27175,7 @@ flags: `0x2`
 
 
 default: `"8"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_num_steps</code></summary>
@@ -27119,7 +27183,7 @@ flags: `0x2`
 
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_on_everything</code></summary>
@@ -27127,7 +27191,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_radius</code></summary>
@@ -27135,7 +27199,7 @@ flags: `0x2`
 occlusion hemisphere radius in world space unit
 
 default: `"118"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_radius_in_lobby</code></summary>
@@ -27143,7 +27207,7 @@ flags: `0x2`
 occlusion hemisphere radius in world space unit
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_show</code></summary>
@@ -27151,7 +27215,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_show</code></summary>
@@ -27159,7 +27223,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_show</code></summary>
@@ -27167,7 +27231,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_snap_uv</code></summary>
@@ -27175,7 +27239,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_tech</code></summary>
@@ -27183,7 +27247,7 @@ flags: `0x2`
 0 = Off, 1 = HBAO, 2 = GTAO uni, 3 = GTAO cos, 4 = HBAO basic, 5 = HBAO1x1, 6 = GTAOuni1x1, 7 = GTAOcos1x1
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_tech</code></summary>
@@ -27191,7 +27255,7 @@ flags: `0x2`
 0 = Off, 1 = HBAO, 2 = GTAO uni, 3 = GTAO cos, 4 = HBAO basic, 5 = HBAO1x1, 6 = GTAOuni1x1, 7 = GTAOcos1x1
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssao_upsample_ranged</code></summary>
@@ -27199,7 +27263,7 @@ flags: `0x2`
 It improves downsampled SSAO quality. it works for GTAO 4x4 mode only.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ssl_verify_peer</code></summary>
@@ -27207,7 +27271,7 @@ flags: `0x2`
 Verify the authenticity of the peer's SSL certificate. 1 = curl verifies; 0 (zero) = no verification.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>startButtonCommand</code></summary>
@@ -27215,7 +27279,7 @@ flags: `0x2`
 What command to send when start is pressed
 
 default: `"ingamemenu_activate"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticPropSkipEarlyDepthOnlyTranslucent</code></summary>
@@ -27223,7 +27287,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticPropUseDepthEarlySortBulkGrab</code></summary>
@@ -27231,7 +27295,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticPropUseDepthSortBulkGrab</code></summary>
@@ -27239,7 +27303,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticProp_budget</code></summary>
@@ -27249,7 +27313,7 @@ The maximum number of static props that will be drawn.
 default: `"8192"`  
 flags: `0x2`  
 min value: `100`  
-max value: `8192`  
+max value: `8192`
 </details>
 <details>
 <summary><code>staticProp_buildlists_on_worker</code></summary>
@@ -27257,7 +27321,7 @@ max value: `8192`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticProp_debug_draw</code></summary>
@@ -27265,7 +27329,7 @@ flags: `0x2`
 Orange - regular culled prop. Red - "do not fade" prop Green - out of range
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticProp_earlyDepthPrepass</code></summary>
@@ -27273,7 +27337,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticProp_gather_size_weight</code></summary>
@@ -27281,7 +27345,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticProp_max_scaled_dist</code></summary>
@@ -27289,7 +27353,7 @@ flags: `0x2`
 
 
 default: `"2500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticProp_no_fade_scalar</code></summary>
@@ -27297,7 +27361,7 @@ flags: `0x2`
 
 
 default: `"0.7"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticProp_refineDrawOnWorker</code></summary>
@@ -27305,7 +27369,7 @@ flags: `0x2`
 0 - none, 1 - mainview, 2 - depth-prepass, 3 - mainview & depth-prepass
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_prop_dist_debug_draw</code></summary>
@@ -27313,23 +27377,25 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow</code></summary>
 
-0 : off, 1 : generate once, 2 : minimum update with cache, 3 : update dirty rects with cache, 4 : update dirty rects without cache, 5 : always refresh
+0 : off, 1 : generate once, 2 : minimum update with cache, 3 : update dirty rects with cache, 4 : update dirty rects
+without cache, 5 : always refresh
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow</code></summary>
 
-0 : off, 1 : generate once, 2 : minimum update with cache, 3 : update dirty rects with cache, 4 : update dirty rects without cache, 5 : always refresh
+0 : off, 1 : generate once, 2 : minimum update with cache, 3 : update dirty rects with cache, 4 : update dirty rects
+without cache, 5 : always refresh
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_bounds_per_env</code></summary>
@@ -27337,7 +27403,7 @@ flags: `0x2`
 0 - use world min/max, 1 - use current light environment's head box
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_debug_2d</code></summary>
@@ -27345,7 +27411,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_debug_dirty_rects</code></summary>
@@ -27353,7 +27419,7 @@ flags: `0x2`
 only works with static_shadow_debug_2d = 1
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_depth_bias_scale</code></summary>
@@ -27361,7 +27427,7 @@ flags: `0x2`
 only effective on materials with non-zero shadowBiasStatic values
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_expand_z</code></summary>
@@ -27369,15 +27435,16 @@ flags: `0x2`
 z range should be inflated to be able to cover flying objects higher than world min/max
 
 default: `"30000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_good_merge_ratio</code></summary>
 
-merge ratio = merged extent / bigger one's extent. when merge ratio is less than this value, the pair can be merged even when merged extent > m_StaticShadowMaxExtentForDirtyRect
+merge ratio = merged extent / bigger one's extent. when merge ratio is less than this value, the pair can be merged even
+when merged extent > m_StaticShadowMaxExtentForDirtyRect
 
 default: `"1.01"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_good_merge_score</code></summary>
@@ -27385,7 +27452,7 @@ flags: `0x2`
 score = merged extent + wasted extent, where 4.0 is full screen
 
 default: `"0.1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_prop_min_size</code></summary>
@@ -27393,7 +27460,7 @@ flags: `0x2`
 Minimum size of prop to be drawn in static shadow
 
 default: `"40.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_res</code></summary>
@@ -27401,7 +27468,7 @@ flags: `0x2`
 Set the static shadow maps rendertarget resolution
 
 default: `"4096"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_shrink_culler</code></summary>
@@ -27409,7 +27476,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_use_d16</code></summary>
@@ -27417,7 +27484,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>static_shadow_uses_shadow_lod</code></summary>
@@ -27425,7 +27492,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>staticfile_hostname</code></summary>
@@ -27433,7 +27500,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>stats_hostname</code></summary>
@@ -27441,7 +27508,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>status_effect_warning_level</code></summary>
@@ -27449,7 +27516,7 @@ flags: `0x80000`
 Set to 0 for nothing, 1 for warnings, 2 for script errors
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>steam_debug</code></summary>
@@ -27457,7 +27524,7 @@ flags: `0x2002`
 Enable Steam HTTP debug logging
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steam_environment</code></summary>
@@ -27465,7 +27532,7 @@ flags: `0x2`
 
 
 default: `"production"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>steam_id</code></summary>
@@ -27473,7 +27540,7 @@ flags: `0x80000`
 
 
 default: `""`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>steam_name</code></summary>
@@ -27481,7 +27548,7 @@ flags: `0x12`
 
 
 default: `""`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>steam_presence_player_group_issession</code></summary>
@@ -27489,7 +27556,7 @@ flags: `0x12`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steam_presence_updateRate</code></summary>
@@ -27497,7 +27564,7 @@ flags: `0x2`
 Minimum time between steam updates in seconds.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steam_spoofPCInGetUserInfo</code></summary>
@@ -27505,7 +27572,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steamlink_hostname</code></summary>
@@ -27513,7 +27580,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_addnoise</code></summary>
@@ -27521,7 +27588,7 @@ flags: `0x2`
 Adds corruption to streamed-in MIP levels for debugging.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_align_memory_estimates</code></summary>
@@ -27529,7 +27596,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>stream_cache_capacity_animseq</code></summary>
@@ -27537,7 +27604,7 @@ flags: `0x40000000`
 Stream Cache Capacity in MiB
 
 default: `"25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_capacity_mdl</code></summary>
@@ -27545,7 +27612,7 @@ flags: `0x2`
 Stream Cache Capacity in MiB
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_capacity_while_loading</code></summary>
@@ -27553,7 +27620,7 @@ flags: `0x2`
 Stream Cache Capacity in MiB while loading, if < 0 will be ignored.
 
 default: `"200"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_high_priority_animations</code></summary>
@@ -27561,7 +27628,7 @@ flags: `0x2`
 Try never to drop (and always prioritize loading) animations.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_high_priority_static_models</code></summary>
@@ -27569,7 +27636,7 @@ flags: `0x2`
 Try never to drop (and always prioritize loading) static model geo.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_mdl_freeze_threshlold</code></summary>
@@ -27577,7 +27644,7 @@ flags: `0x2`
 (KB) threshold below which static models are loaded and frozen by the streamcache system
 
 default: `"16"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_multithreaded</code></summary>
@@ -27585,7 +27652,7 @@ flags: `0x2`
 Use jobs to do upload for model geo.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_preload_from_rpak</code></summary>
@@ -27593,7 +27660,7 @@ flags: `0x2`
 0 = Never preload; 1 = Preload static models
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_read_buffer_cap</code></summary>
@@ -27601,7 +27668,7 @@ flags: `0x2`
 Concurrent read buffer capacity in MiB.
 
 default: `"32"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_read_count_cap</code></summary>
@@ -27609,7 +27676,7 @@ flags: `0x2`
 Concurrent read limit.
 
 default: `"24"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_speculative_drop_animseq</code></summary>
@@ -27617,7 +27684,7 @@ flags: `0x2`
 Attempt to drop models to reach this fraction of stream_cache_capacity.
 
 default: `"0.8"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_cache_speculative_drop_mdl</code></summary>
@@ -27625,7 +27692,7 @@ flags: `0x2`
 Attempt to drop models to reach this fraction of stream_cache_capacity.
 
 default: `"0.9"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_drop_unused</code></summary>
@@ -27633,7 +27700,7 @@ flags: `0x2`
 Drop unused textures aggressively
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_enable</code></summary>
@@ -27641,7 +27708,7 @@ flags: `0x2`
 Enable texture streaming
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_freeze_camera</code></summary>
@@ -27649,7 +27716,7 @@ flags: `0x2`
 Freezes camera for purposes of streaming map textures.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_highest_quality_pc</code></summary>
@@ -27657,15 +27724,16 @@ flags: `0x2`
 Stream at highest quality for PC (1: on / 0: off)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_load_after_drop</code></summary>
 
-Allow us to continue loading in a frame after dropping any textures. This means if we don't yet have enough memory to stream a big texture, see if we can start streaming a lower priority small texture instead.
+Allow us to continue loading in a frame after dropping any textures. This means if we don't yet have enough memory to
+stream a big texture, see if we can start streaming a lower priority small texture instead.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_low_mips_to_batch</code></summary>
@@ -27673,7 +27741,7 @@ flags: `0x2`
 Stream in up to this many of the lowest mips together. 1 disables batching, 2 will batch up to 2 mips, and so on.
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_memory</code></summary>
@@ -27681,7 +27749,7 @@ flags: `0x2`
 Stream memory to target (in kb).
 
 default: `"300000"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>stream_memory_ignore</code></summary>
@@ -27689,7 +27757,7 @@ flags: `0x40000000`
 Ignore stream_memory limit when streaming is enabled.
 
 default: `"0"`  
-flags: `0x40000002`  
+flags: `0x40000002`
 </details>
 <details>
 <summary><code>stream_memory_ignore_vram</code></summary>
@@ -27697,7 +27765,7 @@ flags: `0x40000002`
 Ignore vram size when setting streaming buffer size.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_memory_min</code></summary>
@@ -27705,7 +27773,7 @@ flags: `0x2`
 Minimum streaming memory (in kb).
 
 default: `"0"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>stream_memory_while_loading</code></summary>
@@ -27713,7 +27781,7 @@ flags: `0x40000000`
 Stream memory to target (in kb).
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_mode</code></summary>
@@ -27721,7 +27789,7 @@ flags: `0x2`
 Stream mode: default all none
 
 default: `"default"`  
-flags: `0x40000002`  
+flags: `0x40000002`
 </details>
 <details>
 <summary><code>stream_never_high_priority_frac</code></summary>
@@ -27729,7 +27797,7 @@ flags: `0x40000002`
 Never assign 'high priority' to a texture that uses more than this fraction of total streaming buffer.
 
 default: `"0.0125"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_overlay</code></summary>
@@ -27737,7 +27805,7 @@ flags: `0x2`
 Texture streaming debug overlay.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_overlay_mode</code></summary>
@@ -27745,7 +27813,7 @@ flags: `0x2`
 Which debug view to show (tex mtl bsp short)
 
 default: `"short"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_pause</code></summary>
@@ -27753,7 +27821,7 @@ flags: `0x2`
 Pause texture streaming
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_picmip</code></summary>
@@ -27761,7 +27829,7 @@ flags: `0x2`
 Picmip used when stream mode is picmip. (Or the map doesn't have streaming data.)
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_resource_thread</code></summary>
@@ -27769,7 +27837,7 @@ flags: `0x2`
 Create resources on separate thread, and delay copy and binding of those resources.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_resource_wait_for_additional_gpus</code></summary>
@@ -27777,33 +27845,32 @@ flags: `0x2`
 Enable to reset the commit counter less frequently when you have multiple GPUs.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stream_texture_bandwidth</code></summary>
 
-Maximum bandwidth (in MB/s) to use for streaming. This should be lower than the GPU-CPU bus bandwidth (e.g. PCIe bus bandwidth).
+Maximum bandwidth (in MB/s) to use for streaming. This should be lower than the GPU-CPU bus bandwidth (e.g. PCIe bus
+bandwidth).
 
 default: `"100"`  
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>stringtable_alwaysrebuilddictionaries</code></summary>
 
 Rebuild dictionary file on every level load
 
-
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stringtable_compress</code></summary>
 
 Compress string table for networking
 
-
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stryder_forceOriginUsersInvisible</code></summary>
@@ -27811,7 +27878,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stryder_security</code></summary>
@@ -27819,7 +27886,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000200`  
+flags: `0x80000200`
 </details>
 <details>
 <summary><code>stuck_debugging</code></summary>
@@ -27827,7 +27894,7 @@ flags: `0x80000200`
 Debug getting stuck
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>stuck_debugging_world_only</code></summary>
@@ -27835,7 +27902,7 @@ flags: `0x2002`
 Only check for stuck in world geo
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>studiobonecache_unlimited</code></summary>
@@ -27843,7 +27910,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>subscription_hostname</code></summary>
@@ -27851,7 +27918,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>superjump_disabled_from_water</code></summary>
@@ -27859,7 +27926,7 @@ flags: `0x80000`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_drain_power_onfail</code></summary>
@@ -27867,7 +27934,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_fail_sound_when_jump_limit</code></summary>
@@ -27875,7 +27942,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_jumppad_enable_time</code></summary>
@@ -27883,7 +27950,7 @@ flags: `0x2002`
 
 
 default: `"0.1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_limit</code></summary>
@@ -27891,7 +27958,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_limitreset_onwallrun</code></summary>
@@ -27899,7 +27966,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_max_power_use</code></summary>
@@ -27907,7 +27974,7 @@ flags: `0x2002`
 
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_min_height_fraction</code></summary>
@@ -27915,7 +27982,7 @@ flags: `0x2002`
 Minimum fraction of desired superjump height that is acheived, even if already moving quickly upwards
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_min_power_use</code></summary>
@@ -27923,7 +27990,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>superjump_powerreset_onground</code></summary>
@@ -27931,7 +27998,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_airaccelerate</code></summary>
@@ -27939,7 +28006,7 @@ flags: `0x2002`
 
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_allTicksFinal</code></summary>
@@ -27947,7 +28014,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_allowSendTableTransmitToClients</code></summary>
@@ -27955,7 +28022,7 @@ flags: `0x2`
 Allow transmission of sendtable data to clients.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_allowSpectatorClients</code></summary>
@@ -27963,7 +28030,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_asyncSendSnapshot</code></summary>
@@ -27971,7 +28038,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_backspeed</code></summary>
@@ -27979,7 +28046,7 @@ flags: `0x2`
 How much to slow down backwards motion
 
 default: `"0.6"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_balanceTeams</code></summary>
@@ -27987,7 +28054,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_bounce</code></summary>
@@ -27995,7 +28062,7 @@ flags: `0x2`
 Bounce multiplier for when physically simulated objects collide with other objects.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_cheats</code></summary>
@@ -28003,7 +28070,7 @@ flags: `0x2002`
 Allow cheats on server
 
 default: `"0"`  
-flags: `0x82000`  
+flags: `0x82000`
 </details>
 <details>
 <summary><code>sv_compressPlaylists</code></summary>
@@ -28011,7 +28078,7 @@ flags: `0x82000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_compressTimeValEpsilon</code></summary>
@@ -28019,7 +28086,7 @@ flags: `0x2`
 
 
 default: `"0.0005"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_compressTimeVals</code></summary>
@@ -28027,7 +28094,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_connectEnforceServerFilter</code></summary>
@@ -28035,7 +28102,7 @@ flags: `0x2`
 A user must have a matching server filter to connect
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_connectingClientDelay</code></summary>
@@ -28043,7 +28110,7 @@ flags: `0x2`
 Amount of time to wait between resends of data to a connecting client
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_debug_prop_send</code></summary>
@@ -28051,7 +28118,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_debugmanualmode</code></summary>
@@ -28059,7 +28126,7 @@ flags: `0x2`
 Make sure entities correctly report whether or not their network data has changed.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_disconnectOnScriptError</code></summary>
@@ -28067,7 +28134,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_dumpstringtables</code></summary>
@@ -28075,25 +28142,23 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>sv_earlyPersistenceRead</code></summary>
 
 Should the server try to read persistence earlier in the connection process
 
-
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>sv_everyThirdTick</code></summary>
 
 Do networking every third tick, regardless of how backed up we are
 
-
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_extra_client_connect_time</code></summary>
@@ -28101,15 +28166,16 @@ flags: `0x2`
 Seconds after client connect during which extra frames are buffered to prevent non-delta'd update
 
 default: `"60.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_fakeClientBaseId</code></summary>
 
-Base platform user ID for created fake clients. Useful, for example, when running multiple dedis with matchmaking bots; create a different base for each dedi to get unique IDs -- matchmaking uses user IDs as a primary key.
+Base platform user ID for created fake clients. Useful, for example, when running multiple dedis with matchmaking bots;
+create a different base for each dedi to get unique IDs -- matchmaking uses user IDs as a primary key.
 
 default: `"9990000"`  
-flags: `0x26`  
+flags: `0x26`
 </details>
 <details>
 <summary><code>sv_fixedUpdateRate</code></summary>
@@ -28117,7 +28183,7 @@ flags: `0x26`
 Do NOT let MP clients decide their update rate
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_footsteps</code></summary>
@@ -28125,7 +28191,7 @@ flags: `0x2`
 Play footstep sound for players
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_friction</code></summary>
@@ -28133,7 +28199,7 @@ flags: `0x2002`
 World friction. (Equivalent player setting is in player settings files)
 
 default: `"4"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_gracefulDisconnectOnScriptError</code></summary>
@@ -28141,7 +28207,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_gravity</code></summary>
@@ -28149,7 +28215,7 @@ flags: `0x2`
 World gravity.
 
 default: `"750"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_ignoreAllNewConnections</code></summary>
@@ -28157,7 +28223,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_ignoreDuplicateConnectionRequests</code></summary>
@@ -28165,7 +28231,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_infinite_ammo</code></summary>
@@ -28173,7 +28239,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_instancebaselines</code></summary>
@@ -28181,7 +28247,7 @@ flags: `0x2002`
 Enable instanced baselines. Saves network overhead.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_loadMapModelEarly</code></summary>
@@ -28189,7 +28255,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_lobbyType</code></summary>
@@ -28197,7 +28263,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_maxSetClientEntitlements</code></summary>
@@ -28205,7 +28271,7 @@ flags: `0x2002`
 Control the maximum number of time a client can request set entitlements.
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_prop_data_dwords_lobby</code></summary>
@@ -28213,7 +28279,7 @@ flags: `0x2`
 Maximum amount of prop data per-snapshot in dwords (huge lobby)
 
 default: `"300000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_prop_data_dwords_multiplayer</code></summary>
@@ -28221,7 +28287,7 @@ flags: `0x2`
 Maximum amount of prop data per-snapshot in dwords (huge multiplayer)
 
 default: `"2500000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_prop_data_dwords_singleplayer</code></summary>
@@ -28229,7 +28295,7 @@ flags: `0x2`
 Maximum amount of prop data per-snapshot in dwords (singleplayer)
 
 default: `"400000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_props_lobby</code></summary>
@@ -28237,7 +28303,7 @@ flags: `0x2`
 Maximum amount of props per-snapshot (lobby)
 
 default: `"250000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_props_multiplayer</code></summary>
@@ -28245,7 +28311,7 @@ flags: `0x2`
 Maximum number of props per-snapshot (huge multiplayer)
 
 default: `"1250000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_props_singleplayer</code></summary>
@@ -28253,7 +28319,7 @@ flags: `0x2`
 Maximum number of props per-snapshot (singleplayer)
 
 default: `"300000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_snapshots_lobby</code></summary>
@@ -28261,7 +28327,7 @@ flags: `0x2`
 Maximum number of snapshots for the lobby
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_snapshots_multiplayer</code></summary>
@@ -28269,7 +28335,7 @@ flags: `0x2`
 Maximum number of snapshots for multiplayer levels
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_max_snapshots_singleplayer</code></summary>
@@ -28277,7 +28343,7 @@ flags: `0x2`
 Maximum number of snapshots for singleplayer levels
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_maxclientframes</code></summary>
@@ -28285,7 +28351,7 @@ flags: `0x2`
 
 
 default: `"300"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_maxroutable</code></summary>
@@ -28295,7 +28361,7 @@ Server upper bound on net_maxroutable that a client can use.
 default: `"1200"`  
 flags: `0x2`  
 min value: `576`  
-max value: `1200`  
+max value: `1200`
 </details>
 <details>
 <summary><code>sv_maxspeed</code></summary>
@@ -28303,7 +28369,7 @@ max value: `1200`
 
 
 default: `"320"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_maxupdaterate</code></summary>
@@ -28311,7 +28377,7 @@ flags: `0x2002`
 Maximum updates per second that the server will allow
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_maxvelocity</code></summary>
@@ -28319,7 +28385,7 @@ flags: `0x2`
 Maximum speed any ballistically moving object is allowed to attain per axis.
 
 default: `"34000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_minupdaterate</code></summary>
@@ -28327,7 +28393,7 @@ flags: `0x2002`
 Minimum updates per second that the server will allow
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_optimizedmovement</code></summary>
@@ -28335,7 +28401,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_parallel_sendsnapshot</code></summary>
@@ -28343,7 +28409,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_partyDediOnlyMaxClients</code></summary>
@@ -28351,7 +28417,7 @@ flags: `0x2`
 Client limit for party dedi only
 
 default: `"124"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_partyFiringRangeJIPAllowed</code></summary>
@@ -28359,7 +28425,7 @@ flags: `0x2`
 Whether the party JIP in Firing Range feature is allowed or not
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_partySpectatingAllowed</code></summary>
@@ -28367,7 +28433,7 @@ flags: `0x2002`
 Whether the party spectator feature is allowed or not
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pausable</code></summary>
@@ -28375,7 +28441,7 @@ flags: `0x2002`
 Whether the server is allowed to pause
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>sv_playerNameAppendCheater</code></summary>
@@ -28383,7 +28449,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_players</code></summary>
@@ -28391,7 +28457,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2012`  
+flags: `0x2012`
 </details>
 <details>
 <summary><code>sv_printHighWaterMark</code></summary>
@@ -28399,7 +28465,7 @@ flags: `0x2012`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_private_assist_style_override</code></summary>
@@ -28407,7 +28473,7 @@ flags: `0x2`
 Used to store the override for player assist aim style in private matches
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pushaway_accel</code></summary>
@@ -28415,7 +28481,7 @@ flags: `0x2002`
 How hard physics objects are pushed away from the players.
 
 default: `"400"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pushaway_clientside</code></summary>
@@ -28423,7 +28489,7 @@ flags: `0x2002`
 Clientside physics push away (0=off, 1=only localplayer, 2=all players)
 
 default: `"2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pushaway_clientside_size</code></summary>
@@ -28431,7 +28497,7 @@ flags: `0x2002`
 Physics props below this size are made client side
 
 default: `"1000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pushaway_debug</code></summary>
@@ -28439,7 +28505,7 @@ flags: `0x2002`
 Debug physics object pushaway
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pushaway_dist</code></summary>
@@ -28447,7 +28513,7 @@ flags: `0x2002`
 Max distance at which physics objects are pushed from players.
 
 default: `"15"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pushaway_min_player_speed</code></summary>
@@ -28455,7 +28521,7 @@ flags: `0x2002`
 If a player is moving slower than this, don't push away physics objects (enables ducking behind things).
 
 default: `"75"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_pushaway_player_accel</code></summary>
@@ -28463,7 +28529,7 @@ flags: `0x2002`
 How hard the player is pushed away from physics objects
 
 default: `"3000"`  
-flags: `0x6002`  
+flags: `0x6002`
 </details>
 <details>
 <summary><code>sv_pushaway_player_dist</code></summary>
@@ -28471,7 +28537,7 @@ flags: `0x6002`
 Max distance at which player is pushed from physics objects
 
 default: `"5"`  
-flags: `0x6002`  
+flags: `0x6002`
 </details>
 <details>
 <summary><code>sv_rejectClientConnects</code></summary>
@@ -28479,7 +28545,7 @@ flags: `0x6002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_rejectConnections</code></summary>
@@ -28487,7 +28553,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_rejectInvalidStryderSecurityToken</code></summary>
@@ -28495,7 +28561,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x22`  
+flags: `0x22`
 </details>
 <details>
 <summary><code>sv_requireOriginToken</code></summary>
@@ -28503,7 +28569,7 @@ flags: `0x22`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_resendSignonData</code></summary>
@@ -28511,7 +28577,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_rollangle</code></summary>
@@ -28519,7 +28585,7 @@ flags: `0x2`
 Max view roll angle
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_rollspeed</code></summary>
@@ -28527,7 +28593,7 @@ flags: `0x2002`
 
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_rprofDumpDuringLoad</code></summary>
@@ -28535,7 +28601,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_runSpatialOptimizeInJob</code></summary>
@@ -28543,7 +28609,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_scarySnapDeltaPrints</code></summary>
@@ -28551,7 +28617,7 @@ flags: `0x2`
 
 
 default: `"50"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_sendEarlyServerInfo</code></summary>
@@ -28559,7 +28625,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_sendReplayNetMessagesOnNoDeltaSnaps</code></summary>
@@ -28567,7 +28633,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_separate_freq_change_prop_send</code></summary>
@@ -28575,7 +28641,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_showClientTickCmds</code></summary>
@@ -28583,7 +28649,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_showLargeSnapshotSize</code></summary>
@@ -28591,7 +28657,7 @@ flags: `0x2`
 
 
 default: `"10000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_showSnapshots</code></summary>
@@ -28599,7 +28665,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_showUserCmds</code></summary>
@@ -28607,7 +28673,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_single_core_dedi</code></summary>
@@ -28615,7 +28681,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_skipSendingUnnecessaryPersistence</code></summary>
@@ -28623,7 +28689,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_snapshot_uniform_interval</code></summary>
@@ -28631,7 +28697,7 @@ flags: `0x2`
 A snapshot is created at uniform intervals, rather than according to final_tick
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_specaccelerate</code></summary>
@@ -28639,7 +28705,7 @@ flags: `0x2`
 
 
 default: `"1000.0"`  
-flags: `0x2080`  
+flags: `0x2080`
 </details>
 <details>
 <summary><code>sv_specnoclip</code></summary>
@@ -28647,7 +28713,7 @@ flags: `0x2080`
 
 
 default: `"1"`  
-flags: `0x2080`  
+flags: `0x2080`
 </details>
 <details>
 <summary><code>sv_specspeed</code></summary>
@@ -28655,7 +28721,7 @@ flags: `0x2080`
 
 
 default: `"5.0"`  
-flags: `0x2080`  
+flags: `0x2080`
 </details>
 <details>
 <summary><code>sv_stats</code></summary>
@@ -28663,7 +28729,7 @@ flags: `0x2080`
 Collect CPU usage stats
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_stopspeed</code></summary>
@@ -28671,7 +28737,7 @@ flags: `0x2`
 Minimum stopping speed when on ground. (Equivalent player setting is in player settings files)
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_stressbots</code></summary>
@@ -28679,23 +28745,25 @@ flags: `0x2002`
 If set to 1, the server calculates data and fills packets to bots. Used for perf testing.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_struggleCheck</code></summary>
 
-How long ago the 20th server frame can have been. 1.0 means the server is running in realtime. Higher means small hitches are ok.
+How long ago the 20th server frame can have been. 1.0 means the server is running in realtime. Higher means small
+hitches are ok.
 
 default: `"1.050"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_struggleSpam</code></summary>
 
-How long ago the 20th server frame can have been before it starts yelling. 1.0 means the server is running in realtime. Higher means small hitches are ok.
+How long ago the 20th server frame can have been before it starts yelling. 1.0 means the server is running in realtime.
+Higher means small hitches are ok.
 
 default: `"1.4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_struggleSpamInterval</code></summary>
@@ -28703,7 +28771,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_tempents_send_from_delta</code></summary>
@@ -28711,7 +28779,7 @@ flags: `0x2`
 Causes snapshot send code to walk back to delta, instead of always sending just current snapshot.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_tempents_send_from_last_sent</code></summary>
@@ -28719,7 +28787,7 @@ flags: `0x2`
 Causes snapshot send code to walk back to last m_lastSnapshotTick, instead of always sending just current snapshot.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_testLargeDatablock</code></summary>
@@ -28727,7 +28795,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_teststepsimulation</code></summary>
@@ -28735,7 +28803,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_tournament_anonymous_mode</code></summary>
@@ -28743,7 +28811,7 @@ flags: `0x2002`
 Obfuscate names of opposing players
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_tournament_assist_style_override</code></summary>
@@ -28751,15 +28819,16 @@ flags: `0x2002`
 Overrides the player's aim assist style
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_transmitToAllPlayersMask_allBitsSet</code></summary>
 
-This enables the legacy behavior of setting all bits inside of PerPlayerBitMask when we want to transmit an entities to all clients. This includes setting bits to clients that can't even exist(compare GetMaxClients to ABSOLUTE_PLAYER_LIMIT)
+This enables the legacy behavior of setting all bits inside of PerPlayerBitMask when we want to transmit an entities to
+all clients. This includes setting bits to clients that can't even exist(compare GetMaxClients to ABSOLUTE_PLAYER_LIMIT)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_transmitToAllPlayersMask_print</code></summary>
@@ -28767,7 +28836,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_unnecessaryConnectDelay</code></summary>
@@ -28775,15 +28844,16 @@ flags: `0x2`
 Amount of time to wait before responding to a connecting client (or malicious hacker)
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_unreliableSnapMaxSize</code></summary>
 
-If we're sending a snapshot this size or larger, send it via the datablock sender. If a player has 4% packet loss, 10k of data would have a 40% chance of making it across with no resends
+If we're sending a snapshot this size or larger, send it via the datablock sender. If a player has 4% packet loss, 10k
+of data would have a 40% chance of making it across with no resends
 
 default: `"10000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_updaterate_mp</code></summary>
@@ -28791,7 +28861,7 @@ flags: `0x2`
 Maximum update rate at which server sends packets to clients in MP (updates per-second).
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_updaterate_sp</code></summary>
@@ -28799,7 +28869,7 @@ flags: `0x2`
 Maximum update rate at which server sends packets to clients in SP (updates per-second).
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_useReputation</code></summary>
@@ -28807,7 +28877,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_voiceEcho</code></summary>
@@ -28815,7 +28885,7 @@ flags: `0x2`
 Server will return a voice chat message back to the sending client.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_voiceenable</code></summary>
@@ -28823,7 +28893,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80080`  
+flags: `0x80080`
 </details>
 <details>
 <summary><code>sv_warnAboutCmdNumJumps</code></summary>
@@ -28831,7 +28901,7 @@ flags: `0x80080`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_watchdogTimer</code></summary>
@@ -28839,7 +28909,7 @@ flags: `0x2`
 
 
 default: `"20"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_wateraccelerate</code></summary>
@@ -28847,7 +28917,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_waterdist</code></summary>
@@ -28855,7 +28925,7 @@ flags: `0x2002`
 Vertical view fixup when eyes are near water plane.
 
 default: `"12"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>sv_writePersistenceOnShutdown</code></summary>
@@ -28863,7 +28933,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>svperf_query_hitch_frametime_msec</code></summary>
@@ -28871,7 +28941,7 @@ flags: `0x2`
 A server frametime that exceeds this is considered a hitch
 
 default: `"100"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>svperf_query_packetchoke_threshold</code></summary>
@@ -28879,7 +28949,7 @@ flags: `0x2`
 Average percent of choked packets to trigger warning flag
 
 default: `"15"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>svperf_query_packetloss_threshold</code></summary>
@@ -28887,7 +28957,7 @@ flags: `0x2`
 Average percent of lost packets to trigger warning flag
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>svperf_query_player_subset_size</code></summary>
@@ -28895,7 +28965,7 @@ flags: `0x2`
 The minimum subset of players experiencing packet loss or choke to trigger the warning flag
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>svperf_query_slow_frametime_msec</code></summary>
@@ -28903,7 +28973,7 @@ flags: `0x2`
 Server frametimes that exceed this are considered slow
 
 default: `"45"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>svperf_query_slow_frametime_threshold</code></summary>
@@ -28911,7 +28981,7 @@ flags: `0x2`
 Average percent of recent server frames considered slow to trigger warning flag
 
 default: `"8"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sys_attract_mode_timeout</code></summary>
@@ -28919,7 +28989,7 @@ flags: `0x2`
 
 
 default: `"30"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>system_alt_f4_closes_window</code></summary>
@@ -28927,7 +28997,7 @@ flags: `0x2`
 If set to true, alt+f4 will close the window
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>teams_unassigned_are_friendly</code></summary>
@@ -28935,7 +29005,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>telemetry_client_debug</code></summary>
@@ -28943,7 +29013,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>telemetry_client_enable</code></summary>
@@ -28951,7 +29021,7 @@ flags: `0x2`
 Enable sending telemetry data
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>telemetry_client_sendInterval</code></summary>
@@ -28959,7 +29029,7 @@ flags: `0x2`
 How often to send telemetry data (seconds)
 
 default: `"10.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>telemetryevent_client_enable</code></summary>
@@ -28967,7 +29037,7 @@ flags: `0x2`
 Enable sending client telemetry events
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tencent_restricted</code></summary>
@@ -28975,23 +29045,25 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>test_fakeTimeDays</code></summary>
 
-Days worth of seconds that will be added to the result of GetUnixTimestamp() for script and playlist rotation. Server authoritive. Cannot be used in conjuction with test_fakeTimeStamp
+Days worth of seconds that will be added to the result of GetUnixTimestamp() for script and playlist rotation. Server
+authoritive. Cannot be used in conjuction with test_fakeTimeStamp
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>test_fakeTimeStamp</code></summary>
 
-Set an epoch timestamp in seconds to fake time for the game. Leave as 0 to not fake any time. Server authoritive. Cannot be used in conjuction with test_fakeTimeDays. If this changes, time passed is set back to 0.
+Set an epoch timestamp in seconds to fake time for the game. Leave as 0 to not fake any time. Server authoritive. Cannot
+be used in conjuction with test_fakeTimeDays. If this changes, time passed is set back to 0.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>test_fakeTimeStampShouldAddTimePassed</code></summary>
@@ -28999,7 +29071,7 @@ flags: `0x2002`
 If set to true, time passed will be added to fake time stamp. If this changes, time passed is set back to 0.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_default_damageScale</code></summary>
@@ -29007,7 +29079,7 @@ flags: `0x2002`
 amount that stretching the tether damages it
 
 default: `"0.00"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_default_healthDrain</code></summary>
@@ -29015,7 +29087,7 @@ flags: `0x2002`
 rate at which tether health drains even if it isn't stretched
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_default_healthDrainCutoffPct</code></summary>
@@ -29023,7 +29095,7 @@ flags: `0x2002`
 health percent at which the healthDrain stops applying.
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_default_healthDrainDelay</code></summary>
@@ -29031,7 +29103,7 @@ flags: `0x2002`
 time delay before the health drain starts applying
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_default_radius</code></summary>
@@ -29039,7 +29111,7 @@ flags: `0x2002`
 default radius below which the tether does nothing
 
 default: `"250"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_default_strength</code></summary>
@@ -29047,7 +29119,7 @@ flags: `0x2002`
 strength with which tether pulls back (per unit past the radius)
 
 default: `"25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_dodge_damage</code></summary>
@@ -29055,7 +29127,7 @@ flags: `0x2002`
 Damage done to tether by dodging away from it
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_gravity_dmg_frac_per_sec</code></summary>
@@ -29063,7 +29135,7 @@ flags: `0x2002`
 Damage applied to the tether if we are hanging under it. Represented as a fraction of the maximum health per second
 
 default: `"0.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_healthDrainNPC</code></summary>
@@ -29071,7 +29143,7 @@ flags: `0x2002`
 rate at which tether health drains even if it isn't stretched (when attached to an NPC)
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_maxStretchDamage</code></summary>
@@ -29079,7 +29151,7 @@ flags: `0x2002`
 max dmg a tether can take from a stretch
 
 default: `"50"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_maxvel</code></summary>
@@ -29087,15 +29159,16 @@ flags: `0x2002`
 max velocity with which tether pulls you back
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_strength_healthScale</code></summary>
 
-scales the strength of the tether based on the current health. a value of 0.5 means the tether will be at half strength when at 0 health
+scales the strength of the tether based on the current health. a value of 0.5 means the tether will be at half strength
+when at 0 health
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_zipline_scaling_min_vel</code></summary>
@@ -29103,7 +29176,7 @@ flags: `0x2002`
 Speed on a zipline/grapple above which we will apply tether acceleration
 
 default: `"200"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tether_zipline_strength_scale</code></summary>
@@ -29111,7 +29184,7 @@ flags: `0x2002`
 Scale applied to the tether acceleration when on a zipline/grapple
 
 default: `"0.15"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>thirdperson_mayamode</code></summary>
@@ -29119,7 +29192,7 @@ flags: `0x2002`
 Set to 1 to enable maya-like controls in game (only in third person) [Also don't move the camera when the mouse moves.]
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>thirdperson_override</code></summary>
@@ -29127,7 +29200,7 @@ flags: `0x4000`
 Set to -1 to stop overriding. Set to 0 to force first person, 1 to force third person
 
 default: `"-1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>thirdperson_screenspace</code></summary>
@@ -29135,7 +29208,7 @@ flags: `0x4000`
 Movement will be relative to the camera, eg: left means screen-left
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>timeout</code></summary>
@@ -29143,7 +29216,7 @@ flags: `0x2`
 Seconds without communication before clients or servers will decide to disconnect.
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>timeout_during_load</code></summary>
@@ -29151,7 +29224,7 @@ flags: `0x2`
 Timeout while the client is loading a level
 
 default: `"60"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>titan_sprint_sound</code></summary>
@@ -29159,7 +29232,7 @@ flags: `0x2`
 
 
 default: `"titan_eject_servos_3p"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>toggle_on_jump_to_deactivate</code></summary>
@@ -29167,7 +29240,7 @@ flags: `0x2`
 Toggle or release jump to deactivate the offhand weapon
 
 default: `"1"`  
-flags: `0x1000200`  
+flags: `0x1000200`
 </details>
 <details>
 <summary><code>toggle_on_jump_to_deactivate_changed</code></summary>
@@ -29175,15 +29248,16 @@ flags: `0x1000200`
 If Toggle or release jump to deactivate the offhand weapon changed by the player
 
 default: `"0"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>tracehull_height_error_check</code></summary>
 
-Error checking for hull traces requiring extents with larger heights than widths. 0 = none, 1 = warnings, 2 = assert and script errors
+Error checking for hull traces requiring extents with larger heights than widths. 0 = none, 1 = warnings, 2 = assert and
+script errors
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tracer_debug</code></summary>
@@ -29191,7 +29265,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>trail_optimizedRemove</code></summary>
@@ -29199,7 +29273,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>traversal_anim</code></summary>
@@ -29207,7 +29281,7 @@ flags: `0x2`
 Enables automantle animation
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_cooldown</code></summary>
@@ -29215,7 +29289,7 @@ flags: `0x2002`
 Minimum time between traversals (in seconds)
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_enable</code></summary>
@@ -29223,7 +29297,7 @@ flags: `0x2002`
 Enables player traversals
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_hand_debug</code></summary>
@@ -29231,7 +29305,7 @@ flags: `0x2002`
 Enables debugging of traversal hand positioning
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_hand_required_width</code></summary>
@@ -29239,7 +29313,7 @@ flags: `0x2002`
 Required width of geometry for hands (from center)
 
 default: `"6"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_viewLerpInDuration</code></summary>
@@ -29247,7 +29321,7 @@ flags: `0x2002`
 Duration of view lerp from normal at the start of a traversal
 
 default: `"0.15"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_viewLerpOut</code></summary>
@@ -29255,7 +29329,7 @@ flags: `0x2002`
 Controls whether traversal view position and angle lerp back to normal at the end of a traversal
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>traversal_viewLerpOutAngle</code></summary>
@@ -29263,7 +29337,7 @@ flags: `0x2`
 Controls whether traversal view angle lerps back to normal at the end of a traversal
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>traversal_viewLerpOutDebug</code></summary>
@@ -29271,7 +29345,7 @@ flags: `0x2`
 Debugs traversal view position lerping
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>traversal_viewLerpOutPos</code></summary>
@@ -29279,7 +29353,7 @@ flags: `0x2`
 Controls whether traversal view position lerps back to normal at the end of a traversal
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>traversal_window_duration</code></summary>
@@ -29287,7 +29361,7 @@ flags: `0x2`
 Duration of window side traversal animation
 
 default: `"0.3"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_window_enable</code></summary>
@@ -29295,7 +29369,7 @@ flags: `0x2002`
 Enables window traversals
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_window_finish_angle</code></summary>
@@ -29303,7 +29377,7 @@ flags: `0x2002`
 Finishing yaw relative to the window's forward direction when starting at a 90 degree angle
 
 default: `"45"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_window_forward_offset</code></summary>
@@ -29311,7 +29385,7 @@ flags: `0x2002`
 Distance of player through the window after completing window traversal
 
 default: `"6"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_window_hand_vertical_offset</code></summary>
@@ -29319,7 +29393,7 @@ flags: `0x2002`
 Vertical distance from hand position to eye position at start and end of window traversal
 
 default: `"22"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_window_sideways_offset</code></summary>
@@ -29327,7 +29401,7 @@ flags: `0x2002`
 Distance of player from the edge of the window toward the center of the window after completing window traversal
 
 default: `"18"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>traversal_window_view_pitch_max</code></summary>
@@ -29335,7 +29409,7 @@ flags: `0x2002`
 Max view pitch when doing window traversal
 
 default: `"35"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>traversal_window_view_pitch_min</code></summary>
@@ -29343,7 +29417,7 @@ flags: `0x4000`
 Min view pitch when doing window traversal
 
 default: `"-80"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>traversal_window_yaw_max</code></summary>
@@ -29351,7 +29425,7 @@ flags: `0x4000`
 Max view yaw when doing window traversal
 
 default: `"80"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>trigger_ignore_nonsolids</code></summary>
@@ -29359,7 +29433,7 @@ flags: `0x4000`
 If set to false, non solid objects will activate triggers.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>tsaa_blendfactorincreaseatmaxvelocity</code></summary>
@@ -29367,7 +29441,7 @@ flags: `0x2002`
 
 
 default: `"4.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_blendfactorincreasewhenunoccluded</code></summary>
@@ -29375,7 +29449,7 @@ flags: `0x2`
 
 
 default: `"5.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_blendfactormaxesoutatvelocity</code></summary>
@@ -29383,7 +29457,7 @@ flags: `0x2`
 
 
 default: `"0.25"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_blendfactormodulationonsparklesandunocclusion</code></summary>
@@ -29391,7 +29465,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_blendfactoroverride</code></summary>
@@ -29399,7 +29473,7 @@ flags: `0x2`
 
 
 default: `"-1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_curframeblendamount</code></summary>
@@ -29407,7 +29481,7 @@ flags: `0x2`
 
 
 default: `"0.05"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_debugresponsiveflag</code></summary>
@@ -29415,7 +29489,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_enable_dynamicviewport</code></summary>
@@ -29423,7 +29497,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_neighborhoodclamping</code></summary>
@@ -29431,7 +29505,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_neighborhoodclampingsoftened</code></summary>
@@ -29439,7 +29513,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tsaa_numsamples</code></summary>
@@ -29447,7 +29521,7 @@ flags: `0x2`
 
 
 default: `"64"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tts_usejob</code></summary>
@@ -29455,7 +29529,7 @@ flags: `0x2`
 Use a job when synthesizing TTS audio
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>tweak_light_shadows_every_frame</code></summary>
@@ -29463,7 +29537,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>twitch_check_interval</code></summary>
@@ -29471,7 +29545,7 @@ flags: `0x2`
 How often we ask if this user has a linked twitch account if we think they don't have one
 
 default: `"3600"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>twitch_debug</code></summary>
@@ -29479,7 +29553,7 @@ flags: `0x2`
 Debug Twitch rewards and drops
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>twitch_drops</code></summary>
@@ -29487,7 +29561,7 @@ flags: `0x2002`
 Entitlements user has recieved through the Twitch Drops program
 
 default: `""`  
-flags: `0x210`  
+flags: `0x210`
 </details>
 <details>
 <summary><code>twitch_drops_initialized</code></summary>
@@ -29495,7 +29569,7 @@ flags: `0x210`
 Whether the user has received any twitch drop info from stryder
 
 default: `"0"`  
-flags: `0x210`  
+flags: `0x210`
 </details>
 <details>
 <summary><code>twitch_drops_simulate_failure</code></summary>
@@ -29503,7 +29577,7 @@ flags: `0x210`
 Set to 1 to simulate not being able to get a response from stryder
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>twitch_prime_rewards</code></summary>
@@ -29511,7 +29585,7 @@ flags: `0x2`
 Entitlements user has recieved through the Twitch Prime rewards program
 
 default: `""`  
-flags: `0x210`  
+flags: `0x210`
 </details>
 <details>
 <summary><code>twitch_shouldQuery</code></summary>
@@ -29519,7 +29593,7 @@ flags: `0x210`
 True if we should check to see if this user has a linked twitch account
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_DpadNavigationDeActive</code></summary>
@@ -29527,7 +29601,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_brightness</code></summary>
@@ -29536,7 +29610,7 @@ Brightness scale factor for UI elements
 
 default: `"1.0f"`  
 flags: `0x2`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>ui_fadecloud_time</code></summary>
@@ -29544,7 +29618,7 @@ max value: `1`
 
 
 default: `"1.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_fadexui_time</code></summary>
@@ -29552,7 +29626,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_gameui_ctrlr_title</code></summary>
@@ -29560,7 +29634,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_gameui_modal</code></summary>
@@ -29568,7 +29642,7 @@ flags: `0x2`
 If set, the game UI pages will take modal input focus.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_loadingscreen_autotransition_time</code></summary>
@@ -29576,7 +29650,7 @@ flags: `0x2`
 
 
 default: `"5.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_loadingscreen_fadein_time</code></summary>
@@ -29584,7 +29658,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_loadingscreen_fadeout_time</code></summary>
@@ -29592,7 +29666,7 @@ flags: `0x2`
 
 
 default: `"0.2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_loadingscreen_fadeout_time</code></summary>
@@ -29600,7 +29674,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_loadingscreen_mintransition_time</code></summary>
@@ -29608,7 +29682,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_loadingscreen_transition_time</code></summary>
@@ -29616,7 +29690,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_lobby_jointimeout</code></summary>
@@ -29624,7 +29698,7 @@ flags: `0x2`
 
 
 default: `"75"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_lobby_noautostart</code></summary>
@@ -29632,7 +29706,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_lobby_noresults_create_msg_time</code></summary>
@@ -29640,7 +29714,7 @@ flags: `0x2`
 
 
 default: `"2.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ui_posedebug_fade_in_time</code></summary>
@@ -29648,7 +29722,7 @@ flags: `0x2`
 Time during which a new pose activity layer is shown in green in +posedebug UI
 
 default: `"0.2"`  
-flags: `0x24000`  
+flags: `0x24000`
 </details>
 <details>
 <summary><code>ui_posedebug_fade_out_time</code></summary>
@@ -29656,7 +29730,7 @@ flags: `0x24000`
 Time to keep a no longer active pose activity layer in red until removing it from +posedebug UI
 
 default: `"0.8"`  
-flags: `0x24000`  
+flags: `0x24000`
 </details>
 <details>
 <summary><code>ui_virtualnav_render</code></summary>
@@ -29664,15 +29738,15 @@ flags: `0x24000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>unique_entity_names</code></summary>
 
-Should entities have permanently unique entity names.  Or just concurrently unique?
+Should entities have permanently unique entity names. Or just concurrently unique?
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>universal_weapon_disable</code></summary>
@@ -29680,7 +29754,7 @@ flags: `0x2002`
 Apply more restrictive weapon disable logic
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>usePromptBaseColor</code></summary>
@@ -29688,7 +29762,7 @@ flags: `0x2002`
 
 
 default: `"255 255 255 255"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>usePromptButtonTextColor</code></summary>
@@ -29696,7 +29770,7 @@ flags: `0x2`
 
 
 default: `"255 255 255 255"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>usePromptImageScale</code></summary>
@@ -29704,7 +29778,7 @@ flags: `0x2`
 
 
 default: `"1.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>usePromptImageYOffset</code></summary>
@@ -29712,7 +29786,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>usePromptTextColor</code></summary>
@@ -29720,7 +29794,7 @@ flags: `0x2`
 
 
 default: `"220 215 210 255"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>use_latest_predicted_time_for_calc_anim_position</code></summary>
@@ -29728,7 +29802,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>use_monitors</code></summary>
@@ -29736,7 +29810,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>use_presence_to_refresh_userInfoCache</code></summary>
@@ -29744,7 +29818,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>use_valve_auto_gain</code></summary>
@@ -29752,7 +29826,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>use_vm_cloak_offset</code></summary>
@@ -29760,7 +29834,7 @@ flags: `0x2`
 
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>use_ziprail_activity</code></summary>
@@ -29768,7 +29842,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>user_tracking_enabled</code></summary>
@@ -29776,7 +29850,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>usercmd_byte_threshold</code></summary>
@@ -29784,7 +29858,7 @@ flags: `0x12`
 Number of bytes above which we log a breakdown of how expensive each usercmd is.
 
 default: `"1024"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>usercmd_frametime_max</code></summary>
@@ -29792,7 +29866,7 @@ flags: `0x2`
 The largest amount of simulation seconds a UserCmd can have
 
 default: `"0.100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>usercmd_frametime_min</code></summary>
@@ -29800,7 +29874,7 @@ flags: `0x2002`
 The smallest amount of simulation seconds a UserCmd can have
 
 default: `"0.002857"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>usercmd_frametime_min_lobby</code></summary>
@@ -29808,7 +29882,7 @@ flags: `0x2002`
 The smallest amount of simulation seconds a UserCmd can have
 
 default: `"0.0166"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>users_hostname</code></summary>
@@ -29816,7 +29890,7 @@ flags: `0x2002`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>v_centermove</code></summary>
@@ -29824,7 +29898,7 @@ flags: `0x80000`
 
 
 default: `"0.15"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>v_centerspeed</code></summary>
@@ -29832,7 +29906,7 @@ flags: `0x2`
 
 
 default: `"500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>valve_relay_cert_refresh_threshold</code></summary>
@@ -29842,7 +29916,7 @@ Time (in hours) left of a valid certificate at which it should be renewed
 default: `"2"`  
 flags: `0x2`  
 min value: `1`  
-max value: `24`  
+max value: `24`
 </details>
 <details>
 <summary><code>valve_relay_config_refresh_time</code></summary>
@@ -29852,7 +29926,7 @@ Time (in minutes) between refreshing the relay network configuration.
 default: `"60"`  
 flags: `0x2`  
 min value: `1`  
-max value: `1440`  
+max value: `1440`
 </details>
 <details>
 <summary><code>valve_relay_debug_log_level</code></summary>
@@ -29862,7 +29936,7 @@ Debug output level (8 for everything, 1 for critical only, 0 to disable)
 default: `"3"`  
 flags: `0x2`  
 min value: `0`  
-max value: `8`  
+max value: `8`
 </details>
 <details>
 <summary><code>valve_relay_timeout_jitter</code></summary>
@@ -29870,7 +29944,7 @@ max value: `8`
 Time (in seconds) added to the known timeout period to avoid dropping packets that the main loop has not processed.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>variable_sights_gravity_scale_override</code></summary>
@@ -29878,15 +29952,16 @@ flags: `0x2`
 Projectile Gravity Scale to be used for variable sights.
 
 default: `"1.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vehicle_predictViaPlayer</code></summary>
 
-Predict this vehicle if the player's data says they're driving this vehicle...rather than checking if this vehicle has a driver
+Predict this vehicle if the player's data says they're driving this vehicle...rather than checking if this vehicle has a
+driver
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfc_clusteredlighting_2dbounds</code></summary>
@@ -29895,7 +29970,7 @@ apply 2d bounds from projection of sphere. this reduces number of tiles to work 
 1 : sphere only, 2 : hexahedron only, 3 : both
 
 default: `"3"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfc_clusteredlighting_cluster_depth</code></summary>
@@ -29903,7 +29978,7 @@ flags: `0x4000`
 
 
 default: `"16"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfc_clusteredlighting_pixels_per_cluster</code></summary>
@@ -29911,7 +29986,7 @@ flags: `0x4000`
 CAUTION : if it's too small (too many clusters), a bigger value will be used.
 
 default: `"8"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfc_clusteredlighting_rasterize</code></summary>
@@ -29920,7 +29995,7 @@ rasterize hexahedron per light. this mode gets tighter ranges (most obviously wi
 1 : rasterization, 2 : conservative rasterization
 
 default: `"2"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfc_clusteredlighting_skip_behind_depth</code></summary>
@@ -29928,7 +30003,7 @@ flags: `0x4000`
 use depth prepass result to skip clusters behind
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfog_debug_freeze_cbuf</code></summary>
@@ -29936,7 +30011,7 @@ flags: `0x4000`
 freeze cbuf updates
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_debug_freeze_volumebuf</code></summary>
@@ -29944,7 +30019,7 @@ flags: `0x2`
 freeze volume buffer updates
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_debug_print_num_volumes_in_frame</code></summary>
@@ -29952,7 +30027,7 @@ flags: `0x2`
 print num volumes in frame
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_debug_show_filled_clusters</code></summary>
@@ -29960,7 +30035,7 @@ flags: `0x2`
 Shows the cluster count as fog for debugging
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_enable</code></summary>
@@ -29968,7 +30043,7 @@ flags: `0x2`
 Toggle volumetric fog on and off
 
 default: `"1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfog_enable_apply_blur</code></summary>
@@ -29976,7 +30051,7 @@ flags: `0x4000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_enable_taa</code></summary>
@@ -29984,7 +30059,7 @@ flags: `0x2`
 Toggle volumetric fog taa on and off
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_fogbuffer_x</code></summary>
@@ -29992,7 +30067,7 @@ flags: `0x2`
 fog buffer x
 
 default: `"160"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfog_fogbuffer_y</code></summary>
@@ -30000,7 +30075,7 @@ flags: `0x4000`
 fog buffer y
 
 default: `"88"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfog_fogbuffer_z</code></summary>
@@ -30008,7 +30083,7 @@ flags: `0x4000`
 fog buffer z
 
 default: `"64"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfog_out_of_frustrum_sample_count</code></summary>
@@ -30016,7 +30091,7 @@ flags: `0x4000`
 
 
 default: `"4"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_perf_level</code></summary>
@@ -30024,7 +30099,7 @@ flags: `0x2`
 Override vfog perf level, -1 default to video config, 0: off 1:lowres fog 2:highres fog
 
 default: `"-1"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vfog_show_volume_outline</code></summary>
@@ -30032,7 +30107,7 @@ flags: `0x4000`
 Toggle drawing vfog volume outlines
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_thin_surface_factor</code></summary>
@@ -30040,7 +30115,7 @@ flags: `0x2`
 Used to combat fog bleeding through thin walls
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_zfar</code></summary>
@@ -30048,7 +30123,7 @@ flags: `0x2`
 global z far
 
 default: `"100000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vfog_znear</code></summary>
@@ -30056,7 +30131,7 @@ flags: `0x2`
 global z near
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_EnableFixedAspectScaling</code></summary>
@@ -30064,7 +30139,7 @@ flags: `0x2`
 Enables fixed screen size for vgui elements
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_drawPolyShapes</code></summary>
@@ -30072,7 +30147,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_drawfocus</code></summary>
@@ -30080,7 +30155,7 @@ flags: `0x2`
 Report which panel is under the mouse.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_drawfocus</code></summary>
@@ -30088,7 +30163,7 @@ flags: `0x2`
 Report which panel is under the mouse.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_drawkeyfocus</code></summary>
@@ -30096,7 +30171,7 @@ flags: `0x2`
 Report which panel has keyboard focus.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_interactive</code></summary>
@@ -30104,7 +30179,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_noquads</code></summary>
@@ -30112,7 +30187,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vgui_notext</code></summary>
@@ -30120,7 +30195,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>vgui_resize_on_resolution_change</code></summary>
@@ -30128,7 +30203,7 @@ flags: `0x4000`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_show_glyph_miss</code></summary>
@@ -30136,7 +30211,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_simulate_during_bone_setup</code></summary>
@@ -30144,7 +30219,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>video_menu_uiscript_reset</code></summary>
@@ -30152,7 +30227,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewDrift</code></summary>
@@ -30160,7 +30235,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_ads_delay_debounce_time</code></summary>
@@ -30168,7 +30243,7 @@ flags: `0x2002`
 Time between zoom-out and zoom-in before viewdrift_ads_delay is reset.
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_base1_amp</code></summary>
@@ -30176,7 +30251,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_base1_freq</code></summary>
@@ -30184,7 +30259,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_base1_phase</code></summary>
@@ -30192,7 +30267,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_base2_amp</code></summary>
@@ -30200,7 +30275,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_base2_freq</code></summary>
@@ -30208,7 +30283,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_base2_phase</code></summary>
@@ -30216,7 +30291,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_scaler_amp</code></summary>
@@ -30224,7 +30299,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_scaler_base</code></summary>
@@ -30232,7 +30307,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_scaler_freq</code></summary>
@@ -30240,7 +30315,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_scaler_phase</code></summary>
@@ -30248,7 +30323,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_shifter_amp</code></summary>
@@ -30256,7 +30331,7 @@ flags: `0x2002`
 
 
 default: `"0.6"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_shifter_freq</code></summary>
@@ -30264,7 +30339,7 @@ flags: `0x2002`
 
 
 default: `"2.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_pitch_shifter_phase</code></summary>
@@ -30272,7 +30347,7 @@ flags: `0x2002`
 
 
 default: `"1.6"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_base1_amp</code></summary>
@@ -30280,7 +30355,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_base1_freq</code></summary>
@@ -30288,7 +30363,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_base1_phase</code></summary>
@@ -30296,7 +30371,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_base2_amp</code></summary>
@@ -30304,7 +30379,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_base2_freq</code></summary>
@@ -30312,7 +30387,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_base2_phase</code></summary>
@@ -30320,7 +30395,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_scaler_amp</code></summary>
@@ -30328,7 +30403,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_scaler_base</code></summary>
@@ -30336,7 +30411,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_scaler_freq</code></summary>
@@ -30344,7 +30419,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_scaler_phase</code></summary>
@@ -30352,7 +30427,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_shifter_amp</code></summary>
@@ -30360,7 +30435,7 @@ flags: `0x2002`
 
 
 default: `"0.7"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_shifter_freq</code></summary>
@@ -30368,7 +30443,7 @@ flags: `0x2002`
 
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewDrift_yaw_shifter_phase</code></summary>
@@ -30376,7 +30451,7 @@ flags: `0x2002`
 
 
 default: `"-0.6"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>view_models_draw_early</code></summary>
@@ -30384,7 +30459,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>view_offset_entity_enable</code></summary>
@@ -30392,7 +30467,7 @@ flags: `0x2`
 Whether to apply camera animations from the view offset entity
 
 default: `"1"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>viewangle_debug</code></summary>
@@ -30400,7 +30475,7 @@ flags: `0x6000`
 
 
 default: `"0"`  
-flags: `0x4002`  
+flags: `0x4002`
 </details>
 <details>
 <summary><code>viewangles_simpler</code></summary>
@@ -30408,7 +30483,7 @@ flags: `0x4002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodelShake</code></summary>
@@ -30416,7 +30491,7 @@ flags: `0x2`
 Enables viewmodel shake.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodelShake_sourceRollRange</code></summary>
@@ -30424,7 +30499,7 @@ flags: `0x2`
 The range of weapon kick roll that will be sampled for viewmodel shake.
 
 default: `"3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodel_attachment_fov_fix</code></summary>
@@ -30432,7 +30507,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodel_bounds_draw</code></summary>
@@ -30440,7 +30515,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodel_bounds_draw_lock</code></summary>
@@ -30448,7 +30523,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodel_selfshadow</code></summary>
@@ -30456,7 +30531,7 @@ flags: `0x2`
 Set whether to use viewmodel self shadow
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodel_selfshadow_debug_2d</code></summary>
@@ -30464,7 +30539,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewmodel_selfshadow_tightbounds</code></summary>
@@ -30472,7 +30547,7 @@ flags: `0x2`
 Viewmodel bounds are sliced by Main view frustum
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>viewportscale</code></summary>
@@ -30482,7 +30557,7 @@ Scale down the main viewport (to reduce GPU impact on CPU profiling)
 default: `"1.0"`  
 flags: `0x80000`  
 min value: `0.0015625`  
-max value: `2`  
+max value: `2`
 </details>
 <details>
 <summary><code>viewpunch_base_springConstantX</code></summary>
@@ -30490,7 +30565,7 @@ max value: `2`
 Default. Bigger number increases the speed at which the view corrects.
 
 default: `"65.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewpunch_base_springConstantY</code></summary>
@@ -30498,7 +30573,7 @@ flags: `0x2002`
 Default. Bigger number increases the speed at which the view corrects.
 
 default: `"65.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewpunch_base_springConstantZ</code></summary>
@@ -30506,7 +30581,7 @@ flags: `0x2002`
 Default. Bigger number increases the speed at which the view corrects.
 
 default: `"65.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewpunch_base_springDampingX</code></summary>
@@ -30514,7 +30589,7 @@ flags: `0x2002`
 Default. Bigger number makes the response more damped.
 
 default: `"9.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewpunch_base_springDampingY</code></summary>
@@ -30522,7 +30597,7 @@ flags: `0x2002`
 Default. Bigger number makes the response more damped.
 
 default: `"9.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>viewpunch_base_springDampingZ</code></summary>
@@ -30530,7 +30605,7 @@ flags: `0x2002`
 Default. Bigger number makes the response more damped.
 
 default: `"9.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>violence_ablood</code></summary>
@@ -30538,7 +30613,7 @@ flags: `0x2002`
 Draw alien blood
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>violence_ablood</code></summary>
@@ -30546,7 +30621,7 @@ flags: `0x2`
 Draw alien blood
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>violence_agibs</code></summary>
@@ -30554,7 +30629,7 @@ flags: `0x2`
 Show alien gib entities
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>violence_agibs</code></summary>
@@ -30562,7 +30637,7 @@ flags: `0x2`
 Show alien gib entities
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>violence_hblood</code></summary>
@@ -30570,7 +30645,7 @@ flags: `0x2`
 Draw human blood
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>violence_hblood</code></summary>
@@ -30578,7 +30653,7 @@ flags: `0x2`
 Draw human blood
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>violence_hgibs</code></summary>
@@ -30586,7 +30661,7 @@ flags: `0x2`
 Show human gib entities
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>violence_hgibs</code></summary>
@@ -30594,7 +30669,7 @@ flags: `0x2`
 Show human gib entities
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>visible_ent_cone_debug_duration_client</code></summary>
@@ -30602,7 +30677,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vm_effect_format_attachments</code></summary>
@@ -30610,7 +30685,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_absTriggerAmount</code></summary>
@@ -30618,7 +30693,7 @@ flags: `0x2`
 
 
 default: `"2"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_allow_mute_self</code></summary>
@@ -30626,7 +30701,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_avggain</code></summary>
@@ -30634,7 +30709,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_clientdebug</code></summary>
@@ -30642,7 +30717,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_debugAddSecondTalker</code></summary>
@@ -30650,7 +30725,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_debugThresholds</code></summary>
@@ -30658,7 +30733,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_debugfeedback</code></summary>
@@ -30666,7 +30741,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_enabled</code></summary>
@@ -30674,7 +30749,7 @@ flags: `0x2`
 Toggle voice transmit and receive.
 
 default: `"1"`  
-flags: `0x1000000`  
+flags: `0x1000000`
 </details>
 <details>
 <summary><code>voice_energyPerZeroThreshold</code></summary>
@@ -30682,7 +30757,7 @@ flags: `0x1000000`
 
 
 default: `"8000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_energyThreshold</code></summary>
@@ -30690,7 +30765,7 @@ flags: `0x2`
 
 
 default: `"12000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_forcemicrecord</code></summary>
@@ -30698,15 +30773,16 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>voice_input_device</code></summary>
 
-Voice capture device guid for directsound. empty = default capture device (will automatically reset voice on default changed)
+Voice capture device guid for directsound. empty = default capture device (will automatically reset voice on default
+changed)
 
 default: `""`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>voice_inputfromfile</code></summary>
@@ -30714,7 +30790,7 @@ flags: `0x80`
 Get voice input from 'voice_input.wav' rather than from the microphone.
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>voice_late_update</code></summary>
@@ -30722,7 +30798,7 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_loopback</code></summary>
@@ -30730,7 +30806,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x200`  
+flags: `0x200`
 </details>
 <details>
 <summary><code>voice_maxgain</code></summary>
@@ -30738,7 +30814,7 @@ flags: `0x200`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_minEnergyPerZeroThreshold</code></summary>
@@ -30746,7 +30822,7 @@ flags: `0x2`
 
 
 default: `"1000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_mixer_boost</code></summary>
@@ -30754,7 +30830,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>voice_mixer_mute</code></summary>
@@ -30762,7 +30838,7 @@ flags: `0x80`
 
 
 default: `"0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>voice_mixer_volume</code></summary>
@@ -30770,7 +30846,7 @@ flags: `0x80`
 
 
 default: `"1.0"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>voice_modenable</code></summary>
@@ -30778,7 +30854,7 @@ flags: `0x80`
 Enable/disable voice in this mod.
 
 default: `"1"`  
-flags: `0x40000080`  
+flags: `0x40000080`
 </details>
 <details>
 <summary><code>voice_noxplat</code></summary>
@@ -30786,7 +30862,7 @@ flags: `0x40000080`
 Only send voice data to players on the same platform as the talker
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_profile</code></summary>
@@ -30794,7 +30870,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_recordtofile</code></summary>
@@ -30802,7 +30878,7 @@ flags: `0x2`
 Record mic data and decompressed voice data into 'voice_micdata.wav' and 'voice_decompressed.wav'
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>voice_scale</code></summary>
@@ -30810,7 +30886,7 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x80`  
+flags: `0x80`
 </details>
 <details>
 <summary><code>voice_showchannels</code></summary>
@@ -30818,7 +30894,7 @@ flags: `0x80`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_showincoming</code></summary>
@@ -30826,7 +30902,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_threshold_delay</code></summary>
@@ -30834,7 +30910,7 @@ flags: `0x2`
 
 
 default: `"0.3"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_triggerCrossingRate</code></summary>
@@ -30842,7 +30918,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_triggerRate</code></summary>
@@ -30850,7 +30926,7 @@ flags: `0x2`
 
 
 default: `"50"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_turn_off_new_filters</code></summary>
@@ -30858,7 +30934,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_vox</code></summary>
@@ -30867,16 +30943,15 @@ Voice chat uses a vox-style always on
 
 default: `"1"`  
 flags: `0x80`  
-max value: `1`  
+max value: `1`
 </details>
 <details>
 <summary><code>voice_writevoices</code></summary>
 
 Saves each speaker's voice data into separate .wav files
 
-
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_xsend_debug</code></summary>
@@ -30884,7 +30959,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voice_zeroCrossingThreshold</code></summary>
@@ -30892,7 +30967,7 @@ flags: `0x2`
 
 
 default: `"0.02"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vortex_damageimpulsescale</code></summary>
@@ -30900,7 +30975,7 @@ flags: `0x2`
 Scales impulse force from bullets when using the vortex
 
 default: `"0.5"`  
-flags: `0x6000`  
+flags: `0x6000`
 </details>
 <details>
 <summary><code>vprof_server_spike_threshold</code></summary>
@@ -30908,7 +30983,7 @@ flags: `0x6000`
 
 
 default: `"999.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vprof_server_thread</code></summary>
@@ -30916,7 +30991,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vscript_ui_do_delay_init</code></summary>
@@ -30924,7 +30999,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x12`  
+flags: `0x12`
 </details>
 <details>
 <summary><code>vsm_culling</code></summary>
@@ -30932,7 +31007,7 @@ flags: `0x12`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vsm_ignore_edge_planes</code></summary>
@@ -30940,7 +31015,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vsm_ignore_face_planes</code></summary>
@@ -30948,7 +31023,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vtx_hostname</code></summary>
@@ -30956,7 +31031,7 @@ flags: `0x2`
 
 
 default: `""`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>wall_climb_pose_paramteter_hands_enabled</code></summary>
@@ -30964,15 +31039,16 @@ flags: `0x80000`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallclimb_vertical_gain_reduction</code></summary>
 
-Amount of height the player loses when falling off a wall climb that can't be regained by future wall climbs before touching the ground.
+Amount of height the player loses when falling off a wall climb that can't be regained by future wall climbs before
+touching the ground.
 
 default: `"128"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_angleChangeMinCos</code></summary>
@@ -30980,7 +31056,7 @@ flags: `0x2002`
 Cosine of maximum angle the wall can change away from you without falling off
 
 default: `"0.8"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_avoid_wall_top_decel</code></summary>
@@ -30988,7 +31064,7 @@ flags: `0x2002`
 Deceleration applied to prevent the player from wall running too close to the top of a wall and falling off
 
 default: `"3000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_curveDebug</code></summary>
@@ -30996,7 +31072,7 @@ flags: `0x2002`
 Draws debugging information for wallrun curves
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_curveEnable</code></summary>
@@ -31004,7 +31080,7 @@ flags: `0x2002`
 Enables usage of wallrun curve hints
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_debug</code></summary>
@@ -31012,7 +31088,7 @@ flags: `0x2002`
 Shows wall run debug info
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_enable</code></summary>
@@ -31020,7 +31096,7 @@ flags: `0x2002`
 Enables wall running
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_fallAwaySpeed</code></summary>
@@ -31028,7 +31104,7 @@ flags: `0x2002`
 Velocity away from the wall when falling off
 
 default: `"70.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_hangStopTime</code></summary>
@@ -31036,7 +31112,7 @@ flags: `0x2002`
 Length of time to come to a stop when zooming
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_hangslipduration</code></summary>
@@ -31044,7 +31120,7 @@ flags: `0x2002`
 Time it takes for slipping to become completely gravity based
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_hangslipstarttime</code></summary>
@@ -31052,7 +31128,7 @@ flags: `0x2002`
 Time wall hanging before you start to slip down
 
 default: `"3.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_hangslipvel</code></summary>
@@ -31060,7 +31136,7 @@ flags: `0x2002`
 Impulse downward when slipping starts while wall hanging
 
 default: `"70"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_maxViewTilt</code></summary>
@@ -31068,7 +31144,7 @@ flags: `0x2002`
 Amount of roll applied to the view in degrees while wall running
 
 default: `"10.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_minAngle_air</code></summary>
@@ -31076,7 +31152,7 @@ flags: `0x2002`
 Angle at which you can start wall running when hitting a wall from a jump (0 to 180)
 
 default: `"180.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_noInputSlipFrac</code></summary>
@@ -31084,7 +31160,7 @@ flags: `0x2002`
 Min fraction of slip behavior when not pushing in any direction (applies more gravity)
 
 default: `"0.7"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_pushAwayFallOffTime</code></summary>
@@ -31092,7 +31168,7 @@ flags: `0x2002`
 Pushing away from the wall for this many seconds causes you to fall off
 
 default: `"0.05"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_repelEnable</code></summary>
@@ -31100,7 +31176,7 @@ flags: `0x2002`
 Enables repelling players from walls they have jumped off of
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_repelSoftness</code></summary>
@@ -31108,7 +31184,7 @@ flags: `0x2002`
 Softness of wall jump repel: higher values make it easier for players to reduce their speed away from the wall
 
 default: `"5.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_repelTimeMax</code></summary>
@@ -31116,7 +31192,7 @@ flags: `0x2002`
 Time after jumping off the wall that player is no longer repelled from the wall
 
 default: `"0.4"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_repelTimeMin</code></summary>
@@ -31124,7 +31200,7 @@ flags: `0x2002`
 Time after jumping off the wall that player is repelled from the wall
 
 default: `"0.2"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_retry_interval</code></summary>
@@ -31132,7 +31208,7 @@ flags: `0x2002`
 Length of time between checking for the ability to wallrun after hitting a wall in air movement
 
 default: `"0.07"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_rotateMaxRate</code></summary>
@@ -31140,7 +31216,7 @@ flags: `0x2002`
 Maximum rotation speed around a wall in radians per second; avoids sticking to walls that do tight curves
 
 default: `"3"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_sameWallDist</code></summary>
@@ -31148,7 +31224,7 @@ flags: `0x2002`
 Within this distance of the previous wall run, wall run is prevented at a higher point on the same wall
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_sameWallDot</code></summary>
@@ -31156,7 +31232,7 @@ flags: `0x2002`
 Dot product threshold for preventing wall running on the same wall twice
 
 default: `"0.9"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_sameWallSlope</code></summary>
@@ -31164,7 +31240,7 @@ flags: `0x2002`
 Beyond wallrun_samewalldist, wall running is permitted at higher points with this slope
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_slipduration</code></summary>
@@ -31172,7 +31248,7 @@ flags: `0x2002`
 Time it takes for slipping to become completely gravity based
 
 default: `"1.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_slipslowdown</code></summary>
@@ -31180,7 +31256,7 @@ flags: `0x2002`
 Fraction of velocity lost when slipping starts
 
 default: `"0.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_slipstarttime</code></summary>
@@ -31188,7 +31264,7 @@ flags: `0x2002`
 Time wall running before you start to slip down
 
 default: `"1.5"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_slipvel</code></summary>
@@ -31196,31 +31272,34 @@ flags: `0x2002`
 Impulse downward when slipping starts
 
 default: `"70"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_strengthLossEnd</code></summary>
 
-Number of wall runs at which point upward strength is fully lost (scales upWallBoost, jumpUpSpeed, and gravityRampUpTime to zero)
+Number of wall runs at which point upward strength is fully lost (scales upWallBoost, jumpUpSpeed, and gravityRampUpTime
+to zero)
 
 default: `"1000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_strengthLossStart</code></summary>
 
-Number of wall runs allowed before starting to lose upward strength (scales upWallBoost, jumpUpSpeed, and gravityRampUpTime)
+Number of wall runs allowed before starting to lose upward strength (scales upWallBoost, jumpUpSpeed, and
+gravityRampUpTime)
 
 default: `"1000"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_upwardAutoPush</code></summary>
 
-The amount of automatic up-the-wall input applied when the player pushes forward along the wall. Helps to fight gravity when pushing forward.
+The amount of automatic up-the-wall input applied when the player pushes forward along the wall. Helps to fight gravity
+when pushing forward.
 
 default: `"0.65"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_viewTiltPredictTime</code></summary>
@@ -31228,7 +31307,7 @@ flags: `0x2002`
 Time before you start wall running where your view starts tilting. Predicts upcoming wall running
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wallrun_viewTiltSpeed</code></summary>
@@ -31236,7 +31315,7 @@ flags: `0x2002`
 Speed at which the view tilts while wall running
 
 default: `"6.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>was_loaded</code></summary>
@@ -31244,15 +31323,16 @@ flags: `0x2002`
 Current game from a restore?
 
 default: `""`  
-flags: `0x12002`  
+flags: `0x12002`
 </details>
 <details>
 <summary><code>watchdog_active_during_assert_reporting</code></summary>
 
-Watchdog triggers asserts/backtrace dumps even if a hang is detected while an unrelated assert is being reported. Defaults to off (0)
+Watchdog triggers asserts/backtrace dumps even if a hang is detected while an unrelated assert is being reported.
+Defaults to off (0)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>watchdog_active_in_debugger</code></summary>
@@ -31260,7 +31340,7 @@ flags: `0x2`
 Watchdog triggers asserts/backtrace dumps when debugger is present. Defaults to off (0)
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>watchdog_debug</code></summary>
@@ -31268,7 +31348,7 @@ flags: `0x2`
 Output debug log messages for watchdog system.
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>watchdog_dialog</code></summary>
@@ -31276,23 +31356,24 @@ flags: `0x2`
 Show a dialog prompt (for PC). Default is 1 (enabled)
 
 default: `"1"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>watchdog_sleep_time_milliseconds</code></summary>
 
-Time watchdog thread to sleep in milliseconds.  Defaults to 1000 (1 second).
+Time watchdog thread to sleep in milliseconds. Defaults to 1000 (1 second).
 
 default: `"1000"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>watchdog_time_milliseconds</code></summary>
 
-Time for watchdog to wait without seeing a new frame presented before triggering a crash report, in milliseconds. Default is 0 (0 disables the feature)
+Time for watchdog to wait without seeing a new frame presented before triggering a crash report, in milliseconds.
+Default is 0 (0 disables the feature)
 
 default: `"0"`  
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>weaponFastHolsterScale</code></summary>
@@ -31300,7 +31381,7 @@ flags: `0x80000`
 Scales holster animations if swapping to a weapon with "fast_swap_to" enabled.
 
 default: `"0.25"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weaponSwitch3p_checkNewWeapon</code></summary>
@@ -31308,7 +31389,7 @@ flags: `0x2002`
 Only play 3p weapon switch if there is a new weapon.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weaponSwitch3p_onHolster</code></summary>
@@ -31316,7 +31397,7 @@ flags: `0x2002`
 Start third person weapon switch animation as soon as the current weapon starts being holstered.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weapon_activity_modifier_fully_charged_weapon_specific</code></summary>
@@ -31324,7 +31405,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weapon_auto_swap_ordnance_no_ammo</code></summary>
@@ -31332,7 +31413,7 @@ flags: `0x2002`
 If you touch a new ordnance weapon with no ammo in your current it will auto replace it
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weapon_debugScript</code></summary>
@@ -31340,7 +31421,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weapon_doIdleForSurvivalMelee</code></summary>
@@ -31348,7 +31429,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>weapon_friendly_fire_prevent_ui</code></summary>
@@ -31356,7 +31437,7 @@ flags: `0x2`
 UI to show on friendly fire prevention
 
 default: `""`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>weapon_hide_heirlooms_during_valk_ult</code></summary>
@@ -31364,7 +31445,7 @@ flags: `0x2`
 Hides heirloom weapons during valk ult as their position is not setup during the animation.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>weapon_meleeButtonPressProtection</code></summary>
@@ -31372,7 +31453,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weapon_parentingFixLerp</code></summary>
@@ -31380,7 +31461,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>weapon_pickup_allow_dupes</code></summary>
@@ -31388,7 +31469,7 @@ flags: `0x2`
 Whether or not you are allowed 2 of the same weapon in your inventory
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weapon_poseParamMaxDistance</code></summary>
@@ -31396,7 +31477,7 @@ flags: `0x2002`
 
 
 default: `"6000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>weapon_render_with_fastpath</code></summary>
@@ -31404,7 +31485,7 @@ flags: `0x2`
 Allow weapons to draw using the fast path.
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>weapon_setting_autocycle_on_empty</code></summary>
@@ -31412,7 +31493,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x41000200`  
+flags: `0x41000200`
 </details>
 <details>
 <summary><code>weapon_sprint_raise_delay</code></summary>
@@ -31420,7 +31501,7 @@ flags: `0x41000200`
 Enables weapon delay between sprint and shooting
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weaponx_predicting_client_only_optimization</code></summary>
@@ -31428,7 +31509,7 @@ flags: `0x2002`
 Enable/disable weaponx optimization for burst fire, shot count and charge data only being sent to predicting client
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>weaponx_smartammo_data_optimization</code></summary>
@@ -31436,7 +31517,7 @@ flags: `0x2002`
 Enable/disable weaponx smartammo data optimization. Only applies with net_optimize_weapons >= 2
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>wind_dir</code></summary>
@@ -31444,7 +31525,7 @@ flags: `0x2002`
 
 
 default: `"0.5 0.5 0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_draw_emitters</code></summary>
@@ -31452,7 +31533,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_draw_volumes</code></summary>
@@ -31460,7 +31541,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_gust_scale</code></summary>
@@ -31468,7 +31549,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_override_color</code></summary>
@@ -31476,7 +31557,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_override_flags</code></summary>
@@ -31484,7 +31565,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_override_time</code></summary>
@@ -31492,7 +31573,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_override_volumes</code></summary>
@@ -31500,7 +31581,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_speed</code></summary>
@@ -31508,7 +31589,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>wind_time</code></summary>
@@ -31516,7 +31597,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>window_hint_debug</code></summary>
@@ -31524,7 +31605,7 @@ flags: `0x2`
 Debugs search for window hints
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_fov_down</code></summary>
@@ -31532,7 +31613,7 @@ flags: `0x2002`
 Window hints below this vertical FOV will be ignored
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_fov_horz</code></summary>
@@ -31540,7 +31621,7 @@ flags: `0x2002`
 Window hints beyond this horizontal FOV will be ignored
 
 default: `"60"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_fov_up</code></summary>
@@ -31548,7 +31629,7 @@ flags: `0x2002`
 Window hints above this vertical FOV will be ignored
 
 default: `"60"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_keyboard_fov_horz</code></summary>
@@ -31556,7 +31637,7 @@ flags: `0x2002`
 Window hints beyond this horizontal FOV will be ignored
 
 default: `"7"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_lookahead_time</code></summary>
@@ -31564,7 +31645,7 @@ flags: `0x2002`
 Lookahead prediction time for window checks
 
 default: `"0.8"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_max_horz_vel_change_dot</code></summary>
@@ -31572,7 +31653,7 @@ flags: `0x2002`
 Min dot product of velocity change when adjusting for windows
 
 default: `"0.966f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_max_vel_change_down</code></summary>
@@ -31580,7 +31661,7 @@ flags: `0x2002`
 Max removed vertical velocity when adjusting for windows
 
 default: `"150"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_max_vel_change_up</code></summary>
@@ -31588,7 +31669,7 @@ flags: `0x2002`
 Max added vertical velocity when adjusting for windows
 
 default: `"80"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_min_horz_vel</code></summary>
@@ -31596,7 +31677,7 @@ flags: `0x2002`
 Horizontal velocity is increased to at least this when adjusting for windows
 
 default: `"100"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_permissive_max_horz_vel_change_dot</code></summary>
@@ -31604,7 +31685,7 @@ flags: `0x2002`
 Min dot product of velocity change when adjusting for windows (off grapple)
 
 default: `"0.88f"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_permissive_max_vel_change_down</code></summary>
@@ -31612,7 +31693,7 @@ flags: `0x2002`
 Max removed vertical velocity when adjusting for windows (off grapple)
 
 default: `"300"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>window_hint_permissive_max_vel_change_up</code></summary>
@@ -31620,7 +31701,7 @@ flags: `0x2002`
 Max added vertical velocity when adjusting for windows (off grapple)
 
 default: `"300"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>z_ragdoll_impact_strength</code></summary>
@@ -31628,7 +31709,7 @@ flags: `0x2002`
 
 
 default: `"500"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_check_usable_before_deploy</code></summary>
@@ -31636,15 +31717,16 @@ flags: `0x2`
 For Zipline grenades, check if the zipline will be usable before allowing the player to deploy it.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>zipline_cooldown_apply_cooldown_across_ziplines</code></summary>
 
-If enabled, the zipline reattach cooldown time will be applied even if your attaching to a different zipline. This should prevent using two parallel ziplines as a speed boost.
+If enabled, the zipline reattach cooldown time will be applied even if your attaching to a different zipline. This
+should prevent using two parallel ziplines as a speed boost.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>zipline_cooldown_debug</code></summary>
@@ -31652,7 +31734,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_cooldown_decay</code></summary>
@@ -31660,7 +31742,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_cooldown_decay_rate</code></summary>
@@ -31668,7 +31750,7 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_cooldown_time_0</code></summary>
@@ -31677,7 +31759,7 @@ Zipline Cooldown.
 
 default: `"0.1"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>zipline_cooldown_time_1</code></summary>
@@ -31686,7 +31768,7 @@ Zipline Cooldown.
 
 default: `"0.2"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>zipline_cooldown_time_2</code></summary>
@@ -31695,7 +31777,7 @@ Zipline Cooldown.
 
 default: `"1.0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>zipline_cooldown_time_3</code></summary>
@@ -31704,7 +31786,7 @@ Zipline Cooldown.
 
 default: `"3.0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>zipline_cooldown_time_4</code></summary>
@@ -31713,7 +31795,7 @@ Zipline Cooldown.
 
 default: `"5.0"`  
 flags: `0x2`  
-min value: `0`  
+min value: `0`
 </details>
 <details>
 <summary><code>zipline_fade_dist</code></summary>
@@ -31721,7 +31803,7 @@ min value: `0`
 
 
 default: `"6000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_path_drawAllExtents</code></summary>
@@ -31729,7 +31811,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_path_mount_debug</code></summary>
@@ -31737,7 +31819,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_path_mount_debug_crosshair_dist</code></summary>
@@ -31745,7 +31827,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_ping_enabled</code></summary>
@@ -31753,7 +31835,7 @@ flags: `0x2`
 If enabled, you should be able to ping ziplines.
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>zipline_roll_debug_draw</code></summary>
@@ -31761,7 +31843,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_roll_minSpeedFraction</code></summary>
@@ -31769,15 +31851,16 @@ flags: `0x2`
 
 
 default: `"0.5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_subdiv_lod_dist_base</code></summary>
 
-The base distance that ziplines will begin using zipline_subdiv_slices_lod. This value is scaled by the diameter of the zipline.
+The base distance that ziplines will begin using zipline_subdiv_slices_lod. This value is scaled by the diameter of the
+zipline.
 
 default: `"150"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>zipline_subdiv_slices</code></summary>
@@ -31787,7 +31870,7 @@ Zipline subdivision amount around the rope, affects roundedness.
 default: `"6"`  
 flags: `0x2`  
 min value: `1`  
-max value: `12`  
+max value: `12`
 </details>
 <details>
 <summary><code>zipline_subdiv_slices_lod</code></summary>
@@ -31797,7 +31880,7 @@ Zipline subdivision amount around the rope when lod is active, affects roundedne
 default: `"4"`  
 flags: `0x2`  
 min value: `0`  
-max value: `12`  
+max value: `12`
 </details>
 <details>
 <summary><code>zipline_subdiv_stacks</code></summary>
@@ -31807,7 +31890,7 @@ Zipline subdivision amount between each zipline node.
 default: `"6"`  
 flags: `0x2`  
 min value: `1`  
-max value: `24`  
+max value: `24`
 </details>
 <details>
 <summary><code>zipline_use_range</code></summary>
@@ -31815,7 +31898,7 @@ max value: `24`
 
 
 default: `"120.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_3pBank</code></summary>
@@ -31823,7 +31906,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ziprail_3pBank_Anim</code></summary>
@@ -31831,7 +31914,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ziprail_adaptive_stackSubdiv</code></summary>
@@ -31839,7 +31922,7 @@ flags: `0x2002`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_duck_detach</code></summary>
@@ -31847,7 +31930,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 <details>
 <summary><code>ziprail_grapple_disable</code></summary>
@@ -31855,7 +31938,7 @@ flags: `0x2002`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_max_tolerance_distance</code></summary>
@@ -31863,7 +31946,7 @@ flags: `0x2`
 
 
 default: `"60000"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_max_tolerance_value</code></summary>
@@ -31871,7 +31954,7 @@ flags: `0x2`
 
 
 default: `"5"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_mid_mount</code></summary>
@@ -31879,7 +31962,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_path_extends_fudge_factor</code></summary>
@@ -31887,7 +31970,7 @@ flags: `0x2`
 
 
 default: `"128.0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_path_max_subSectionLen</code></summary>
@@ -31895,7 +31978,7 @@ flags: `0x2`
 
 
 default: `"600"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_path_section_tolerance</code></summary>
@@ -31903,7 +31986,7 @@ flags: `0x2`
 
 
 default: `"10"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_roll_debug</code></summary>
@@ -31911,7 +31994,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_roll_strength</code></summary>
@@ -31919,7 +32002,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_rope_render</code></summary>
@@ -31927,7 +32010,7 @@ flags: `0x2`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_shape</code></summary>
@@ -31935,7 +32018,7 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_shape_bigAngleStep</code></summary>
@@ -31945,7 +32028,7 @@ Angles determining how big the side of a ziprail is. Valid value is 0.0 to 120.0
 default: `"100"`  
 flags: `0x2`  
 min value: `0`  
-max value: `120`  
+max value: `120`
 </details>
 <details>
 <summary><code>ziprail_speed_change</code></summary>
@@ -31953,7 +32036,7 @@ max value: `120`
 
 
 default: `"1"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_speed_debug</code></summary>
@@ -31961,15 +32044,16 @@ flags: `0x2`
 
 
 default: `"0"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_subdiv_lod_dist_base</code></summary>
 
-The base distance that ziprails will begin using ziprail_subdiv_slices_lod. Limits the maximum subdivisions a node can have.
+The base distance that ziprails will begin using ziprail_subdiv_slices_lod. Limits the maximum subdivisions a node can
+have.
 
 default: `"600"`  
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ziprail_subdiv_stacks</code></summary>
@@ -31979,7 +32063,7 @@ Ziprail rope subdivision amount along the rope. Affects curve smoothness.
 default: `"16"`  
 flags: `0x2`  
 min value: `0`  
-max value: `24`  
+max value: `24`
 </details>
 <details>
 <summary><code>ziprail_subdiv_stacks_lod</code></summary>
@@ -31989,7 +32073,7 @@ Ziprail rope subdivision amount along the rope when lod is active. Affects curve
 default: `"8"`  
 flags: `0x2`  
 min value: `0`  
-max value: `24`  
+max value: `24`
 </details>
 <details>
 <summary><code>ziprail_width</code></summary>
@@ -31997,7 +32081,7 @@ max value: `24`
 ziprail width
 
 default: `"4.0"`  
-flags: `0x2002`  
+flags: `0x2002`
 </details>
 
 ## ConCommands
@@ -32007,1295 +32091,1297 @@ flags: `0x2002`
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+ability_held</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+attack</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+backward</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+break</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+camdistance</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+camin</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+cammousemove</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+camout</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+campitchdown</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+campitchup</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+camyawleft</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+camyawright</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+commandermousemove</code></summary>
 
 
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>+csm_rot_x_neg</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+csm_rot_x_plus</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+csm_rot_y_neg</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+csm_rot_y_plus</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+displayFullscreenMap</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+dodge</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+duck</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+forward</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+graph</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+jump</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+klook</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+left</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+lookdown</code></summary>
 
 
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>+lookup</code></summary>
 
 
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>+melee</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+movedown</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+moveleft</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+moveright</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+moveup</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+offhand0</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+offhand1</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+offhand2</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+offhand3</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+offhand4</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+pause_menu</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+ping</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+posedebug</code></summary>
 
 Turn on pose debugger or add ents to pose debugger UI
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>+pushtotalk</code></summary>
 
 
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>+reload</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+right</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+score</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand1</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand2</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand3</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand4</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand5</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand6</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand7</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand8</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+scriptCommand9</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+showscores</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+speed</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+strafe</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+toggle_duck</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+toggle_zoom</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+use</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+useAndReload</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+use_alt</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+use_long</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+variableScopeToggle</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>+voicerecord</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>+walk</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+weaponCycle</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+weapon_discard</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>+zoom</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-ability</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-ability_held</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-attack</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-backward</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-break</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-camdistance</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-camin</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-cammousemove</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-camout</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-campitchdown</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-campitchup</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-camyawleft</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-camyawright</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-commandermousemove</code></summary>
 
 
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>-csm_rot_x_neg</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-csm_rot_x_plus</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-csm_rot_y_neg</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-csm_rot_y_plus</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-displayFullscreenMap</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-dodge</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-duck</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-forward</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-graph</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-jump</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-klook</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-left</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-lookdown</code></summary>
 
 
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>-lookup</code></summary>
 
 
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>-melee</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-movedown</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-moveleft</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-moveright</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-moveup</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-offhand0</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-offhand1</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-offhand2</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-offhand3</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-offhand4</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-pause_menu</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-ping</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-posedebug</code></summary>
 
 Turn off pose debugger or hide ents from pose debugger UI
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>-pushtotalk</code></summary>
 
 
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>-reload</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-right</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-score</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand1</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand2</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand3</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand4</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand5</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand6</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand7</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand8</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-scriptCommand9</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-showscores</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-speed</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-strafe</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-toggle_duck</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-toggle_zoom</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-use</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-useAndReload</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-use_alt</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-use_long</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-variableScopeToggle</code></summary>
 
 
 
-flags: `0x400a0000`  
+flags: `0x400a0000`
 </details>
 <details>
 <summary><code>-voicerecord</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>-walk</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-weaponCycle</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-weapon_discard</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>-zoom</code></summary>
 
 
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>BindToggle</code></summary>
 
 Performs a bind <key> "increment var <cvar> 0 1 1"
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>CMaterialSystem_clear_loading</code></summary>
 
 
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>CMaterialSystem_set_loading</code></summary>
 
 
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>ClientScript_OnMatchJipChanged_Cmd</code></summary>
 
 Allow Listen server client to call ClientScript_OnMatchJipChanged, dev only
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_RTM_FORCE_TLS_ERROR</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_RTM_send_presence</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_RTM_test_subscribe</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_dump_MyPresence</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_dump_friends</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_get_friend_test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_is_friend_user_test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_presence_subscribe_all_club_members</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_search_test2</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>EADP_unfriend_user_test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>MemTrackDeltaSnapshot</code></summary>
 
 Debug command compares two snapshots. Takes indices into the snapshot array, negative means from end
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>MemTrackPrintStats</code></summary>
 
 Debug command prints current mem stats & creates a named snapshot - first param is snapshot name
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>OnMultipleLoginDetected</code></summary>
 
 Callback when we detect multiple logins.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>OriginRebootCLientAuthTokens_Test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>RTM_FORCE_shutdown</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ReloadAimAssistSettings</code></summary>
 
 Reloads aimassist config files.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>XLOG_TLS_close_connections</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>aisettings_reparse_client</code></summary>
 
 Reloads the AI settings files
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>alias</code></summary>
 
 Alias a command.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>applyVideoChangesDeferred</code></summary>
 
 Workaround for applying video changes using controller buttons shortcuts.
 
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>bind</code></summary>
 
 Bind a key to TAPPED.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>bind_US_standard</code></summary>
 
-Bind a key to TAPPED. Given a key on a standard US keyboard, this function will translate that key to the appropriate key on the user's current keyboard.
+Bind a key to TAPPED. Given a key on a standard US keyboard, this function will translate that key to the appropriate
+key on the user's current keyboard.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>bind_held</code></summary>
 
 Bind a key to HELD.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>bind_held_US_standard</code></summary>
 
-Bind a key to HELD.. Given a key on a standard US keyboard, this function will translate that key to the appropriate key on the user's current keyboard.
+Bind a key to HELD.. Given a key on a standard US keyboard, this function will translate that key to the appropriate key
+on the user's current keyboard.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>bind_list</code></summary>
 
 List all current bindings.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>bind_list_abilities</code></summary>
 
 List all ability bindings and what commands they resolve to
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>bink_dump_precached_movies</code></summary>
 
 Dumps information about all precached Bink movies
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>bot_loadout</code></summary>
 
 Override bot loadout
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>box</code></summary>
 
 Draw a debug box.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>buildcubemaps</code></summary>
 
 Rebuild cubemaps.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cam_command</code></summary>
 
 Tells camera to change modes
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>cancelselect</code></summary>
 
 
 
-flags: `0x10000002`  
+flags: `0x10000002`
 </details>
 <details>
 <summary><code>cc_emit</code></summary>
 
 Emits a closed caption
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>centerview</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>changelevel</code></summary>
 
 Change server to the specified map
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>chat</code></summary>
 
 Send text to the current chatroom
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chat_wheel</code></summary>
 
 Opens the chat wheel
 
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>chatroom_away</code></summary>
 
 Tell the chatserver you are away from the room
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatroom_present</code></summary>
 
 Tell the chatserver you are present in the room
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chatserver</code></summary>
 
 Connect to a chatserver
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>chroma_base</code></summary>
 
 Transitions to a new base layer for chroma hardware
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>chroma_layer</code></summary>
 
 Adds an overlay layer for chroma hardware
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_dump_particle_stats</code></summary>
 
 dump particle profiling info to particle_profile.csv
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_find_ent</code></summary>
@@ -33303,8 +33389,7 @@ flags: `0x2`
 Find and list all client entities with classnames that contain the specified substring.
 Format: cl_find_ent <substring>
 
-
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_find_ent_index</code></summary>
@@ -33312,544 +33397,543 @@ flags: `0x4000`
 Display data for clientside entity matching specified index.
 Format: cl_find_ent_index <index>
 
-
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_flip_visibility</code></summary>
 
 Flips the visibilityBits of all Entities
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_fullupdate</code></summary>
 
 Forces the server to send a full update packet
 
-flags: `0x40004000`  
+flags: `0x40004000`
 </details>
 <details>
 <summary><code>cl_interpolation_report</code></summary>
 
 Prints all entities being interpolated on the next frame
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>cl_mute_remove_oldest</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_panelanimation</code></summary>
 
 Shows panel animation variables: <panelname | blank for all panels>.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>cl_particles_dumplist</code></summary>
 
 Dump all new particles, optional name substring.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>cl_precacheinfo</code></summary>
 
 Show precache info (client).
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_removedecals</code></summary>
 
 Remove the decals from the entity under the crosshair.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_serverQuery</code></summary>
 
 Send a Query Protocol request to a server. If no args are provided then request from the server we're connected to
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cl_showents</code></summary>
 
 Dump entity list to console.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>cl_trace_start_solid</code></summary>
 
 Trace with given parameters and return start solid result
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>cl_trace_test_hitbox_with_non_zero_start_offset</code></summary>
 
 
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>cl_updatevisibility</code></summary>
 
 Updates visibility bits.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>clear_loading_progress_detente</code></summary>
 
 Clears the detente for the load screen.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>clear_loading_progress_sp_text</code></summary>
 
 Clears the sp text for the load screen.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>cm_query_log_record</code></summary>
 
 Start recording a log of all queries
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cm_query_log_replay</code></summary>
 
 Play back a query log for performance testing
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cmd</code></summary>
 
 Forward command to server.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cmd1</code></summary>
 
 sets userinfo string for split screen player in slot 1
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>cmd2</code></summary>
 
 sets userinfo string for split screen player in slot 2
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cmd3</code></summary>
 
 sets userinfo string for split screen player in slot 3
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>cmd4</code></summary>
 
 sets userinfo string for split screen player in slot 4
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>collision_debug</code></summary>
 
 Sends a collision ray from player and gathers info.
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>colorcorrectionui</code></summary>
 
 Show/hide the color correction tools UI.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>comms_connect</code></summary>
 
-comms_connect [port=7777] [addr=127.0.0.1] [usertoken='token'] : Connect to commserver at addr:port using specified user token
+comms_connect [port=7777] [addr=127.0.0.1] [usertoken='token'] : Connect to commserver at addr:port using specified user
+token
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_disconnect</code></summary>
 
 comms_disconnect [kill]
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>comms_say</code></summary>
 
 send text message
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>community_showerror</code></summary>
 
 Get a random pending join request to answer
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>connect</code></summary>
 
 Connect to specified server.
 
-flags: `0xa0000`  
+flags: `0xa0000`
 </details>
 <details>
 <summary><code>connectAsSpectator</code></summary>
 
 Connect to specified server as a spectator
 
-flags: `0xa0000`  
+flags: `0xa0000`
 </details>
 <details>
 <summary><code>connectWithKey</code></summary>
 
 Connect to specified server with an explicit encryption key.
 
-flags: `0xa0000`  
+flags: `0xa0000`
 </details>
 <details>
 <summary><code>connectwithtoken</code></summary>
 
 Connect to specified server with a reservation token.
 
-flags: `0xa0000`  
+flags: `0xa0000`
 </details>
 <details>
 <summary><code>controller_test_pad_report_generic</code></summary>
 
 Send current pad detection reports to server.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>convar_differences</code></summary>
 
 Show all convars which are not at their default values.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>convar_findByFlags</code></summary>
 
 Find concommands by flags.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>convar_list</code></summary>
 
 Show the list of convars/concommands.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>createparty</code></summary>
 
 Create a party
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>createpartyifnotinone</code></summary>
 
 Create a party if we aren't in one
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>csm_status</code></summary>
 
 Usage:
-   csm_status
+csm_status
 
-
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>damagedefs_reparse_client</code></summary>
 
 Reloads the damage defs
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>devshots_screenshot</code></summary>
 
-Used by the -makedevshots system to take a screenshot. For taking your own screenshots, use the 'screenshot' command instead.
+Used by the -makedevshots system to take a screenshot. For taking your own screenshots, use the 'screenshot' command
+instead.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>dfs_print_flag_states</code></summary>
 
 Prints all dfs flag states to console
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dfs_print_true_flags</code></summary>
 
 Prints all true feature flags to console
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>disconnect</code></summary>
 
 Disconnect game from server.
 
-flags: `0x48000000`  
+flags: `0x48000000`
 </details>
 <details>
 <summary><code>display_elapsedtime</code></summary>
 
 Displays how much time has elapsed since the game started
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>dlight_debug</code></summary>
 
 Creates a dlight in front of the player
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>do_InvitePeople_test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>do_Invite_friend_test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>do_joinPeople_test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>do_origin_test_presence</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>downloadPlaylists</code></summary>
 
 Re-download the playlists
 
-
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>dumpClientStringTable</code></summary>
 
 Dump the contents of the client's game string table to the console.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>dumpstringtables</code></summary>
 
 Print string tables to console.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eadp_groups_send_lastactive</code></summary>
 
 Change current club's lastActive field. This sends to EADP too!
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>echo</code></summary>
 
 Echo text to console.
 
-flags: `0x10000002`  
+flags: `0x10000002`
 </details>
 <details>
 <summary><code>echo_error</code></summary>
 
 Echo error text to console.
 
-flags: `0x10000002`  
+flags: `0x10000002`
 </details>
 <details>
 <summary><code>editor_toggle</code></summary>
 
 Disables the simulation and returns focus to the editor
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>endmovie</code></summary>
 
 Stop recording movie frames.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>entitlements_send</code></summary>
 
 Send client's entitlements to the server
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>escape</code></summary>
 
 Escape key pressed.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>exec</code></summary>
 
 Execute script file.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>execPlayerConfig</code></summary>
 
 Load player settings.
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>execifexists</code></summary>
 
 Execute script file if file exists.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>exit</code></summary>
 
 Exit the engine.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>eyeInfo</code></summary>
 
 gets info about the current view
 
-
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>firstperson</code></summary>
 
 Switch to firstperson camera.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>force_centerview</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>fps_stats_dump</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fps_stats_reset</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fps_stats_start</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fps_stats_stop</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>friends_update</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_clear_open_duplicate_times</code></summary>
 
 Clear the list of files that have been opened.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_dump_open_duplicate_times</code></summary>
 
-Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was spent reading from them.
+Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how
+long was spent reading from them.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_fios_cancel_prefetches</code></summary>
 
 Cancels all the prefetches in progress.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_fios_flush_cache</code></summary>
 
 Flushes the FIOS HDD cache.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_fios_prefetch_file</code></summary>
@@ -33857,7 +33941,7 @@ flags: `0x2`
 Prefetches a file: </PS3_GAME/USRDIR/filename.bin>.
 The preftech is medium priority and persistent.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_fios_prefetch_file_in_pack</code></summary>
@@ -33865,1793 +33949,1794 @@ flags: `0x2`
 Prefetches a file in a pack: <portal2/models/container_ride/fineDebris_part5.ani>.
 The preftech is medium priority and non-persistent.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_fios_print_prefetches</code></summary>
 
 Displays all the prefetches currently in progress.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_printopenfiles</code></summary>
 
 Show all files currently opened by the engine.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fs_warning_level</code></summary>
 
 Set the filesystem warning level.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>fx_impact_reparse</code></summary>
 
 Reloads the weapon impact effect table files
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>gameui_activate</code></summary>
 
 Shows the game UI
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>gameui_allowescape</code></summary>
 
 Escape key allowed to hide game UI
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>gameui_allowescapetoshow</code></summary>
 
 Escape key allowed to show game UI
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gameui_hide</code></summary>
 
 Hides the game UI
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>gameui_preventescape</code></summary>
 
 Escape key doesn't hide game UI
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>gameui_preventescapetoshow</code></summary>
 
 Escape key doesn't show game UI
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>getNewAuthToken</code></summary>
 
 Ask for a new auth token.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>getfov</code></summary>
 
 Gets info about the current FOV
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>gethttpdatacenterlist</code></summary>
 
 Gets the list of datacenters
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>getpos</code></summary>
 
 dump position and angles to the console
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>getpos_bind</code></summary>
 
 Binds the given key to a setpos/setang command of your current position.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>getposvec</code></summary>
 
 dump position and angles to the console in 'Vector( x, y, z ), Vector( pitch, yaw, roll )' format
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>give</code></summary>
 
 Give weapon to player.
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>help</code></summary>
 
 Find help about a convar/concommand.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hidepanel</code></summary>
 
 Hides a viewport panel <name>
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>hidevideos</code></summary>
 
 Hides video panels playing to the screen
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>highlight_log</code></summary>
 
 Log Highlight
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>host_runofftime</code></summary>
 
 Run off some time without rendering/updating sounds
 
-
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>hud_subtitles</code></summary>
 
 Plays the Subtitles: <filename>
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>huffman_readProps</code></summary>
 
 Read the huffman file and regenerate huffman trees
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>impulse</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>incrementvar</code></summary>
 
 Increment specified convar value.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>ingamemenu_activate</code></summary>
 
 Shows the in-game menu
 
-flags: `0x40080008`  
+flags: `0x40080008`
 </details>
 <details>
 <summary><code>initMatchmaking</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>invnext</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>is_considered_sony_multiplayer</code></summary>
 
 Checks the value for whether the game is currently telling sony it's in multiplayer
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>joinopeninvite</code></summary>
 
 Join the active open invite in the chat room
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>joystick_initialize</code></summary>
 
 
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>jpeg</code></summary>
 
 Take a jpeg screenshot:  jpeg <filename> <quality 1-100>.
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>key_updatelayout</code></summary>
 
 Updates game keyboard layout to current windows keyboard setting.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>launchplaylist</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>leaveopeninvite</code></summary>
 
 Leave the active open invite in the chat room
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>listClientFXScriptHandles</code></summary>
 
 Lists all active effects tracked by script.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>listmodels</code></summary>
 
 List loaded models.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>loadPlaylists</code></summary>
 
 Reload the playlists
 
-
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>map</code></summary>
 
 Start playing on specified map.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>map_background</code></summary>
 
 Runs a map as the background to the main menu.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>maps</code></summary>
 
 Displays list of maps.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_antialias_mode</code></summary>
 
 Set antialias mode
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_configcurrent</code></summary>
 
 show the current video control panel config for the material system
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_crosshair</code></summary>
 
 Display the name of the material under the crosshair
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_crosshair_edit</code></summary>
 
 open the material under the crosshair in the editor defined by mat_crosshair_edit_editor
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_crosshair_explorer</code></summary>
 
 open the material under the crosshair in explorer and highlight the file
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_crosshair_printmaterial</code></summary>
 
 print the material under the crosshair
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>mat_gamma</code></summary>
 
 Set gamma ramp
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>mat_printLiveTex</code></summary>
 
 Print stats of all known live textures.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mat_savechanges</code></summary>
 
 saves current video configuration
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>mat_setvideomode</code></summary>
 
 sets the width, height, windowed state of the material system, as well as borderless state
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>mat_vsync</code></summary>
 
 Set vsync enabled
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_abortAllSearches</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>match_showAllSearches</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>matchmake</code></summary>
 
 
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>matchmake_cancel</code></summary>
 
 
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>matchmake_cleanupforparty</code></summary>
 
 
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>maxplayers</code></summary>
 
 Change the maximum number of players allowed on this server.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_compact</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_dump</code></summary>
 
 Dump memory stats to text file.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_dump_all</code></summary>
 
 Dump all tracked allocations to text file.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_dump_features</code></summary>
 
 Dump feature based memory report to text file.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_dump_rpak_summary</code></summary>
 
 Dump RPAK summary memory report to text file.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_dump_rpaks</code></summary>
 
 Dump RPAK memory report to text file.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_dump_vm</code></summary>
 
 Dump vm allocations to console.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_eat</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_incremental_compact</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_leak_vm</code></summary>
 
 Leak specified amount of virtual memory (in MB or 'oom' to deliberately run out.)
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_test</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_textures</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_verify</code></summary>
 
 Verify the validity of the heap
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>mem_vram</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>memory</code></summary>
 
 Print memory stats.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>metricmapnet_clear</code></summary>
 
 Wipe all CMetricManagerNet metrics
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>migrateme</code></summary>
 
 Ask your server to migrate you over to another server
 
-flags: `0x10080000`  
+flags: `0x10080000`
 </details>
 <details>
 <summary><code>miles_dump</code></summary>
 
 Writes out milesdump file and perf CSV for current session.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>miles_event_info</code></summary>
 
 Shows information about a particular event.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_insert_bug_marker</code></summary>
 
 Fires a unique 'bug marker' event that will be visible in Miles dumps.
 
-flags: `0x40080008`  
+flags: `0x40080008`
 </details>
 <details>
 <summary><code>miles_pauseui_byname</code></summary>
 
 Pauses any sound played on the listener for this client with the given name.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>miles_play</code></summary>
 
 Plays a given alias at an optional given position
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>miles_reboot</code></summary>
 
 restarts the audio engine
 
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>miles_record</code></summary>
 
 Enable or disable continuous recording (including previous buffer if available) of audio output to WAV file.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>miles_record_that</code></summary>
 
 Writes audio output from the last minute or so to WAV file.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>miles_stop_all</code></summary>
 
 stops all playing sounds
 
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>miles_unpauseui_byname</code></summary>
 
 Resumes any paused sound played on the listener for this client with the given name.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>miles_write_passive_dumpfile</code></summary>
 
 Writes out milesdump file for current session.
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>mmdevinit</code></summary>
 
 
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>mtxFakeTime_DisplayCurrentFakeTime</code></summary>
 
 Displays the current fake time
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>multvar</code></summary>
 
 Multiply specified convar value.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>muteroom</code></summary>
 
 Mute the chatroom
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_channels</code></summary>
 
 Shows info for each Net Channel. '+fake' to include bot connections
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dumpIncomingStats</code></summary>
 
 Dump incoming traffic stats
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dumpOutgoingStats</code></summary>
 
 Dump outgoing traffic stats
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_dumpStats</code></summary>
 
 Dump all traffic stats
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_force_datarate</code></summary>
 
 Force all Net Channels to a specific data/choke rate in KiB/s
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_status</code></summary>
 
 Shows current network status
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_transmission_events_dump_incoming</code></summary>
 
 Dump total history of incoming net transmission events
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_transmission_events_dump_outgoing</code></summary>
 
 Dump total history of outgoing net transmission events
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_transmission_events_reset</code></summary>
 
 Reset all history of net transmission events
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>net_writeStatsFile</code></summary>
 
 Write out networking info to a file
 
-
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>openinvite</code></summary>
 
 Send an open invite to the chat room
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>openinvitecomplete</code></summary>
 
 Open Invite is complete (we have our search results and reservation is done)
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>openinvitelaunch</code></summary>
 
 Open Invite should launch
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>origin_friendlist_dump</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_create</code></summary>
 
 Creates the named particle effect at the location under the crosshair.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>particle_create_on_me</code></summary>
 
 Creates a particle effect on my location
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>particle_create_ss</code></summary>
 
 Creates a screen space particle effect
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>particle_dump</code></summary>
 
 dumps particles matching provided filter (id or defname substring or *)
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>particle_kill</code></summary>
 
 Destroys the particle effect created with the particle_create console command.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>particle_list</code></summary>
 
 lists particles all, or matching optional filter (id or defname substring)
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>particle_recreate</code></summary>
 
 Replays the last particle effect created with the particle_create console command.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>particle_remove_all</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_bake</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_play</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>particle_scrub_stop</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_leave</code></summary>
 
 quit the current party
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>party_serverChange</code></summary>
 
 update the party with new server info
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>path</code></summary>
 
 Show the engine filesystem path.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pause</code></summary>
 
 Toggle the server pause state.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pausevideos</code></summary>
 
 Pauses all videos playing to the screen
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>perfcharts_record</code></summary>
 
 Start / Stop perfcharts recording
 
-flags: `0x50020000`  
+flags: `0x50020000`
 </details>
 <details>
 <summary><code>phys_objectDump</code></summary>
 
 Dump a list of the active objects on the client.
 
-flags: `0x2000a`  
+flags: `0x2000a`
 </details>
 <details>
 <summary><code>phys_throw_client</code></summary>
 
 Throws an entity of the given model where the player is looking. Model must already be loaded.
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>ping</code></summary>
 
 Display ping to server.
 
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>ping_specific_type</code></summary>
 
 Pings a specific ping
 
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>pingdatacenters</code></summary>
 
 Re-pings the datacenters
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>pixelvis_debug</code></summary>
 
 Dump debug info
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>playerSettings_reparse</code></summary>
 
 Reload player class settings from .set files
 
-flags: `0x40004002`  
+flags: `0x40004002`
 </details>
 <details>
 <summary><code>playlist_rotationIntervalOverride</code></summary>
 
-Override value (if > 0) of how often to rotate playlist groups in minutes. Usage 'playlist_rotationIntervalOverride <minutes> <PlaylistRotation name [optional]>'
+Override value (if > 0) of how often to rotate playlist groups in minutes. Usage '
+playlist_rotationIntervalOverride <minutes> <PlaylistRotation name [optional]>'
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playlistdump</code></summary>
 
 Dump contents of playlist to console (Without changing any state.)
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>playvideo</code></summary>
 
 Plays a video: <filename> [width height]
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>playvideo_end_level_transition</code></summary>
 
 Plays a video fullscreen without ability to skip (unless dev 1) and fades in: <filename> <time>
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>playvideo_exitcommand</code></summary>
 
 Plays a video and fires and exit command when it is stopped or finishes: <filename> <exit command>
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>playvideo_exitcommand_nointerrupt</code></summary>
 
-Plays a video (without interruption) and fires and exit command when it is stopped or finishes: <filename> <exit command>
+Plays a video (without interruption) and fires and exit command when it is stopped or
+finishes: <filename> <exit command>
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>playvideo_nointerrupt</code></summary>
 
 Plays a video without ability to skip: <filename> [width height]
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>playvideo_scaled</code></summary>
 
-Plays a video at position using coordinates scaled relative to the base screen resolution: <filename> [pinPos posX posY width height]
+Plays a video at position using coordinates scaled relative to the base screen
+resolution: <filename> [pinPos posX posY width height]
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>print_colorcorrection</code></summary>
 
 Display the color correction layer information.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>print_texture_count</code></summary>
 
 Print number of tracked textures with streaming data to the console
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>progress_enable</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>quit</code></summary>
 
 Exit the engine.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>r_cheapwaterend</code></summary>
 
 
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>r_cheapwaterstart</code></summary>
 
 
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>r_cleardecals</code></summary>
 
 Usage r_cleardecals <permanent>.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>r_dxgi_max_frame_latency</code></summary>
 
-Set the max number of command buffers in flight. 0 will set it to the DXGI default of 3. Make sure you are not forcing "Maximum pre-rendered frames" in the driver settings, but leave it application controlled.
+Set the max number of command buffers in flight. 0 will set it to the DXGI default of 3. Make sure you are not forcing "
+Maximum pre-rendered frames" in the driver settings, but leave it application controlled.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>r_printdecalinfo</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>recompute_speed</code></summary>
 
 Recomputes clock speed (for debugging purposes).
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>reload</code></summary>
 
 Reload the game (add setpos to jump to current view position on reload).
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reload_localization</code></summary>
 
 Reloads all the localization data files
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>reload_script_callbacks</code></summary>
 
 Reloads script callback function pointers for client and server.
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>reset_cam_ideal_angles</code></summary>
 
 Resets camera ideal angles to its default
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>restart</code></summary>
 
-Restart the game on the same level, to the beginning of the level (add setpos to jump to current view position on restart).
+Restart the game on the same level, to the beginning of the level (add setpos to jump to current view position on
+restart).
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>restart_checkpoint</code></summary>
 
 Restart the game on the same level, to the last checkpoint (add setpos to jump to current view position on restart).
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>roamingcam_setang</code></summary>
 
 Rotate roamingcam to the specified angles.( Yaw and pitch only )
 
-flags: `0x40004008`  
+flags: `0x40004008`
 </details>
 <details>
 <summary><code>roamingcam_setpos</code></summary>
 
 Move roamingCam to the specified origin.
 
-flags: `0x40004008`  
+flags: `0x40004008`
 </details>
 <details>
 <summary><code>roamingcam_setroll</code></summary>
 
 Set the roll value for the roamingCam.
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>rumble_print</code></summary>
 
 Print current list of active rumbles
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>savePlayerConfig</code></summary>
 
 Store player settings.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>scoreboard_down</code></summary>
 
 Select next scoreboard player
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>scoreboard_focus</code></summary>
 
 Focus on scoreboard
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scoreboard_mute</code></summary>
 
 Toggle the scoreboard player's muted status
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>scoreboard_profile</code></summary>
 
 Show the scoreboard player's profile
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>scoreboard_toggle_focus</code></summary>
 
 Toggle scoreboard focus
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>scoreboard_up</code></summary>
 
 Select previous scoreboard player
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>screenshot</code></summary>
 
 Take a screenshot.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>script_mem_report</code></summary>
 
 Print total script memory use to the console.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>scriptremotefunctions_client_dump</code></summary>
 
 Dump remote functions client
 
-flags: `0x2000a`  
+flags: `0x2000a`
 </details>
 <details>
 <summary><code>scriptremotefunctions_print_client_stats</code></summary>
 
 Print remote functions client stats
 
-flags: `0x2000a`  
+flags: `0x2000a`
 </details>
 <details>
 <summary><code>server_single_frame</code></summary>
 
 Single step a frame for server
 
-flags: `0x6`  
+flags: `0x6`
 </details>
 <details>
 <summary><code>set</code></summary>
 
 Change a variable in the class settings (does not save out to disk)
 
-
-flags: `0x40004002`  
+flags: `0x40004002`
 </details>
 <details>
 <summary><code>set_loading_progress_background</code></summary>
 
 Sets the background for load screen. This is cleared to the default after each load.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>set_loading_progress_detente</code></summary>
 
 Set the keyboard and controller strings for the detentes. This is cleared to the default after each load.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>set_loading_progress_fadeout_enabled</code></summary>
 
-Sets whether or not to fade out of loading. This is cleared to the default after each load. (Default is <fadeoutEnabled> = true )
+Sets whether or not to fade out of loading. This is cleared to the default after each load. (Default
+is <fadeoutEnabled> = true )
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>set_loading_progress_sp_text</code></summary>
 
 Set the sp text for the load sreen. This is cleared to the default after each load.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>settype</code></summary>
 
-Sets a type for a Convar/ConCommand. This affects UI rendering for the convar. Examples: 'text', 'bool', 'int 0 10', 'float 0.0 100.0', 'enum apple orange banana'. Move these to code eventually.
+Sets a type for a Convar/ConCommand. This affects UI rendering for the convar. Examples: 'text', 'bool', 'int 0 10', '
+float 0.0 100.0', 'enum apple orange banana'. Move these to code eventually.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>shake_stop</code></summary>
 
 Stops all active screen shakes.
 
-
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>shake_testpunch</code></summary>
 
 Test a punch-style screen shake.
 
-
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>show_loading_progress</code></summary>
 
 Prints all debug information regarding the state of the loading progress.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>showpanel</code></summary>
 
 Shows a viewport panel <name>
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>showvideos</code></summary>
 
 Makes video panels playing to the screen visible (if they were hidden)
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>silentconnect</code></summary>
 
 Silently connect to specified server, without disconnecting from our current server unless it succeeds.
 
-flags: `0xa0000`  
+flags: `0xa0000`
 </details>
 <details>
 <summary><code>soundscape_dumpclient</code></summary>
 
 Dumps the client's soundscape data.
 
-
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>spawn_as_pilot</code></summary>
 
 Spawn as Pilot
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>spawn_as_titan</code></summary>
 
 Spawn as Titan
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>ss_map</code></summary>
 
 Start playing on specified map with max allowed splitscreen players.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>ss_reloadletterbox</code></summary>
 
 ss_reloadletterbox
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>sssss_enable</code></summary>
 
 Enable screen-space subsurface scattering. 0 - off, 1 - enabled in lobby, 2 - always enabled
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>star_memory</code></summary>
 
 Dump memory stats
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>startmovie</code></summary>
 
 Start recording movie frames.
 
-flags: `0x20002`  
+flags: `0x20002`
 </details>
 <details>
 <summary><code>status</code></summary>
 
 Display map and connection status.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steam_printid</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steam_testOverlay</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steamlink</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>steamunlink</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>stop_transition_videos_fadeout</code></summary>
 
 Fades out all transition videos playing to the screen: <time>
 
-flags: `0x40000008`  
+flags: `0x40000008`
 </details>
 <details>
 <summary><code>stopvideos</code></summary>
 
 Stops all videos playing to the screen
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>stopvideos_fadeout</code></summary>
 
 Fades out all videos playing to the screen: <time>
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>sv_precacheinfo</code></summary>
 
 Show precache info.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_showents</code></summary>
 
 Prints the server entity list
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>sv_writeSendTableStreamFile</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>testCockpitJoltAngles</code></summary>
 
 
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>testCockpitJoltOrigin</code></summary>
 
 
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>test_freezeframe</code></summary>
 
 Test the freeze frame code.
 
-flags: `0x4000`  
+flags: `0x4000`
 </details>
 <details>
 <summary><code>testhudanim</code></summary>
 
 Test a hud element animation.
-	Arguments: <anim name>
+Arguments: <anim name>
 
-
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>thread_test_tslist</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>thread_test_tsqueue</code></summary>
 
 
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>titan_loadout_select</code></summary>
 
 Titan loadout select
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>toggle</code></summary>
 
 Toggles a convar on or off, or cycles through a set of values.
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>toggle_enemy_minimap_visibility</code></summary>
 
 Toggles whether enemy icons are visible on the mini-map
 
-flags: `0x40080008`  
+flags: `0x40080008`
 </details>
 <details>
 <summary><code>toggle_inventory</code></summary>
 
 Toggle the inventory menu
 
-flags: `0x40080008`  
+flags: `0x40080008`
 </details>
 <details>
 <summary><code>toggle_map</code></summary>
 
 Toggle the big map
 
-flags: `0x40080008`  
+flags: `0x40080008`
 </details>
 <details>
 <summary><code>toggle_obs_highlight</code></summary>
 
 Toggle highlighting for the observer
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>toggle_obs_player_tags</code></summary>
 
 Toggle the mode for viewing player tags
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>toggle_obs_ring_survey</code></summary>
 
 Toggle ring survey data for the observer
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>toggle_observer_btn_hints</code></summary>
 
 Toggle button hints for the observer
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>toggle_observer_show_target_player_tag</code></summary>
 
 Toggle whether the observer should show the player tag(s) for player being looked at
 
-flags: `0x40080008`  
+flags: `0x40080008`
 </details>
 <details>
 <summary><code>toggle_observer_ui</code></summary>
 
 Cycle hud ui visibility for observers
 
-flags: `0x40080008`  
+flags: `0x40080008`
 </details>
 <details>
 <summary><code>ui_reloadscheme</code></summary>
 
 Reloads the resource files for the active UI window
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>uiscript_reset</code></summary>
 
 Resets all UI script state
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>uiscript_resolutionchanged</code></summary>
 
 Notifies UI script that the resolution has changed
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbind</code></summary>
 
 Unbind a key's TAPPED binding.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbind_US_standard</code></summary>
 
-Unbind a key's TAPPED binding. Given a key on a standard US keyboard, this function will translate that key to the appropriate key on the user's current keyboard and unbind that key.
+Unbind a key's TAPPED binding. Given a key on a standard US keyboard, this function will translate that key to the
+appropriate key on the user's current keyboard and unbind that key.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbind_all_gamepad</code></summary>
 
 Unbinds all gamepad binds
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbind_batch</code></summary>
 
 Unbind all bindings (tapped/held) from all specified keys (no keyboard layout translation).
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbind_held</code></summary>
 
 Unbind a key's HELD binding.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbind_held_US_standard</code></summary>
 
-Unbind a key's HELD binding. Given a key on a standard US keyboard, this function will translate that key to the appropriate key on the user's current keyboard and unbind that key.
+Unbind a key's HELD binding. Given a key on a standard US keyboard, this function will translate that key to the
+appropriate key on the user's current keyboard and unbind that key.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbindall</code></summary>
 
 Unbind all keys.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unbindall_ignoreGamepad</code></summary>
 
 Unbind all keys, skip gamepad binds.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unload_level_loadscreen</code></summary>
 
 Unloads the loadscreen for the current level
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>unmuteroom</code></summary>
 
 Unmute the chatroom
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>unpausevideos</code></summary>
 
 Unpauses all videos playing to the screen
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>use_consumable</code></summary>
 
 Uses a specific consumable
 
-flags: `0x80008`  
+flags: `0x80008`
 </details>
 <details>
 <summary><code>user</code></summary>
 
 Show user data.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>users</code></summary>
 
 Show user info for players on server.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>valve_relay_known_identities</code></summary>
 
 Print a list of all known Valve Relay identities
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>valve_relay_translateAddress</code></summary>
 
 Check if a given address is a valid relay address
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>version</code></summary>
 
 Print version info string.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>vgui_spew_fonts</code></summary>
 
 
 
-flags: `0xa`  
+flags: `0xa`
 </details>
 <details>
 <summary><code>vgui_togglepanel</code></summary>
 
 show/hide vgui panel by name.
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>voicerecord_toggle</code></summary>
 
 
 
-flags: `0x80000`  
+flags: `0x80000`
 </details>
 <details>
 <summary><code>weaponSelectOrdnance</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>weaponSelectPrimary0</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>weaponSelectPrimary1</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>weaponSelectPrimary2</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>weapon_activity</code></summary>
 
 Play a custom animation activity on the active weapon.
 
-flags: `0x40000000`  
+flags: `0x40000000`
 </details>
 <details>
 <summary><code>weapon_inspect</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>weapon_list</code></summary>
 
 Lists all weapons owned by the local player
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>weapon_reparse</code></summary>
 
 Reloads the weapon script files
 
-flags: `0x4008`  
+flags: `0x4008`
 </details>
 <details>
 <summary><code>xlog_list</code></summary>
 
 List all xlogs, and various stats
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>xlog_record</code></summary>
 
 Start writing log file to disk (including any previously buffered data)
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>xlog_record_that</code></summary>
 
 Write buffered data (if any)
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>xlog_stop</code></summary>
 
 Stop writing it to disk. (resume buffering if buffering enabled on log)
 
-flags: `0x2`  
+flags: `0x2`
 </details>
 <details>
 <summary><code>xlook</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 <details>
 <summary><code>xmove</code></summary>
 
 
 
-flags: `0x40080000`  
+flags: `0x40080000`
 </details>
 

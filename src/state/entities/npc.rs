@@ -22,6 +22,7 @@ pub struct BaseNPCEntity {
     pub is_visible: bool,
     pub visible_time: f64,
 }
+
 impl BaseNPCEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -39,6 +40,7 @@ impl BaseNPCEntity {
         60.0
     }
 }
+
 impl Entity for BaseNPCEntity {
     fn as_any(&self) -> &dyn Any {
         self

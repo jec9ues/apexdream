@@ -1,11 +1,13 @@
-use crate::*;
 use std::collections::HashMap;
 use std::fmt;
+
+use crate::*;
 
 struct Config {
     enable: bool,
     weapon: u32,
 }
+
 impl Default for Config {
     fn default() -> Self {
         Config {
@@ -339,14 +341,14 @@ impl Debugger {
             return;
         };
         let Some(global) = state.entity_as::<ScriptNetDataEntity>(local.script_net_data_global)
-        else {
-            return;
-        };
+            else {
+                return;
+            };
         let Some(exclusive) =
             state.entity_as::<ScriptNetDataEntity>(local.script_net_data_exclusive)
-        else {
-            return;
-        };
+            else {
+                return;
+            };
         api.visualize(
             s!("ScriptNetData"),
             xfmt! {

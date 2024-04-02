@@ -1,4 +1,10 @@
-#[derive(Default)]
+use std::fmt;
+use std::str::FromStr;
+
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
+use serde::de::{self, MapAccess, Visitor};
+
+#[derive(Default, Debug)]
 pub struct GameData {
     pub version: String,
 
@@ -62,7 +68,8 @@ pub struct GameData {
     pub entity_life_state: u32,
 
     pub animating_skin: u32,
-    pub animating_bone_array: u32, // m_bSequenceFinished - 0x1C
+    pub animating_bone_array: u32,
+    // m_bSequenceFinished - 0x1C
     pub animating_studiohdr: u32,  // m_flModelScale + 0x1D0
 
     pub bcc_next_attack: u32,
@@ -110,15 +117,10 @@ pub struct GameData {
     pub mods_count: u32,
 }
 
-use serde::de::{self, MapAccess, Visitor};
-use serde::{Deserialize, Deserializer, Serialize, Serializer};
-use std::fmt;
-use std::str::FromStr;
-
 impl Serialize for GameData {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: Serializer,
+        where
+            S: Serializer,
     {
         use serde::ser::SerializeMap;
 
@@ -363,8 +365,8 @@ impl Serialize for GameData {
 
 impl<'de> Deserialize<'de> for GameData {
     fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
-    where
-        D: Deserializer<'de>,
+        where
+            D: Deserializer<'de>,
     {
         struct GamedataVisitor;
 
@@ -376,8 +378,8 @@ impl<'de> Deserialize<'de> for GameData {
             }
 
             fn visit_map<V>(self, mut map: V) -> Result<GameData, V::Error>
-            where
-                V: MapAccess<'de>,
+                where
+                    V: MapAccess<'de>,
             {
                 // parse hex string into u32
                 fn parse_hex(hex_str: &str) -> Result<u32, &'static str> {
@@ -715,7 +717,8 @@ impl<'de> Deserialize<'de> for GameData {
 impl GameData {
     pub fn load(&mut self, gd: &str, tds: u32) -> bool {
         let Ok(offset_json) = serde_json::from_str(gd) else {
-            return false;
+            // return false;
+            panic!()
         };
         *self = offset_json;
         if self.time_date_stamp == tds {
@@ -724,4 +727,17 @@ impl GameData {
             return false;
         }
     }
+}
+
+#[test]
+fn test_cfg() {
+    let default_cfg = GameData::default();
+    let serde_cfg = serde_json::to_string_pretty(&default_cfg).unwrap();
+    println!("{}", serde_cfg);
+    let deserde_cfg = serde_json::from_str::<GameData>(&serde_cfg);
+    println!("{:?}", default_cfg);
+    let cfg = std::fs::read_to_string("D:/Driver/apexdream/examples/apex-qemu/gamedata_v3.0.62.29.json").unwrap();
+    println!("{:?}", cfg);
+    let deserde_cfg = serde_json::from_str::<GameData>(&cfg);
+    println!("{:?}", deserde_cfg);
 }

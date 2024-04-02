@@ -1,3 +1,6 @@
+use std::thread::sleep;
+use std::time::Duration;
+
 use crate::*;
 
 struct Config {
@@ -15,14 +18,15 @@ struct Config {
     limit_fps: bool,
     superglide: bool,
 }
+
 impl Default for Config {
     fn default() -> Config {
         Config {
             rapidfire: true,
-            bunnyhop: false,
+            bunnyhop: true,
             autoreload: true,
-            tacreload: false,
-            acreload: true,
+            tacreload: true,
+            acreload: false,
             tapstrafekey: sdk::MOUSE_4,
             thirdperson: false,
             thirdperson_shoulder: true,
@@ -30,7 +34,7 @@ impl Default for Config {
             fastloot: true,
             autoloot: sdk::MOUSE_4,
             limit_fps: false,
-            superglide: false,
+            superglide: true,
         }
     }
 }
@@ -59,12 +63,14 @@ impl Scripts {
         self.bunnyhop(ctx);
         self.rapidfire(ctx);
         self.autoreload(ctx);
-        self.acreload(api, ctx);
-        self.tapstrafe(ctx);
-        self.thirdperson(api, ctx);
-        self.freecam(api, ctx);
+        // TODO! fix select slot
+        // self.acreload(api, ctx);
+        // self.tapstrafe(ctx);
+        // self.thirdperson(api, ctx);
+        // self.freecam(api, ctx);
         self.loot(api, ctx);
-        self.superglide(ctx);
+        // TODO! fix superglide
+        // self.superglide(api, ctx);
 
         if ctx.data.fps_max != 0 {
             let fps_max_ptr = ctx.process.base.field::<()>(ctx.data.fps_max);
@@ -149,8 +155,7 @@ impl Scripts {
         }
 
         // Legit, perfect rapidfire
-        if ready_time == 0.0 || ready_time > self.ready_timer * 0.75 {
-        } else if ready_time > f32::min(0.1, self.ready_timer * 0.1) {
+        if ready_time == 0.0 || ready_time > self.ready_timer * 0.75 {} else if ready_time > f32::min(0.1, self.ready_timer * 0.1) {
             if weapon.burst_fire_count == 0 || weapon.burst_fire_index == 0 {
                 ctx.attack = InState::Release;
             }
@@ -181,9 +186,9 @@ impl Scripts {
 
         // Configure auto reload per weapon
         let min_ammo = match weapon.weapon_name {
-            sdk::WeaponName::HAVOC => 0,
+            sdk::WeaponName::HAVOC => tac_ammo,  // 0
             sdk::WeaponName::FLATLINE => tac_ammo,
-            sdk::WeaponName::HEMLOK => 0,
+            sdk::WeaponName::HEMLOK => tac_ammo,  // 0
             sdk::WeaponName::R301 => tac_ammo,
 
             sdk::WeaponName::ALTERNATOR => tac_ammo,
@@ -199,7 +204,7 @@ impl Scripts {
 
             sdk::WeaponName::G7_SCOUT => tac_ammo,
             sdk::WeaponName::TRIPLE_TAKE => 0,
-            sdk::WeaponName::REPEATER => 0,
+            sdk::WeaponName::REPEATER => tac_ammo,  // 0
             sdk::WeaponName::BOCEK => return,
 
             sdk::WeaponName::CHARGE_RIFLE => 0,
@@ -207,14 +212,14 @@ impl Scripts {
             sdk::WeaponName::KRABER => 0,
             sdk::WeaponName::SENTINEL => 0,
 
-            sdk::WeaponName::EVA8_AUTO => 0,
-            sdk::WeaponName::MASTIFF => 0,
-            sdk::WeaponName::MOZAMBIQUE => 0,
-            sdk::WeaponName::PEACEKEEPER => 0,
+            sdk::WeaponName::EVA8_AUTO => tac_ammo,  // 0
+            sdk::WeaponName::MASTIFF => tac_ammo,  // 0
+            sdk::WeaponName::MOZAMBIQUE => tac_ammo,  // 0
+            sdk::WeaponName::PEACEKEEPER => tac_ammo,  // 0
 
             sdk::WeaponName::RE45 => tac_ammo,
-            sdk::WeaponName::P2020 => 0,
-            sdk::WeaponName::WINGMAN => 0,
+            sdk::WeaponName::P2020 => tac_ammo,  // 0
+            sdk::WeaponName::WINGMAN => tac_ammo,  // 0
 
             _ => return,
         };
@@ -386,7 +391,6 @@ impl Scripts {
             return;
         }
         ctx.inuse.force();
-
         let Some(player) = ctx.state.local_player() else {
             return;
         };
@@ -404,14 +408,12 @@ impl Scripts {
                 sdk::ItemId::PhoenixKit => autoloot,
                 _ => false,
             };
+
             if (ctx.state.in_use() || filter)
                 && sdk::dist2(player.view_origin, loot.origin) < 150.0 * 150.0
             {
-                let ptr = loot.entity_ptr.field(
-                    ctx.data.entity_highlight + 3 * 4 * 2 * sdk::HIGHLIGHT_MAX_CONTEXTS as u32,
-                );
-                if let Ok(bits) = api.vm_read::<sdk::HighlightBits>(ptr) {
-                    if bits.outline_radius >= 128 {
+                if let Some(highlight) = ctx.state.highlight.get(loot.highlight_id as usize) {
+                    if highlight.bits.outline_radius >= 32 {
                         ctx.inuse = if ctx.rapidfire() {
                             InState::Press
                         } else {
@@ -422,7 +424,8 @@ impl Scripts {
             }
         }
     }
-    fn superglide(&mut self, ctx: &mut RunContext) {
+
+    fn superglide(&mut self, api: &mut Api, ctx: &mut RunContext) {
         if !self.config.superglide || ctx.state.time < 1.0 {
             return;
         }
@@ -430,8 +433,35 @@ impl Scripts {
         let Some(local) = ctx.state.local_player() else {
             return;
         };
+        // for 75 fps
+        let hang_start: f32 = 0.05;
+        let hang_cancel: f32 = 0.2;
+        let trav_start: f32 = 0.87;
+        let hang_max: f32 = 1.5;
+        let action_interval: f32 = 0.011;
+        let release_wait: f32 = 50.0;
+
+        let Ok(m_traversalStartTime) = api.vm_read(local.entity_ptr.field::<f32>(0x2af0)) else { return; };
+        let hang_on_wall = local.time_base - m_traversalStartTime;
+
+        if (hang_on_wall > hang_start) {
+            if (hang_on_wall < hang_cancel) {
+                ctx.jump = InState::Press;
+            }
+        }
 
         if ctx.state.in_forward() {
+            if (hang_on_wall > hang_start) {
+                if (hang_on_wall < hang_cancel) {
+                    sleep(Duration::from_millis(550));
+                    ctx.jump = InState::Press;
+                    ctx.duck = InState::Press;
+                    if self.climbtime == 0.0 {
+                        self.climbtime = ctx.state.time;
+                    }
+                }
+            }
+
             if local.velocity == [0.0; 3] {
                 if self.climbtime == 0.0 {
                     self.climbtime = ctx.state.time;

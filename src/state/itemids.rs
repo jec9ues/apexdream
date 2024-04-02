@@ -288,9 +288,9 @@ fn analyze(loot: &LootEntity) -> sdk::ItemId {
 
             MN::MODS_CHIP => {
                 match loot.custom_script_int {
-                    270 => KI::Turbocharger,
-                    272 => KI::SkullpiercerRifling,
-                    275 => KI::HammerpointRounds,
+                    271 => KI::Turbocharger,
+                    273 => KI::SkullpiercerRifling,
+                    277 => KI::HammerpointRounds,
                     276 => KI::DisruptorRounds,
                     _ => KI::None,
                 }

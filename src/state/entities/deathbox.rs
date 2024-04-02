@@ -9,6 +9,7 @@ pub struct DeathboxEntity {
 
     pub color: [f32; 3],
 }
+
 impl DeathboxEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -20,6 +21,7 @@ impl DeathboxEntity {
         })
     }
 }
+
 impl Entity for DeathboxEntity {
     fn as_any(&self) -> &dyn Any {
         self

@@ -7,12 +7,14 @@ pub struct ClientState {
     pub level_name: String,
 
     pub local_entity: sdk::EHandle,
-    pub curtime: f32, // Time used for comparison against last_visible_time
+    pub curtime: f32,
+    // Time used for comparison against last_visible_time
     pub interval_per_tick: f32,
     pub view_render: sdk::Ptr,
     pub view_matrix_ptr: sdk::Ptr<[f32; 16]>,
     pub view_matrix: [f32; 16],
 }
+
 impl ClientState {
     pub fn update(&mut self, api: &mut Api, ctx: &mut UpdateContext) {
         let process = ctx.process;
@@ -85,6 +87,7 @@ impl ClientState {
         }
     }
 }
+
 impl GameState {
     pub fn is_in_game(&self) -> bool {
         return self.client.signon_state == sdk::SIGNONSTATE_FULL

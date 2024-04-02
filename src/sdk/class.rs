@@ -1,5 +1,6 @@
-use super::{Pod, Ptr};
 use std::mem;
+
+use super::{Pod, Ptr};
 
 #[derive(Copy, Clone, Debug, Default, Pod)]
 #[repr(C)]
@@ -17,7 +18,8 @@ pub struct ClientClass {
 #[repr(C)]
 pub struct RecvTableRedux {
     pub inst: Ptr,
-    pub props: Ptr<[Ptr<RecvProp>]>, // Goes through heap :(
+    pub props: Ptr<[Ptr<RecvProp>]>,
+    // Goes through heap :(
     pub num_props: i32,
     pub pad: u32,
 }
@@ -26,7 +28,8 @@ pub struct RecvTableRedux {
 #[repr(C)]
 pub struct RecvTable {
     pub inst: Ptr,
-    pub props: Ptr<[Ptr<RecvProp>]>, // Goes through heap :(
+    pub props: Ptr<[Ptr<RecvProp>]>,
+    // Goes through heap :(
     pub num_props: i32,
     _unk0: [u32; 256],
     _unk1: [u32; 43],
@@ -36,6 +39,7 @@ pub struct RecvTable {
     pub in_main_list: u8,
     _unk2: [u8; 6],
 }
+
 const _: [(); 0x4D8] = [(); mem::size_of::<RecvTable>()];
 
 #[derive(Copy, Clone, Debug, Default, Pod)]
@@ -56,4 +60,5 @@ pub struct RecvProp {
     pub num_elements: i32,
     _unk5: u32,
 }
+
 const _: [(); 0x68] = [(); mem::size_of::<RecvProp>()];

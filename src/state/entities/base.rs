@@ -1,5 +1,6 @@
-use super::*;
 use std::str;
+
+use super::*;
 
 #[derive(Default)]
 pub struct BaseEntity {
@@ -11,6 +12,7 @@ pub struct BaseEntity {
     // pub signifier_name: [u8; 32],
     pub model_name: ModelName,
 }
+
 impl BaseEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, client_class_rva: u32) -> Box<dyn Entity> {
         Box::new(BaseEntity {
@@ -27,6 +29,7 @@ impl BaseEntity {
         crate::base::from_utf8_buf(&self.network_name).unwrap_or("")
     }
 }
+
 impl Entity for BaseEntity {
     fn as_any(&self) -> &dyn Any {
         self

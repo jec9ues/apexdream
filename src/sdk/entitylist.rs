@@ -1,10 +1,12 @@
 use super::{Pod, Ptr};
 
 pub const NUM_ENT_ENTRIES: usize = 0x10000;
+
 #[derive(Pod, Clone, Debug, Default)]
 #[repr(C)]
 pub struct CEntInfo {
-    pub pEntity: Ptr, // IHandleEntity*
+    pub pEntity: Ptr,
+    // IHandleEntity*
     pub SerialNumber: i64,
     pub pPrev: Ptr<CEntInfo>,
     pub pNext: Ptr<CEntInfo>,

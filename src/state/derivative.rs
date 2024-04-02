@@ -2,6 +2,7 @@
 pub struct EstimateDerivative {
     pub history: Vec<(f64, [f32; 3])>,
 }
+
 impl EstimateDerivative {
     pub fn update(&mut self, time: f64, value: [f32; 3], dt: f64) -> [f32; 3] {
         // Remove samples older than time - dt

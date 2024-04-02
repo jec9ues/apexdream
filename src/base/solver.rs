@@ -74,6 +74,7 @@ impl<'a> Trajectory<'a> {
 pub struct Collection<'a> {
     pub collection: &'a [Trajectory<'a>],
 }
+
 #[allow(non_snake_case)]
 pub const fn Collection<'a>(collection: &'a [Trajectory<'a>]) -> Collection<'a> {
     Collection { collection }
@@ -135,6 +136,7 @@ impl<'a> Collection<'a> {
 pub trait TargetPredictor {
     fn predict_position(&self, time: f32) -> [f32; 3];
 }
+
 pub trait ProjectileWeapon {
     fn projectile_speed(&self) -> f32;
     fn projectile_gravity(&self) -> f32;
@@ -154,6 +156,7 @@ pub struct LinearPredictor {
     pub origin: [f32; 3],
     pub velocity: [f32; 3],
 }
+
 impl TargetPredictor for LinearPredictor {
     fn predict_position(&self, time: f32) -> [f32; 3] {
         let x = self.origin[0] + self.velocity[0] * time;
@@ -189,6 +192,7 @@ pub fn solve(
     }
     None
 }
+
 fn solve2d(
     player: &[f32; 3],
     weapon: &dyn ProjectileWeapon,
@@ -217,6 +221,7 @@ fn solve2d(
         Some(Solution { pitch, yaw, time })
     }
 }
+
 fn optimal(x: f32, y: f32, v0: f32, g: f32) -> Option<f32> {
     let root = v0 * v0 * v0 * v0 - g * (g * x * x + 2.0 * y * v0 * v0);
     if root < 0.0 {

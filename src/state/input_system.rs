@@ -1,11 +1,12 @@
-use super::*;
-
 use bitset_core::BitSet;
+
+use super::*;
 
 #[derive(Default)]
 pub struct InputSystem {
     pub button_state: [u32; 4],
 }
+
 impl InputSystem {
     pub fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         if ctx.ticked(2, 0) {

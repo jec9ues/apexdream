@@ -150,9 +150,9 @@ impl Entity for ScriptNetDataEntity {
 
         let Some(buf) =
             dataview::bytes_mut(&mut buf).get_mut(..(self.entity_size - start_offset) as usize)
-        else {
-            return;
-        };
+            else {
+                return;
+            };
 
         // Read into buffer
         let _ = api.vm_read_into(self.entity_ptr.field(start_offset), buf);

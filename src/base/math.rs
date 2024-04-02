@@ -1,35 +1,47 @@
 #![allow(dead_code)]
 
+use nalgebra::*;
+
 pub fn add(lhs: [f32; 3], rhs: [f32; 3]) -> [f32; 3] {
     [lhs[0] + rhs[0], lhs[1] + rhs[1], lhs[2] + rhs[2]]
 }
+
 pub fn sub(lhs: [f32; 3], rhs: [f32; 3]) -> [f32; 3] {
     [lhs[0] - rhs[0], lhs[1] - rhs[1], lhs[2] - rhs[2]]
 }
+
 pub fn mul(lhs: [f32; 3], rhs: [f32; 3]) -> [f32; 3] {
     [lhs[0] * rhs[0], lhs[1] * rhs[1], lhs[2] * rhs[2]]
 }
+
 pub fn muls(v: [f32; 3], s: f32) -> [f32; 3] {
     [v[0] * s, v[1] * s, v[2] * s]
 }
+
 pub fn sqr(v: [f32; 3]) -> [f32; 3] {
     mul(v, v)
 }
+
 pub fn hadd(v: [f32; 3]) -> f32 {
     v[0] + v[1] + v[2]
 }
+
 pub fn dist(lhs: [f32; 3], rhs: [f32; 3]) -> f32 {
     dist2(lhs, rhs).sqrt()
 }
+
 pub fn dist2(lhs: [f32; 3], rhs: [f32; 3]) -> f32 {
     len2(sub(lhs, rhs))
 }
+
 pub fn len(v: [f32; 3]) -> f32 {
     len2(v).sqrt()
 }
+
 pub fn len2(v: [f32; 3]) -> f32 {
     v[0] * v[0] + v[1] * v[1] + v[2] * v[2]
 }
+
 pub fn norm(v: [f32; 3]) -> [f32; 3] {
     let len = len(v);
     if len > 0.0 {
@@ -38,6 +50,7 @@ pub fn norm(v: [f32; 3]) -> [f32; 3] {
         v
     }
 }
+
 pub fn lerp(start: [f32; 3], end: [f32; 3], t: f32) -> [f32; 3] {
     [
         start[0] + (end[0] - start[0]) * t,
@@ -45,6 +58,7 @@ pub fn lerp(start: [f32; 3], end: [f32; 3], t: f32) -> [f32; 3] {
         start[2] + (end[2] - start[2]) * t,
     ]
 }
+
 pub fn dot(lhs: [f32; 3], rhs: [f32; 3]) -> f32 {
     lhs[0] * rhs[0] + lhs[1] * rhs[1] + lhs[2] * rhs[2]
 }
@@ -68,6 +82,7 @@ pub fn qangle(v: [f32; 3]) -> [f32; 3] {
     }
     [pitch, yaw, 0.0]
 }
+
 pub fn qvec(v: [f32; 3]) -> [f32; 3] {
     let pitch = v[0].to_radians();
     let (sp, cp) = pitch.sin_cos();
@@ -75,6 +90,7 @@ pub fn qvec(v: [f32; 3]) -> [f32; 3] {
     let (sy, cy) = yaw.sin_cos();
     [cp * cy, cp * sy, -sp]
 }
+
 pub fn qnorm(v: [f32; 3]) -> [f32; 3] {
     let mut pitch = v[0];
     while pitch <= -180.0 {
@@ -92,13 +108,49 @@ pub fn qnorm(v: [f32; 3]) -> [f32; 3] {
     }
     [pitch, yaw, 0.0]
 }
+
+pub fn angle_to_vector(v: [f32; 3]) -> Vector3<f32> {
+    let pitch_radians = v[0].to_radians();
+    let yaw_radians = v[1].to_radians();
+
+    let pitch_sin = pitch_radians.sin();
+    let pitch_cos = pitch_radians.cos();
+
+    let yaw_sin = yaw_radians.sin();
+    let yaw_cos = yaw_radians.cos();
+
+    // 计算 x、y、z 分量
+    let x = yaw_cos * pitch_cos;
+    let y = yaw_sin * pitch_cos;
+    let z = -pitch_sin;
+
+    // 返回合并后的方向向量
+    Vector3::new(x, y, z)
+}
+
+pub fn vector_to_angle(vec: Vector3<f32>) -> [f32; 3] {
+    // 确保向量已经是单位向量
+    let vec = vec.normalize();
+
+    let pitch = -vec.z.asin(); // 由于在angle_to_vector中z是-pitch_sin，这里需要取反
+    let yaw = vec.y.atan2(vec.x); // atan2可以处理x为0的情况
+
+    // 将弧度转换回角度
+    let pitch_degrees = pitch.to_degrees();
+    let yaw_degrees = yaw.to_degrees();
+
+    [pitch_degrees, yaw_degrees, 0.0] // 假设没有Roll
+}
+
 pub fn qdiff(lhs: [f32; 3], rhs: [f32; 3]) -> f32 {
     let delta = qnorm(sub(lhs, rhs));
     (delta[0] * delta[0] + delta[1] * delta[1]).sqrt()
 }
+
 pub fn smoothstep(x: f32) -> f32 {
     (x * x) * (3.0 - (x + x))
 }
+
 // Projects a point onto a line
 pub fn project(a: [f32; 3], d: [f32; 3], p: [f32; 3]) -> [f32; 3] {
     let v = sub(p, a);

@@ -1,7 +1,13 @@
-use crate::base::pid::{PidConfig, PidController};
-use crate::base::solver::{solve, LinearPredictor, TargetPredictor};
-use crate::*;
 use std::fmt;
+
+use nalgebra::Point3;
+use vgc::sRGBA;
+
+use crate::*;
+use crate::base::pid::{PidConfig, PidController};
+use crate::base::solver::{LinearPredictor, solve, TargetPredictor};
+use crate::sdk::Character;
+use crate::state::studio::{HitboxMap, HitboxNode, HitboxNodes, PlayerBones};
 
 /// Target prioritization.
 ///
@@ -13,11 +19,13 @@ pub enum Rank {
     Low = -1,
     Normal = 0,
 }
+
 impl Default for Rank {
     fn default() -> Rank {
         Rank::Normal
     }
 }
+
 impl fmt::Debug for Rank {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         fmtools::write!(
@@ -52,6 +60,11 @@ pub struct TargetInfo {
     pub priority: f32,
     // Filled by rules
     pub rank: Rank,
+    // 3d bones
+    pub hitbox_map: HitboxMap,
+    pub bones: PlayerBones,
+    pub hitbox_nodes: HitboxNodes,
+
 }
 
 struct Config {
@@ -60,7 +73,8 @@ struct Config {
     aim_team: bool,
     aim_visible: bool,
     aim_auto: bool,
-    aim_camera: bool, // true = use camera angles, false = use weapon punch angles
+    aim_camera: bool,
+    // true = use camera angles, false = use weapon punch angles
     aim_key: i32,
     aim_pitch: f32,
     aim_yaw: f32,
@@ -83,6 +97,7 @@ struct Config {
     trigger_again: f32,
     trigger_react: f32,
 }
+
 impl Default for Config {
     fn default() -> Config {
         Config {
@@ -91,10 +106,10 @@ impl Default for Config {
             aim_team: false,
             aim_visible: true,
             aim_auto: false,
-            aim_camera: false,
-            aim_key: sdk::MOUSE_4,
+            aim_camera: true,
+            aim_key: sdk::MOUSE_RIGHT,
             aim_pitch: 0.5,
-            aim_yaw: 1.0,
+            aim_yaw: 0.7,
             aim_ramp: 0.3,
             aim_fade: 0.2,
             aim_react: 0.10,
@@ -199,8 +214,7 @@ impl AimAssist {
             return;
         };
 
-        let enable = self.config.enable
-            && (ctx.state.is_button_down(self.config.aim_key) || self.is_auto_aim(ctx.state));
+        let enable = self.config.enable && (ctx.state.is_button_down(self.config.aim_key) || self.is_auto_aim(ctx.state));
         let trigger_type = local
             .active_weapon(ctx.state)
             .map(|weapon| ctx.state.weapon_is_charged(weapon.weapon_name_index))
@@ -286,7 +300,7 @@ impl AimAssist {
 
         // If requested, find a new target
         if new_target || self.target_rank == Rank::Low {
-            self.find_target(ctx, local);
+            self.find_target(api, ctx, local);
         }
 
         let weapon = local.active_weapon(state);
@@ -295,7 +309,7 @@ impl AimAssist {
         let mut valid_target = false;
         if let Some(target) = state.entity(self.target_entity) {
             let mut info = TargetInfo::default();
-            if self.validate(state, local, target, &mut info)
+            if self.validate(state, local, target, &mut info, api, ctx)
                 && (new_target || self.keep_target(&info))
             {
                 self.target_rank = info.rank;
@@ -303,7 +317,8 @@ impl AimAssist {
                 self.set_aim_mod(state, weapon, target);
                 // Scale the attack strength with fov scale factor
                 let fov_scale = self.get_fov_scale(state, local);
-                self.aim(api, &info, fov_scale);
+                let ptr = local.entity_ptr.field(ctx.data.player_view_angles);
+                self.aim(api, &info, fov_scale, ptr);
                 // Trigger when close on target
                 self.trigger(ctx, &info, target, local);
                 self.debug(api, &info, local);
@@ -371,14 +386,14 @@ impl AimAssist {
     }
 
     /// Find the target with the highest priority.
-    fn find_target<'a>(&mut self, ctx: &mut RunContext<'a>, local: &'a PlayerEntity) {
+    fn find_target<'a>(&mut self, api: &mut Api, ctx: &mut RunContext<'a>, local: &'a PlayerEntity) {
         let mut target = None;
         let mut rank = Rank::Low;
         let mut priority = std::f32::MAX;
         let state = ctx.state;
         for entity in state.entities() {
             let mut info = TargetInfo::default();
-            if self.validate(state, local, entity, &mut info) {
+            if self.validate(state, local, entity, &mut info, api, ctx) {
                 if info.rank > rank || info.rank == rank && info.priority < priority {
                     rank = info.rank;
                     priority = info.priority;
@@ -412,16 +427,36 @@ impl AimAssist {
         local: &'a PlayerEntity,
         target: &'a dyn Entity,
         info: &mut TargetInfo,
+        api: &mut Api, ctx: &mut RunContext<'a>,
     ) -> bool {
         if !self.rules(state, local, target, info) {
             return false;
         }
+
         if !self.hitpoint(state, local, target, info) {
             return false;
         }
+        // if !self.hitpoint_3d(state, local, target, info, api, ctx) {
+        //     return false;
+        // }
+        // if let Some([x2, y2]) = ctx.world_to_screen(info.origin,  true) {
+        //     api.r_text(
+        //         /*font:*/ 0,
+        //         /*flags:*/ 3,
+        //         x2 + 40.0, y2 + 100.0,
+        //         /*width:*/ 1000.0,
+        //         /*height:*/ 100.0,
+        //         /*color*/ vgc::sRGBA!(Purple),
+        //         /*shadow:*/ vgc::sRGBA!(Black),
+        //         /*text:*/ &fmtools::format!("target")
+        //     );
+        // };
         if !self.compute(state, local, target, info) {
             return false;
         }
+        // if !self.compute_3d(state, local, target, info, api, ctx) {
+        //     return false;
+        // }
         if !self.fov_check(state, local, target, info) {
             return false;
         }
@@ -454,6 +489,7 @@ impl AimAssist {
                 }
                 // If the target is not visible ignore them
                 if self.config.aim_visible && !self.is_visible(state, player.last_visible_time) {
+                    // info.rank = Rank::Low;
                     return false;
                 }
                 // Bleeding out targets get a low priority
@@ -505,6 +541,50 @@ impl AimAssist {
         return (last_visible_time - state.client.curtime).abs() < self.config.aim_fade;
     }
     /// Computes the hitpoint desired to hit
+    fn hitpoint_3d<'a>(
+        &self,
+        _state: &'a GameState,
+        _local: &'a PlayerEntity,
+        target: &'a dyn Entity,
+        info: &mut TargetInfo,
+        api: &mut Api, ctx: &mut RunContext<'a>,
+    ) -> bool {
+        info.origin = [0.0; 3];
+        info.spine = [[0.0; 3]; 2];
+        info.velocity = [0.0; 3];
+        info.hitbox_nodes = HitboxNodes::default();
+
+        match target.as_ref() {
+            EntityRef::Player(player) => {
+                info.origin = player.origin;
+                info.velocity = player.velocity;
+
+                info.hitbox_map = HitboxMap::get_by_model_name(&Character::get_by_model_name(&player.model_name.string));
+                info.bones = player.studio.get_player_bones(&Point3::from(player.origin), &player.bones, &info.hitbox_map);
+                info.hitbox_nodes.update(&info.bones);
+            }
+            EntityRef::BaseNPC(npc) => {
+                info.origin = npc.origin;
+
+                info.hitbox_map = HitboxMap::get_by_model_name(&Character::get_by_model_name(&npc.model_name.string));
+                info.bones = npc.studio.get_player_bones(&Point3::from(npc.origin), &npc.bones, &info.hitbox_map);
+                info.hitbox_nodes.update(&info.bones);
+            }
+            EntityRef::Vehicle(vehicle) => {
+                info.origin = vehicle.origin;
+                info.velocity = vehicle.vehicle_velocity;
+            }
+            EntityRef::Animating(anim) => {
+                info.origin = anim.origin;
+                match anim.model_name.hash {
+                    sdk::ModelName::PARIAH_DRONE => info.origin[2] += 23.0,
+                    _ => (),
+                }
+            }
+            _ => return false,
+        }
+        return true;
+    }
     fn hitpoint<'a>(
         &self,
         _state: &'a GameState,
@@ -513,7 +593,6 @@ impl AimAssist {
         info: &mut TargetInfo,
     ) -> bool {
         info.origin = [0.0; 3];
-        info.spine = [[0.0; 3]; 2];
         info.velocity = [0.0; 3];
 
         match target.as_ref() {
@@ -573,6 +652,31 @@ impl AimAssist {
         info.aim = sdk::qnorm(sdk::qangle(sdk::sub(info.hit, local.view_origin)));
         return true;
     }
+    fn compute_3d<'a>(
+        &self,
+        state: &'a GameState,
+        local: &'a PlayerEntity,
+        _target: &'a dyn Entity,
+        info: &mut TargetInfo,
+        api: &mut Api, ctx: &mut RunContext<'a>,
+    ) -> bool {
+        // Cache the distance to the target origin
+        info.distance = sdk::dist(local.view_origin, info.origin);
+
+        // Projectile aim calculations if the weapon has projectile speed
+        if let Some(weapon) = local.active_weapon(state) {
+            if weapon.projectile_speed > 1.0 {
+                return self.solve_3d(local, weapon, info, api, ctx).is_some();
+            }
+        }
+
+        // Hitscan weapons and others fall back to aiming at the target.
+        info.time = 0.0;
+        info.hit = sdk::add(info.origin, info.spine[0]);
+        info.aim = sdk::qnorm(sdk::qangle(sdk::sub(info.hit, local.view_origin)));
+        return true;
+    }
+
     fn solve<'a>(
         &self,
         local: &'a PlayerEntity,
@@ -633,6 +737,133 @@ impl AimAssist {
         }
         return Some(());
     }
+    fn solve_3d<'a>(
+        &self,
+        local: &'a PlayerEntity,
+        weapon: &'a WeaponXEntity,
+        info: &mut TargetInfo,
+        api: &mut Api, ctx: &mut RunContext<'a>,
+    ) -> Option<()> {
+        // Run two predictions, one for each spine hitspot
+        // This is overkill but right now I don't care
+        let camera_position = Point3::from(local.view_origin);
+        let camera_direction = sdk::angle_to_vector(local.view_angles);
+        let nearest_edge = info.hitbox_nodes.find_nearest_edge(&camera_position, &camera_direction);
+
+        let nearest_body_edge = info.hitbox_nodes.find_body_edge(&camera_position, &camera_direction);
+
+        let (vertex_i, vertex_j, nearest_point) = nearest_edge?;
+
+        let (vertex_i1, vertex_j1, nearest_body_point) = nearest_body_edge?;
+
+        // 假设sdk::vector_to_angle返回的是一个结构体，其中包含pitch和yaw角
+        let aim_angle_nearest = sdk::vector_to_angle((nearest_point - camera_position).normalize());
+        let aim_angle_body = sdk::vector_to_angle((nearest_body_point - camera_position).normalize());
+
+        let pitch_nearest = aim_angle_nearest[0];
+        let pitch_body = aim_angle_body[0];
+        let local_pitch = local.camera_angles[0]; // 假设这样获取本地玩家的pitch角
+
+        // 根据pitch角进行判断和处理
+        if local_pitch < pitch_body || (pitch_body - pitch_nearest).abs() < 0.1 {
+            // 如果目标的pitch角非常接近，或者玩家视角高于最上面的点，选择第一个点
+            info.aim = [pitch_body, aim_angle_body[1], 0.0]; // 使用第一个点的角度
+            // if let Some([x1, y1]) = ctx.world_to_screen(info.origin, true) {
+            //     api.r_text(
+            //         /*font:*/ 0,
+            //         /*flags:*/ 1,
+            //         /*x:*/ x1 + 200.0,
+            //         /*y:*/ y1 - 100.0,
+            //         /*width:*/ 300.0,
+            //         /*height:*/ 100.0,
+            //         /*color:*/ vgc::sRGBA{
+            //             red: 20,
+            //             green: 100,
+            //             blue: 20,
+            //             alpha: 200,
+            //         },
+            //         /*shadow:*/ vgc::sRGBA!(Black),
+            //         /*text:*/ &fmtools::format!("aim up"),
+            //     );
+            // };
+        } else if local_pitch > pitch_nearest {
+            // 如果玩家视角低于最下面的点，选择第二个点
+            info.aim = [pitch_nearest, aim_angle_nearest[1], 0.0]; // 使用第二个点的角度
+            // if let Some([x1, y1]) = ctx.world_to_screen(info.origin, true) {
+            //     api.r_text(
+            //         /*font:*/ 0,
+            //         /*flags:*/ 1,
+            //         /*x:*/ x1 + 200.0,
+            //         /*y:*/ y1 - 100.0,
+            //         /*width:*/ 300.0,
+            //         /*height:*/ 100.0,
+            //         /*color:*/ vgc::sRGBA{
+            //             red: 200,
+            //             green: 10,
+            //             blue: 20,
+            //             alpha: 200,
+            //         },
+            //         /*shadow:*/ vgc::sRGBA!(Black),
+            //         /*text:*/ &fmtools::format!("aim low"),
+            //     );
+            // };
+        } else {
+            // 否则，在两个点之间插值
+            let ratio = (local_pitch - pitch_nearest) / (pitch_body - pitch_nearest);
+            let interpolated_hit = sdk::lerp(nearest_point.into(), nearest_body_point.into(), ratio); // 假设sdk::lerp可以插值两个点
+            let dyaw = aim_angle_body[1] - aim_angle_nearest[1];
+            let adjusted_dyaw = if dyaw > 180.0 { dyaw - 360.0 } else if dyaw < -180.0 { dyaw + 360.0 } else { dyaw };
+            let interpolated_yaw = aim_angle_nearest[1] + adjusted_dyaw * ratio;
+
+            info.aim = [local_pitch, interpolated_yaw, 0.0]; // 使用插值结果
+            // if let Some([x1, y1]) = ctx.world_to_screen(info.origin, true) {
+            //     api.r_text(
+            //         /*font:*/ 0,
+            //         /*flags:*/ 1,
+            //         /*x:*/ x1 + 200.0,
+            //         /*y:*/ y1 - 100.0,
+            //         /*width:*/ 300.0,
+            //         /*height:*/ 100.0,
+            //         /*color:*/ vgc::sRGBA{
+            //             red: 20,
+            //             green: 10,
+            //             blue: 200,
+            //             alpha: 200,
+            //         },
+            //         /*shadow:*/ vgc::sRGBA!(Black),
+            //         /*text:*/ &fmtools::format!("aim mid"),
+            //     );
+            // };
+        }
+
+
+        if let Some([x1, y1]) = ctx.world_to_screen(nearest_point.into(), true) {
+            api.r_line(sRGBA(20, 220, 20, 200), x1, y1, 1280.0, 720.0);
+        };
+        if let Some([x1, y1]) = ctx.world_to_screen(vertex_i.into(), true) {
+            if let Some([x2, y2]) = ctx.world_to_screen(vertex_j.into(), true) {
+                api.r_line(sRGBA(20, 220, 20, 200), x1, y1, x2, y2);
+            }
+        };
+
+        if let Some([x1, y1]) = ctx.world_to_screen(nearest_body_point.into(), true) {
+            api.r_line(sRGBA(20, 20, 220, 200), x1, y1, 1280.0, 720.0);
+        };
+
+        // let end_pos = camera_position + 20.0 * camera_direction.normalize();
+        // if let Some([x1, y1]) = ctx.world_to_screen(camera_position.into()/*local.bone_nodes.middle_head.into()*/, true) {
+        //     if let Some([x2, y2]) = ctx.world_to_screen(end_pos.into(),  true) {
+        //         api.r_line(sRGBA(200, 20, 20, 200), x1, y1, x2, y2);
+        //         api.r_ellipse(x2, y2, 5.0, 5.0, sRGBA(20, 200, 20, 200), sRGBA(20, 200, 20, 200));
+        //     }
+        // };
+
+        // let aim_angle = sdk::vector_to_angle((nearest_point - camera_position).normalize());
+
+        info.hit = Into::<[f32; 3]>::into(nearest_body_point);
+        // info.aim = aim_angle;
+        return Some(());
+    }
     /// Checks if the target is within our FOV setting.
     fn fov_check<'a>(
         &self,
@@ -688,7 +919,7 @@ impl AimAssist {
     }
 
     /// Moves the mouse towards target info.
-    fn aim(&mut self, api: &mut Api, info: &TargetInfo, fov_scale: f32) {
+    fn aim(&mut self, api: &mut Api, info: &TargetInfo, fov_scale: f32, ptr: sdk::Ptr::<[f32; 2]>) {
         let (dx, dy) = {
             // Avoid aim jitter with a minimum angle
             let (mut yaw, mut pitch) = (info.yaw, info.pitch);
@@ -702,6 +933,9 @@ impl AimAssist {
             yaw *= strength * self.config.aim_yaw;
             pitch *= strength * self.config.aim_pitch;
 
+            // let mut origin = [0f32; 2];
+            // let _ = api.vm_read_into(ptr, &mut origin);
+            // let _ = api.vm_write(ptr, &[pitch * 0.6 + origin[0], yaw * 0.7 + origin[1]]);
             let dt = 1.0 / self.config.tickrate;
             let dx = -self.pidx.step(yaw, dt, &self.config.pid);
             let dy = self.pidy.step(pitch, dt, &self.config.pid);

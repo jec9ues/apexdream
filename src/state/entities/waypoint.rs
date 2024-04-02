@@ -16,6 +16,7 @@ pub struct WaypointEntity {
     pub waypoint_type: i32,
     pub waypoint_bitfield: u32,
 }
+
 impl WaypointEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -27,6 +28,7 @@ impl WaypointEntity {
         })
     }
 }
+
 impl Entity for WaypointEntity {
     fn as_any(&self) -> &dyn Any {
         self

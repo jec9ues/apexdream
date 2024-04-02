@@ -7,14 +7,15 @@ struct Config {
     pitch: f32,
     yaw: f32,
 }
+
 impl Default for Config {
     fn default() -> Self {
         Config {
             enable: true,
             filter: true,
             debug: false,
-            pitch: 0.5,
-            yaw: 0.0,
+            pitch: 0.05,
+            yaw: 0.06,
         }
     }
 }
@@ -116,13 +117,14 @@ impl RCS {
             self.old_punch = weapon_punch;
 
             // Send the compensated punch angles as mouse movements
-            self.aim(api, ctx, pitch, yaw);
+            let ptr = local.entity_ptr.field(ctx.data.player_view_angles);
+            self.aim(api, ctx, pitch, yaw, ptr);
         }
 
         return true;
     }
 
-    fn aim(&mut self, api: &mut Api, ctx: &RunContext, pitch: f32, yaw: f32) {
+    fn aim(&mut self, api: &mut Api, ctx: &RunContext, pitch: f32, yaw: f32, ptr: sdk::Ptr::<[f32; 2]>) {
         // Modulate the intensity by the user's sensitivity stuff
         let scale = self.sens * (1.0 / 0.022);
 
@@ -130,6 +132,9 @@ impl RCS {
         self.my += pitch * self.config.pitch * scale;
         self.mx += yaw * self.config.yaw * scale;
 
+        let mut origin = [0f32; 2];
+        // let _ = api.vm_read_into(ptr, &mut origin);
+        // let _ = api.vm_write(ptr, &[origin[0] + pitch * 0.6 , origin[1] - yaw * 0.6]);
         if !self.config.debug {
             // Mouse movement is quantized and keep track of risiduals
             let my = self.my.round();

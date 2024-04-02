@@ -10,6 +10,7 @@ pub struct Config {
     pub clamp: bool,
     pub radius: f32,
 }
+
 impl Default for Config {
     fn default() -> Config {
         Config {
@@ -24,6 +25,7 @@ impl Default for Config {
         }
     }
 }
+
 impl Config {
     fn distance_alpha(&self, d: f32) -> f32 {
         (1.0 - (d - self.radius).max(0.0) / (self.radius * 0.5)).max(0.0)

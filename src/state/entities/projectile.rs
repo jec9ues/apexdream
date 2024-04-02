@@ -22,6 +22,7 @@ pub struct ProjectileEntity {
     pub weapon_source: i32,
     pub launch_origin: [f32; 3],
 }
+
 impl ProjectileEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -33,6 +34,7 @@ impl ProjectileEntity {
         })
     }
 }
+
 impl Entity for ProjectileEntity {
     fn as_any(&self) -> &dyn Any {
         self

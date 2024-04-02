@@ -1,9 +1,12 @@
-use super::Pod;
-use crate::hash;
+use std::fmt;
+
 use bitset_core::*;
 use named_constants::named_constants;
 use obfstr::obfstr as s;
-use std::fmt;
+
+use crate::hash;
+
+use super::Pod;
 
 //----------------------------------------------------------------
 
@@ -98,11 +101,14 @@ pub enum ModelName {
     DUMMY = hash("mdl/humans/class/medium/dummy_v20_base_w.rmdl"),
 
     PROWLER = hash("mdl/creatures/prowler/prowler_apex.rmdl"),
-    LOOT_TICK = hash("mdl/robots/drone_frag/drone_frag_loot.rmdl"), // normal: skin=0, gold: skin=1
-    LOOT_BIN = hash("mdl/props/loot_bin/loot_bin_01_loba.rmdl"),    // normal: skin=0, extra: skin=4
+    LOOT_TICK = hash("mdl/robots/drone_frag/drone_frag_loot.rmdl"),
+    // normal: skin=0, gold: skin=1
+    LOOT_BIN = hash("mdl/props/loot_bin/loot_bin_01_loba.rmdl"),
+    // normal: skin=0, extra: skin=4
     LOOT_DRONE = hash("mdl/props/loot_drone/loot_drone.rmdl"),
     LOOT_SPHERE = hash("mdl/props/loot_sphere/loot_sphere.rmdl"),
-    MARVIN_BASE = hash("mdl/robots/marvin/marvin_base_v2.rmdl"), // normal: skin=0, gold arm: skin=1
+    MARVIN_BASE = hash("mdl/robots/marvin/marvin_base_v2.rmdl"),
+    // normal: skin=0, gold arm: skin=1
     MARVIN_ARM = hash("mdl/robotics_r5/marvin/marvin_base_v2_arm.rmdl"),
     GAS_TANK = hash("mdl/props/caustic_gas_tank/caustic_gas_tank.rmdl"),
     BUBBLESHIELD = hash("mdl/props/gibraltar_bubbleshield/gibraltar_bubbleshield.rmdl"),
@@ -120,7 +126,7 @@ pub enum ModelName {
     SHOOTING_RANGE_TARGET = hash("mdl/barriers/shooting_range_target_02.rmdl"),
     SHOOTING_RANGE_CUTOUT = hash("mdl/barriers/shooting_range_target_01_animated.rmdl"),
 
-    HEX_SHIELD= hash("mdl/fx/newcastle_tac_hex_shield.rmdl"),
+    HEX_SHIELD = hash("mdl/fx/newcastle_tac_hex_shield.rmdl"),
     NEWCASTLE_WALL_LARGE = hash("mdl/props/newcastle_shield_wall_v22_large_w.rmdl"),
     NEWCASTLE_WALL_LEFT_SMALL = hash("mdl/props/newcastle_shield_wall_v22_left_small_w.rmdl"),
     NEWCASTLE_WALL_RIGHT_SMALL = hash("mdl/props/newcastle_shield_wall_v22_right_small_w.rmdl"),
@@ -906,9 +912,130 @@ pub fn mod_name_item(mod_name: ModName) -> ItemId {
     }
 }
 
+
+#[derive(Copy, Clone, Debug, Default, Eq, PartialEq)]
+pub enum Character {
+    #[default]
+    Dummie,
+    Bangalore,
+    Fuse,
+    Ash,
+    MadMaggie,
+    Ballistic,
+    Pathfinder,
+    Wraith,
+    Octane,
+    Revenant,
+    Horizon,
+    Valkyrie,
+    Bloodhound,
+    Crypto,
+    Seer,
+    Vantage,
+    Gibraltar,
+    Lifeline,
+    Mirage,
+    Loba,
+    Newcastle,
+    Conduit,
+    Caustic,
+    Wattson,
+    Rampart,
+    Catalyst,
+}
+
+impl Character {
+    pub fn get_by_model_name(name: &String) -> Self {
+        if name.contains("bangalore") {
+            return Self::Bangalore;
+        }
+        if name.contains("fuse") {
+            return Self::Fuse;
+        }
+        if name.contains("ash") {
+            return Self::Ash;
+        }
+        if name.contains("madmaggie") {
+            return Self::MadMaggie;
+        }
+        if name.contains("ballistic") {
+            return Self::Ballistic;
+        }
+        if name.contains("pathfinder") {
+            return Self::Pathfinder;
+        }
+        if name.contains("wraith") {
+            return Self::Wraith;
+        }
+        if name.contains("stim") {
+            return Self::Octane;
+        }
+        if name.contains("octane") {
+            return Self::Octane;
+        }
+        if name.contains("revenant") {
+            return Self::Revenant;
+        }
+        if name.contains("nova") {
+            return Self::Horizon;
+        }
+        if name.contains("horizon") {
+            return Self::Horizon;
+        }
+        if name.contains("valkyrie") {
+            return Self::Valkyrie;
+        }
+        if name.contains("bloodhound") {
+            return Self::Bloodhound;
+        }
+        if name.contains("crypto") {
+            return Self::Crypto;
+        }
+        if name.contains("seer") {
+            return Self::Seer;
+        }
+        if name.contains("vantage") {
+            return Self::Vantage;
+        }
+        if name.contains("gibraltar") {
+            return Self::Gibraltar;
+        }
+        if name.contains("lifeline") {
+            return Self::Lifeline;
+        }
+        if name.contains("holo") {
+            return Self::Mirage;
+        }
+        if name.contains("loba") {
+            return Self::Loba;
+        }
+        if name.contains("newcastle") {
+            return Self::Newcastle;
+        }
+        if name.contains("conduit") {
+            return Self::Conduit;
+        }
+        if name.contains("caustic") {
+            return Self::Caustic;
+        }
+        if name.contains("wattson") {
+            return Self::Wattson;
+        }
+        if name.contains("rampart") {
+            return Self::Rampart;
+        }
+        if name.contains("catalyst") {
+            return Self::Catalyst;
+        }
+        // if !name.contains("marvin") || name.is_empty() {
+        //     println!("{:?}", name);
+        // }
+        return Self::Dummie;
+    }
+}
+
 #[cfg(test)]
 mod tests {
-    use crate::sdk;
     use crate::sdk::ItemId;
 
     #[test]

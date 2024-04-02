@@ -9,6 +9,7 @@ pub struct DeathField {
     pub time_start: f32,
     pub time_end: f32,
 }
+
 impl DeathField {
     pub fn radius(&self, curtime: f32) -> f32 {
         if self.time_end == self.time_start {
@@ -52,6 +53,7 @@ pub struct WorldEntity {
     update_time: f64,
     pub death_field: DeathField,
 }
+
 impl WorldEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -63,6 +65,7 @@ impl WorldEntity {
         }) as Box<dyn Entity>
     }
 }
+
 impl Entity for WorldEntity {
     fn as_any(&self) -> &dyn Any {
         self

@@ -1,9 +1,11 @@
-use crate::*;
 use std::{fmt, str};
+
+use crate::*;
 
 /// ESP feature flags.
 #[derive(Copy, Clone, Debug, Default, Eq, PartialEq)]
 pub struct Flags(pub u16);
+
 impl Flags {
     pub const NONE: Flags = Flags(0);
     /// Draw bounds.
@@ -37,6 +39,7 @@ impl Flags {
     /// Draw dot in the sky.
     pub const SKYDOT: Flags = Flags(1 << 14);
 }
+
 impl std::ops::BitOr for Flags {
     type Output = Flags;
     #[inline]
@@ -44,6 +47,7 @@ impl std::ops::BitOr for Flags {
         Flags(self.0 | rhs.0)
     }
 }
+
 impl std::ops::BitAnd for Flags {
     type Output = bool;
     #[inline]
@@ -51,28 +55,28 @@ impl std::ops::BitAnd for Flags {
         self.0 & rhs.0 != 0
     }
 }
+
 impl fmt::Display for Flags {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         let &flags = self;
-        fmtools::write! { f,
-            if (flags == Flags::NONE) { "none " }
-            else {
-                if (flags & Flags::BOUNDS) { "bounds " }
-                if (flags & Flags::BOX) { "box " }
-                if (flags & Flags::TEXT) { "text " }
-                if (flags & Flags::NAME) { "name " }
-                if (flags & Flags::HEALTH) { "health " }
-                if (flags & Flags::ICON) { "icon " }
-                if (flags & Flags::BONES) { "bones " }
-                if (flags & Flags::TRAIL) { "trail " }
-                if (flags & Flags::SPINE) { "spine " }
-                if (flags & Flags::BARREL) { "barrel " }
-                if (flags & Flags::AIM) { "aim " }
-                if (flags & Flags::FADED) { "faded " }
-                if (flags & Flags::ALPHA) { "alpha " }
-                if (flags & Flags::ORIGIN) { "origin " }
-                if (flags & Flags::SKYDOT) { "skydot " }
-            }
+        fmtools::write! {f,
+                         if (flags == Flags::NONE) { "none " } else {
+                             if (flags & Flags::BOUNDS) { "bounds " }
+                             if (flags & Flags::BOX) { "box " }
+                             if (flags & Flags::TEXT) { "text " }
+                             if (flags & Flags::NAME) { "name " }
+                             if (flags & Flags::HEALTH) { "health " }
+                             if (flags & Flags::ICON) { "icon " }
+                             if (flags & Flags::BONES) { "bones " }
+                             if (flags & Flags::TRAIL) { "trail " }
+                             if (flags & Flags::SPINE) { "spine " }
+                             if (flags & Flags::BARREL) { "barrel " }
+                             if (flags & Flags::AIM) { "aim " }
+                             if (flags & Flags::FADED) { "faded " }
+                             if (flags & Flags::ALPHA) { "alpha " }
+                             if (flags & Flags::ORIGIN) { "origin " }
+                             if (flags & Flags::SKYDOT) { "skydot " }
+                         }
         }
     }
 }

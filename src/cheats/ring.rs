@@ -8,6 +8,7 @@ const HEIGHT: f32 = 35.0;
 struct Config {
     enable: bool,
 }
+
 impl Default for Config {
     fn default() -> Self {
         Config { enable: true }
@@ -111,15 +112,15 @@ impl RingDamage {
         };
 
         api.r_text(
-			/*font:*/ 0,
-			/*flags:*/ 3,
-			/*x:*/ xcenter - WIDTH * 0.5 + 4.0,
-			/*y:*/ ypos + 11.0,
-			/*width:*/ WIDTH,
-			/*height:*/ HEIGHT,
-			/*color:*/ vgc::sRGBA!(White),
-			/*shadow:*/ vgc::sRGBA!(Black),
-			/*text:*/ &fmtools::format!({heal_item}" in "{timer - heal_time:.1}"s (hp:"{local.health}" / -"{self.ring_damage}")"),
-		);
+            /*font:*/ 0,
+            /*flags:*/ 3,
+            /*x:*/ xcenter - WIDTH * 0.5 + 4.0,
+            /*y:*/ ypos + 11.0,
+            /*width:*/ WIDTH,
+            /*height:*/ HEIGHT,
+            /*color:*/ vgc::sRGBA!(White),
+            /*shadow:*/ vgc::sRGBA!(Black),
+            /*text:*/ &fmtools::format!({heal_item}" in "{timer - heal_time:.1}"s (hp:"{local.health}" / -"{self.ring_damage}")"),
+        );
     }
 }

@@ -18,7 +18,8 @@ pub struct RawConVar {
     pub IConVar_vtable: u64,
     pub pParent: Ptr<RawConVar>,
     pub pszDefaultValue: u64,
-    pub pszString: u64, // Allocated
+    pub pszString: u64,
+    // Allocated
     pub StringLength: u64,
     pub fValue: f32,
     pub nValue: i32,

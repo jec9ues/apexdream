@@ -21,6 +21,7 @@ pub struct AnimatingEntity {
 
     pub spawn_time: f64,
 }
+
 impl AnimatingEntity {
     pub fn new(entity_ptr: sdk::Ptr, index: u32, cc: &sdk::ClientClass) -> Box<dyn Entity> {
         let entity_size = cc.ClassSize;
@@ -32,6 +33,7 @@ impl AnimatingEntity {
         })
     }
 }
+
 impl Entity for AnimatingEntity {
     fn as_any(&self) -> &dyn Any {
         self

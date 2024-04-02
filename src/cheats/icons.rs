@@ -5,6 +5,7 @@ pub struct Icon {
     pub gridx: u8,
     pub gridy: u8,
 }
+
 impl Icon {
     const fn new(_name: &[u8; 4], gridx: u8, gridy: u8, item: sdk::ItemId) -> Icon {
         Icon {

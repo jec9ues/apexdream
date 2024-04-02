@@ -1,6 +1,6 @@
+use crate::*;
 use crate::base::math;
 use crate::state::StudioModel;
-use crate::*;
 
 pub use super::espflags::Flags;
 
@@ -229,7 +229,7 @@ fn draw_object(object: &Object, conf: &Config, api: &mut Api, ctx: &RunContext) 
                 let Some(parent) = studio.parent_hitbox(bbox) else {
                     return;
                 };
-                let Some(bones) = object.bones else { return };
+                let Some(bones) = object.bones else { return; };
                 let start = match bones.get(bbox.bone as usize) {
                     Some(start) => start,
                     _ => return,
@@ -478,7 +478,7 @@ fn draw_object(object: &Object, conf: &Config, api: &mut Api, ctx: &RunContext) 
                 /*stroke:*/ color,
             );
             api.r_text(
-                /*font:*/ 0, /*flags:*/ 3,                 /*x:*/ bounds.left,
+                /*font:*/ 0, /*flags:*/ 3, /*x:*/ bounds.left,
                 /*y:*/ bounds.top, /*width:*/ 1000.0,
                 /*height:*/ 100.0, color, /*shadow:*/ dark, /*text:*/ "vis",
             );

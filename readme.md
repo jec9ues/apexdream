@@ -3,7 +3,8 @@ The Apex Legends Dream
 
 **There is no bypass for EasyAntiCheat! You have to implement your own EasyAntiCheat bypass.**
 
-This is an external cheat for Apex Legends written in Rust. The cheat is embeddable, you implement the API to access Apex Legends and in return you get a bunch of features.
+This is an external cheat for Apex Legends written in Rust. The cheat is embeddable, you implement the API to access
+Apex Legends and in return you get a bunch of features.
 
 See [here](examples/apexdream-win32.rs) for an example of how to use the API.
 
@@ -12,7 +13,8 @@ Features
 
 ### Aim assist
 
-Advanced legitimate aim assist with many customizable settings. Its focus is on being as legitimate as possible, while still being effective. It works by calculating mouse movement commands, it does not write viewangles.
+Advanced legitimate aim assist with many customizable settings. Its focus is on being as legitimate as possible, while
+still being effective. It works by calculating mouse movement commands, it does not write viewangles.
 
 It uses advanced trajectory calculations based on sampled data for accurate prediction.
 
@@ -31,7 +33,8 @@ Some of its features:
 
 ### Triggerbot
 
-When locked onto an enemy with the aimbot, can trigger when the enemy is in the crosshair. Works with close range guns like shotguns and long range guns like snipers where it uses prediction to trigger at the right time.
+When locked onto an enemy with the aimbot, can trigger when the enemy is in the crosshair. Works with close range guns
+like shotguns and long range guns like snipers where it uses prediction to trigger at the right time.
 
 Uses humanized clicking, customized per weapon.
 
@@ -70,7 +73,9 @@ Simple 2D radar that shows live enemy players as dots around your crosshair.
 
 ### Ring damage indicator
 
-When near or outside the ring, a damage indicator shows when you will take the next tick of damage. Additionally a timer counts down to the last possible time for you to start healing (phoenix, medkit, syringe) before you won't have enough time to heal before dying to the ring.
+When near or outside the ring, a damage indicator shows when you will take the next tick of damage. Additionally a timer
+counts down to the last possible time for you to start healing (phoenix, medkit, syringe) before you won't have enough
+time to heal before dying to the ring.
 
 ### Scripts
 
@@ -91,9 +96,14 @@ Update offsets
 
 The offsets are provided statically by `gamedata.ini` and parsed.
 
-Manually update the offsets by pasting the INI output from the [Apex Legends Offset Dumper](https://casualhacks.net/apexdream/apexdumper.html) in `offsets/stdout.ini`. Then run `cargo run --example gamedata >gamedata.ini` to update the gamedata offsets.
+Manually update the offsets by pasting the INI output from
+the [Apex Legends Offset Dumper](https://casualhacks.net/apexdream/apexdumper.html) in `offsets/stdout.ini`. Then
+run `cargo run --example gamedata >gamedata.ini` to update the gamedata offsets.
 
-The cheat can dump the game for you, but it requires a few extra steps. See if you can figure it out 😉. Otherwise lurk around on [UnKnoWnCheaTs](https://www.unknowncheats.me/forum/apex-legends/319804-apex-legends-reversal-structs-offsets.html) and wait for people to post updated offsets.
+The cheat can dump the game for you, but it requires a few extra steps. See if you can figure it out 😉. Otherwise lurk
+around
+on [UnKnoWnCheaTs](https://www.unknowncheats.me/forum/apex-legends/319804-apex-legends-reversal-structs-offsets.html)
+and wait for people to post updated offsets.
 
 ## License
 

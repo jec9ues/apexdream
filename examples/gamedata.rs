@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::fs;
 
 fn main() {
-    let offsets = fs::read_to_string("offsets/stdout.ini").unwrap();
+    let offsets = fs::read_to_string("offsets/target/release/v3.0.62.30.ini").unwrap();
 
     let map = parse(&offsets);
 
@@ -487,6 +487,6 @@ fn print2(map: &HashMap<(&str, &str), &str>, name: &str, sect: &str, key: &str, 
     } else {
         u32::from_str_radix(value, 10)
     }
-    .unwrap();
+        .unwrap();
     println!("{}={:#x}", name, value.wrapping_add(offset as u32));
 }

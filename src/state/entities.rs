@@ -1,7 +1,22 @@
 #![allow(dead_code)]
 
-use super::*;
 use std::any::Any;
+
+use super::*;
+
+pub use self::animating::AnimatingEntity;
+pub use self::base::BaseEntity;
+pub use self::deathbox::DeathboxEntity;
+pub use self::loot::LootEntity;
+pub use self::npc::BaseNPCEntity;
+pub use self::player::PlayerEntity;
+pub use self::projectile::ProjectileEntity;
+pub use self::scriptnetdata::ScriptNetDataEntity;
+pub use self::utils::BoneArray;
+pub use self::vehicle::VehicleEntity;
+pub use self::waypoint::WaypointEntity;
+pub use self::weaponx::WeaponXEntity;
+pub use self::world::WorldEntity;
 
 #[derive(Copy, Clone, Debug, Default)]
 pub struct EntityInfo {
@@ -35,6 +50,7 @@ pub enum EntityRef<'a> {
     Projectile(&'a ProjectileEntity),
     ScriptNetData(&'a ScriptNetDataEntity),
 }
+
 impl EntityRef<'_> {
     pub fn get_type_name(self, buf: &mut [u8; 32]) -> &str {
         match self {
@@ -67,21 +83,7 @@ mod waypoint;
 mod weaponx;
 mod world;
 
-pub use self::animating::AnimatingEntity;
-pub use self::base::BaseEntity;
-pub use self::deathbox::DeathboxEntity;
-pub use self::loot::LootEntity;
-pub use self::npc::BaseNPCEntity;
-pub use self::player::PlayerEntity;
-pub use self::projectile::ProjectileEntity;
-pub use self::scriptnetdata::ScriptNetDataEntity;
-pub use self::vehicle::VehicleEntity;
-pub use self::waypoint::WaypointEntity;
-pub use self::weaponx::WeaponXEntity;
-pub use self::world::WorldEntity;
-
 mod utils;
-pub use self::utils::BoneArray;
 
 #[derive(Clone, Default)]
 pub struct ModelName {
@@ -89,6 +91,7 @@ pub struct ModelName {
     pub string: String,
     pub hash: sdk::ModelName,
 }
+
 impl ModelName {
     pub fn update(&mut self, api: &mut Api, model_name_ptr: sdk::Ptr<[u8]>) -> bool {
         // Update when pointer changes

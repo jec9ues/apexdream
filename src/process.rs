@@ -47,9 +47,9 @@ impl GameProcess {
             };
             let Ok(nt_headers) =
                 api.vm_read::<image::IMAGE_NT_HEADERS>(base.field(dos_header.e_lfanew))
-            else {
-                return false;
-            };
+                else {
+                    return false;
+                };
 
             self.time_date_stamp = nt_headers.FileHeader.TimeDateStamp;
             self.checksum = nt_headers.OptionalHeader.CheckSum;
@@ -284,7 +284,8 @@ impl GameProcess {
             let cl_showpos = b"cl_showpos\0";
             let net_graph = b"cl_showfps\0";
             let fps_max = b"fps_max\0";
-        };
+        }
+        ;
 
         let image = dataview::DataView::from(&self.image_data[..]);
 
@@ -374,7 +375,8 @@ impl GameProcess {
         }
 
         // Finally write the dump to disk
-        s! { let path = "/re/apex/r5apex.bin"; };
+        s! { let path = "/re/apex/r5apex.bin"; }
+        ;
         api.dump_bin(path, target);
         api.log(f!("Wrote "{path}"!"));
     }

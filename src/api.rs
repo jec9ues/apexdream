@@ -1,7 +1,9 @@
-use crate::Interface;
+use std::{fmt, mem, ops};
+
 use dataview::Pod;
 use intptr::IntPtr64 as Ptr;
-use std::{fmt, mem, ops};
+
+use crate::Interface;
 
 pub struct Error;
 
@@ -23,6 +25,7 @@ impl ops::Deref for Api {
         &self.i
     }
 }
+
 impl ops::DerefMut for Api {
     #[inline]
     fn deref_mut(&mut self) -> &mut (dyn Interface + 'static) {
@@ -34,6 +37,7 @@ impl ops::DerefMut for Api {
 fn log(this: &mut Api, args: &dyn fmt::Display) {
     (**this).log(format_args!("{}", args))
 }
+
 #[inline(never)]
 fn visualize(this: &mut Api, scope: &str, args: &dyn fmt::Display) {
     (**this).visualize(scope, format_args!("{}", args))
@@ -59,7 +63,7 @@ impl Api {
         unsafe {
             // Yes yes but this isn't easy to fix...
             #[allow(deprecated)]
-            let mut dest: T = mem::uninitialized();
+                let mut dest: T = mem::uninitialized();
             let result = {
                 let dest = dataview::bytes_mut(&mut dest);
                 self.i.read_memory(ptr.into_raw(), dest)
@@ -68,7 +72,7 @@ impl Api {
                 Ok(dest)
             } else {
                 #[cfg(feature = "debug_api")]
-				self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_read("{ptr}"): "{result}));
+                self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_read("{ptr}"): "{result}));
                 Err(Error)
             }
         }
@@ -90,7 +94,7 @@ impl Api {
             Ok(())
         } else {
             #[cfg(feature = "debug_api")]
-			self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_read_into("{ptr}"): "{result}));
+            self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_read_into("{ptr}"): "{result}));
             Err(Error)
         }
     }
@@ -112,7 +116,7 @@ impl Api {
             Ok(indices)
         } else {
             #[cfg(feature = "debug_api")]
-			self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_gatherd("{ptr}"): "{result}));
+            self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_gatherd("{ptr}"): "{result}));
             Err(Error)
         }
     }
@@ -139,7 +143,7 @@ impl Api {
             Ok(())
         } else {
             #[cfg(feature = "debug_api")]
-			self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_write("{ptr}"): "{result}));
+            self.log(fmtools::fmt!("error: "{std::panic::Location::caller()}" vm_write("{ptr}"): "{result}));
             Err(Error)
         }
     }

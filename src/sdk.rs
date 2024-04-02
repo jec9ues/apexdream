@@ -4,23 +4,9 @@ Game Data structures SDK.
 
 #![allow(non_snake_case, dead_code, non_upper_case_globals)]
 
-mod class;
-mod cvar;
-mod ehandle;
-mod entitylist;
-mod globalvars;
-mod highlight;
-mod input;
-mod inputsystem;
-mod items;
-pub mod pitches;
-pub mod projectiles;
-mod script_net_name;
-mod studio;
-mod tier1;
-
 pub use dataview::Pod;
 pub use intptr::IntPtr64 as Ptr;
+use nalgebra::SMatrix;
 
 pub use crate::base::math::*;
 
@@ -36,6 +22,21 @@ pub use self::items::*;
 pub use self::script_net_name::ScriptNetVarName;
 pub use self::studio::*;
 pub use self::tier1::*;
+
+mod class;
+mod cvar;
+mod ehandle;
+mod entitylist;
+mod globalvars;
+mod highlight;
+mod input;
+mod inputsystem;
+mod items;
+pub mod pitches;
+pub mod projectiles;
+mod script_net_name;
+mod studio;
+mod tier1;
 
 pub const MAX_PLAYERS: usize = 128;
 pub const MAX_NAME_LENGTH: usize = 64;
@@ -88,3 +89,5 @@ pub struct ConsumableItem {
     pub item: u16,
     pub count: u16,
 }
+
+pub type Matrix3x4f32 = SMatrix<f32, 3, 4>;
