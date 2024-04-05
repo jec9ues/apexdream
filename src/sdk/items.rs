@@ -88,6 +88,55 @@ pub enum WeaponName {
     ARC_STAR = hash("mp_weapon_grenade_emp"),
 }
 
+impl fmt::Display for WeaponName {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(
+            f,
+            "{}",
+            match self {
+                &WeaponName::R301 => "r301",
+                &WeaponName::SENTINEL => "sentinel",
+                &WeaponName::BOCEK => "bocek",
+                &WeaponName::MELEE_SURVIVAL => "melee_survival",
+                &WeaponName::ALTERNATOR => "alternator",
+                &WeaponName::RE45 => "re45",
+                &WeaponName::CHARGE_RIFLE => "charge_rifle",
+                &WeaponName::DEVOTION => "devotion",
+                &WeaponName::LONGBOW => "longbow",
+                &WeaponName::HAVOC => "havoc",
+                &WeaponName::EVA8_AUTO => "eva8_auto",
+                &WeaponName::FLATLINE => "flatline",
+                &WeaponName::G7_SCOUT => "g7_scout",
+                &WeaponName::HEMLOK => "hemlok",
+                &WeaponName::KRABER => "kraber",
+                &WeaponName::LSTAR => "lstar",
+                &WeaponName::MASTIFF => "mastiff",
+                &WeaponName::MOZAMBIQUE => "mozambique",
+                &WeaponName::PROWLER => "prowler",
+                &WeaponName::PEACEKEEPER => "peacekeeper",
+                &WeaponName::R99 => "r99",
+                &WeaponName::P2020 => "p2020",
+                &WeaponName::SPITFIRE => "spitfire",
+                &WeaponName::TRIPLE_TAKE => "triple_take",
+                &WeaponName::WINGMAN => "wingman",
+                &WeaponName::VOLT => "volt",
+                &WeaponName::REPEATER => "repeater",
+                &WeaponName::RAMPAGE => "rampage",
+                &WeaponName::CAR => "car",
+                &WeaponName::NEMESIS => "nemesis",
+                &WeaponName::THROWING_KNIFE => "throwing_knife",
+                &WeaponName::EMPLACED_MINIGUN => "emplaced_minigun",
+                &WeaponName::CLUSTER_BOMB_LAUNCHER => "cluster_bomb_launcher",
+                &WeaponName::VANTAGE_SNIPER => "vantage_sniper",
+                &WeaponName::CONSUMABLE => "consumable",
+                &WeaponName::THERMITE_GRENADE => "thermite_grenade",
+                &WeaponName::FRAG_GRENADE => "frag_grenade",
+                &WeaponName::ARC_STAR => "arc_star",
+                _ => "Error Weapon"
+            }
+        )
+    }
+}
 //----------------------------------------------------------------
 
 #[named_constants]
@@ -1033,7 +1082,43 @@ impl Character {
         return Self::Dummie;
     }
 }
-
+// 实现 Display trait 为 Character
+impl fmt::Display for Character {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(
+            f,
+            "{}",
+            match self {
+                Character::Dummie => "Dummie",
+                Character::Bangalore => "Bangalore",
+                Character::Fuse => "Fuse",
+                Character::Ash => "Ash",
+                Character::MadMaggie => "Mad Maggie",
+                Character::Ballistic => "Ballistic",
+                Character::Pathfinder => "Pathfinder",
+                Character::Wraith => "Wraith",
+                Character::Octane => "Octane",
+                Character::Revenant => "Revenant",
+                Character::Horizon => "Horizon",
+                Character::Valkyrie => "Valkyrie",
+                Character::Bloodhound => "Bloodhound",
+                Character::Crypto => "Crypto",
+                Character::Seer => "Seer",
+                Character::Vantage => "Vantage",
+                Character::Gibraltar => "Gibraltar",
+                Character::Lifeline => "Lifeline",
+                Character::Mirage => "Mirage",
+                Character::Loba => "Loba",
+                Character::Newcastle => "Newcastle",
+                Character::Conduit => "Conduit",
+                Character::Caustic => "Caustic",
+                Character::Wattson => "Wattson",
+                Character::Rampart => "Rampart",
+                Character::Catalyst => "Catalyst",
+            }
+        )
+    }
+}
 #[cfg(test)]
 mod tests {
     use crate::sdk::ItemId;

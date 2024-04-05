@@ -27,7 +27,16 @@ impl VehicleEntity {
         }) as Box<dyn Entity>
     }
 }
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetVehicleEntity {
+    pub index: u32,
 
+    pub origin: [f32; 3],
+    pub angles: [f32; 3],
+
+    pub vehicle_driver: Option<usize>,
+    pub vehicle_velocity: [f32; 3],
+}
 impl Entity for VehicleEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -45,6 +54,15 @@ impl Entity for VehicleEntity {
             handle: sdk::EHandle::from(self.index),
             rate: self.update_rate,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        Some(NetEntity::Vehicle(NetVehicleEntity {
+            index: self.index,
+            origin: self.origin,
+            angles: self.angles,
+            vehicle_driver: if let Some(player) = game_state.entity_as::<PlayerEntity>(self.vehicle_driver) {Some(player.get_info().index)} else { None },
+            vehicle_velocity: self.vehicle_velocity,
+        }))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         #[derive(sdk::Pod)]

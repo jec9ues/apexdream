@@ -132,8 +132,11 @@ impl Entity for ScriptNetDataEntity {
             entity_ptr: self.entity_ptr,
             handle: sdk::EHandle::from(self.index),
             index: self.index as usize,
-            rate: if self.local_player { 1 } else { 64 },
+            rate: if self.local_player { 512 } else { 1024 },
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        Some(NetEntity::BaseEntity(NetBaseEntity::default()))
     }
     fn update(&mut self, api: &mut Api, _ctx: &UpdateContext) {
         if !self.local_player {

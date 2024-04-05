@@ -14,8 +14,8 @@ impl Default for Config {
             enable: true,
             filter: true,
             debug: false,
-            pitch: 0.05,
-            yaw: 0.06,
+            pitch: 0.07,
+            yaw: 0.09,
         }
     }
 }
@@ -132,7 +132,7 @@ impl RCS {
         self.my += pitch * self.config.pitch * scale;
         self.mx += yaw * self.config.yaw * scale;
 
-        let mut origin = [0f32; 2];
+        // let mut origin = [0f32; 2];
         // let _ = api.vm_read_into(ptr, &mut origin);
         // let _ = api.vm_write(ptr, &[origin[0] + pitch * 0.6 , origin[1] - yaw * 0.6]);
         if !self.config.debug {

@@ -1,3 +1,4 @@
+use serde::{Deserialize, Serialize};
 use super::*;
 
 #[derive(Default)]
@@ -33,7 +34,14 @@ impl AnimatingEntity {
         })
     }
 }
-
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetAnimatingEntity {
+    pub index: u32,
+    pub origin: [f32; 3],
+    pub model_name: String,
+    pub model_type: String,
+    pub owner_entity: Option<usize>,
+}
 impl Entity for AnimatingEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -51,6 +59,22 @@ impl Entity for AnimatingEntity {
             handle: sdk::EHandle::from(self.index),
             rate: self.update_rate,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        let model_type = match self.model_name.hash {
+            sdk::ModelName::PARIAH_DRONE => "Drone".to_string(),
+            _ => return None
+        };
+
+        Some(NetEntity::Animating(
+            NetAnimatingEntity {
+                index: self.index,
+                origin: self.origin,
+                model_name: self.model_name.string.clone(),
+                model_type: model_type,
+                owner_entity: self.owner_entity.index(),
+            }
+        ))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         if self.spawn_time == 0.0 {

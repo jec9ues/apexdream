@@ -44,7 +44,17 @@ impl LootEntity {
         }) as Box<dyn Entity>
     }
 }
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetLootEntity {
+    pub index: u32,
+    pub origin: [f32; 3],
+    pub model_name: String,
 
+    pub custom_script_int: i32,
+    pub known_item: String,
+    pub weapon_name_index: i32,
+    pub weapon_name: String,
+}
 impl Entity for LootEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -62,6 +72,17 @@ impl Entity for LootEntity {
             handle: sdk::EHandle::from(self.index),
             rate: self.update_rate,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        Some(NetEntity::Loot(NetLootEntity {
+            index: self.index,
+            origin: self.origin,
+            model_name: self.model_name.string.clone(),
+            custom_script_int: self.custom_script_int,
+            known_item: self.known_item.to_string(),
+            weapon_name_index: self.weapon_name_index,
+            weapon_name: self.weapon_name.to_string(),
+        }))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         #[derive(sdk::Pod)]
@@ -161,7 +182,7 @@ impl Entity for LootEntity {
         }
 
         self.update_rate = if ctx.time >= self.update_time + 0.25 {
-            64
+            512
         } else {
             2
         };

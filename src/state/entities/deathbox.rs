@@ -21,6 +21,11 @@ impl DeathboxEntity {
         })
     }
 }
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetDeathboxEntity {
+    pub index: u32,
+    pub origin: [f32; 3],
+}
 
 impl Entity for DeathboxEntity {
     fn as_any(&self) -> &dyn Any {
@@ -37,8 +42,14 @@ impl Entity for DeathboxEntity {
             entity_ptr: self.entity_ptr,
             index: self.index as usize,
             handle: sdk::EHandle::from(self.index),
-            rate: 128,
+            rate: 512,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        Some(NetEntity::Deathbox(NetDeathboxEntity {
+            index: self.index,
+            origin: self.origin,
+        }))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         #[derive(sdk::Pod)]

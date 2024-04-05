@@ -1,3 +1,4 @@
+use std::time::Instant;
 use crate::*;
 use crate::cheats::config::CheatConfig;
 
@@ -19,6 +20,7 @@ mod radar;
 mod rcs;
 mod ring;
 mod scripts;
+mod data2json;
 
 #[derive(Default)]
 pub struct CheatManager {
@@ -37,6 +39,8 @@ pub struct CheatManager {
     ring: ring::RingDamage,
     pub show_outline: bool,
     pub full_bones: bool,
+
+    net_data: NetData
 }
 
 impl CheatManager {
@@ -54,11 +58,15 @@ impl CheatManager {
         self.projectile.run(api, ctx);
         #[cfg(feature = "dev")]
         self.debugger.run(api, ctx);
+        self.net_data.update(ctx);
+        if let Ok(res) = serde_json::to_string_pretty(&self.net_data) {
+            std::fs::write("data.json", res);
+        };
 
         // Render the overlay
         if api.r_begin(&mut ctx.screen) {
-            self.obs.render(api, ctx);
-            self.ring.render(api, ctx);
+            // self.obs.render(api, ctx);
+            // self.ring.render(api, ctx);
             // self.radar.render(api, ctx);
             self.esp.render(api, ctx);
             api.r_end();

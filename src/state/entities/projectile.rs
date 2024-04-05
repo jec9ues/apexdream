@@ -50,8 +50,11 @@ impl Entity for ProjectileEntity {
             entity_ptr: self.entity_ptr,
             index: self.index as usize,
             handle: sdk::EHandle::from(self.index),
-            rate: 1,
+            rate: 512,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        Some(NetEntity::BaseEntity(NetBaseEntity::default()))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         #[derive(sdk::Pod)]

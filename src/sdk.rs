@@ -7,6 +7,7 @@ Game Data structures SDK.
 pub use dataview::Pod;
 pub use intptr::IntPtr64 as Ptr;
 use nalgebra::SMatrix;
+use serde::{Deserialize, Serialize};
 
 pub use crate::base::math::*;
 
@@ -83,7 +84,7 @@ pub const HARDWARE_PS4_1: u32 = 257;
 pub const HARDWARE_PS4_2: u32 = 2056;
 pub const HARDWARE_SWITCH: u32 = 2313;
 
-#[derive(Copy, Clone, Default, Pod)]
+#[derive(Copy, Clone, Default, Pod, Serialize, Deserialize)]
 #[repr(C)]
 pub struct ConsumableItem {
     pub item: u16,

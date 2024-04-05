@@ -1,3 +1,4 @@
+use serde::{Deserialize, Serialize};
 use super::*;
 
 #[derive(Default)]
@@ -41,6 +42,20 @@ impl BaseNPCEntity {
     }
 }
 
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetBaseNPCEntity {
+    pub origin: [f32; 3],
+    pub angles: [f32; 3],
+
+    pub model_name: String,
+    pub model_type: String,
+
+    pub skin: i32,
+
+    pub last_visible_time: f32,
+    pub visible_time: f64,
+}
+
 impl Entity for BaseNPCEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -58,6 +73,27 @@ impl Entity for BaseNPCEntity {
             handle: sdk::EHandle::from(self.index),
             rate: 1,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        let model_type = match self.model_name.hash {
+            sdk::ModelName::LOOT_TICK => "tick".to_string(),
+            sdk::ModelName::MARVIN_BASE => "mrvn".to_string(),
+            sdk::ModelName::PROWLER => "prowler".to_string(),
+            sdk::ModelName::DUMMIE_TRAINING => "dummie".to_string(),
+            _ => return None
+        };
+
+        Some(NetEntity::BaseNPC(
+            NetBaseNPCEntity {
+                origin: self.origin,
+                angles: self.angles,
+                model_name: self.model_name.string.clone(),
+                model_type: model_type,
+                skin: self.skin, /*0 == normal*/
+                last_visible_time: self.last_visible_time,
+                visible_time: self.visible_time,
+            }
+        ))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         #[derive(sdk::Pod)]

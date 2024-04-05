@@ -115,7 +115,21 @@ impl WeaponXEntity {
         return sdk::ammo_type(self.weapon_name);
     }
 }
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetWeaponXEntity {
+    pub index: u32,
 
+    pub weapon_owner: Option<usize>,
+
+    pub ammo_in_clip: i32,
+    pub ammo_in_stockpile: i32,
+
+    pub weapon_name: String,
+
+    pub is_semi_auto: bool,
+    pub projectile_scale: f32,
+    pub projectile_speed: f32,
+}
 impl Entity for WeaponXEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -133,6 +147,20 @@ impl Entity for WeaponXEntity {
             handle: sdk::EHandle::from(self.index),
             rate: self.update_rate,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        Some(NetEntity::WeaponX(
+            NetWeaponXEntity {
+                index: self.index,
+                weapon_owner: if let Some(player) = game_state.entity_as::<PlayerEntity>(self.weapon_owner) {Some(player.get_info().index)} else { None },
+                ammo_in_clip: self.ammo_in_clip,
+                ammo_in_stockpile: self.ammo_in_stockpile,
+                weapon_name: self.weapon_name.to_string(),
+                is_semi_auto: self.is_semi_auto,
+                projectile_scale: self.projectile_scale,
+                projectile_speed: self.projectile_speed,
+            }
+        ))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         #[derive(sdk::Pod)]

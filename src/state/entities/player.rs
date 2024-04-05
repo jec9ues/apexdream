@@ -1,4 +1,6 @@
-use crate::sdk::HighlightSetting;
+use std::ops::Index;
+use crate::sdk::{Character, HighlightSetting};
+use crate::state::entities::world::NetWorldEntity;
 
 use super::*;
 
@@ -247,6 +249,57 @@ impl PlayerEntity {
         return count;
     }
 }
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetPlayerEntity {
+    pub index: u32,
+
+    pub origin: [f32; 3],
+    pub angles: [f32; 3],
+    pub velocity: [f32; 3],
+
+    pub health: i32,
+    pub max_health: i32,
+    pub shields: i32,
+    pub max_shields: i32,
+
+    pub team_num: i32,
+    pub team_color: [u8; 3],
+    pub team_member_index: i32,
+    pub squad_id: i32,
+
+    pub model_name: String,
+    pub model_type: String,
+    pub consumables: [sdk::ConsumableItem; 16],
+    pub flags: u32,
+    //0x1: onground, 0x2: ducking
+    pub life_state: u8,
+    pub bleedout_state: i32,
+    pub last_visible_time: f32,
+    pub visible_time: f64,
+
+    // Player WeaponInventory
+    // Holds your weapons, grenade and character abilities
+    pub weapons: [Option<usize>; 5],
+    pub active_weapon: Option<usize>,
+
+
+    pub helmet_type: i32,
+    pub armor_type: i32,
+
+    // Weapon slots:
+    // 0: primary weapon1
+    // 1: primary weapon2
+    // 2: melee
+    // 4: grenade
+    // 255: none
+    pub selected_slot: u8,
+    pub switchto_slot: u8,
+    pub primary_weapon: Option<usize>,
+
+    pub platform_uid: u64,
+    pub eadp_uid: u64,
+
+}
 
 impl Entity for PlayerEntity {
     fn as_any(&self) -> &dyn Any {
@@ -265,6 +318,51 @@ impl Entity for PlayerEntity {
             handle: sdk::EHandle::from(self.index),
             rate: 1,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        let weapons = [
+            if let Some(weapon) = game_state.entity_as::<WeaponXEntity>(self.weapons[0]) {Some(weapon.get_info().index)} else { None },
+            if let Some(weapon) = game_state.entity_as::<WeaponXEntity>(self.weapons[1]) {Some(weapon.get_info().index)} else { None },
+            if let Some(weapon) = game_state.entity_as::<WeaponXEntity>(self.weapons[2]) {Some(weapon.get_info().index)} else { None },
+            if let Some(weapon) = game_state.entity_as::<WeaponXEntity>(self.weapons[3]) {Some(weapon.get_info().index)} else { None },
+            if let Some(weapon) = game_state.entity_as::<WeaponXEntity>(self.weapons[4]) {Some(weapon.get_info().index)} else { None },
+        ];
+        let active_weapon = if let Some(weapon) = game_state.entity_as::<WeaponXEntity>(self.active_weapon) {Some(weapon.get_info().index)} else { None };
+        let primary_weapon = if let Some(weapon) = game_state.entity_as::<WeaponXEntity>(self.primary_weapon) {Some(weapon.get_info().index)} else { None };
+        Some(NetEntity::Player(
+            NetPlayerEntity {
+                index: self.index,
+
+                origin: self.origin,
+                angles: self.angles,
+                velocity: self.velocity,
+                health: self.health,
+                max_health: self.max_health,
+                shields: self.shields,
+                max_shields: self.max_shields,
+                team_num: self.team_num,
+                team_color: self.team_color,
+                team_member_index: self.team_member_index,
+                squad_id: self.squad_id,
+                model_name: self.model_name.string.clone(),
+                model_type: Character::get_by_model_name(&self.model_name.string).to_string(),
+                consumables: self.consumables,
+                flags: self.flags,
+                life_state: self.life_state,
+                bleedout_state: self.bleedout_state,
+                last_visible_time: self.last_visible_time,
+                visible_time: self.visible_time,
+                weapons: weapons,
+                active_weapon: active_weapon,
+                helmet_type: self.helmet_type,
+                armor_type: self.armor_type,
+                selected_slot: self.selected_slot,
+                switchto_slot: self.switchto_slot,
+                primary_weapon: primary_weapon,
+                platform_uid: self.platform_uid,
+                eadp_uid: self.eadp_uid,
+            }
+        ))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         #[derive(sdk::Pod)]

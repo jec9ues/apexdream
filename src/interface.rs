@@ -13,6 +13,7 @@ pub trait Interface {
     /// Standard log function.
     fn log(&mut self, args: fmt::Arguments);
 
+
     /// Visualize the args in a scope.
     ///
     /// The `args` is some html that should replace the previous contents of `scope`.

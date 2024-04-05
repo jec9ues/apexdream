@@ -14,10 +14,7 @@ use egui_backend::egui::text::Fonts;
 use fmtools::fmt;
 use intptr::IntPtr as Ptr;
 use memprocfs;
-use memprocfs::{
-    CONFIG_OPT_REFRESH_ALL, FLAG_NOCACHE, FLAG_NOPAGING, FLAG_ZEROPAD_ON_FAIL, ResultEx, Vmm,
-    VmmProcess,
-};
+use memprocfs::{CONFIG_OPT_REFRESH_ALL, CONFIG_OPT_REFRESH_FREQ_TLB_PARTIAL, FLAG_NOCACHE, FLAG_NOPAGING, FLAG_ZEROPAD_ON_FAIL, ResultEx, Vmm, VmmProcess};
 use mouse_rs::Mouse;
 use obfstr::obfstr as s;
 
@@ -39,7 +36,10 @@ fn apex_legends(rt: &mut Runtime) -> bool {
     let mut inst = Instance::default();
     if inst.attach(rt, &gd) {
         while rt.heartbeat() {
+            // let start = Instant::now();
             inst.tick(rt);
+            // let end = Instant::now();
+            // println!("-> {:?}", (end - start).as_millis());
             rt.tick();
         }
         let signal = rt.signal;
@@ -51,7 +51,7 @@ fn apex_legends(rt: &mut Runtime) -> bool {
 }
 
 fn main() {
-    let vmm_args = ["-waitinitialize", "-device", "fpga", "-memmap", "auto"].to_vec();
+    let vmm_args = ["-waitinitialize", "-norefresh", "-device", "fpga", "-memmap", "auto"].to_vec();
 
     let vmm = Vmm::new(r"D:\Driver\memprocfs\vmm.dll", &vmm_args).unwrap();
     let vp = vmm.process_from_name("r5apex.exe");
@@ -85,6 +85,7 @@ fn main() {
         draw_ptr: ptr,
         kmbox_client: client,
         tokio_runtime: runtime,
+        shapes: Vec::new()
     };
 
     apex_legends(&mut rt);
@@ -100,6 +101,7 @@ struct Runtime<'a> {
     draw_ptr: Painter,
     kmbox_client: KmboxNet,
     tokio_runtime: tokio::runtime::Runtime,
+    shapes: Vec<Shape>
 }
 
 impl Runtime<'_> {
@@ -139,6 +141,8 @@ impl Runtime<'_> {
                 }
             };
         };
+
+        let _ = self.vmm.set_config(CONFIG_OPT_REFRESH_FREQ_TLB_PARTIAL, 1);
     }
 
     fn log(&mut self, args: impl std::fmt::Display) {
@@ -297,6 +301,7 @@ impl Interface for Runtime<'_> {
 
     // Overlay rendering currently not implemented!
     fn r_begin(&mut self, screen: &mut [i32; 2]) -> bool {
+        self.context.request_repaint();
         true
     }
 
@@ -304,7 +309,7 @@ impl Interface for Runtime<'_> {
         let fill = vgc::sRGBA::unpack(fill);
         let stroke = vgc::sRGBA::unpack(stroke);
         // println!("{:?}", ( x, y, height, width ));
-        self.draw_ptr.add(Shape::Rect(RectShape {
+        self.shapes.push(Shape::Rect(RectShape {
             rect: Rect {
                 min: Pos2 { x, y },
                 max: Pos2 {
@@ -331,7 +336,7 @@ impl Interface for Runtime<'_> {
         let stroke = vgc::sRGBA::unpack(stroke);
 
         // println!("{:?}", ( x, y, height, width ));
-        self.draw_ptr.add(Shape::Circle(CircleShape {
+        self.shapes.push(Shape::Circle(CircleShape {
             center: Pos2 { x, y },
             radius: 5.0,
             fill: Color32::from_rgba_unmultiplied(fill.red, fill.green, fill.blue, fill.alpha),
@@ -360,25 +365,38 @@ impl Interface for Runtime<'_> {
     ) {
         let color = vgc::sRGBA::unpack(color);
         let color2 = vgc::sRGBA::unpack(color2);
-        self.draw_ptr.text(
+
+        let text_rect = | ptr: &Painter, pos: Pos2, anchor: Align2, text: &str, font_id: FontId, text_color: Color32 | -> Shape {
+            let galley = ptr.layout_no_wrap(text.to_string(), font_id, text_color);
+            let rect = anchor.anchor_rect(Rect::from_min_size(pos, galley.size()));
+            TextShape::new(rect.min, galley).into()
+        };
+
+        let text1= text_rect(
+            &self.draw_ptr,
             Pos2 { x: x - 1f32, y: y + 1f32 },
             Align2::LEFT_TOP,
             text,
             FontId::default(),
             Color32::from_rgba_unmultiplied(color2.red, color2.green, color2.blue, color2.alpha),
         );
-        self.draw_ptr.text(
+        let text_shadow = text_rect(
+            &self.draw_ptr,
             Pos2 { x, y },
             Align2::LEFT_TOP,
             text,
             FontId::default(),
             Color32::from_rgba_unmultiplied(color.red, color.green, color.blue, color.alpha),
         );
+
+        self.shapes.push(text1);
+        self.shapes.push(text_shadow);
+
     }
     fn r_line(&mut self, color: u32, x1: f32, y1: f32, x2: f32, y2: f32) {
         let color = vgc::sRGBA::unpack(color);
 
-        self.draw_ptr.add(Shape::line_segment(
+        self.shapes.push(Shape::line_segment(
             [Pos2 { x: x1, y: y1 }, Pos2 { x: x2, y: y2 }],
             Stroke::new(
                 2.0,
@@ -391,7 +409,7 @@ impl Interface for Runtime<'_> {
         let color = vgc::sRGBA::unpack(color);
         let mut shapes: Vec<Shape> = vec![];
         for line in lines {
-            shapes.push(Shape::line_segment(
+            self.shapes.push(Shape::line_segment(
                 [
                     Pos2::from(points[line[0] as usize]),
                     Pos2::from(points[line[1] as usize]),
@@ -407,7 +425,7 @@ impl Interface for Runtime<'_> {
                 },
             ))
         }
-        self.draw_ptr.extend(shapes);
+        // self.draw_ptr.extend(shapes);
     }
 
     fn r_image(
@@ -425,6 +443,7 @@ impl Interface for Runtime<'_> {
     ) {}
 
     fn r_end(&mut self) {
-        self.context.request_repaint()
+        self.draw_ptr.extend(self.shapes.clone());
+        self.shapes.clear()
     }
 }

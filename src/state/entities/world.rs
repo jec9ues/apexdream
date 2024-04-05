@@ -1,6 +1,6 @@
 use super::*;
 
-#[derive(Default)]
+#[derive(Default, Copy, Clone, Serialize, Deserialize)]
 pub struct DeathField {
     pub is_active: bool,
     pub origin: [f32; 3],
@@ -65,7 +65,10 @@ impl WorldEntity {
         }) as Box<dyn Entity>
     }
 }
-
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetWorldEntity {
+    pub death_field: DeathField,
+}
 impl Entity for WorldEntity {
     fn as_any(&self) -> &dyn Any {
         self
@@ -83,6 +86,13 @@ impl Entity for WorldEntity {
             handle: sdk::EHandle::from(self.index),
             rate: self.update_rate,
         }
+    }
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {
+        Some(NetEntity::World(
+            NetWorldEntity {
+                death_field: if !self.death_field.is_zero() { self.death_field } else { return None }
+            }
+        ))
     }
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext) {
         // Each DeathField array is 0x40 in size
@@ -119,7 +129,7 @@ impl Entity for WorldEntity {
         }
 
         self.update_rate = if ctx.time >= self.update_time + 0.25 {
-            64
+            256
         } else {
             2
         };

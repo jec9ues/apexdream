@@ -1,6 +1,15 @@
 #![allow(dead_code)]
 
 use std::any::Any;
+use serde::{Deserialize, Serialize};
+use crate::state::entities::animating::NetAnimatingEntity;
+use crate::state::entities::deathbox::NetDeathboxEntity;
+use crate::state::entities::loot::NetLootEntity;
+use crate::state::entities::npc::NetBaseNPCEntity;
+use crate::state::entities::player::NetPlayerEntity;
+use crate::state::entities::vehicle::NetVehicleEntity;
+use crate::state::entities::weaponx::NetWeaponXEntity;
+use crate::state::entities::world::NetWorldEntity;
 
 use super::*;
 
@@ -31,9 +40,39 @@ pub trait Entity: Any {
     fn as_ref(&self) -> EntityRef<'_>;
     fn is_serialized(&self) -> bool;
     fn get_info(&self) -> EntityInfo;
+    fn get_json(&self, game_state: &GameState) -> Option<NetEntity>;
     fn update(&mut self, api: &mut Api, ctx: &UpdateContext);
     fn post(&mut self, _api: &mut Api, _ctx: &UpdateContext, _state: &GameState) {}
 }
+
+#[derive(Serialize, Deserialize)]
+pub enum NetEntity {
+    BaseEntity(NetBaseEntity),
+    BaseNPC(NetBaseNPCEntity),
+    World(NetWorldEntity),
+    Player(NetPlayerEntity),
+    WeaponX(NetWeaponXEntity),
+    Loot(NetLootEntity),
+    Waypoint(NetWaypointEntity),
+    Vehicle(NetVehicleEntity),
+    Deathbox(NetDeathboxEntity),
+    Animating(NetAnimatingEntity),
+    Projectile(NetProjectileEntity),
+    ScriptNetData(NetScriptNetDataEntity),
+}
+
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetBaseEntity {}
+
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetWaypointEntity {}
+
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetProjectileEntity {}
+
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetScriptNetDataEntity {}
+
 
 #[derive(Copy, Clone)]
 pub enum EntityRef<'a> {
@@ -116,4 +155,63 @@ impl ModelName {
 pub struct HitSphere {
     pub bone: i32,
     pub radius: f32,
+}
+
+
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetData {
+    pub entites: NetEntities,
+}
+
+impl NetData {
+    pub fn update(&mut self, ctx: &RunContext) {
+        self.entites.clear();
+        self.entites.update(ctx.state)
+    }
+}
+
+#[derive(Default, Serialize, Deserialize)]
+pub struct NetEntities {
+    pub level_name: String,
+    pub local_player: Option<NetEntity>,
+    pub npc: Vec<NetEntity>,
+    pub world: Vec<NetEntity>,
+    pub player: Vec<NetEntity>,
+    pub animating: Vec<NetEntity>,
+    pub weapon: Vec<NetEntity>,
+    pub loot: Vec<NetEntity>,
+    pub vehicle: Vec<NetEntity>,
+    pub deathbox: Vec<NetEntity>,
+}
+
+impl NetEntities {
+    pub fn clear(&mut self) {
+        self.level_name.clear();
+        self.local_player = None;
+        self.npc.clear();
+        self.world.clear();
+        self.player.clear();
+        self.animating.clear();
+        self.weapon.clear();
+        self.loot.clear();
+        self.vehicle.clear();
+        self.deathbox.clear();
+    }
+    pub fn update(&mut self, game_state: &GameState) {
+        self.level_name = game_state.client.level_name.clone();
+        self.local_player = if let Some(player) = game_state.local_player() { player.get_json(game_state) } else { None };
+        for entity in game_state.entities() {
+            match entity.as_ref() {
+                EntityRef::BaseNPC(npc) => if let Some(json) = npc.get_json(game_state) { self.npc.push(json) },
+                EntityRef::World(world) => if let Some(json) = world.get_json(game_state) { self.world.push(json) },
+                EntityRef::Player(player) => if let Some(json) = player.get_json(game_state) { self.player.push(json) },
+                EntityRef::WeaponX(weapon) => if let Some(json) = weapon.get_json(game_state) { self.weapon.push(json) },
+                EntityRef::Loot(loot) => if let Some(json) = loot.get_json(game_state) { self.loot.push(json) },
+                EntityRef::Vehicle(vehicle) => if let Some(json) = vehicle.get_json(game_state) { self.vehicle.push(json) },
+                EntityRef::Deathbox(deathbox) => if let Some(json) = deathbox.get_json(game_state) { self.deathbox.push(json) },
+                EntityRef::Animating(anim) => if let Some(json) = anim.get_json(game_state) { self.animating.push(json) },
+                _ => (),
+            }
+        }
+    }
 }

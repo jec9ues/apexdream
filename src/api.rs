@@ -49,6 +49,7 @@ impl Api {
         log(self, &args)
     }
 
+
     /// Visualize the args in a scope.
     ///
     /// The `args` is some html that should replace the previous contents of `scope`.
