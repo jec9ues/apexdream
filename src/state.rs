@@ -41,13 +41,17 @@ pub struct GameState {
 impl GameState {
     #[inline(never)]
     pub fn update(&mut self, api: &mut Api, ctx: &mut UpdateContext) {
+
         self.client.update(api, ctx);
+        let start = Instant::now();
         self.entity_list.update(api, ctx);
+        let end = Instant::now();
+        println!("{}ms", (end - start).as_millis());
         self.input_system.update(api, ctx);
         self.string_tables.update(api, ctx);
         self.name_list.update(api, ctx);
         self.buttons.update(api, ctx);
-        self.script_data.update(api, ctx);
+        // self.script_data.update(api, ctx);
         self.items.update(api, ctx);
         self.mods.update(api, ctx);
         self.highlight.update(api, ctx);

@@ -1,7 +1,8 @@
 use std::fmt;
+use crate::SendObject;
 
 /// Cheat interface.
-pub trait Interface {
+pub trait Interface: Send + Sync {
     /// Returns a timestamp in seconds.
     ///
     /// Must be a high precision timestamp, strictly increasing values.
@@ -104,4 +105,6 @@ pub trait Interface {
 
     /// Ends rendering the overlay.
     fn r_end(&mut self);
+
+    fn update_objects(&mut self, object: Vec<SendObject>, vmatrix: [f32; 16], screen: [i32; 2], camera_origin: [f32; 3]);
 }

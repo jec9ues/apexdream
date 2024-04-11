@@ -109,7 +109,7 @@ impl Entity for VehicleEntity {
         }
 
         self.update_rate = if ctx.time >= self.update_time + 1.0 {
-            128
+            102400
         } else {
             2
         };

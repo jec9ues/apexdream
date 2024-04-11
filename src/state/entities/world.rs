@@ -129,7 +129,7 @@ impl Entity for WorldEntity {
         }
 
         self.update_rate = if ctx.time >= self.update_time + 0.25 {
-            256
+            102400
         } else {
             2
         };

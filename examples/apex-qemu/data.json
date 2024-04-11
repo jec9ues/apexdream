@@ -1,0 +1,14 @@
+{
+  "entites": {
+    "level_name": "mp_lobby",
+    "local_player": null,
+    "npc": [],
+    "world": [],
+    "player": [],
+    "animating": [],
+    "weapon": [],
+    "loot": [],
+    "vehicle": [],
+    "deathbox": []
+  }
+}

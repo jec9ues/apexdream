@@ -35,7 +35,7 @@ pub struct EntityInfo {
     pub rate: u32,
 }
 
-pub trait Entity: Any {
+pub trait Entity: Any + Send + Sync {
     fn as_any(&self) -> &dyn Any;
     fn as_ref(&self) -> EntityRef<'_>;
     fn is_serialized(&self) -> bool;

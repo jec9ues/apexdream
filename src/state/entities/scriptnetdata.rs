@@ -132,7 +132,7 @@ impl Entity for ScriptNetDataEntity {
             entity_ptr: self.entity_ptr,
             handle: sdk::EHandle::from(self.index),
             index: self.index as usize,
-            rate: if self.local_player { 512 } else { 1024 },
+            rate: if self.local_player { 102400 } else { 102400 },
         }
     }
     fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {

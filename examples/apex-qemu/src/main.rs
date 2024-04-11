@@ -3,7 +3,7 @@ use std::sync::Arc;
 use std::thread::sleep;
 use std::time::{Duration, Instant};
 
-use crossbeam_channel::{bounded, TryRecvError};
+use crossbeam_channel::{bounded, Receiver, Sender, TryRecvError};
 use dataview::Pod;
 use egui_backend::egui::{
     Align2, Color32, FontId, Galley, LayerId, Painter, Pos2, Rect, Rounding, Shape, Stroke, TextureId,
@@ -25,6 +25,7 @@ use kmbox_net::KmboxNet;
 use overlay::get_context;
 
 mod overlay;
+mod esp;
 
 fn apex_legends(rt: &mut Runtime) -> bool {
     rt.log(fmt!("Apex Legends"));
@@ -34,6 +35,7 @@ fn apex_legends(rt: &mut Runtime) -> bool {
     };
 
     let mut inst = Instance::default();
+    
     if inst.attach(rt, &gd) {
         while rt.heartbeat() {
             // let start = Instant::now();
@@ -57,8 +59,10 @@ fn main() {
     let vp = vmm.process_from_name("r5apex.exe");
     let _r = vmm.set_config(CONFIG_OPT_REFRESH_ALL, 1);
 
+
     let (sx, rx) = bounded::<egui_backend::egui::Context>(1);
-    thread::spawn(move || get_context(sx.clone()));
+    let (sx_ob, rx_ob) = bounded::<(Vec<SendObject>, [f32; 16], [i32; 2], [f32; 3])>(1);
+    thread::spawn(move || get_context(sx.clone(), rx_ob.clone()));
     let mut context: Option<egui_backend::egui::Context>;
     loop {
         match rx.try_recv() {
@@ -77,6 +81,7 @@ fn main() {
     let runtime = tokio::runtime::Runtime::new().unwrap();
     let client = runtime.block_on(KmboxNet::get_kmbox_client());
 
+
     let mut rt = Runtime {
         vmm: &vmm,
         vp,
@@ -85,7 +90,8 @@ fn main() {
         draw_ptr: ptr,
         kmbox_client: client,
         tokio_runtime: runtime,
-        shapes: Vec::new()
+        shapes: Vec::new(),
+        send_object: sx_ob
     };
 
     apex_legends(&mut rt);
@@ -101,7 +107,8 @@ struct Runtime<'a> {
     draw_ptr: Painter,
     kmbox_client: KmboxNet,
     tokio_runtime: tokio::runtime::Runtime,
-    shapes: Vec<Shape>
+    shapes: Vec<Shape>,
+    send_object: Sender<(Vec<SendObject>, [f32; 16], [i32; 2], [f32; 3])>
 }
 
 impl Runtime<'_> {
@@ -301,7 +308,7 @@ impl Interface for Runtime<'_> {
 
     // Overlay rendering currently not implemented!
     fn r_begin(&mut self, screen: &mut [i32; 2]) -> bool {
-        self.context.request_repaint();
+        // self.context.request_repaint();
         true
     }
 
@@ -445,5 +452,9 @@ impl Interface for Runtime<'_> {
     fn r_end(&mut self) {
         self.draw_ptr.extend(self.shapes.clone());
         self.shapes.clear()
+    }
+
+    fn update_objects(&mut self, object: Vec<SendObject>, vmatrix: [f32; 16], screen: [i32; 2], camera_origin: [f32; 3]) {
+        self.send_object.send((object, vmatrix, screen, camera_origin));
     }
 }

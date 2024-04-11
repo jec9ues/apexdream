@@ -275,7 +275,7 @@ impl Entity for WeaponXEntity {
         self.update_rate = if self.weapon_owner == ctx.local_entity {
             1
         } else {
-            512
+            102400
         };
     }
     fn post(&mut self, _api: &mut Api, _ctx: &UpdateContext, state: &GameState) {

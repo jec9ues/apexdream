@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::fs;
 
 fn main() {
-    let offsets = fs::read_to_string("offsets/target/release/v3.0.62.30.ini").unwrap();
+    let offsets = fs::read_to_string("offsets/target/release/v3.0.63.32.ini").unwrap();
 
     let map = parse(&offsets);
 
@@ -38,6 +38,7 @@ fn main() {
     print(&map, "input_system", "Miscellaneous", "InputSystem");
     println!("input_button_state=0xB0");
     print(&map, "name_list", "Miscellaneous", "NameList");
+    print(&map, "highlight_settings", "Miscellaneous", "HighlightSettings");
     print(
         &map,
         "network_var_table_ptr",

@@ -5,7 +5,7 @@ use crate::base::solver::{LinearPredictor, solve, TargetPredictor};
 use crate::cheats::config::{ESPConfig, LootESPConfig};
 use crate::sdk::Character;
 
-use super::espdata::{self, Flags, Object};
+use super::espdata::{self, Flags, Object, SendObject};
 
 #[derive(Copy, Clone, Debug, Eq, PartialEq)]
 pub enum Fade {
@@ -75,7 +75,7 @@ pub struct ESP {
 
 impl ESP {
     #[inline(never)]
-    pub fn render(&self, api: &mut Api, ctx: &RunContext) {
+    pub fn render(&self,api: &mut Api, ctx: &RunContext) {
         if !self.config2.global.enable {
             return;
         }
@@ -95,12 +95,12 @@ impl ESP {
         let ref mut objects = Vec::new();
         for entity in ctx.state.entities() {
             match entity.as_ref() {
-                EntityRef::Player(player) => self.player(api, ctx, objects, local, player),
-                EntityRef::BaseNPC(npc) => self.npc(api, ctx, objects, local, npc),
-                EntityRef::Deathbox(deathbox) => self.deathbox(api, ctx, objects, local, deathbox),
-                EntityRef::Loot(loot) => self.loot(api, ctx, objects, local, loot, &desired_items),
-                EntityRef::Animating(anim) => self.animating(api, ctx, objects, local, anim),
-                EntityRef::Vehicle(vehicle) => self.vehicle(api, ctx, objects, local, vehicle),
+                EntityRef::Player(player) => self.player(ctx, objects, local, player),
+                EntityRef::BaseNPC(npc) => self.npc(ctx, objects, local, npc),
+                EntityRef::Deathbox(deathbox) => self.deathbox(ctx, objects, local, deathbox),
+                EntityRef::Loot(loot) => self.loot(ctx, objects, local, loot, &desired_items),
+                EntityRef::Animating(anim) => self.animating(ctx, objects, local, anim),
+                EntityRef::Vehicle(vehicle) => self.vehicle(ctx, objects, local, vehicle),
                 _ => (),
             }
         }
@@ -109,7 +109,32 @@ impl ESP {
         // Object struct is large, sort references instead
         let mut objects: Vec<&Object> = objects.iter().collect();
         objects.sort_unstable_by(|&lhs, &rhs| f32::total_cmp(&rhs.distance, &lhs.distance));
-
+        let send_objects: Vec<SendObject> = objects.iter().map(|&i| {
+            SendObject {
+                flags: i.flags,
+                name: if let Some(name) = i.name {Some(name.to_string())} else { None },
+                text: if let Some(name) = i.text {Some(name.to_string())} else { None },
+                visible: i.visible,
+                color: i.color,
+                fade_dist: i.fade_dist,
+                alpha: i.alpha,
+                origin: i.origin,
+                view: i.view,
+                spine: i.spine,
+                aim: i.aim,
+                skynade_pitch: i.skynade_pitch,
+                skynade_yaw: i.skynade_yaw,
+                distance: i.distance,
+                width: i.width,
+                height: i.height,
+                health: i.health,
+                max_health: i.max_health,
+                shields: i.shields,
+                max_shields: i.max_shields,
+                model_name: if let Some(name) = i.model_name {Some(name.to_string())} else { None },
+                skin: i.skin,
+            }}).collect();
+        api.update_objects(send_objects, ctx.state.client.view_matrix.clone(), ctx.screen.clone(), ctx.camera_origin().clone());
         let ref conf = espdata::Config {
             debug_bones: self.config.debug_bones,
             debug_models: self.config.debug_models,
@@ -120,9 +145,9 @@ impl ESP {
             bounds_scale: 1.5,
             bounds_trans: 5.0,
         };
-        for object in objects {
-            object.draw(api, ctx, conf);
-        }
+        // for object in objects {
+        //     object.draw(api, ctx, conf);
+        // }
     } /*pub fn render(&mut self, api: &mut Api, ctx: &RunContext) {
           if !self.config.enable {
               return;
@@ -174,7 +199,6 @@ impl ESP {
 impl ESP {
     fn player<'a>(
         &self,
-        api: &mut Api,
         ctx: &RunContext<'a>,
         objects: &mut Vec<Object<'a>>,
         local: &'a PlayerEntity,
@@ -330,7 +354,6 @@ impl ESP {
 
     fn npc<'a>(
         &self,
-        api: &mut Api,
         ctx: &RunContext<'a>,
         objects: &mut Vec<Object<'a>>,
         local: &'a PlayerEntity,
@@ -380,19 +403,19 @@ impl ESP {
             velocity: [0.0; 3],
         };
 
-        let hitbox_map = crate::state::studio::HitboxMap::get_by_model_name(&Character::get_by_model_name(&npc.model_name.string));
-        let bones = npc.studio.get_player_bones(&Point3::from(npc.origin), &npc.bones, &hitbox_map);
-        let mut hitbox_nodes = crate::state::studio::HitboxNodes::default();
-        hitbox_nodes.update(&bones);
-
-        let lines = hitbox_nodes.get_pos();
-        for ([pos1, pos2], color) in lines {
-            if let Some([x1, y1]) = ctx.world_to_screen(pos1, true) {
-                if let Some([x2, y2]) = ctx.world_to_screen(pos2, true) {
-                    api.r_line(color, x1, y1, x2, y2)
-                }
-            }
-        }
+        // let hitbox_map = crate::state::studio::HitboxMap::get_by_model_name(&Character::get_by_model_name(&npc.model_name.string));
+        // let bones = npc.studio.get_player_bones(&Point3::from(npc.origin), &npc.bones, &hitbox_map);
+        // let mut hitbox_nodes = crate::state::studio::HitboxNodes::default();
+        // hitbox_nodes.update(&bones);
+        //
+        // let lines = hitbox_nodes.get_pos();
+        // for ([pos1, pos2], color) in lines {
+        //     if let Some([x1, y1]) = ctx.world_to_screen(pos1, true) {
+        //         if let Some([x2, y2]) = ctx.world_to_screen(pos2, true) {
+        //             api.r_line(color, x1, y1, x2, y2)
+        //         }
+        //     }
+        // }
 
         let (skynade_pitch, skynade_yaw) = if ctx.state.is_firing_range() {
             skynade_angle(ctx.state, local, &npc.origin)
@@ -427,7 +450,6 @@ impl ESP {
 
     fn deathbox<'a>(
         &self,
-        api: &mut Api,
         ctx: &RunContext<'a>,
         objects: &mut Vec<Object<'a>>,
         local: &'a PlayerEntity,
@@ -461,7 +483,6 @@ impl ESP {
 
     fn loot<'a>(
         &self,
-        api: &mut Api,
         ctx: &RunContext<'a>,
         objects: &mut Vec<Object<'a>>,
         local: &'a PlayerEntity,
@@ -567,7 +588,6 @@ impl ESP {
 
     fn animating<'a>(
         &self,
-        api: &mut Api,
         ctx: &RunContext<'a>,
         objects: &mut Vec<Object<'a>>,
         local: &'a PlayerEntity,
@@ -633,7 +653,6 @@ impl ESP {
 
     fn vehicle<'a>(
         &self,
-        api: &mut Api,
         ctx: &RunContext<'a>,
         objects: &mut Vec<Object<'a>>,
         local: &'a PlayerEntity,

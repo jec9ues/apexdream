@@ -22,6 +22,51 @@ pub struct Icon {
     pub y: u8,
 }
 
+#[derive(Clone, Default, Debug)]
+pub struct SendObject {
+    /// Drawing flags.
+    pub flags: Flags,
+    /// Player name associated with this object.
+    pub name: Option<String>,
+    /// Legend/Class name of the object.
+    pub text: Option<String>,
+    /// Is the object visible.
+    pub visible: bool,
+    /// Primary drawing color.
+    pub color: vgc::sRGB,
+    /// Fade distance and alpha.
+    pub fade_dist: f32,
+    pub alpha: f32,
+    /// Object center in the world.
+    pub origin: [f32; 3],
+    /// Object view vector.
+    pub view: [f32; 3],
+    /// Object spine offsets.
+    pub spine: [[f32; 3]; 2],
+    /// Aim here to hit the predicted target.
+    pub aim: Option<[f32; 3]>,
+    /// Aim here to skynade.
+    pub skynade_pitch: f32,
+    pub skynade_yaw: f32,
+    /// Cached distance to the camera.
+    pub distance: f32,
+    /// Width of the object in the world.
+    pub width: f32,
+    /// Height of the object in the world.
+    pub height: f32,
+    /// Health and shields of the object.
+    pub health: i32,
+    pub max_health: i32,
+    pub shields: i32,
+    pub max_shields: i32,
+    /// Debug model name.
+    pub model_name: Option<String>,
+    pub skin: i32,
+}
+
+
+
+
 #[derive(Clone, Default)]
 pub struct Object<'a> {
     /// Drawing flags.

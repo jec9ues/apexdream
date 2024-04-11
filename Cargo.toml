@@ -38,5 +38,8 @@ pretty-hex = "0.4.1"
 
 nalgebra = "0.32.4"
 
+parking_lot = "*"
+crossbeam-channel = "0.5.12"
+
 [dev-dependencies]
 external = { git = "https://github.com/CasualX/external" }

@@ -50,7 +50,7 @@ impl Entity for ProjectileEntity {
             entity_ptr: self.entity_ptr,
             index: self.index as usize,
             handle: sdk::EHandle::from(self.index),
-            rate: 512,
+            rate: 102400,
         }
     }
     fn get_json(&self, game_state: &GameState) -> Option<NetEntity> {

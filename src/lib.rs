@@ -6,6 +6,7 @@ Enjoy! - Casual_Hacker
 
 #![recursion_limit = "1024"]
 
+use std::time::Instant;
 use bitset_core::*;
 use fmtools::fmt as f;
 use format_xml::xfmt;
@@ -19,6 +20,11 @@ pub use self::interface::Interface;
 use self::process::GameProcess;
 use self::state::{GameState, UpdateContext};
 use self::state::entities::*;
+
+pub use self::cheats::SendObject;
+pub use self::cheats::Flags;
+pub use self::base::math;
+pub use self::sdk::*;
 
 #[macro_use]
 mod base;
@@ -40,12 +46,12 @@ const STRING_POOL: &str = concat!(
 /// Cheat instance.
 #[derive(Default)]
 pub struct Instance {
-    process: GameProcess,
-    data: GameData,
-    state: GameState,
-    cheats: CheatManager,
-    tickcount: u32,
-    pool: base::StringPool,
+    pub process: GameProcess,
+    pub data: GameData,
+    pub state: GameState,
+    pub cheats: CheatManager,
+    pub tickcount: u32,
+    pub pool: base::StringPool,
 }
 
 impl Instance {
@@ -104,9 +110,10 @@ impl Instance {
                 connected: false,
                 tickcount: self.tickcount,
                 local_entity,
-                full_bones: true/*self.cheats.full_bones*/,
+                full_bones: false/*self.cheats.full_bones*/,
             };
             self.state.update(api, ctx);
+
         }
 
         // Load the current weapon settings
@@ -117,6 +124,7 @@ impl Instance {
             s! { let strings = STRING_POOL; }
             let mut ctx =
                 RunContext::new(&self.process, &self.data, &self.state, &strings, &self.pool);
+
             self.cheats.run(api, &mut ctx);
             ctx.post(api);
         }
@@ -125,8 +133,4 @@ impl Instance {
         self.pool.clear();
     }
 
-    /// Loads a config string.
-    pub fn load_config(&mut self, api: &mut dyn Interface) {
-        let api = Api(api);
-    }
 }

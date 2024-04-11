@@ -131,7 +131,7 @@ impl Entity for AnimatingEntity {
         }
 
         self.update_rate = if ctx.time >= self.update_time + 0.25 {
-            512
+            102400
         } else {
             4
         };

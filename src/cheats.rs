@@ -21,6 +21,8 @@ mod rcs;
 mod ring;
 mod scripts;
 mod data2json;
+pub use super::cheats::espdata::SendObject;
+pub use super::cheats::espflags::Flags;
 
 #[derive(Default)]
 pub struct CheatManager {
@@ -46,8 +48,8 @@ pub struct CheatManager {
 impl CheatManager {
     #[inline(never)]
     pub fn run(&mut self, api: &mut Api, ctx: &mut RunContext) {
-        // ctx.full_bones = self.full_bones;
-        ctx.full_bones = true;
+        ctx.full_bones = self.full_bones;
+        // ctx.full_bones = true;
 
         // self.highlight.run(api, ctx, &self.config.highlight);
 
@@ -58,10 +60,10 @@ impl CheatManager {
         self.projectile.run(api, ctx);
         #[cfg(feature = "dev")]
         self.debugger.run(api, ctx);
-        self.net_data.update(ctx);
-        if let Ok(res) = serde_json::to_string_pretty(&self.net_data) {
-            std::fs::write("data.json", res);
-        };
+        // self.net_data.update(ctx);
+        // if let Ok(res) = serde_json::to_string_pretty(&self.net_data) {
+        //     std::fs::write("data.json", res);
+        // };
 
         // Render the overlay
         if api.r_begin(&mut ctx.screen) {
@@ -69,6 +71,7 @@ impl CheatManager {
             // self.ring.render(api, ctx);
             // self.radar.render(api, ctx);
             self.esp.render(api, ctx);
+
             api.r_end();
         }
     }
@@ -136,7 +139,7 @@ impl<'a> RunContext<'a> {
             strings,
             pool,
             screen: [2560, 1440], // Resolved later
-            full_bones: true,
+            full_bones: false,
             jump: InState::Default,
             duck: InState::Default,
             attack: InState::Default,

@@ -4,7 +4,7 @@ Shared codebase.
 
 pub use self::pool::StringPool;
 pub use self::timer::Timer;
-
+pub use self::math::*;
 macro_rules! strpool {
     ($ctx:expr, $needle:expr) => {{
         let range = obfstr::position!($crate::STRING_POOL, $needle);

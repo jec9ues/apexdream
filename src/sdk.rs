@@ -23,7 +23,6 @@ pub use self::items::*;
 pub use self::script_net_name::ScriptNetVarName;
 pub use self::studio::*;
 pub use self::tier1::*;
-
 mod class;
 mod cvar;
 mod ehandle;

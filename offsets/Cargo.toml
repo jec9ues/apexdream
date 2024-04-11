@@ -14,3 +14,4 @@ debug = false
 pelite = "0.10"
 fmtools = "0.1"
 dataview = "1.0"
+parking_lot = "0.12.1"

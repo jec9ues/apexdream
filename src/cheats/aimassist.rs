@@ -115,7 +115,7 @@ impl Default for Config {
             aim_react: 0.10,
             aim_idletime: 0.1,
             aim_mintime: 0.2,
-            fov_radius: 40.0,
+            fov_radius: 60.0,
             fov_aim: 10.0,
             fov_min: 0.25,
             teledist: 72.0,

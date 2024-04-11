@@ -182,7 +182,7 @@ impl Entity for LootEntity {
         }
 
         self.update_rate = if ctx.time >= self.update_time + 0.25 {
-            512
+            102400
         } else {
             2
         };
